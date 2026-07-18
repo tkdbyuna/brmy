@@ -1,61 +1,122 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Break My Case · Event Timeline</title>
+<title>Break My Case · Event & Card Archive</title>
 <link rel="stylesheet" href="assets/style.css">
 </head><body>
 <header class="masthead">
-  <div class="eyebrow">Case File · Event Timeline</div>
+  <div class="eyebrow">Case File · Event & Card Archive</div>
   <h1>Break My Case</h1>
-  <p class="sub">Every in-game event and gacha banner, in order. Tap a banner for its story, cards, characters, and voices.</p>
+  <p class="sub">Every in-game event and gacha banner, in order. Tap a banner for its PV and cards, or switch to Card view to browse and track your collection.</p>
   <div class="statrow">
     <div class="stat"><b id="s-ev">—</b><span>Events</span></div>
-    <div class="stat"><b id="s-cards">—</b><span>Card arts</span></div>
+    <div class="stat"><b id="s-cards">—</b><span>Cards</span></div>
     <div class="stat"><b id="s-span">—</b><span>Span</span></div>
   </div>
-  <nav class="nav">
-    <a href="browse.html">Browse all 1,735 articles →</a>
-    <a href="media.html">Media gallery →</a>
-  </nav>
 </header>
 
 <div class="wrap">
-  <div class="tl-controls">
-    <div class="seg" id="order">
-      <button data-o="desc" class="on">Newest first</button>
-      <button data-o="asc">Oldest first</button>
-    </div>
-    <span class="count mono" id="count"></span>
+  <div class="viewtoggle">
+    <button data-v="banner" class="on">🖼️ Banner view</button>
+    <button data-v="card">🃏 Card view</button>
   </div>
-  <div id="timeline"></div>
+
+  <!-- BANNER VIEW -->
+  <section id="view-banner">
+    <div class="tl-controls">
+      <div class="seg" id="order">
+        <button data-o="desc" class="on">Newest first</button>
+        <button data-o="asc">Oldest first</button>
+      </div>
+      <span class="count mono" id="count"></span>
+    </div>
+    <div id="timeline"></div>
+  </section>
+
+  <!-- CARD VIEW -->
+  <section id="view-card" hidden>
+    <div class="acctbar">
+      <span class="acctlabel">Accounts:</span>
+      <span id="acctdots"></span>
+      <span class="acctspacer"></span>
+      <button class="minibtn" id="exportBtn">⬇ Export</button>
+      <label class="minibtn" for="importFile">⬆ Import</label>
+      <input type="file" id="importFile" accept="application/json" hidden>
+    </div>
+
+    <div class="filters">
+      <div class="fgroup"><span class="flab">Rarity</span><div class="chips" id="f-rarity"></div></div>
+      <div class="fgroup"><span class="flab">Type</span><div class="chips" id="f-type"></div></div>
+      <div class="fgroup"><span class="flab">Character</span>
+        <select id="f-char"><option value="">All</option></select></div>
+      <div class="fgroup"><span class="flab">Ownership</span>
+        <select id="f-own">
+          <option value="">All cards</option>
+          <option value="any-owned">Owned (any account)</option>
+          <option value="none">Owned by nobody</option>
+        </select>
+        <select id="f-own-acct" hidden></select>
+      </div>
+      <button class="minibtn ghost" id="clearFilters">Clear</button>
+    </div>
+    <div class="cardcount mono" id="cardcount"></div>
+    <div id="cardgrid" class="collectgrid"></div>
+  </section>
 </div>
 
 <footer>
   Archived from the <a href="https://breakmycase.fandom.com/wiki/Break_My_Case_Wiki" target="_blank" rel="noopener">Break My Case Wiki</a> (Fandom).
-  Banners &amp; card art © their respective owners, streamed from Fandom's CDN — not re-hosted. Personal, non-commercial reference.
+  Collection data is saved in this browser only. Use Export to back it up or move it between devices.
 </footer>
 
 <script>
-let EV=[], ORDER='desc';
+const ACCOUNTS=[
+  {key:'akehoshi',name:'Akehoshi',color:'#FE8A23'},
+  {key:'ai',name:'Ai',color:'#B22222'},
+  {key:'kou',name:'Kou',color:'#FD1493'},
+  {key:'tomose',name:'Tomose',color:'#61C892'},
+  {key:'kyoya',name:'Kyoya',color:'#F09C65'},
+  {key:'yuzuru',name:'Yuzuru',color:'#7DA852'}
+];
 const DEPT={adm:'Administration',neg:'Negotiation',sim:'Simulation',mof:'Main Office',
   wat:'Watchdogs',spe:'Special Task',stf:'Special Task'};
-fetch('data/events.json').then(r=>r.json()).then(d=>{
+const STORE='bmc_collection_v1';
+let EV=[], ORDER='desc', ALLCARDS=[];
+let OWNED=loadOwned();
+let FILT={rarity:new Set(),type:new Set(),char:'',own:'',ownAcct:''};
+
+function loadOwned(){ try{return JSON.parse(localStorage.getItem(STORE))||{}}catch(e){return {}} }
+function saveOwned(){ try{localStorage.setItem(STORE,JSON.stringify(OWNED))}catch(e){} }
+function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
+function thumb(u){return (typeof u==='string')? u.replace(/\/revision\/latest(\/[^?]*)?\?/,'/revision/latest/scale-to-width-down/300?'):''}
+function bannerThumb(u){return u? u.replace(/\/revision\/latest(\/[^?]*)?\?/,'/revision/latest/scale-to-width-down/560?'):''}
+
+fetch('data/events.json?v='+Date.now()).then(r=>r.json()).then(d=>{
   EV=d;
   document.getElementById('s-ev').textContent=d.length;
-  document.getElementById('s-cards').textContent=d.reduce((a,e)=>a+(e.cards?e.cards.length:0),0);
+  // flatten cards
+  const seen=new Set();
+  d.forEach(e=>(e.cards||[]).forEach(c=>{
+    if(seen.has(c.id))return; seen.add(c.id);
+    ALLCARDS.push({id:c.id,img:c.img,name:c.name,character:c.character,
+      rarity:(c.rarity||'').toUpperCase(),attribute:c.attribute||'',event:e.name});
+  }));
+  document.getElementById('s-cards').textContent=ALLCARDS.length;
   const ds=d.map(e=>e.start_disp).filter(Boolean).sort();
   document.getElementById('s-span').textContent=(ds[0]||'').slice(0,4)+'–'+(ds[ds.length-1]||'').slice(0,4);
-  render();
-});
-function bannerThumb(u){return u? u.replace(/\/revision\/latest(\/[^?]*)?\?/, '/revision/latest/scale-to-width-down/560?') : '';}
-function render(){
+  renderBanners();
+  buildFilters();
+  buildAcctBar();
+}).catch(err=>{document.getElementById('timeline').innerHTML='<p>Could not load data: '+err.message+'</p>'});
+
+/* ---------- BANNER VIEW ---------- */
+function renderBanners(){
   let rows=[...EV].sort((a,b)=>(a.start||'').localeCompare(b.start||''));
   if(ORDER==='desc') rows.reverse();
   document.getElementById('count').textContent=rows.length+' events';
-  // group by year
   const groups={};
   rows.forEach(e=>{const y=(e.start||'????').slice(0,4);(groups[y]=groups[y]||[]).push(e);});
   const years=Object.keys(groups).sort((a,b)=>ORDER==='desc'?b.localeCompare(a):a.localeCompare(b));
-  const html=years.map(y=>{
+  document.getElementById('timeline').innerHTML=years.map(y=>{
     const cards=groups[y].map(e=>{
       const dept=DEPT[e.dept]||''; const kind=e.kind||'Event';
       return `<a class="ev" href="event.html?id=${e.id}">
@@ -68,12 +129,116 @@ function render(){
     }).join('');
     return `<h2 class="yearhead">${y}<small>${groups[y].length} EVENTS</small></h2><div class="banners">${cards}</div>`;
   }).join('');
-  document.getElementById('timeline').innerHTML=html;
 }
-function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
 document.querySelectorAll('#order button').forEach(b=>b.onclick=()=>{
   document.querySelectorAll('#order button').forEach(x=>x.classList.remove('on'));
-  b.classList.add('on'); ORDER=b.dataset.o; render();
+  b.classList.add('on'); ORDER=b.dataset.o; renderBanners();
 });
+
+/* ---------- VIEW TOGGLE ---------- */
+document.querySelectorAll('.viewtoggle button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('.viewtoggle button').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on');
+  const v=b.dataset.v;
+  document.getElementById('view-banner').hidden = v!=='banner';
+  document.getElementById('view-card').hidden = v!=='card';
+  if(v==='card') renderCards();
+});
+
+/* ---------- ACCOUNT BAR ---------- */
+function buildAcctBar(){
+  document.getElementById('acctdots').innerHTML=ACCOUNTS.map(a=>
+    `<span class="adot" title="${a.name}" style="background:${a.color}"></span><span class="aname">${a.name}</span>`).join('');
+}
+
+/* ---------- FILTERS ---------- */
+function buildFilters(){
+  const rars=['SSR','XR','SR','R','CR'].filter(r=>ALLCARDS.some(c=>c.rarity===r));
+  document.getElementById('f-rarity').innerHTML=rars.map(r=>`<button class="chip" data-r="${r}">${r}</button>`).join('');
+  const types=['Star','Moon','Sun'].filter(t=>ALLCARDS.some(c=>c.attribute===t));
+  document.getElementById('f-type').innerHTML=types.map(t=>`<button class="chip" data-t="${t}">${t}</button>`).join('');
+  const chars=[...new Set(ALLCARDS.map(c=>c.character).filter(x=>x&&!x.includes(',')))].sort();
+  document.getElementById('f-char').innerHTML='<option value="">All</option>'+chars.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('');
+  const oa=document.getElementById('f-own-acct');
+  oa.innerHTML=ACCOUNTS.map(a=>`<option value="${a.key}">${a.name}</option>`).join('');
+
+  document.querySelectorAll('#f-rarity .chip').forEach(b=>b.onclick=()=>{toggleSet(FILT.rarity,b.dataset.r,b);renderCards();});
+  document.querySelectorAll('#f-type .chip').forEach(b=>b.onclick=()=>{toggleSet(FILT.type,b.dataset.t,b);renderCards();});
+  document.getElementById('f-char').onchange=e=>{FILT.char=e.target.value;renderCards();};
+  const ownSel=document.getElementById('f-own');
+  ownSel.onchange=e=>{
+    FILT.own=e.target.value;
+    const needAcct=(FILT.own==='by'||FILT.own==='not-by');
+    renderCards();
+  };
+  // extend ownership options with per-account
+  ownSel.innerHTML+=ACCOUNTS.map(a=>`<option value="by:${a.key}">Owned by ${a.name}</option>`).join('')
+    +ACCOUNTS.map(a=>`<option value="notby:${a.key}">Missing for ${a.name}</option>`).join('');
+  document.getElementById('clearFilters').onclick=()=>{
+    FILT={rarity:new Set(),type:new Set(),char:'',own:'',ownAcct:''};
+    document.querySelectorAll('.chip.on').forEach(x=>x.classList.remove('on'));
+    document.getElementById('f-char').value='';document.getElementById('f-own').value='';
+    renderCards();
+  };
+  document.getElementById('exportBtn').onclick=exportData;
+  document.getElementById('importFile').onchange=importData;
+}
+function toggleSet(set,val,btn){ if(set.has(val)){set.delete(val);btn.classList.remove('on');}else{set.add(val);btn.classList.add('on');} }
+
+/* ---------- CARD VIEW ---------- */
+function passFilter(c){
+  if(FILT.rarity.size && !FILT.rarity.has(c.rarity)) return false;
+  if(FILT.type.size && !FILT.type.has(c.attribute)) return false;
+  if(FILT.char && (c.character||'')!==FILT.char) return false;
+  const own=OWNED[c.id]||{};
+  const anyOwned=ACCOUNTS.some(a=>own[a.key]);
+  if(FILT.own==='any-owned' && !anyOwned) return false;
+  if(FILT.own==='none' && anyOwned) return false;
+  if(FILT.own.startsWith('by:')){const k=FILT.own.slice(3); if(!own[k])return false;}
+  if(FILT.own.startsWith('notby:')){const k=FILT.own.slice(6); if(own[k])return false;}
+  return true;
+}
+function renderCards(){
+  const list=ALLCARDS.filter(passFilter);
+  document.getElementById('cardcount').textContent=list.length+' / '+ALLCARDS.length+' cards';
+  document.getElementById('cardgrid').innerHTML=list.map(c=>{
+    const own=OWNED[c.id]||{};
+    const dots=ACCOUNTS.map(a=>`<button class="odot ${own[a.key]?'on':''}" data-card="${c.id}" data-acct="${a.key}"
+      title="${a.name}" style="--ac:${a.color}"></button>`).join('');
+    return `<div class="collectcard">
+      <a href="${c.img}" target="_blank" rel="noopener"><img loading="lazy" src="${thumb(c.img)}"></a>
+      <div class="cc-meta">
+        <div class="cc-tags">${c.rarity?`<span class="rar r-${c.rarity}">${c.rarity}</span>`:''}${c.attribute?`<span class="attr a-${c.attribute.toLowerCase()}">${c.attribute}</span>`:''}</div>
+        <div class="cc-char">${esc(c.character||'')}</div>
+        <div class="cc-name">${esc(c.name||'')}</div>
+        <div class="odots">${dots}</div>
+      </div>
+    </div>`;
+  }).join('');
+  document.querySelectorAll('.odot').forEach(d=>d.onclick=()=>{
+    const id=d.dataset.card, k=d.dataset.acct;
+    OWNED[id]=OWNED[id]||{}; OWNED[id][k]=!OWNED[id][k];
+    if(!OWNED[id][k]) delete OWNED[id][k];
+    saveOwned(); d.classList.toggle('on');
+    // if a filter depends on ownership, re-render
+    if(FILT.own) renderCards();
+  });
+}
+
+/* ---------- EXPORT / IMPORT ---------- */
+function exportData(){
+  const blob=new Blob([JSON.stringify(OWNED,null,1)],{type:'application/json'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download='bmc_collection_'+new Date().toISOString().slice(0,10)+'.json';
+  a.click(); URL.revokeObjectURL(a.href);
+}
+function importData(e){
+  const f=e.target.files[0]; if(!f)return;
+  const rd=new FileReader();
+  rd.onload=()=>{ try{ const d=JSON.parse(rd.result); if(typeof d==='object'){OWNED=d;saveOwned();renderCards();alert('Collection imported.');} }
+    catch(err){alert('Invalid file: '+err.message);} };
+  rd.readAsText(f); e.target.value='';
+}
 </script>
 </body></html>

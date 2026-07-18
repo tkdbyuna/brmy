@@ -41,8 +41,7 @@ function render(e, all){
   const pv = e.pv ? `<div class="ev-sec"><h2>Event PV</h2>
      <div class="pv-wrap"><iframe src="https://www.youtube.com/embed/${e.pv.yt}" title="Event PV" loading="lazy" allowfullscreen allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"></iframe></div></div>` : '';
 
-  const song = e.song ? `<div class="ev-sec"><h2>Theme song</h2>
-     <div class="song"><b>${esc(e.song)}</b>${e.song_artist?` &nbsp;<span>— ${esc(e.song_artist)}</span>`:''}</div></div>`:'';
+  const song = '';
 
   const cards = (e.cards&&e.cards.length)? `<div class="ev-sec"><h2>Cards &middot; ${e.cards.length}</h2>
     <div class="cardgrid2">${e.cards.map(c=>{
