@@ -129,3 +129,35 @@ footer{border-top:1px solid var(--line-strong);margin-top:44px;padding:24px 22px
 footer a{color:var(--violet)}
 .mw-editsection,.mw-empty-elt,.navbox .navbar,#toc .toctogglecheckbox{display:none!important}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+/* limited badge + PV embed */
+.tag2.limited{border-color:transparent;color:#fff;background:linear-gradient(92deg,var(--rose),#e0748f);letter-spacing:.1em}
+.ev .tag2.limited{background:linear-gradient(92deg,var(--rose),#e0748f)}
+.pv-wrap{position:relative;width:100%;aspect-ratio:16/9;border-radius:12px;overflow:hidden;
+  border:1px solid var(--line-strong);background:#000}
+.pv-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.pv-none{background:var(--card);border:1px dashed var(--line-strong);border-radius:10px;padding:14px 16px;
+  color:var(--ink-soft);font-size:14px}
+.pv-none a{color:var(--violet);font-weight:600}
+
+/* card illustrations + card voices */
+.cardgrid2{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:18px}
+.cardblock{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;
+  display:flex;flex-direction:column;transition:transform .12s ease,box-shadow .12s ease}
+.cardblock:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(91,79,214,.16)}
+.cardblock > a{display:block}
+.cardblock > a img{width:100%;display:block;aspect-ratio:2/3;object-fit:cover;background:var(--bg-2)}
+.cardmeta{padding:10px 12px 13px;display:flex;flex-direction:column;gap:5px}
+.cardtags{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.rar{font:800 10px/1 ui-monospace,Menlo,monospace;letter-spacing:.05em;padding:4px 7px;border-radius:6px;color:#fff}
+.r-SSR{background:linear-gradient(135deg,#e8a23d,#f6c964);color:#4a2f00}
+.r-SR{background:linear-gradient(135deg,#8a6cf0,#b49bff)}
+.r-R{background:#9aa0b4}
+.attr{font:700 10px/1 ui-monospace,Menlo,monospace;letter-spacing:.04em;padding:4px 7px;border-radius:6px;
+  border:1px solid var(--line-strong);color:var(--ink-soft)}
+.a-star{border-color:#e8a23d;color:#b9761a}
+.a-moon{border-color:#8a6cf0;color:#6b52c6}
+.a-sun{border-color:#c0567f;color:#a53e64}
+.cardchar{font:600 12px/1.3 inherit;color:var(--violet);margin-top:1px}
+.cardname{font:500 13px/1.4 inherit;color:var(--ink)}
+

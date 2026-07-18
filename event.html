@@ -38,33 +38,31 @@ function render(e, all){
     +(e.attribute?`<span class="tag2">${esc(e.attribute)}</span>`:'')
     +(e.limited?`<span class="tag2 limited">LIMITED</span>`:'');
 
-  const pvsearch='https://www.youtube.com/results?search_query='+encodeURIComponent('ブレイクマイケース '+(e.song||e.name||''));
   const pv = e.pv ? `<div class="ev-sec"><h2>Event PV</h2>
-     <div class="pv-wrap"><iframe src="https://www.youtube.com/embed/${e.pv.yt}" title="Event PV" loading="lazy" allowfullscreen allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"></iframe></div></div>`
-   : `<div class="ev-sec"><h2>Event PV</h2><div class="pv-none">No PV is archived on the wiki for this event. <a href="${pvsearch}" target="_blank" rel="noopener">Search on YouTube →</a></div></div>`;
+     <div class="pv-wrap"><iframe src="https://www.youtube.com/embed/${e.pv.yt}" title="Event PV" loading="lazy" allowfullscreen allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"></iframe></div></div>` : '';
 
   const song = e.song ? `<div class="ev-sec"><h2>Theme song</h2>
-     <div class="song"><b>${esc(e.song)}</b>${e.song_artist?` &nbsp;<span>— ${esc(e.song_artist)}</span>`:''}
-     <div style="margin-top:6px"><span>Songs aren't hosted on the wiki; search the title on your music service or the game's official channel.</span></div></div></div>`:'';
+     <div class="song"><b>${esc(e.song)}</b>${e.song_artist?` &nbsp;<span>— ${esc(e.song_artist)}</span>`:''}</div></div>`:'';
 
-  const chars = (e.chars&&e.chars.length)? `<div class="ev-sec"><h2>Featured characters</h2>
-    <div class="charlist">${e.chars.map(c=>`
-      <div class="chard"><a class="nm" href="${c.href}">${esc(c.name)}</a>
-      ${c.voices&&c.voices.length?`<div class="vs">${c.voices.map(v=>`<audio controls preload="none" src="${v}"></audio>`).join('')}</div>`:'<div class="vs"><span class="mono" style="font-size:11px;color:#a99">no voice sample</span></div>'}
-      </div>`).join('')}</div></div>`:'';
-
-  const cards = (e.cards&&e.cards.length)? `<div class="ev-sec"><h2>Card illustrations &amp; voices · ${e.cards.length}</h2>
+  const cards = (e.cards&&e.cards.length)? `<div class="ev-sec"><h2>Cards &middot; ${e.cards.length}</h2>
     <div class="cardgrid2">${e.cards.map(c=>{
       const img = (typeof c==='string')? c : c.img;
-      const au = (typeof c==='string')? [] : (c.audio||[]);
+      const rar = (c.rarity||'').toUpperCase();
+      const attr = c.attribute||'';
+      const char = c.character||'';
+      const nm = c.name||'';
       return `<div class="cardblock">
         <a href="${img}" target="_blank" rel="noopener"><img loading="lazy" src="${thumb(img)}"></a>
-        ${au.length?`<div class="cardaudio">${au.map(a=>`<div class="cav"><span class="cavlab">${esc(a.label)}</span><audio controls preload="none" src="${a.src}"></audio></div>`).join('')}</div>`:''}
+        <div class="cardmeta">
+          <div class="cardtags">${rar?`<span class="rar r-${rar}">${esc(rar)}</span>`:''}${attr?`<span class="attr a-${esc(attr.toLowerCase())}">${esc(attr)}</span>`:''}</div>
+          ${char?`<div class="cardchar">${esc(char)}</div>`:''}
+          ${nm?`<div class="cardname">${esc(nm)}</div>`:''}
+        </div>
       </div>`;}).join('')}</div></div>`:'';
 
-  const links=[['Full page',e.article]];
-  if(e.subs){for(const k in e.subs) links.push([k,e.subs[k]]);}
-  const story=`<div class="ev-sec"><h2>Read on</h2><div class="storylinks">${links.map(([n,h])=>`<a href="${h}">${esc(n)} →</a>`).join('')}</div></div>`;
+
+  const story='';
+
 
   document.getElementById('app').innerHTML=`
     <div class="ev-hero"><img class="banner" src="${e.banner||''}" alt=""></div>
@@ -74,7 +72,7 @@ function render(e, all){
       ${e.kanji?`<div class="kanji">${esc(e.kanji)}</div>`:''}
       <div class="tags">${tags}</div>
     </div>
-    ${pv}${song}${chars}${cards}${story}
+    ${pv}${song}${cards}${story}
     <div class="prevnext">
       ${prev?`<a href="event.html?id=${prev.id}">← ${esc(prev.name||prev.title)}</a>`:'<span></span>'}
       ${next?`<a href="event.html?id=${next.id}" style="text-align:right">${esc(next.name||next.title)} →</a>`:'<span></span>'}
