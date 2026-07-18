@@ -140,8 +140,8 @@ function renderCards(){
     const owners=ACCOUNTS.filter(a=>own[a.key]);
     const dots=owners.map(a=>`<span class="oi" style="background:${a.color}" title="${a.name}"></span>`).join('');
     return `<div class="ccard ${owners.length?'owned':''}" data-card="${c.id}">
-      <img loading="lazy" src="${thumb(c.img)}">
-      <div class="ccover">
+      <div class="ccimg">
+        <img loading="lazy" src="${thumb(c.img)}">
         <div class="cctop">
           ${c.rarity?`<span class="rar r-${c.rarity}">${c.rarity}</span>`:''}
           ${c.attribute?`<span class="attr a-${c.attribute.toLowerCase()}">${c.attribute}</span>`:''}
