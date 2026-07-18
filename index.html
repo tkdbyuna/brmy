@@ -59,7 +59,7 @@ function render(){
     const cards=groups[y].map(e=>{
       const dept=DEPT[e.dept]||''; const kind=e.kind||'Event';
       return `<a class="ev" href="event.html?id=${e.id}">
-        <span class="bwrap" style="background-image:url('${bannerThumb(e.banner)}')"></span>
+        <img class="bimg" src="${e.banner||''}" alt="" loading="lazy">
         <span class="meta">
           <span class="date">${e.start_disp||''}${e.end_disp?' – '+e.end_disp:''}</span>
           <span class="ttl">${esc(e.name||e.title)}</span>
