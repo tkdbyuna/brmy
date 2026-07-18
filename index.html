@@ -1,266 +1,60 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html><html lang="ko"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Break My Case · Event & Card Archive</title>
+<title>Break My Case · Archive</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
-</head><body>
-<header class="masthead">
-  <div class="eyebrow">Case File · Event & Card Archive</div>
-  <h1>Break My Case</h1>
-  <div class="statrow">
-    <div class="stat"><b id="s-ev">—</b><span>Events</span></div>
-    <div class="stat"><b id="s-cards">—</b><span>Cards</span></div>
-    <div class="stat"><b id="s-span">—</b><span>Span</span></div>
-  </div>
+</head><body class="hub">
+<header class="hubhead">
+  <div class="eyebrow">✦ Break My Case</div>
+  <h1 class="hubh1">The <em>Archive</em></h1>
+  <p class="hubsub">인게임 이벤트 타임라인과 카드 컬렉션. 아래에서 골라 들어가세요.</p>
 </header>
 
-<div class="wrap">
-  <!-- BIG VIEW SELECTOR -->
-  <div class="viewpick">
-    <button class="vptile on" data-v="banner">
-      <span class="vpk">Banner</span>
-      <span class="vpd">Event timeline &amp; gacha banners</span>
-    </button>
-    <button class="vptile" data-v="card">
-      <span class="vpk">Card</span>
-      <span class="vpd">Browse &amp; track your collection</span>
-    </button>
-  </div>
-
-  <!-- BANNER VIEW -->
-  <section id="view-banner">
-    <div class="tl-controls">
-      <div class="seg" id="order">
-        <button data-o="desc" class="on">Newest first</button>
-        <button data-o="asc">Oldest first</button>
-      </div>
-      <span class="count mono" id="count"></span>
+<div class="hubgrid">
+  <a class="hubtile" href="banner.html" style="--pastel:#ece9fb;--deep:#5b4fd6;--edge:rgba(91,79,214,.28)">
+    <div class="ticon">
+      <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="6" y="10" width="36" height="12" rx="3"/>
+        <rect x="6" y="26" width="36" height="12" rx="3"/>
+        <line x1="12" y1="16" x2="24" y2="16"/><line x1="12" y1="32" x2="20" y2="32"/>
+      </svg>
     </div>
-    <div id="timeline"></div>
-  </section>
+    <div class="tname">Banner</div>
+    <div class="tkr">이벤트 타임라인</div>
+    <div class="tdesc">모든 이벤트와 가챠 배너를 시간순으로. 배너를 누르면 PV와 카드.</div>
+    <span class="tgo">→</span>
+  </a>
 
-  <!-- CARD VIEW -->
-  <section id="view-card" hidden>
-    <div class="cardbar">
-      <div class="frow">
-        <div class="chips" id="f-rarity"></div>
-        <div class="chips" id="f-type"></div>
-        <select id="f-char" class="ctl"><option value="">All characters</option></select>
-      </div>
-      <div class="frow">
-        <div class="ownfilter">
-          <span class="owlab">Owned by</span>
-          <span id="ownCircles"></span>
-        </div>
-        <div class="seg small" id="ownmode">
-          <button data-m="owned" class="on">Owned</button>
-          <button data-m="missing">Missing</button>
-        </div>
-        <span class="barspace"></span>
-        <button class="ctl" id="clearFilters">Clear</button>
-        <button class="ctl" id="exportBtn">Export</button>
-        <button class="ctl" id="importBtn">Import</button>
-        <input type="file" id="importFile" accept="application/json" hidden>
-      </div>
+  <a class="hubtile" href="cards.html" style="--pastel:#fbe8f0;--deep:#c0567f;--edge:rgba(192,86,127,.28)">
+    <div class="ticon">
+      <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="9" y="8" width="19" height="27" rx="3" transform="rotate(-8 18 21)"/>
+        <rect x="20" y="12" width="19" height="27" rx="3" transform="rotate(6 29 25)"/>
+      </svg>
     </div>
-    <div class="cardcount mono" id="cardcount"></div>
-    <div id="cardgrid" class="collectgrid"></div>
-  </section>
+    <div class="tname">Card</div>
+    <div class="tkr">카드 컬렉션</div>
+    <div class="tdesc">전 카드를 등급·타입·캐릭터로 필터. 계정별 소장 체크.</div>
+    <span class="tgo">→</span>
+  </a>
 </div>
 
-<footer>
-  Archived from the <a href="https://breakmycase.fandom.com/wiki/Break_My_Case_Wiki" target="_blank" rel="noopener">Break My Case Wiki</a> (Fandom).
-  Collection data is saved in this browser only. Use Export to back it up or move it between devices.
+<div class="hubstats" id="hubstats"></div>
+
+<footer class="hubfoot">
+  <a href="https://breakmycase.fandom.com/wiki/Break_My_Case_Wiki" target="_blank" rel="noopener">Break My Case Wiki</a> (Fandom) 아카이브 · 개인 참고용
 </footer>
 
-<div id="modal" class="modal" onclick="if(event.target===this)closeModal()">
-  <div class="modalbox">
-    <button class="modalclose" onclick="closeModal()">✕</button>
-    <div id="modalBody"></div>
-  </div>
-</div>
-
 <script>
-const ACCOUNTS=[
-  {key:'akehoshi',name:'Akehoshi',short:'Ak',color:'#FE8A23'},
-  {key:'ai',name:'Ai',short:'Ai',color:'#B22222'},
-  {key:'kou',name:'Kou',short:'Ko',color:'#FD1493'},
-  {key:'tomose',name:'Tomose',short:'To',color:'#61C892'},
-  {key:'kyoya',name:'Kyoya',short:'Ky',color:'#F09C65'},
-  {key:'yuzuru',name:'Yuzuru',short:'Yu',color:'#7DA852'}
-];
-const DEPT={adm:'Administration',neg:'Negotiation',sim:'Simulation',mof:'Main Office',
-  wat:'Watchdogs',spe:'Special Task',stf:'Special Task'};
-const STORE='bmc_collection_v1';
-let EV=[], ORDER='desc', ALLCARDS=[];
-let OWNED=loadOwned();
-let FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set(),ownMode:'owned'};
-
-function loadOwned(){ try{return JSON.parse(localStorage.getItem(STORE))||{}}catch(e){return {}} }
-function saveOwned(){ try{localStorage.setItem(STORE,JSON.stringify(OWNED))}catch(e){} }
-function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
-function thumb(u){return (typeof u==='string')? u.replace(/\/revision\/latest(\/[^?]*)?\?/,'/revision/latest/scale-to-width-down/400?'):''}
-
 fetch('data/events.json?v='+Date.now()).then(r=>r.json()).then(d=>{
-  EV=d;
-  document.getElementById('s-ev').textContent=d.length;
-  const seen=new Set();
-  d.forEach(e=>(e.cards||[]).forEach(c=>{
-    if(seen.has(c.id))return; seen.add(c.id);
-    ALLCARDS.push({id:c.id,img:c.img,name:c.name,character:c.character,
-      rarity:(c.rarity||'').toUpperCase(),attribute:c.attribute||'',event:e.name});
-  }));
-  document.getElementById('s-cards').textContent=ALLCARDS.length;
+  const cards=d.reduce((a,e)=>a+(e.cards?e.cards.length:0),0);
   const ds=d.map(e=>e.start_disp).filter(Boolean).sort();
-  document.getElementById('s-span').textContent=(ds[0]||'').slice(0,4)+'–'+(ds[ds.length-1]||'').slice(0,4);
-  renderBanners(); buildFilters();
-}).catch(err=>{document.getElementById('timeline').innerHTML='<p>Could not load data: '+err.message+'</p>'});
-
-/* BANNER VIEW */
-function renderBanners(){
-  let rows=[...EV].sort((a,b)=>(a.start||'').localeCompare(b.start||''));
-  if(ORDER==='desc') rows.reverse();
-  document.getElementById('count').textContent=rows.length+' events';
-  const groups={};
-  rows.forEach(e=>{const y=(e.start||'????').slice(0,4);(groups[y]=groups[y]||[]).push(e);});
-  const years=Object.keys(groups).sort((a,b)=>ORDER==='desc'?b.localeCompare(a):a.localeCompare(b));
-  document.getElementById('timeline').innerHTML=years.map(y=>{
-    const cards=groups[y].map(e=>{
-      const dept=DEPT[e.dept]||''; const kind=e.kind||'Event';
-      return `<a class="ev" href="event.html?id=${e.id}">
-        ${e.banner?`<img class="bimg" src="${e.banner}" alt="" loading="lazy">`:`<span class="bimg noimg">${esc(e.name||e.title)}</span>`}
-        <span class="meta">
-          <span class="date">${e.start_disp||''}${e.end_disp?' – '+e.end_disp:''}</span>
-          <span class="ttl">${esc(e.name||e.title)}</span>
-          <span class="tags"><span class="tag2 kind">${esc(kind)}</span>${dept?`<span class="tag2 dept">${esc(dept)}</span>`:''}${e.limited?`<span class="tag2 limited">LIMITED</span>`:''}</span>
-        </span></a>`;
-    }).join('');
-    return `<h2 class="yearhead">${y}<small>${groups[y].length} EVENTS</small></h2><div class="banners">${cards}</div>`;
-  }).join('');
-}
-document.querySelectorAll('#order button').forEach(b=>b.onclick=()=>{
-  document.querySelectorAll('#order button').forEach(x=>x.classList.remove('on'));
-  b.classList.add('on'); ORDER=b.dataset.o; renderBanners();
-});
-
-/* VIEW SELECTOR */
-document.querySelectorAll('.viewpick .vptile').forEach(b=>b.onclick=()=>{
-  document.querySelectorAll('.viewpick .vptile').forEach(x=>x.classList.remove('on'));
-  b.classList.add('on');
-  const v=b.dataset.v;
-  document.getElementById('view-banner').hidden = v!=='banner';
-  document.getElementById('view-card').hidden = v!=='card';
-  if(v==='card') renderCards();
-});
-
-/* FILTERS */
-function buildFilters(){
-  const rars=['SSR','XR','SR','R','CR'].filter(r=>ALLCARDS.some(c=>c.rarity===r));
-  document.getElementById('f-rarity').innerHTML=rars.map(r=>`<button class="chip rchip r-${r}" data-r="${r}">${r}</button>`).join('');
-  const types=['Star','Moon','Sun'].filter(t=>ALLCARDS.some(c=>c.attribute===t));
-  document.getElementById('f-type').innerHTML=types.map(t=>`<button class="chip tchip a-${t.toLowerCase()}" data-t="${t}">${t}</button>`).join('');
-  const chars=[...new Set(ALLCARDS.map(c=>c.character).filter(x=>x&&!x.includes(',')))].sort();
-  document.getElementById('f-char').innerHTML='<option value="">All characters</option>'+chars.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('');
-  document.getElementById('ownCircles').innerHTML=ACCOUNTS.map(a=>
-    `<button class="ownc" data-acct="${a.key}" title="${a.name}" style="--ac:${a.color}"><span>${a.short}</span></button>`).join('');
-
-  document.querySelectorAll('#f-rarity .chip').forEach(b=>b.onclick=()=>{tog(FILT.rarity,b.dataset.r,b);renderCards();});
-  document.querySelectorAll('#f-type .chip').forEach(b=>b.onclick=()=>{tog(FILT.type,b.dataset.t,b);renderCards();});
-  document.getElementById('f-char').onchange=e=>{FILT.char=e.target.value;renderCards();};
-  document.querySelectorAll('#ownCircles .ownc').forEach(b=>b.onclick=()=>{tog(FILT.ownAccts,b.dataset.acct,b);renderCards();});
-  document.querySelectorAll('#ownmode button').forEach(b=>b.onclick=()=>{
-    document.querySelectorAll('#ownmode button').forEach(x=>x.classList.remove('on'));
-    b.classList.add('on'); FILT.ownMode=b.dataset.m; renderCards();
-  });
-  document.getElementById('clearFilters').onclick=()=>{
-    FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set(),ownMode:FILT.ownMode};
-    document.querySelectorAll('.chip.on,.ownc.on').forEach(x=>x.classList.remove('on'));
-    document.getElementById('f-char').value=''; renderCards();
-  };
-  document.getElementById('exportBtn').onclick=exportData;
-  document.getElementById('importBtn').onclick=()=>document.getElementById('importFile').click();
-  document.getElementById('importFile').onchange=importData;
-}
-function tog(set,val,btn){ if(set.has(val)){set.delete(val);btn.classList.remove('on');}else{set.add(val);btn.classList.add('on');} }
-
-/* CARD VIEW */
-function passFilter(c){
-  if(FILT.rarity.size && !FILT.rarity.has(c.rarity)) return false;
-  if(FILT.type.size && !FILT.type.has(c.attribute)) return false;
-  if(FILT.char && (c.character||'')!==FILT.char) return false;
-  if(FILT.ownAccts.size){
-    const own=OWNED[c.id]||{};
-    const accts=[...FILT.ownAccts];
-    if(FILT.ownMode==='owned'){ if(!accts.some(k=>own[k])) return false; }
-    else { if(!accts.some(k=>!own[k])) return false; }
-  }
-  return true;
-}
-function renderCards(){
-  const list=ALLCARDS.filter(passFilter);
-  document.getElementById('cardcount').textContent=list.length+' / '+ALLCARDS.length+' cards';
-  document.getElementById('cardgrid').innerHTML=list.map(c=>{
-    const own=OWNED[c.id]||{};
-    const owners=ACCOUNTS.filter(a=>own[a.key]);
-    const dots=owners.map(a=>`<span class="oi" style="background:${a.color}" title="${a.name}"></span>`).join('');
-    return `<div class="ccard ${owners.length?'owned':''}" data-card="${c.id}">
-      <img loading="lazy" src="${thumb(c.img)}">
-      <div class="ccover">
-        <div class="cctop">
-          ${c.rarity?`<span class="rar r-${c.rarity}">${c.rarity}</span>`:''}
-          ${c.attribute?`<span class="attr a-${c.attribute.toLowerCase()}">${c.attribute}</span>`:''}
-          ${owners.length?`<span class="ownmark">✓</span>`:''}
-        </div>
-        <div class="ccbot">
-          <div class="ccchar">${esc(c.character||'')}</div>
-          <div class="ccname">${esc(c.name||'')}</div>
-          <div class="ccdots">${dots}</div>
-        </div>
-      </div>
-    </div>`;
-  }).join('');
-  document.querySelectorAll('.ccard').forEach(el=>el.onclick=()=>openModal(el.dataset.card));
-}
-
-function openModal(id){
-  const c=ALLCARDS.find(x=>String(x.id)===String(id)); if(!c)return;
-  const own=OWNED[c.id]||{};
-  document.getElementById('modalBody').innerHTML=`
-    <div class="modalgrid">
-      <a class="modalimg" href="${c.img}" target="_blank" rel="noopener"><img src="${thumb(c.img)}"></a>
-      <div class="modalinfo">
-        <div class="cc-tags">${c.rarity?`<span class="rar r-${c.rarity}">${c.rarity}</span>`:''}${c.attribute?`<span class="attr a-${c.attribute.toLowerCase()}">${c.attribute}</span>`:''}</div>
-        <div class="modalchar">${esc(c.character||'')}</div>
-        <div class="modalname">${esc(c.name||'')}</div>
-        <div class="modalevent">${esc(c.event||'')}</div>
-        <div class="ownlabel">Owned by</div>
-        <div class="ownrow">${ACCOUNTS.map(a=>`
-          <button class="ocircle ${own[a.key]?'on':''}" data-card="${c.id}" data-acct="${a.key}"
-            style="--ac:${a.color}"><span>${a.name}</span></button>`).join('')}</div>
-      </div>
-    </div>`;
-  document.getElementById('modal').classList.add('show');
-  document.querySelectorAll('.ocircle').forEach(b=>b.onclick=()=>{
-    const cid=b.dataset.card,k=b.dataset.acct;
-    OWNED[cid]=OWNED[cid]||{}; if(OWNED[cid][k]){delete OWNED[cid][k];}else{OWNED[cid][k]=true;}
-    saveOwned(); b.classList.toggle('on');
-  });
-}
-function closeModal(){document.getElementById('modal').classList.remove('show'); renderCards();}
-
-/* EXPORT / IMPORT */
-function exportData(){
-  const blob=new Blob([JSON.stringify(OWNED,null,1)],{type:'application/json'});
-  const a=document.createElement('a');
-  a.href=URL.createObjectURL(blob);
-  a.download='bmc_collection_'+new Date().toISOString().slice(0,10)+'.json';
-  a.click(); URL.revokeObjectURL(a.href);
-}
-function importData(e){
-  const f=e.target.files[0]; if(!f)return;
-  const rd=new FileReader();
-  rd.onload=()=>{ try{ const d=JSON.parse(rd.result); if(typeof d==='object'){OWNED=d;saveOwned();renderCards();alert('Collection imported.');} }
-    catch(err){alert('Invalid file: '+err.message);} };
-  rd.readAsText(f); e.target.value='';
-}
+  const span=(ds[0]||'').slice(0,4)+'–'+(ds[ds.length-1]||'').slice(0,4);
+  document.getElementById('hubstats').innerHTML=
+    `<span><b>${d.length}</b> events</span><span><b>${cards}</b> cards</span><span><b>${span}</b></span>`;
+}).catch(()=>{});
 </script>
 </body></html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang="ko"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Banner · Break My Case</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head><body>
+<header class="masthead">
+  <a class="backlink" href="index.html">← Archive</a>
+  <div class="eyebrow">Event Timeline</div>
+  <h1>Banner</h1>
+</header>
+
+<div class="wrap">
+  <div class="tl-controls">
+    <div class="seg" id="order">
+      <button data-o="desc" class="on">Newest first</button>
+      <button data-o="asc">Oldest first</button>
+    </div>
+    <span class="count mono" id="count"></span>
+  </div>
+  <div id="timeline"></div>
+</div>
+
+<footer>
+  Archived from the <a href="https://breakmycase.fandom.com/wiki/Break_My_Case_Wiki" target="_blank" rel="noopener">Break My Case Wiki</a> (Fandom).
+</footer>
+
+<script>
+let EV=[], ORDER='desc';
+const DEPT={adm:'Administration',neg:'Negotiation',sim:'Simulation',mof:'Main Office',
+  wat:'Watchdogs',spe:'Special Task',stf:'Special Task'};
+function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
+fetch('data/events.json?v='+Date.now()).then(r=>r.json()).then(d=>{EV=d;render();})
+  .catch(err=>{document.getElementById('timeline').innerHTML='<p>Could not load data: '+err.message+'</p>'});
+function render(){
+  let rows=[...EV].sort((a,b)=>(a.start||'').localeCompare(b.start||''));
+  if(ORDER==='desc') rows.reverse();
+  document.getElementById('count').textContent=rows.length+' events';
+  const groups={};
+  rows.forEach(e=>{const y=(e.start||'????').slice(0,4);(groups[y]=groups[y]||[]).push(e);});
+  const years=Object.keys(groups).sort((a,b)=>ORDER==='desc'?b.localeCompare(a):a.localeCompare(b));
+  document.getElementById('timeline').innerHTML=years.map(y=>{
+    const cards=groups[y].map(e=>{
+      const dept=DEPT[e.dept]||''; const kind=e.kind||'Event';
+      return `<a class="ev" href="event.html?id=${e.id}">
+        ${e.banner?`<img class="bimg" src="${e.banner}" alt="" loading="lazy">`:`<span class="bimg noimg">${esc(e.name||e.title)}</span>`}
+        <span class="meta">
+          <span class="date">${e.start_disp||''}${e.end_disp?' – '+e.end_disp:''}</span>
+          <span class="ttl">${esc(e.name||e.title)}</span>
+          <span class="tags"><span class="tag2 kind">${esc(kind)}</span>${dept?`<span class="tag2 dept">${esc(dept)}</span>`:''}${e.limited?`<span class="tag2 limited">LIMITED</span>`:''}</span>
+        </span></a>`;
+    }).join('');
+    return `<h2 class="yearhead">${y}<small>${groups[y].length} EVENTS</small></h2><div class="banners">${cards}</div>`;
+  }).join('');
+}
+document.querySelectorAll('#order button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('#order button').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on'); ORDER=b.dataset.o; render();
+});
+</script>
+</body></html>

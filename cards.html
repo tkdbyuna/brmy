@@ -1,0 +1,181 @@
+<!DOCTYPE html><html lang="ko"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Card · Break My Case</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head><body>
+<header class="masthead">
+  <a class="backlink" href="index.html">← Archive</a>
+  <div class="eyebrow">Card Collection</div>
+  <h1>Card</h1>
+</header>
+
+<div class="wrap">
+  <div class="cardbar">
+    <div class="frow">
+      <div class="chips" id="f-rarity"></div>
+      <div class="chips" id="f-type"></div>
+      <select id="f-char" class="ctl"><option value="">All characters</option></select>
+    </div>
+    <div class="frow">
+      <div class="ownfilter">
+        <span class="owlab">Owned by</span>
+        <span id="ownCircles"></span>
+      </div>
+      <div class="seg small" id="ownmode">
+        <button data-m="owned" class="on">Owned</button>
+        <button data-m="missing">Missing</button>
+      </div>
+      <span class="barspace"></span>
+      <button class="ctl" id="clearFilters">Clear</button>
+      <button class="ctl" id="exportBtn">Export</button>
+      <button class="ctl" id="importBtn">Import</button>
+      <input type="file" id="importFile" accept="application/json" hidden>
+    </div>
+  </div>
+  <div class="cardcount mono" id="cardcount"></div>
+  <div id="cardgrid" class="collectgrid"></div>
+</div>
+
+<footer>
+  Collection data is saved in this browser only. Use Export to back it up or move it between devices.
+</footer>
+
+<div id="modal" class="modal" onclick="if(event.target===this)closeModal()">
+  <div class="modalbox">
+    <button class="modalclose" onclick="closeModal()">✕</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script>
+const ACCOUNTS=[
+  {key:'akehoshi',name:'Akehoshi',short:'Ak',color:'#FE8A23'},
+  {key:'ai',name:'Ai',short:'Ai',color:'#B22222'},
+  {key:'kou',name:'Kou',short:'Ko',color:'#FD1493'},
+  {key:'tomose',name:'Tomose',short:'To',color:'#61C892'},
+  {key:'kyoya',name:'Kyoya',short:'Ky',color:'#F09C65'},
+  {key:'yuzuru',name:'Yuzuru',short:'Yu',color:'#7DA852'}
+];
+const STORE='bmc_collection_v1';
+let ALLCARDS=[], OWNED=loadOwned();
+let FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set(),ownMode:'owned'};
+function loadOwned(){ try{return JSON.parse(localStorage.getItem(STORE))||{}}catch(e){return {}} }
+function saveOwned(){ try{localStorage.setItem(STORE,JSON.stringify(OWNED))}catch(e){} }
+function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
+function thumb(u){return (typeof u==='string')? u.replace(/\/revision\/latest(\/[^?]*)?\?/,'/revision/latest/scale-to-width-down/400?'):''}
+
+fetch('data/events.json?v='+Date.now()).then(r=>r.json()).then(d=>{
+  const seen=new Set();
+  d.forEach(e=>(e.cards||[]).forEach(c=>{
+    if(seen.has(c.id))return; seen.add(c.id);
+    ALLCARDS.push({id:c.id,img:c.img,name:c.name,character:c.character,
+      rarity:(c.rarity||'').toUpperCase(),attribute:c.attribute||'',event:e.name});
+  }));
+  buildFilters(); renderCards();
+}).catch(err=>{document.getElementById('cardgrid').innerHTML='<p>Could not load data: '+err.message+'</p>'});
+
+function buildFilters(){
+  const rars=['SSR','XR','SR','R','CR'].filter(r=>ALLCARDS.some(c=>c.rarity===r));
+  document.getElementById('f-rarity').innerHTML=rars.map(r=>`<button class="chip rchip r-${r}" data-r="${r}">${r}</button>`).join('');
+  const types=['Star','Moon','Sun'].filter(t=>ALLCARDS.some(c=>c.attribute===t));
+  document.getElementById('f-type').innerHTML=types.map(t=>`<button class="chip tchip a-${t.toLowerCase()}" data-t="${t}">${t}</button>`).join('');
+  const chars=[...new Set(ALLCARDS.map(c=>c.character).filter(x=>x&&!x.includes(',')))].sort();
+  document.getElementById('f-char').innerHTML='<option value="">All characters</option>'+chars.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('');
+  document.getElementById('ownCircles').innerHTML=ACCOUNTS.map(a=>
+    `<button class="ownc" data-acct="${a.key}" title="${a.name}" style="--ac:${a.color}"><span>${a.short}</span></button>`).join('');
+  document.querySelectorAll('#f-rarity .chip').forEach(b=>b.onclick=()=>{tog(FILT.rarity,b.dataset.r,b);renderCards();});
+  document.querySelectorAll('#f-type .chip').forEach(b=>b.onclick=()=>{tog(FILT.type,b.dataset.t,b);renderCards();});
+  document.getElementById('f-char').onchange=e=>{FILT.char=e.target.value;renderCards();};
+  document.querySelectorAll('#ownCircles .ownc').forEach(b=>b.onclick=()=>{tog(FILT.ownAccts,b.dataset.acct,b);renderCards();});
+  document.querySelectorAll('#ownmode button').forEach(b=>b.onclick=()=>{
+    document.querySelectorAll('#ownmode button').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on'); FILT.ownMode=b.dataset.m; renderCards();
+  });
+  document.getElementById('clearFilters').onclick=()=>{
+    FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set(),ownMode:FILT.ownMode};
+    document.querySelectorAll('.chip.on,.ownc.on').forEach(x=>x.classList.remove('on'));
+    document.getElementById('f-char').value=''; renderCards();
+  };
+  document.getElementById('exportBtn').onclick=exportData;
+  document.getElementById('importBtn').onclick=()=>document.getElementById('importFile').click();
+  document.getElementById('importFile').onchange=importData;
+}
+function tog(set,val,btn){ if(set.has(val)){set.delete(val);btn.classList.remove('on');}else{set.add(val);btn.classList.add('on');} }
+
+function passFilter(c){
+  if(FILT.rarity.size && !FILT.rarity.has(c.rarity)) return false;
+  if(FILT.type.size && !FILT.type.has(c.attribute)) return false;
+  if(FILT.char && (c.character||'')!==FILT.char) return false;
+  if(FILT.ownAccts.size){
+    const own=OWNED[c.id]||{}; const accts=[...FILT.ownAccts];
+    if(FILT.ownMode==='owned'){ if(!accts.some(k=>own[k])) return false; }
+    else { if(!accts.some(k=>!own[k])) return false; }
+  }
+  return true;
+}
+function renderCards(){
+  const list=ALLCARDS.filter(passFilter);
+  document.getElementById('cardcount').textContent=list.length+' / '+ALLCARDS.length+' cards';
+  document.getElementById('cardgrid').innerHTML=list.map(c=>{
+    const own=OWNED[c.id]||{};
+    const owners=ACCOUNTS.filter(a=>own[a.key]);
+    const dots=owners.map(a=>`<span class="oi" style="background:${a.color}" title="${a.name}"></span>`).join('');
+    return `<div class="ccard ${owners.length?'owned':''}" data-card="${c.id}">
+      <img loading="lazy" src="${thumb(c.img)}">
+      <div class="ccover">
+        <div class="cctop">
+          ${c.rarity?`<span class="rar r-${c.rarity}">${c.rarity}</span>`:''}
+          ${c.attribute?`<span class="attr a-${c.attribute.toLowerCase()}">${c.attribute}</span>`:''}
+          ${owners.length?`<span class="ownmark">✓</span>`:''}
+        </div>
+        <div class="ccbot">
+          <div class="ccchar">${esc(c.character||'')}</div>
+          <div class="ccname">${esc(c.name||'')}</div>
+          <div class="ccdots">${dots}</div>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+  document.querySelectorAll('.ccard').forEach(el=>el.onclick=()=>openModal(el.dataset.card));
+}
+function openModal(id){
+  const c=ALLCARDS.find(x=>String(x.id)===String(id)); if(!c)return;
+  const own=OWNED[c.id]||{};
+  document.getElementById('modalBody').innerHTML=`
+    <div class="modalgrid">
+      <a class="modalimg" href="${c.img}" target="_blank" rel="noopener"><img src="${thumb(c.img)}"></a>
+      <div class="modalinfo">
+        <div class="cc-tags">${c.rarity?`<span class="rar r-${c.rarity}">${c.rarity}</span>`:''}${c.attribute?`<span class="attr a-${c.attribute.toLowerCase()}">${c.attribute}</span>`:''}</div>
+        <div class="modalchar">${esc(c.character||'')}</div>
+        <div class="modalname">${esc(c.name||'')}</div>
+        <div class="modalevent">${esc(c.event||'')}</div>
+        <div class="ownlabel">Owned by</div>
+        <div class="ownrow">${ACCOUNTS.map(a=>`
+          <button class="ocircle ${own[a.key]?'on':''}" data-card="${c.id}" data-acct="${a.key}"
+            style="--ac:${a.color}"><span>${a.name}</span></button>`).join('')}</div>
+      </div>
+    </div>`;
+  document.getElementById('modal').classList.add('show');
+  document.querySelectorAll('.ocircle').forEach(b=>b.onclick=()=>{
+    const cid=b.dataset.card,k=b.dataset.acct;
+    OWNED[cid]=OWNED[cid]||{}; if(OWNED[cid][k]){delete OWNED[cid][k];}else{OWNED[cid][k]=true;}
+    saveOwned(); b.classList.toggle('on');
+  });
+}
+function closeModal(){document.getElementById('modal').classList.remove('show'); renderCards();}
+function exportData(){
+  const blob=new Blob([JSON.stringify(OWNED,null,1)],{type:'application/json'});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob);
+  a.download='bmc_collection_'+new Date().toISOString().slice(0,10)+'.json'; a.click(); URL.revokeObjectURL(a.href);
+}
+function importData(e){
+  const f=e.target.files[0]; if(!f)return; const rd=new FileReader();
+  rd.onload=()=>{ try{ const d=JSON.parse(rd.result); if(typeof d==='object'){OWNED=d;saveOwned();renderCards();alert('Collection imported.');} }
+    catch(err){alert('Invalid file: '+err.message);} };
+  rd.readAsText(f); e.target.value='';
+}
+</script>
+</body></html>
