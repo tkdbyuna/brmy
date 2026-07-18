@@ -1,0 +1,2991 @@
+[
+ {
+  "id": 1,
+  "kind": null,
+  "title": "Florist: Garden of Words Soaked in Flowers",
+  "name": "Florist: Garden of Words Soaked in Flowers",
+  "kanji": "Florist 花に染む言の葉",
+  "start": "2024-05-17",
+  "start_disp": "2024.05.17",
+  "end": "2024-05-30",
+  "end_disp": "2024.05.30",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/0/06/BMC_E1_Banner.png/revision/latest?cb=20250125022412",
+  "song": "Botanical Cascade",
+  "song_artist": "Maki Mannami",
+  "chars": [
+   {
+    "code": "kise",
+    "name": "Yuzuru Kise",
+    "href": "articles/Yuzuru%20Kise.html",
+    "voices": []
+   },
+   {
+    "code": "arima",
+    "name": "Kiho Arima",
+    "href": "articles/Kiho%20Arima.html",
+    "voices": []
+   },
+   {
+    "code": "onda",
+    "name": "Tomose Onda",
+    "href": "articles/Tomose%20Onda.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/5/57/Sample-onda-1.ogg/revision/latest?cb=20241102024130",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/3c/Sample-onda-2.ogg/revision/latest?cb=20241102024139",
+     "https://static.wikia.nocookie.net/breakmycase/images/d/d6/Sample-onda-3.ogg/revision/latest?cb=20241102024148"
+    ]
+   },
+   {
+    "code": "riku",
+    "name": "Riku Tateshina",
+    "href": "articles/Riku%20Tateshina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/5/5c/Sample-tateshina-1.ogg/revision/latest?cb=20241102015517",
+     "https://static.wikia.nocookie.net/breakmycase/images/7/72/Sample-tateshina-2.ogg/revision/latest?cb=20241102015538",
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Sample-tateshina-3.ogg/revision/latest?cb=20241102015552"
+    ]
+   },
+   {
+    "code": "mao",
+    "name": "Mao Ukyo",
+    "href": "articles/Mao%20Ukyo.html",
+    "voices": []
+   },
+   {
+    "code": "kosaka",
+    "name": "Ai Kosaka",
+    "href": "articles/Ai%20Kosaka.html",
+    "voices": []
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/f/f6/Card_illust_69.png/revision/latest?cb=20250731144935"
+  ],
+  "article": "articles/Florist-%20Garden%20of%20Words%20Soaked%20in%20Flowers.html",
+  "subs": {
+   "Event Story": "articles/Florist-%20Garden%20of%20Words%20Soaked%20in%20Flowers__Event%20Story.html",
+   "Gacha": "articles/Florist-%20Garden%20of%20Words%20Soaked%20in%20Flowers__Gacha.html"
+  }
+ },
+ {
+  "id": 2,
+  "kind": null,
+  "title": "Decoration Piling in Silk",
+  "name": "Decoration Piling in Silk",
+  "kanji": "シルクにかさねるDecoration",
+  "start": "2024-06-04",
+  "start_disp": "2024.06.04",
+  "end": "2024-06-17",
+  "end_disp": "2024.06.17",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/5/53/BMC_E2_Banner.png/revision/latest?cb=20250125022422",
+  "song": "Golden Rings",
+  "song_artist": "good-cool",
+  "chars": [
+   {
+    "code": "ai",
+    "name": "Ai Kosaka",
+    "href": "articles/Ai%20Kosaka.html",
+    "voices": []
+   },
+   {
+    "code": "shizuka",
+    "name": "Shizuka Fushimi",
+    "href": "articles/Shizuka%20Fushimi.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a8/Sample-fushimi-1.ogg/revision/latest?cb=20241102021350",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/11/Sample-fushimi-2.ogg/revision/latest?cb=20241102021403",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-fushimi-3.ogg/revision/latest?cb=20241102021413"
+    ]
+   },
+   {
+    "code": "shinobu",
+    "name": "Shinobu Aizawa",
+    "href": "articles/Shinobu%20Aizawa.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0a/Sample-aizawa-1.ogg/revision/latest?cb=20241102021459",
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Sample-aizawa-2.ogg/revision/latest?cb=20241102021511",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8d/Sample-aizawa-3.ogg/revision/latest?cb=20241102021520"
+    ]
+   },
+   {
+    "code": "sei",
+    "name": "Sei Okiya",
+    "href": "articles/Sei%20Okiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/1/13/Sample-okiya-1.ogg/revision/latest?cb=20241102013354",
+     "https://static.wikia.nocookie.net/breakmycase/images/5/56/Sample-okiya-2.ogg/revision/latest?cb=20241102013408",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a0/Sample-okiya-3.ogg/revision/latest?cb=20241102013420"
+    ]
+   },
+   {
+    "code": "mikado",
+    "name": "Takeru Mikado",
+    "href": "articles/Takeru%20Mikado.html",
+    "voices": []
+   },
+   {
+    "code": "yu",
+    "name": "Yu Nina",
+    "href": "articles/Yu%20Nina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f7/Sample-nina-1.ogg/revision/latest?cb=20241102024201",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-nina-2.ogg/revision/latest?cb=20241102024306",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8c/Sample-nina-3.ogg/revision/latest?cb=20241102024317"
+    ]
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/2/26/Card_illust_72.png/revision/latest?cb=20250824092559",
+   "https://static.wikia.nocookie.net/breakmycase/images/7/73/Card_illust_74.png/revision/latest?cb=20250824091509",
+   "https://static.wikia.nocookie.net/breakmycase/images/2/2d/Card_illust_75.png/revision/latest?cb=20250824093430"
+  ],
+  "article": "articles/Decoration%20Piling%20in%20Silk.html",
+  "subs": {
+   "Event Story": "articles/Decoration%20Piling%20in%20Silk__Event%20Story.html",
+   "Gacha": "articles/Decoration%20Piling%20in%20Silk__Gacha.html"
+  }
+ },
+ {
+  "id": 3,
+  "kind": "Prequel",
+  "title": "(Simulation) Prequel: The Spring of Drifting Ephemera",
+  "name": "The Spring of Drifting Ephemera",
+  "kanji": "Prequel 揺蕩う泡沫の春に",
+  "start": "2024-06-20",
+  "start_disp": "2024.06.20",
+  "end": "2024-07-04",
+  "end_disp": "2024.07.04",
+  "dept": "sim",
+  "attribute": "moon",
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/e/ef/BMC_E3_Banner.png/revision/latest?cb=20250125022432",
+  "song": "bit by bit",
+  "song_artist": "Cagga",
+  "chars": [
+   {
+    "code": "kou",
+    "name": "Kou Ayato",
+    "href": "articles/Kou%20Ayato.html",
+    "voices": []
+   },
+   {
+    "code": "mao",
+    "name": "Mao Ukyo",
+    "href": "articles/Mao%20Ukyo.html",
+    "voices": []
+   },
+   {
+    "code": "akehoshi",
+    "name": "Akehoshi Hinomiya",
+    "href": "articles/Akehoshi%20Hinomiya.html",
+    "voices": []
+   },
+   {
+    "code": "roka",
+    "name": "Roka Suoh",
+    "href": "articles/Roka%20Suoh.html",
+    "voices": []
+   },
+   {
+    "code": "ai",
+    "name": "Ai Kosaka",
+    "href": "articles/Ai%20Kosaka.html",
+    "voices": []
+   },
+   {
+    "code": "yuragi",
+    "name": "Yuragi Kanno",
+    "href": "articles/Yuragi%20Kanno.html",
+    "voices": []
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/9/98/Card_illust_78.png/revision/latest?cb=20250825015153",
+   "https://static.wikia.nocookie.net/breakmycase/images/d/df/Card_illust_79.png/revision/latest?cb=20250825015732",
+   "https://static.wikia.nocookie.net/breakmycase/images/f/f6/Card_illust_80.png/revision/latest?cb=20250825014510",
+   "https://static.wikia.nocookie.net/breakmycase/images/e/e5/Card_illust_81.png/revision/latest?cb=20250825020239"
+  ],
+  "article": "articles/%28Simulation%29%20Prequel-%20The%20Spring%20of%20Drifting%20Ephemera.html",
+  "subs": {
+   "Event Story": "articles/%28Simulation%29%20Prequel-%20The%20Spring%20of%20Drifting%20Ephemera__Event%20Story.html",
+   "Gacha": "articles/%28Simulation%29%20Prequel-%20The%20Spring%20of%20Drifting%20Ephemera__Gacha.html"
+  }
+ },
+ {
+  "id": 4,
+  "kind": null,
+  "title": "-Sigh of Relief- Marvelous Tea Party",
+  "name": "-Sigh of Relief- Marvelous Tea Party",
+  "kanji": "ホッと一息 不思議なTea party",
+  "start": "2024-07-09",
+  "start_disp": "2024.07.09",
+  "end": "2024-07-22",
+  "end_disp": "2024.07.22",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/1/18/BMC_E4_Banner.png/revision/latest?cb=20250125022444",
+  "song": "ALICE'S DICE",
+  "song_artist": "Sondai Nishijima",
+  "chars": [
+   {
+    "code": "roka",
+    "name": "Roka Suoh",
+    "href": "articles/Roka%20Suoh.html",
+    "voices": []
+   },
+   {
+    "code": "taiga",
+    "name": "Taiga Tsukimoto",
+    "href": "articles/Taiga%20Tsukimoto.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/9/98/Sample-tsukimoto-1.ogg/revision/latest?cb=20241102015643",
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f8/Sample-tsukimoto-2.ogg/revision/latest?cb=20241102015656",
+     "https://static.wikia.nocookie.net/breakmycase/images/7/78/Sample-tsukimoto-3.ogg/revision/latest?cb=20241102015713"
+    ]
+   },
+   {
+    "code": "shido",
+    "name": "Kyoya Shido",
+    "href": "articles/Kyoya%20Shido.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8d/Sample-shido-1.ogg/revision/latest?cb=20241102015444",
+     "https://static.wikia.nocookie.net/breakmycase/images/b/b3/Sample-shido-2.ogg/revision/latest?cb=20241102015454",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ef/Sample-shido-3.ogg/revision/latest?cb=20241102015505"
+    ]
+   },
+   {
+    "code": "shinkai",
+    "name": "Soyogu Shinkai",
+    "href": "articles/Soyogu%20Shinkai.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/1/1e/Sample-shinkai-1.ogg/revision/latest?cb=20241102021424",
+     "https://static.wikia.nocookie.net/breakmycase/images/9/92/Sample-shinkai-2.ogg/revision/latest?cb=20241102021434",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/34/Sample-shinkai-3.ogg/revision/latest?cb=20241102021444"
+    ]
+   },
+   {
+    "code": "urara",
+    "name": "Urara Manami",
+    "href": "articles/Urara%20Manami.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8f/Sample-manami-1.ogg/revision/latest?cb=20241102024423",
+     "https://static.wikia.nocookie.net/breakmycase/images/9/9a/Sample-manami-2.ogg/revision/latest?cb=20241102024432",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/35/Sample-manami-3.ogg/revision/latest?cb=20241102024441"
+    ]
+   },
+   {
+    "code": "haruhi",
+    "name": "Haruhi Ichikawa",
+    "href": "articles/Haruhi%20Ichikawa.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/6/62/Sample-ichikawa-1.ogg/revision/latest?cb=20241102015610",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/19/Sample-ichikawa-2.ogg/revision/latest?cb=20241102015618",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/89/Sample-ichikawa-3.ogg/revision/latest?cb=20241102015629"
+    ]
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/2/29/Card_illust_85.png/revision/latest?cb=20250825024731",
+   "https://static.wikia.nocookie.net/breakmycase/images/7/73/Card_illust_86.png/revision/latest?cb=20250825025527"
+  ],
+  "article": "articles/-Sigh%20of%20Relief-%20Marvelous%20Tea%20Party.html",
+  "subs": {
+   "Event Story": "articles/-Sigh%20of%20Relief-%20Marvelous%20Tea%20Party__Event%20Story.html",
+   "Gacha": "articles/-Sigh%20of%20Relief-%20Marvelous%20Tea%20Party__Gacha.html"
+  }
+ },
+ {
+  "id": 5,
+  "kind": null,
+  "title": "Reflection: Flowers of Light Filling the Night Sky",
+  "name": "Reflection: Flowers of Light Filling the Night Sky",
+  "kanji": "Reflection 夜空に満つ光芒の華",
+  "start": "2024-07-30",
+  "start_disp": "2024.07.30",
+  "end": "2024-08-13",
+  "end_disp": "2024.08.13",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/9/9e/BMC_E5_Banner.png/revision/latest?cb=20250125022503",
+  "song": "Echoes",
+  "song_artist": "YiU",
+  "chars": [
+   {
+    "code": "kise",
+    "name": "Yuzuru Kise",
+    "href": "articles/Yuzuru%20Kise.html",
+    "voices": []
+   },
+   {
+    "code": "kou",
+    "name": "Kou Ayato",
+    "href": "articles/Kou%20Ayato.html",
+    "voices": []
+   },
+   {
+    "code": "yu",
+    "name": "Yu Nina",
+    "href": "articles/Yu%20Nina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f7/Sample-nina-1.ogg/revision/latest?cb=20241102024201",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-nina-2.ogg/revision/latest?cb=20241102024306",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8c/Sample-nina-3.ogg/revision/latest?cb=20241102024317"
+    ]
+   },
+   {
+    "code": "mao",
+    "name": "Mao Ukyo",
+    "href": "articles/Mao%20Ukyo.html",
+    "voices": []
+   },
+   {
+    "code": "kamiya",
+    "name": "Kamiya",
+    "href": "articles/Kamiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/e/e3/Sample-kamiya-1.ogg/revision/latest?cb=20241102024327",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/12/Sample-kamiya-2.ogg/revision/latest?cb=20241102024336",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a4/Sample-kamiya-3.ogg/revision/latest?cb=20241102024345"
+    ]
+   },
+   {
+    "code": "shinobu",
+    "name": "Shinobu Aizawa",
+    "href": "articles/Shinobu%20Aizawa.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0a/Sample-aizawa-1.ogg/revision/latest?cb=20241102021459",
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Sample-aizawa-2.ogg/revision/latest?cb=20241102021511",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8d/Sample-aizawa-3.ogg/revision/latest?cb=20241102021520"
+    ]
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/8/88/Card_illust_96.png/revision/latest?cb=20250825040907"
+  ],
+  "article": "articles/Reflection-%20Flowers%20of%20Light%20Filling%20the%20Night%20Sky.html",
+  "subs": {
+   "Event Story": "articles/Reflection-%20Flowers%20of%20Light%20Filling%20the%20Night%20Sky__Event%20Story.html",
+   "Gacha": "articles/Reflection-%20Flowers%20of%20Light%20Filling%20the%20Night%20Sky__Gacha.html"
+  }
+ },
+ {
+  "id": 6,
+  "kind": "Prequel",
+  "title": "(Watchdogs) Prequel: Holding an Unyielding Heat",
+  "name": "Holding an Unyielding Heat",
+  "kanji": "Prequel 強かな熱を抱いて",
+  "start": "2024-08-16",
+  "start_disp": "2024.08.16",
+  "end": "2024-08-30",
+  "end_disp": "2024.08.30",
+  "dept": "wat",
+  "attribute": "sun",
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/3/36/BMC_E6_Banner.png/revision/latest?cb=20250125022520",
+  "song": "Seize the day",
+  "song_artist": "y0c1e",
+  "chars": [
+   {
+    "code": "shizuka",
+    "name": "Shizuka Fushimi",
+    "href": "articles/Shizuka%20Fushimi.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a8/Sample-fushimi-1.ogg/revision/latest?cb=20241102021350",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/11/Sample-fushimi-2.ogg/revision/latest?cb=20241102021403",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-fushimi-3.ogg/revision/latest?cb=20241102021413"
+    ]
+   },
+   {
+    "code": "takeru",
+    "name": "Takeru Mikado",
+    "href": "articles/Takeru%20Mikado.html",
+    "voices": []
+   },
+   {
+    "code": "shinobu",
+    "name": "Shinobu Aizawa",
+    "href": "articles/Shinobu%20Aizawa.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0a/Sample-aizawa-1.ogg/revision/latest?cb=20241102021459",
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Sample-aizawa-2.ogg/revision/latest?cb=20241102021511",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8d/Sample-aizawa-3.ogg/revision/latest?cb=20241102021520"
+    ]
+   },
+   {
+    "code": "urara",
+    "name": "Urara Manami",
+    "href": "articles/Urara%20Manami.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8f/Sample-manami-1.ogg/revision/latest?cb=20241102024423",
+     "https://static.wikia.nocookie.net/breakmycase/images/9/9a/Sample-manami-2.ogg/revision/latest?cb=20241102024432",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/35/Sample-manami-3.ogg/revision/latest?cb=20241102024441"
+    ]
+   },
+   {
+    "code": "riku",
+    "name": "Riku Tateshina",
+    "href": "articles/Riku%20Tateshina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/5/5c/Sample-tateshina-1.ogg/revision/latest?cb=20241102015517",
+     "https://static.wikia.nocookie.net/breakmycase/images/7/72/Sample-tateshina-2.ogg/revision/latest?cb=20241102015538",
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Sample-tateshina-3.ogg/revision/latest?cb=20241102015552"
+    ]
+   },
+   {
+    "code": "soyogu",
+    "name": "Soyogu Shinkai",
+    "href": "articles/Soyogu%20Shinkai.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/1/1e/Sample-shinkai-1.ogg/revision/latest?cb=20241102021424",
+     "https://static.wikia.nocookie.net/breakmycase/images/9/92/Sample-shinkai-2.ogg/revision/latest?cb=20241102021434",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/34/Sample-shinkai-3.ogg/revision/latest?cb=20241102021444"
+    ]
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/3/36/Card_illust_100.png/revision/latest?cb=20250825055330",
+   "https://static.wikia.nocookie.net/breakmycase/images/7/70/Card_illust_101.png/revision/latest?cb=20250825054516",
+   "https://static.wikia.nocookie.net/breakmycase/images/6/6b/Card_illust_102.png/revision/latest?cb=20250825060238",
+   "https://static.wikia.nocookie.net/breakmycase/images/1/12/Card_illust_104.png/revision/latest?cb=20250825060658"
+  ],
+  "article": "articles/%28Watchdogs%29%20Prequel-%20Holding%20an%20Unyielding%20Heat.html",
+  "subs": {
+   "Event Story": "articles/%28Watchdogs%29%20Prequel-%20Holding%20an%20Unyielding%20Heat__Event%20Story.html",
+   "Gacha": "articles/%28Watchdogs%29%20Prequel-%20Holding%20an%20Unyielding%20Heat__Gacha.html"
+  }
+ },
+ {
+  "id": 7,
+  "kind": null,
+  "title": "Afterschool -day by day-",
+  "name": "Afterschool -day by day-",
+  "kanji": "放課後 day by day",
+  "start": "2024-08-31",
+  "start_disp": "2024.08.31",
+  "end": "2024-09-13",
+  "end_disp": "2024.09.13",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/6/69/BMC_E7_Banner.png/revision/latest?cb=20250125022533",
+  "song": "lemonade",
+  "song_artist": "Cagga",
+  "chars": [
+   {
+    "code": "yuragi",
+    "name": "Yuragi Kanno",
+    "href": "articles/Yuragi%20Kanno.html",
+    "voices": []
+   },
+   {
+    "code": "haruhi",
+    "name": "Haruhi Ichikawa",
+    "href": "articles/Haruhi%20Ichikawa.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/6/62/Sample-ichikawa-1.ogg/revision/latest?cb=20241102015610",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/19/Sample-ichikawa-2.ogg/revision/latest?cb=20241102015618",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/89/Sample-ichikawa-3.ogg/revision/latest?cb=20241102015629"
+    ]
+   },
+   {
+    "code": "soyogu",
+    "name": "Soyogu Shinkai",
+    "href": "articles/Soyogu%20Shinkai.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/1/1e/Sample-shinkai-1.ogg/revision/latest?cb=20241102021424",
+     "https://static.wikia.nocookie.net/breakmycase/images/9/92/Sample-shinkai-2.ogg/revision/latest?cb=20241102021434",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/34/Sample-shinkai-3.ogg/revision/latest?cb=20241102021444"
+    ]
+   },
+   {
+    "code": "shizuka",
+    "name": "Shizuka Fushimi",
+    "href": "articles/Shizuka%20Fushimi.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a8/Sample-fushimi-1.ogg/revision/latest?cb=20241102021350",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/11/Sample-fushimi-2.ogg/revision/latest?cb=20241102021403",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-fushimi-3.ogg/revision/latest?cb=20241102021413"
+    ]
+   },
+   {
+    "code": "taiga",
+    "name": "Taiga Tsukimoto",
+    "href": "articles/Taiga%20Tsukimoto.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/9/98/Sample-tsukimoto-1.ogg/revision/latest?cb=20241102015643",
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f8/Sample-tsukimoto-2.ogg/revision/latest?cb=20241102015656",
+     "https://static.wikia.nocookie.net/breakmycase/images/7/78/Sample-tsukimoto-3.ogg/revision/latest?cb=20241102015713"
+    ]
+   },
+   {
+    "code": "mao",
+    "name": "Mao Ukyo",
+    "href": "articles/Mao%20Ukyo.html",
+    "voices": []
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/3/38/Card_illust_107.png/revision/latest?cb=20250825062627",
+   "https://static.wikia.nocookie.net/breakmycase/images/2/2e/Card_illust_108.png/revision/latest?cb=20250825063817",
+   "https://static.wikia.nocookie.net/breakmycase/images/c/c3/Card_illust_109.png/revision/latest?cb=20250825063138",
+   "https://static.wikia.nocookie.net/breakmycase/images/5/58/Card_illust_111.png/revision/latest?cb=20250825064223"
+  ],
+  "article": "articles/Afterschool%20-day%20by%20day-.html",
+  "subs": {
+   "Event Story": "articles/Afterschool%20-day%20by%20day-__Event%20Story.html",
+   "Gacha": "articles/Afterschool%20-day%20by%20day-__Gacha.html"
+  }
+ },
+ {
+  "id": 8,
+  "kind": null,
+  "title": "Whirling Petals During the Ninth Lunar Month",
+  "name": "Whirling Petals During the Ninth Lunar Month",
+  "kanji": "寝覚月に舞う花びら",
+  "start": "2024-09-18",
+  "start_disp": "2024.09.18",
+  "end": "2024-10-01",
+  "end_disp": "2024.10.01",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/3/32/BMC_E8_Banner.png/revision/latest?cb=20250125022545",
+  "song": "Sehnsucht",
+  "song_artist": "ensy",
+  "chars": [
+   {
+    "code": "sei",
+    "name": "Sei Okiya",
+    "href": "articles/Sei%20Okiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/1/13/Sample-okiya-1.ogg/revision/latest?cb=20241102013354",
+     "https://static.wikia.nocookie.net/breakmycase/images/5/56/Sample-okiya-2.ogg/revision/latest?cb=20241102013408",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a0/Sample-okiya-3.ogg/revision/latest?cb=20241102013420"
+    ]
+   },
+   {
+    "code": "takeru",
+    "name": "Takeru Mikado",
+    "href": "articles/Takeru%20Mikado.html",
+    "voices": []
+   },
+   {
+    "code": "riku",
+    "name": "Riku Tateshina",
+    "href": "articles/Riku%20Tateshina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/5/5c/Sample-tateshina-1.ogg/revision/latest?cb=20241102015517",
+     "https://static.wikia.nocookie.net/breakmycase/images/7/72/Sample-tateshina-2.ogg/revision/latest?cb=20241102015538",
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Sample-tateshina-3.ogg/revision/latest?cb=20241102015552"
+    ]
+   },
+   {
+    "code": "kamiya",
+    "name": "Kamiya",
+    "href": "articles/Kamiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/e/e3/Sample-kamiya-1.ogg/revision/latest?cb=20241102024327",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/12/Sample-kamiya-2.ogg/revision/latest?cb=20241102024336",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a4/Sample-kamiya-3.ogg/revision/latest?cb=20241102024345"
+    ]
+   },
+   {
+    "code": "shinobu",
+    "name": "Shinobu Aizawa",
+    "href": "articles/Shinobu%20Aizawa.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0a/Sample-aizawa-1.ogg/revision/latest?cb=20241102021459",
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Sample-aizawa-2.ogg/revision/latest?cb=20241102021511",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8d/Sample-aizawa-3.ogg/revision/latest?cb=20241102021520"
+    ]
+   },
+   {
+    "code": "kiho",
+    "name": "Kiho Arima",
+    "href": "articles/Kiho%20Arima.html",
+    "voices": []
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/c/c2/Card_illust_115.png/revision/latest?cb=20250825081100",
+   "https://static.wikia.nocookie.net/breakmycase/images/c/cd/Card_illust_116.png/revision/latest?cb=20250825082611",
+   "https://static.wikia.nocookie.net/breakmycase/images/d/d4/Card_illust_117.png/revision/latest?cb=20250825083050",
+   "https://static.wikia.nocookie.net/breakmycase/images/4/45/Card_illust_119.png/revision/latest?cb=20250825083437"
+  ],
+  "article": "articles/Whirling%20Petals%20During%20the%20Ninth%20Lunar%20Month.html",
+  "subs": {
+   "Event Story": "articles/Whirling%20Petals%20During%20the%20Ninth%20Lunar%20Month__Event%20Story.html",
+   "Gacha": "articles/Whirling%20Petals%20During%20the%20Ninth%20Lunar%20Month__Gacha.html"
+  }
+ },
+ {
+  "id": 9,
+  "kind": "Prequel",
+  "title": "(Special Task) Prequel: Homeward in the Twilight",
+  "name": "Homeward in the Twilight",
+  "kanji": "Prequel 誰そ彼の家路",
+  "start": "2024-10-04",
+  "start_disp": "2024.10.04",
+  "end": "2024-10-18",
+  "end_disp": "2024.10.18",
+  "dept": "wat",
+  "attribute": "sun",
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/2/2d/BMC_E9_Banner.png/revision/latest?cb=20250125022553",
+  "song": "WIPE OUT",
+  "song_artist": "good-cool",
+  "chars": [
+   {
+    "code": "yu",
+    "name": "Yu Nina",
+    "href": "articles/Yu%20Nina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f7/Sample-nina-1.ogg/revision/latest?cb=20241102024201",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-nina-2.ogg/revision/latest?cb=20241102024306",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8c/Sample-nina-3.ogg/revision/latest?cb=20241102024317"
+    ]
+   },
+   {
+    "code": "kamiya",
+    "name": "Kamiya",
+    "href": "articles/Kamiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/e/e3/Sample-kamiya-1.ogg/revision/latest?cb=20241102024327",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/12/Sample-kamiya-2.ogg/revision/latest?cb=20241102024336",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a4/Sample-kamiya-3.ogg/revision/latest?cb=20241102024345"
+    ]
+   },
+   {
+    "code": "urara",
+    "name": "Urara Manami",
+    "href": "articles/Urara%20Manami.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8f/Sample-manami-1.ogg/revision/latest?cb=20241102024423",
+     "https://static.wikia.nocookie.net/breakmycase/images/9/9a/Sample-manami-2.ogg/revision/latest?cb=20241102024432",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/35/Sample-manami-3.ogg/revision/latest?cb=20241102024441"
+    ]
+   },
+   {
+    "code": "yuzuru",
+    "name": "Yuzuru Kise",
+    "href": "articles/Yuzuru%20Kise.html",
+    "voices": []
+   },
+   {
+    "code": "roka",
+    "name": "Roka Suoh",
+    "href": "articles/Roka%20Suoh.html",
+    "voices": []
+   },
+   {
+    "code": "tomose",
+    "name": "Tomose Onda",
+    "href": "articles/Tomose%20Onda.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/5/57/Sample-onda-1.ogg/revision/latest?cb=20241102024130",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/3c/Sample-onda-2.ogg/revision/latest?cb=20241102024139",
+     "https://static.wikia.nocookie.net/breakmycase/images/d/d6/Sample-onda-3.ogg/revision/latest?cb=20241102024148"
+    ]
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/8/8e/Card_illust_122.png/revision/latest?cb=20250825125739",
+   "https://static.wikia.nocookie.net/breakmycase/images/6/6e/Card_illust_123.png/revision/latest?cb=20250825125230",
+   "https://static.wikia.nocookie.net/breakmycase/images/5/53/Card_illust_124.png/revision/latest?cb=20250825130440",
+   "https://static.wikia.nocookie.net/breakmycase/images/9/92/Card_illust_125.png/revision/latest?cb=20250825130801"
+  ],
+  "article": "articles/%28Special%20Task%29%20Prequel-%20Homeward%20in%20the%20Twilight.html",
+  "subs": {
+   "Event Story": "articles/%28Special%20Task%29%20Prequel-%20Homeward%20in%20the%20Twilight__Event%20Story.html",
+   "Gacha": "articles/%28Special%20Task%29%20Prequel-%20Homeward%20in%20the%20Twilight__Gacha.html"
+  }
+ },
+ {
+  "id": 12,
+  "kind": "Prequel",
+  "title": "(Admin) Prequel: Pale Sunlight on Deep Snow",
+  "name": "Pale Sunlight on Deep Snow",
+  "kanji": "Prequel 深雪に差す薄日",
+  "start": "2024-11-18",
+  "start_disp": "2024.11.18",
+  "end": "2024-12-02",
+  "end_disp": "2024.12.02",
+  "dept": "adm",
+  "attribute": "star",
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/1/14/BMC_E12_Banner.png/revision/latest?cb=20250125022621",
+  "song": "Camaraderie",
+  "song_artist": "Isamu Ohira",
+  "chars": [
+   {
+    "code": "yuragi",
+    "name": "Yuragi Kanno",
+    "href": "articles/Yuragi%20Kanno.html",
+    "voices": []
+   },
+   {
+    "code": "taiga",
+    "name": "Taiga Tsukimoto",
+    "href": "articles/Taiga%20Tsukimoto.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/9/98/Sample-tsukimoto-1.ogg/revision/latest?cb=20241102015643",
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f8/Sample-tsukimoto-2.ogg/revision/latest?cb=20241102015656",
+     "https://static.wikia.nocookie.net/breakmycase/images/7/78/Sample-tsukimoto-3.ogg/revision/latest?cb=20241102015713"
+    ]
+   },
+   {
+    "code": "haruhi",
+    "name": "Haruhi Ichikawa",
+    "href": "articles/Haruhi%20Ichikawa.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/6/62/Sample-ichikawa-1.ogg/revision/latest?cb=20241102015610",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/19/Sample-ichikawa-2.ogg/revision/latest?cb=20241102015618",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/89/Sample-ichikawa-3.ogg/revision/latest?cb=20241102015629"
+    ]
+   },
+   {
+    "code": "urara",
+    "name": "Urara Manami",
+    "href": "articles/Urara%20Manami.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8f/Sample-manami-1.ogg/revision/latest?cb=20241102024423",
+     "https://static.wikia.nocookie.net/breakmycase/images/9/9a/Sample-manami-2.ogg/revision/latest?cb=20241102024432",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/35/Sample-manami-3.ogg/revision/latest?cb=20241102024441"
+    ]
+   },
+   {
+    "code": "shizuka",
+    "name": "Shizuka Fushimi",
+    "href": "articles/Shizuka%20Fushimi.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a8/Sample-fushimi-1.ogg/revision/latest?cb=20241102021350",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/11/Sample-fushimi-2.ogg/revision/latest?cb=20241102021403",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-fushimi-3.ogg/revision/latest?cb=20241102021413"
+    ]
+   },
+   {
+    "code": "sei",
+    "name": "Sei Okiya",
+    "href": "articles/Sei%20Okiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/1/13/Sample-okiya-1.ogg/revision/latest?cb=20241102013354",
+     "https://static.wikia.nocookie.net/breakmycase/images/5/56/Sample-okiya-2.ogg/revision/latest?cb=20241102013408",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a0/Sample-okiya-3.ogg/revision/latest?cb=20241102013420"
+    ]
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/4/4a/Card_illust_145.png/revision/latest?cb=20250825140847",
+   "https://static.wikia.nocookie.net/breakmycase/images/9/93/Card_illust_146.png/revision/latest?cb=20250825140850",
+   "https://static.wikia.nocookie.net/breakmycase/images/e/e5/Card_illust_147.png/revision/latest?cb=20250825140855",
+   "https://static.wikia.nocookie.net/breakmycase/images/3/32/Card_illust_149.png/revision/latest?cb=20250825140859"
+  ],
+  "article": "articles/%28Admin%29%20Prequel-%20Pale%20Sunlight%20on%20Deep%20Snow.html",
+  "subs": {
+   "Event Story": "articles/%28Admin%29%20Prequel-%20Pale%20Sunlight%20on%20Deep%20Snow__Event%20Story.html",
+   "Gacha": "articles/%28Admin%29%20Prequel-%20Pale%20Sunlight%20on%20Deep%20Snow__Gacha.html"
+  }
+ },
+ {
+  "id": 13,
+  "kind": null,
+  "title": "Blessings -On the Wish Descending Holy Night-",
+  "name": "Blessings -On the Wish Descending Holy Night-",
+  "kanji": "Blessings 願い降る聖夜に",
+  "start": "2024-12-10",
+  "start_disp": "2024.12.10",
+  "end": "2024-12-25",
+  "end_disp": "2024.12.25",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/5/51/BMC_E13_Banner.png/revision/latest?cb=20250125022633",
+  "song": "Snowy Nights, Glowing Lights",
+  "song_artist": "Yamajet",
+  "chars": [
+   {
+    "code": "ai",
+    "name": "Ai Kosaka",
+    "href": "articles/Ai%20Kosaka.html",
+    "voices": []
+   },
+   {
+    "code": "kyoya",
+    "name": "Kyoya Shido",
+    "href": "articles/Kyoya%20Shido.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8d/Sample-shido-1.ogg/revision/latest?cb=20241102015444",
+     "https://static.wikia.nocookie.net/breakmycase/images/b/b3/Sample-shido-2.ogg/revision/latest?cb=20241102015454",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ef/Sample-shido-3.ogg/revision/latest?cb=20241102015505"
+    ]
+   },
+   {
+    "code": "riku",
+    "name": "Riku Tateshina",
+    "href": "articles/Riku%20Tateshina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/5/5c/Sample-tateshina-1.ogg/revision/latest?cb=20241102015517",
+     "https://static.wikia.nocookie.net/breakmycase/images/7/72/Sample-tateshina-2.ogg/revision/latest?cb=20241102015538",
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Sample-tateshina-3.ogg/revision/latest?cb=20241102015552"
+    ]
+   },
+   {
+    "code": "tomose",
+    "name": "Tomose Onda",
+    "href": "articles/Tomose%20Onda.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/5/57/Sample-onda-1.ogg/revision/latest?cb=20241102024130",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/3c/Sample-onda-2.ogg/revision/latest?cb=20241102024139",
+     "https://static.wikia.nocookie.net/breakmycase/images/d/d6/Sample-onda-3.ogg/revision/latest?cb=20241102024148"
+    ]
+   },
+   {
+    "code": "akehoshi",
+    "name": "Akehoshi Hinomiya",
+    "href": "articles/Akehoshi%20Hinomiya.html",
+    "voices": []
+   },
+   {
+    "code": "kamiya",
+    "name": "Kamiya",
+    "href": "articles/Kamiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/e/e3/Sample-kamiya-1.ogg/revision/latest?cb=20241102024327",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/12/Sample-kamiya-2.ogg/revision/latest?cb=20241102024336",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a4/Sample-kamiya-3.ogg/revision/latest?cb=20241102024345"
+    ]
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/a/a5/Card_illust_154.png/revision/latest?cb=20250825144133",
+   "https://static.wikia.nocookie.net/breakmycase/images/a/a5/Card_illust_155.png/revision/latest?cb=20250825144138",
+   "https://static.wikia.nocookie.net/breakmycase/images/f/f5/Card_illust_156.png/revision/latest?cb=20250825144143",
+   "https://static.wikia.nocookie.net/breakmycase/images/6/6b/Card_illust_157.png/revision/latest?cb=20250825144149"
+  ],
+  "article": "articles/Blessings%20-On%20the%20Wish%20Descending%20Holy%20Night-.html",
+  "subs": {
+   "Event Story": "articles/Blessings%20-On%20the%20Wish%20Descending%20Holy%20Night-__Event%20Story.html",
+   "Gacha": "articles/Blessings%20-On%20the%20Wish%20Descending%20Holy%20Night-__Gacha.html"
+  }
+ },
+ {
+  "id": 15,
+  "kind": null,
+  "title": "Happy New Year: Commissions Begin in a Brand New Year",
+  "name": "Happy New Year: Commissions Begin in a Brand New Year",
+  "kanji": "迎春 新年依頼はじめ",
+  "start": "2025-01-06",
+  "start_disp": "2025.01.06",
+  "end": "2025-01-20",
+  "end_disp": "2025.01.20",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/c/c1/BMC_E15_Banner.png/revision/latest?cb=20250125022653",
+  "song": "Hi-No-De",
+  "song_artist": "y0c1e",
+  "chars": [
+   {
+    "code": "sei",
+    "name": "Sei Okiya",
+    "href": "articles/Sei%20Okiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/1/13/Sample-okiya-1.ogg/revision/latest?cb=20241102013354",
+     "https://static.wikia.nocookie.net/breakmycase/images/5/56/Sample-okiya-2.ogg/revision/latest?cb=20241102013408",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a0/Sample-okiya-3.ogg/revision/latest?cb=20241102013420"
+    ]
+   },
+   {
+    "code": "shizuka",
+    "name": "Shizuka Fushimi",
+    "href": "articles/Shizuka%20Fushimi.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a8/Sample-fushimi-1.ogg/revision/latest?cb=20241102021350",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/11/Sample-fushimi-2.ogg/revision/latest?cb=20241102021403",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-fushimi-3.ogg/revision/latest?cb=20241102021413"
+    ]
+   },
+   {
+    "code": "soyogu",
+    "name": "Soyogu Shinkai",
+    "href": "articles/Soyogu%20Shinkai.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/1/1e/Sample-shinkai-1.ogg/revision/latest?cb=20241102021424",
+     "https://static.wikia.nocookie.net/breakmycase/images/9/92/Sample-shinkai-2.ogg/revision/latest?cb=20241102021434",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/34/Sample-shinkai-3.ogg/revision/latest?cb=20241102021444"
+    ]
+   },
+   {
+    "code": "kiho",
+    "name": "Kiho Arima",
+    "href": "articles/Kiho%20Arima.html",
+    "voices": []
+   },
+   {
+    "code": "taiga",
+    "name": "Taiga Tsukimoto",
+    "href": "articles/Taiga%20Tsukimoto.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/9/98/Sample-tsukimoto-1.ogg/revision/latest?cb=20241102015643",
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f8/Sample-tsukimoto-2.ogg/revision/latest?cb=20241102015656",
+     "https://static.wikia.nocookie.net/breakmycase/images/7/78/Sample-tsukimoto-3.ogg/revision/latest?cb=20241102015713"
+    ]
+   },
+   {
+    "code": "takeru",
+    "name": "Takeru Mikado",
+    "href": "articles/Takeru%20Mikado.html",
+    "voices": []
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/3/38/Card_illust_163.png/revision/latest?cb=20250919071501",
+   "https://static.wikia.nocookie.net/breakmycase/images/9/9d/Card_illust_164.png/revision/latest?cb=20250918023125",
+   "https://static.wikia.nocookie.net/breakmycase/images/6/64/Card_illust_165.png/revision/latest?cb=20250918034119",
+   "https://static.wikia.nocookie.net/breakmycase/images/b/bb/Card_illust_167.png/revision/latest?cb=20250917125933",
+   "https://static.wikia.nocookie.net/breakmycase/images/9/94/Card_illust_168.png/revision/latest?cb=20250923073643"
+  ],
+  "article": "articles/Happy%20New%20Year-%20Commissions%20Begin%20in%20a%20Brand%20New%20Year.html",
+  "subs": {
+   "Event Story": "articles/Happy%20New%20Year-%20Commissions%20Begin%20in%20a%20Brand%20New%20Year__Event%20Story.html",
+   "Gacha": "articles/Happy%20New%20Year-%20Commissions%20Begin%20in%20a%20Brand%20New%20Year__Gacha.html"
+  }
+ },
+ {
+  "id": 16,
+  "kind": null,
+  "title": "Lament: Poison to End the Act",
+  "name": "Lament: Poison to End the Act",
+  "kanji": "Lament 幕切れに毒薬を",
+  "start": "2025-01-22",
+  "start_disp": "2025.01.22",
+  "end": "2025-02-04",
+  "end_disp": "2025.02.04",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/5/59/BMC_E16_Banner.png/revision/latest?cb=20250125022800",
+  "song": "Climax",
+  "song_artist": "YiU",
+  "chars": [
+   {
+    "code": "akehoshi",
+    "name": "Akehoshi Hinomiya",
+    "href": "articles/Akehoshi%20Hinomiya.html",
+    "voices": []
+   },
+   {
+    "code": "riku",
+    "name": "Riku Tateshina",
+    "href": "articles/Riku%20Tateshina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/5/5c/Sample-tateshina-1.ogg/revision/latest?cb=20241102015517",
+     "https://static.wikia.nocookie.net/breakmycase/images/7/72/Sample-tateshina-2.ogg/revision/latest?cb=20241102015538",
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Sample-tateshina-3.ogg/revision/latest?cb=20241102015552"
+    ]
+   },
+   {
+    "code": "kamiya",
+    "name": "Kamiya",
+    "href": "articles/Kamiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/e/e3/Sample-kamiya-1.ogg/revision/latest?cb=20241102024327",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/12/Sample-kamiya-2.ogg/revision/latest?cb=20241102024336",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a4/Sample-kamiya-3.ogg/revision/latest?cb=20241102024345"
+    ]
+   },
+   {
+    "code": "shinobu",
+    "name": "Shinobu Aizawa",
+    "href": "articles/Shinobu%20Aizawa.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0a/Sample-aizawa-1.ogg/revision/latest?cb=20241102021459",
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Sample-aizawa-2.ogg/revision/latest?cb=20241102021511",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8d/Sample-aizawa-3.ogg/revision/latest?cb=20241102021520"
+    ]
+   },
+   {
+    "code": "kiho",
+    "name": "Kiho Arima",
+    "href": "articles/Kiho%20Arima.html",
+    "voices": []
+   },
+   {
+    "code": "kou",
+    "name": "Kou Ayato",
+    "href": "articles/Kou%20Ayato.html",
+    "voices": []
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/4/49/Card_illust_170.png/revision/latest?cb=20251102030210",
+   "https://static.wikia.nocookie.net/breakmycase/images/8/89/Card_illust_171.png/revision/latest?cb=20251102025344",
+   "https://static.wikia.nocookie.net/breakmycase/images/0/03/Card_illust_172.png/revision/latest?cb=20251101140402",
+   "https://static.wikia.nocookie.net/breakmycase/images/d/de/Card_illust_174.png/revision/latest?cb=20251101141225",
+   "https://static.wikia.nocookie.net/breakmycase/images/f/fb/Card_illust_175.png/revision/latest?cb=20250917130311"
+  ],
+  "article": "articles/Lament-%20Poison%20to%20End%20the%20Act.html",
+  "subs": {
+   "Event Story": "articles/Lament-%20Poison%20to%20End%20the%20Act__Event%20Story.html",
+   "Gacha": "articles/Lament-%20Poison%20to%20End%20the%20Act__Gacha.html"
+  }
+ },
+ {
+  "id": 17,
+  "kind": "Prequel",
+  "title": "(Main Office) Prequel: Dinner Beneath the Waxing Moon",
+  "name": "Dinner Beneath the Waxing Moon",
+  "kanji": "Prequel 幾望の晩餐",
+  "start": "2025-02-07",
+  "start_disp": "2025.02.07",
+  "end": "2025-02-21",
+  "end_disp": "2025.02.21",
+  "dept": "mo",
+  "attribute": "Moon",
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/8/8f/BMC_E17_Banner.png/revision/latest?cb=20250215200236",
+  "song": "Waterflower",
+  "song_artist": "Dirty Androids",
+  "chars": [
+   {
+    "code": "ai",
+    "name": "Ai Kosaka",
+    "href": "articles/Ai%20Kosaka.html",
+    "voices": []
+   },
+   {
+    "code": "roka",
+    "name": "Roka Suoh",
+    "href": "articles/Roka%20Suoh.html",
+    "voices": []
+   },
+   {
+    "code": "kiho",
+    "name": "Kiho Arima",
+    "href": "articles/Kiho%20Arima.html",
+    "voices": []
+   },
+   {
+    "code": "akehoshi",
+    "name": "Akehoshi Hinomiya",
+    "href": "articles/Akehoshi%20Hinomiya.html",
+    "voices": []
+   },
+   {
+    "code": "yu",
+    "name": "Yu Nina",
+    "href": "articles/Yu%20Nina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f7/Sample-nina-1.ogg/revision/latest?cb=20241102024201",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-nina-2.ogg/revision/latest?cb=20241102024306",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8c/Sample-nina-3.ogg/revision/latest?cb=20241102024317"
+    ]
+   },
+   {
+    "code": "yuzuru",
+    "name": "Yuzuru Kise",
+    "href": "articles/Yuzuru%20Kise.html",
+    "voices": []
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/1/14/Card_illust_177.png/revision/latest?cb=20251028085848",
+   "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Card_illust_178.png/revision/latest?cb=20251029144345",
+   "https://static.wikia.nocookie.net/breakmycase/images/8/84/Card_illust_179.png/revision/latest?cb=20251101033402",
+   "https://static.wikia.nocookie.net/breakmycase/images/a/ac/Card_illust_181.png/revision/latest?cb=20251029143315",
+   "https://static.wikia.nocookie.net/breakmycase/images/5/54/Card_illust_182.png/revision/latest?cb=20251028122827"
+  ],
+  "article": "articles/%28Main%20Office%29%20Prequel-%20Dinner%20Beneath%20the%20Waxing%20Moon.html",
+  "subs": {
+   "Event Story": "articles/%28Main%20Office%29%20Prequel-%20Dinner%20Beneath%20the%20Waxing%20Moon__Event%20Story.html",
+   "Gacha": "articles/%28Main%20Office%29%20Prequel-%20Dinner%20Beneath%20the%20Waxing%20Moon__Gacha.html"
+  }
+ },
+ {
+  "id": 18,
+  "kind": "Cafe",
+  "title": "Flowers in the Mirror, Town in the Photograph",
+  "name": "Flowers in the Mirror, Town in the Photograph",
+  "kanji": null,
+  "start": "2025-02-22",
+  "start_disp": "2025.02.22",
+  "end": "2025-03-10",
+  "end_disp": "2025.03.10",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/c/c7/BMC_E18_Banner.png/revision/latest?cb=20250426025451",
+  "song": "LIANG'S FAN",
+  "song_artist": "Sondai Nishijima",
+  "chars": [
+   {
+    "code": "kou",
+    "name": "Kou Ayato",
+    "href": "articles/Kou%20Ayato.html",
+    "voices": []
+   },
+   {
+    "code": "sei",
+    "name": "Sei Okiya",
+    "href": "articles/Sei%20Okiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/1/13/Sample-okiya-1.ogg/revision/latest?cb=20241102013354",
+     "https://static.wikia.nocookie.net/breakmycase/images/5/56/Sample-okiya-2.ogg/revision/latest?cb=20241102013408",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a0/Sample-okiya-3.ogg/revision/latest?cb=20241102013420"
+    ]
+   },
+   {
+    "code": "takeru",
+    "name": "Takeru Mikado",
+    "href": "articles/Takeru%20Mikado.html",
+    "voices": []
+   },
+   {
+    "code": "mao",
+    "name": "Mao Ukyo",
+    "href": "articles/Mao%20Ukyo.html",
+    "voices": []
+   },
+   {
+    "code": "shinobu",
+    "name": "Shinobu Aizawa",
+    "href": "articles/Shinobu%20Aizawa.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0a/Sample-aizawa-1.ogg/revision/latest?cb=20241102021459",
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Sample-aizawa-2.ogg/revision/latest?cb=20241102021511",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8d/Sample-aizawa-3.ogg/revision/latest?cb=20241102021520"
+    ]
+   },
+   {
+    "code": "urara",
+    "name": "Urara Manami",
+    "href": "articles/Urara%20Manami.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8f/Sample-manami-1.ogg/revision/latest?cb=20241102024423",
+     "https://static.wikia.nocookie.net/breakmycase/images/9/9a/Sample-manami-2.ogg/revision/latest?cb=20241102024432",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/35/Sample-manami-3.ogg/revision/latest?cb=20241102024441"
+    ]
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/b/b5/Card_illust_184.png/revision/latest?cb=20251102041208",
+   "https://static.wikia.nocookie.net/breakmycase/images/7/7f/Card_illust_185.png/revision/latest?cb=20251102042423",
+   "https://static.wikia.nocookie.net/breakmycase/images/a/a9/Card_illust_186.png/revision/latest?cb=20251102042928",
+   "https://static.wikia.nocookie.net/breakmycase/images/3/33/Card_illust_187.png/revision/latest?cb=20251102043808",
+   "https://static.wikia.nocookie.net/breakmycase/images/2/2c/Card_illust_189.png/revision/latest?cb=20250918040943"
+  ],
+  "article": "articles/Flowers%20in%20the%20Mirror%2C%20Town%20in%20the%20Photograph.html",
+  "subs": {
+   "Event Story": "articles/Flowers%20in%20the%20Mirror%2C%20Town%20in%20the%20Photograph__Event%20Story.html",
+   "Gacha": "articles/Flowers%20in%20the%20Mirror%2C%20Town%20in%20the%20Photograph__Gacha.html"
+  }
+ },
+ {
+  "id": 19,
+  "kind": null,
+  "title": "Threshold, Fun at the Seaside",
+  "name": "Threshold, Fun at the Seaside",
+  "kanji": "Threshold 波打ち際の遊楽",
+  "start": "2025-03-14",
+  "start_disp": "2025.03.14",
+  "end": "2025-03-28",
+  "end_disp": "2025.03.28",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/3/36/BMC_E19_Banner.png/revision/latest?cb=20250426025511",
+  "song": "BRE-MY Shakunetsu RAVE!",
+  "song_artist": "good-cool",
+  "chars": [
+   {
+    "code": "akehoshi",
+    "name": "Akehoshi Hinomiya",
+    "href": "articles/Akehoshi%20Hinomiya.html",
+    "voices": []
+   },
+   {
+    "code": "soyogu",
+    "name": "Soyogu Shinkai",
+    "href": "articles/Soyogu%20Shinkai.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/1/1e/Sample-shinkai-1.ogg/revision/latest?cb=20241102021424",
+     "https://static.wikia.nocookie.net/breakmycase/images/9/92/Sample-shinkai-2.ogg/revision/latest?cb=20241102021434",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/34/Sample-shinkai-3.ogg/revision/latest?cb=20241102021444"
+    ]
+   },
+   {
+    "code": "tomose",
+    "name": "Tomose Onda",
+    "href": "articles/Tomose%20Onda.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/5/57/Sample-onda-1.ogg/revision/latest?cb=20241102024130",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/3c/Sample-onda-2.ogg/revision/latest?cb=20241102024139",
+     "https://static.wikia.nocookie.net/breakmycase/images/d/d6/Sample-onda-3.ogg/revision/latest?cb=20241102024148"
+    ]
+   },
+   {
+    "code": "sei",
+    "name": "Sei Okiya",
+    "href": "articles/Sei%20Okiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/1/13/Sample-okiya-1.ogg/revision/latest?cb=20241102013354",
+     "https://static.wikia.nocookie.net/breakmycase/images/5/56/Sample-okiya-2.ogg/revision/latest?cb=20241102013408",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a0/Sample-okiya-3.ogg/revision/latest?cb=20241102013420"
+    ]
+   },
+   {
+    "code": "ai",
+    "name": "Ai Kosaka",
+    "href": "articles/Ai%20Kosaka.html",
+    "voices": []
+   },
+   {
+    "code": "taiga",
+    "name": "Taiga Tsukimoto",
+    "href": "articles/Taiga%20Tsukimoto.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/9/98/Sample-tsukimoto-1.ogg/revision/latest?cb=20241102015643",
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f8/Sample-tsukimoto-2.ogg/revision/latest?cb=20241102015656",
+     "https://static.wikia.nocookie.net/breakmycase/images/7/78/Sample-tsukimoto-3.ogg/revision/latest?cb=20241102015713"
+    ]
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/b/bf/Card_illust_192.png/revision/latest?cb=20251102080430",
+   "https://static.wikia.nocookie.net/breakmycase/images/6/6c/Card_illust_193.png/revision/latest?cb=20251102081048",
+   "https://static.wikia.nocookie.net/breakmycase/images/3/35/Card_illust_194.png/revision/latest?cb=20251028143532",
+   "https://static.wikia.nocookie.net/breakmycase/images/c/cf/Card_illust_196.png/revision/latest?cb=20251102081819",
+   "https://static.wikia.nocookie.net/breakmycase/images/2/2c/Card_illust_197.png/revision/latest?cb=20250826141809"
+  ],
+  "article": "articles/Threshold%2C%20Fun%20at%20the%20Seaside.html",
+  "subs": {
+   "Event Story": "articles/Threshold%2C%20Fun%20at%20the%20Seaside__Event%20Story.html",
+   "Gacha": "articles/Threshold%2C%20Fun%20at%20the%20Seaside__Gacha.html"
+  }
+ },
+ {
+  "id": 20,
+  "kind": "Cafe",
+  "title": "Coming Up! Assorted Special Menu",
+  "name": "Coming Up! Assorted Special Menu",
+  "kanji": null,
+  "start": "2025-03-31",
+  "start_disp": "2025.03.31",
+  "end": "2025-04-16",
+  "end_disp": "2025.04.16",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/c/c3/BMC_E20_Banner.png/revision/latest?cb=20250426025520",
+  "song": "Star Boogie",
+  "song_artist": "Dirty Androids",
+  "chars": [
+   {
+    "code": "yuzuru",
+    "name": "Yuzuru Kise",
+    "href": "articles/Yuzuru%20Kise.html",
+    "voices": []
+   },
+   {
+    "code": "yuragi",
+    "name": "Yuragi Kanno",
+    "href": "articles/Yuragi%20Kanno.html",
+    "voices": []
+   },
+   {
+    "code": "yu",
+    "name": "Yu Nina",
+    "href": "articles/Yu%20Nina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f7/Sample-nina-1.ogg/revision/latest?cb=20241102024201",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-nina-2.ogg/revision/latest?cb=20241102024306",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8c/Sample-nina-3.ogg/revision/latest?cb=20241102024317"
+    ]
+   },
+   {
+    "code": "kou",
+    "name": "Kou Ayato",
+    "href": "articles/Kou%20Ayato.html",
+    "voices": []
+   },
+   {
+    "code": "tomose",
+    "name": "Tomose Onda",
+    "href": "articles/Tomose%20Onda.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/5/57/Sample-onda-1.ogg/revision/latest?cb=20241102024130",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/3c/Sample-onda-2.ogg/revision/latest?cb=20241102024139",
+     "https://static.wikia.nocookie.net/breakmycase/images/d/d6/Sample-onda-3.ogg/revision/latest?cb=20241102024148"
+    ]
+   },
+   {
+    "code": "roka",
+    "name": "Roka Suoh",
+    "href": "articles/Roka%20Suoh.html",
+    "voices": []
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/1/13/Card_illust_199.png/revision/latest?cb=20251102083732",
+   "https://static.wikia.nocookie.net/breakmycase/images/0/06/Card_illust_200.png/revision/latest?cb=20251102084655",
+   "https://static.wikia.nocookie.net/breakmycase/images/b/b7/Card_illust_201.png/revision/latest?cb=20251102085239",
+   "https://static.wikia.nocookie.net/breakmycase/images/7/7f/Card_illust_203.png/revision/latest?cb=20251102090528",
+   "https://static.wikia.nocookie.net/breakmycase/images/3/31/Card_illust_204.png/revision/latest?cb=20250918165004"
+  ],
+  "article": "articles/Coming%20Up%21%20Assorted%20Special%20Menu.html",
+  "subs": {
+   "Event Story": "articles/Coming%20Up%21%20Assorted%20Special%20Menu__Event%20Story.html",
+   "Gacha": "articles/Coming%20Up%21%20Assorted%20Special%20Menu__Gacha.html"
+  }
+ },
+ {
+  "id": 21,
+  "kind": "Prequel",
+  "title": "(Negotiation) Prequel: Eyes Lifted to the Foundation",
+  "name": "Eyes Lifted to the Foundation",
+  "kanji": "Prequel 礎を仰ぐ瞳",
+  "start": "2025-04-17",
+  "start_disp": "2025.04.17",
+  "end": "2025-04-30",
+  "end_disp": "2025.04.30",
+  "dept": "nego",
+  "attribute": "moon",
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/f/f9/BMC_E21_Banner.png/revision/latest?cb=20250426025532",
+  "song": "Chelem",
+  "song_artist": "Feryquitous",
+  "chars": [
+   {
+    "code": "roka",
+    "name": "Roka Suoh",
+    "href": "articles/Roka%20Suoh.html",
+    "voices": []
+   },
+   {
+    "code": "kiho",
+    "name": "Kiho Arima",
+    "href": "articles/Kiho%20Arima.html",
+    "voices": []
+   },
+   {
+    "code": "kyoya",
+    "name": "Kyoya Shido",
+    "href": "articles/Kyoya%20Shido.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8d/Sample-shido-1.ogg/revision/latest?cb=20241102015444",
+     "https://static.wikia.nocookie.net/breakmycase/images/b/b3/Sample-shido-2.ogg/revision/latest?cb=20241102015454",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ef/Sample-shido-3.ogg/revision/latest?cb=20241102015505"
+    ]
+   },
+   {
+    "code": "haruhi",
+    "name": "Haruhi Ichikawa",
+    "href": "articles/Haruhi%20Ichikawa.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/6/62/Sample-ichikawa-1.ogg/revision/latest?cb=20241102015610",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/19/Sample-ichikawa-2.ogg/revision/latest?cb=20241102015618",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/89/Sample-ichikawa-3.ogg/revision/latest?cb=20241102015629"
+    ]
+   },
+   {
+    "code": "riku",
+    "name": "Riku Tateshina",
+    "href": "articles/Riku%20Tateshina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/5/5c/Sample-tateshina-1.ogg/revision/latest?cb=20241102015517",
+     "https://static.wikia.nocookie.net/breakmycase/images/7/72/Sample-tateshina-2.ogg/revision/latest?cb=20241102015538",
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Sample-tateshina-3.ogg/revision/latest?cb=20241102015552"
+    ]
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/4/45/Card_illust_206.png/revision/latest?cb=20251029145233",
+   "https://static.wikia.nocookie.net/breakmycase/images/d/dd/Card_illust_207.png/revision/latest?cb=20251101034841",
+   "https://static.wikia.nocookie.net/breakmycase/images/6/60/Card_illust_208.png/revision/latest?cb=20251101035821",
+   "https://static.wikia.nocookie.net/breakmycase/images/7/79/Card_illust_209.png/revision/latest?cb=20251101040542",
+   "https://static.wikia.nocookie.net/breakmycase/images/e/ec/Card_illust_211.png/revision/latest?cb=20250923085110"
+  ],
+  "article": "articles/%28Negotiation%29%20Prequel-%20Eyes%20Lifted%20to%20the%20Foundation.html",
+  "subs": {
+   "Event Story": "articles/%28Negotiation%29%20Prequel-%20Eyes%20Lifted%20to%20the%20Foundation__Event%20Story.html",
+   "Gacha": "articles/%28Negotiation%29%20Prequel-%20Eyes%20Lifted%20to%20the%20Foundation__Gacha.html"
+  }
+ },
+ {
+  "id": 23,
+  "kind": "Cafe",
+  "title": "Blooming, When the Garden Lights Up at Nights",
+  "name": "Blooming, When the Garden Lights Up at Nights",
+  "kanji": null,
+  "start": "2025-05-22",
+  "start_disp": "2025.05.22",
+  "end": "2025-06-07",
+  "end_disp": "2025.06.07",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/9/98/BMC_E23_Banner.png/revision/latest?cb=20250731190626",
+  "song": "Brísa de Noche",
+  "song_artist": "Maki Mannami",
+  "chars": [
+   {
+    "code": "yuzuru",
+    "name": "Yuzuru Kise",
+    "href": "articles/Yuzuru%20Kise.html",
+    "voices": []
+   },
+   {
+    "code": "yuragi",
+    "name": "Yuragi Kanno",
+    "href": "articles/Yuragi%20Kanno.html",
+    "voices": []
+   },
+   {
+    "code": "yu",
+    "name": "Yu Nina",
+    "href": "articles/Yu%20Nina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f7/Sample-nina-1.ogg/revision/latest?cb=20241102024201",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-nina-2.ogg/revision/latest?cb=20241102024306",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8c/Sample-nina-3.ogg/revision/latest?cb=20241102024317"
+    ]
+   },
+   {
+    "code": "kou",
+    "name": "Kou Ayato",
+    "href": "articles/Kou%20Ayato.html",
+    "voices": []
+   },
+   {
+    "code": "tomose",
+    "name": "Tomose Onda",
+    "href": "articles/Tomose%20Onda.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/5/57/Sample-onda-1.ogg/revision/latest?cb=20241102024130",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/3c/Sample-onda-2.ogg/revision/latest?cb=20241102024139",
+     "https://static.wikia.nocookie.net/breakmycase/images/d/d6/Sample-onda-3.ogg/revision/latest?cb=20241102024148"
+    ]
+   },
+   {
+    "code": "roka",
+    "name": "Roka Suoh",
+    "href": "articles/Roka%20Suoh.html",
+    "voices": []
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/5/5b/Card_illust_234.png/revision/latest?cb=20251031092814",
+   "https://static.wikia.nocookie.net/breakmycase/images/6/6f/Card_illust_235.png/revision/latest?cb=20251030023740",
+   "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Card_illust_236.png/revision/latest?cb=20251030024829",
+   "https://static.wikia.nocookie.net/breakmycase/images/4/47/Card_illust_238.png/revision/latest?cb=20250823150738",
+   "https://static.wikia.nocookie.net/breakmycase/images/a/a1/Card_illust_239.png/revision/latest?cb=20250919071536"
+  ],
+  "article": "articles/Blooming%2C%20When%20the%20Garden%20Lights%20Up%20at%20Nights.html",
+  "subs": {
+   "Event Story": "articles/Blooming%2C%20When%20the%20Garden%20Lights%20Up%20at%20Nights__Event%20Story.html",
+   "Gacha": "articles/Blooming%2C%20When%20the%20Garden%20Lights%20Up%20at%20Nights__Gacha.html"
+  }
+ },
+ {
+  "id": 24,
+  "kind": null,
+  "title": "Bouquet Prayer: Happily Ever After",
+  "name": "Bouquet Prayer: Happily Ever After",
+  "kanji": "花束に祈る Happily Ever After",
+  "start": "2025-06-10",
+  "start_disp": "2025.06.10",
+  "end": "2025-06-23",
+  "end_disp": "2025.06.23",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/c/c0/BMC_E24_Banner.png/revision/latest?cb=20250731190705",
+  "song": "cupido",
+  "song_artist": "Cagga",
+  "chars": [
+   {
+    "code": "yuragi",
+    "name": "Yuragi Kanno",
+    "href": "articles/Yuragi%20Kanno.html",
+    "voices": []
+   },
+   {
+    "code": "riku",
+    "name": "Riku Tateshina",
+    "href": "articles/Riku%20Tateshina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/5/5c/Sample-tateshina-1.ogg/revision/latest?cb=20241102015517",
+     "https://static.wikia.nocookie.net/breakmycase/images/7/72/Sample-tateshina-2.ogg/revision/latest?cb=20241102015538",
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Sample-tateshina-3.ogg/revision/latest?cb=20241102015552"
+    ]
+   },
+   {
+    "code": "tomose",
+    "name": "Tomose Onda",
+    "href": "articles/Tomose%20Onda.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/5/57/Sample-onda-1.ogg/revision/latest?cb=20241102024130",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/3c/Sample-onda-2.ogg/revision/latest?cb=20241102024139",
+     "https://static.wikia.nocookie.net/breakmycase/images/d/d6/Sample-onda-3.ogg/revision/latest?cb=20241102024148"
+    ]
+   },
+   {
+    "code": "yuzuru",
+    "name": "Yuzuru Kise",
+    "href": "articles/Yuzuru%20Kise.html",
+    "voices": []
+   },
+   {
+    "code": "mao",
+    "name": "Mao Ukyo",
+    "href": "articles/Mao%20Ukyo.html",
+    "voices": []
+   },
+   {
+    "code": "akehoshi",
+    "name": "Akehoshi Hinomiya",
+    "href": "articles/Akehoshi%20Hinomiya.html",
+    "voices": []
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/5/5d/Card_illust_241.png/revision/latest?cb=20251030020509",
+   "https://static.wikia.nocookie.net/breakmycase/images/5/55/Card_illust_242.png/revision/latest?cb=20251030015959",
+   "https://static.wikia.nocookie.net/breakmycase/images/4/4f/Card_illust_243.png/revision/latest?cb=20251030010148",
+   "https://static.wikia.nocookie.net/breakmycase/images/4/42/Card_illust_244.png/revision/latest?cb=20251030005352"
+  ],
+  "article": "articles/Bouquet%20Prayer-%20Happily%20Ever%20After.html",
+  "subs": {
+   "Event Story": "articles/Bouquet%20Prayer-%20Happily%20Ever%20After__Event%20Story.html",
+   "Gacha": "articles/Bouquet%20Prayer-%20Happily%20Ever%20After__Gacha.html"
+  }
+ },
+ {
+  "id": 25,
+  "kind": "Travelogue",
+  "title": "(Admin) Travelogue: Dream Reflected in Flower Scenery",
+  "name": "Dream Reflected in Flower Scenery",
+  "kanji": "Travelogue 花景色に映る夢",
+  "start": "2025-06-26",
+  "start_disp": "2025.06.26",
+  "end": "2025-07-08",
+  "end_disp": "2025.07.08",
+  "dept": "adm",
+  "attribute": "Sun",
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/f/fd/BMC_E25_Banner.png/revision/latest?cb=20250731191511",
+  "song": "Hydrangea",
+  "song_artist": "tanigon",
+  "chars": [
+   {
+    "code": "haruhi",
+    "name": "Haruhi Ichikawa",
+    "href": "articles/Haruhi%20Ichikawa.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/6/62/Sample-ichikawa-1.ogg/revision/latest?cb=20241102015610",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/19/Sample-ichikawa-2.ogg/revision/latest?cb=20241102015618",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/89/Sample-ichikawa-3.ogg/revision/latest?cb=20241102015629"
+    ]
+   },
+   {
+    "code": "sei",
+    "name": "Sei Okiya",
+    "href": "articles/Sei%20Okiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/1/13/Sample-okiya-1.ogg/revision/latest?cb=20241102013354",
+     "https://static.wikia.nocookie.net/breakmycase/images/5/56/Sample-okiya-2.ogg/revision/latest?cb=20241102013408",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a0/Sample-okiya-3.ogg/revision/latest?cb=20241102013420"
+    ]
+   },
+   {
+    "code": "shizuka",
+    "name": "Shizuka Fushimi",
+    "href": "articles/Shizuka%20Fushimi.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a8/Sample-fushimi-1.ogg/revision/latest?cb=20241102021350",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/11/Sample-fushimi-2.ogg/revision/latest?cb=20241102021403",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-fushimi-3.ogg/revision/latest?cb=20241102021413"
+    ]
+   },
+   {
+    "code": "ai",
+    "name": "Ai Kosaka",
+    "href": "articles/Ai%20Kosaka.html",
+    "voices": []
+   },
+   {
+    "code": "roka",
+    "name": "Roka Suoh",
+    "href": "articles/Roka%20Suoh.html",
+    "voices": []
+   },
+   {
+    "code": "taiga",
+    "name": "Taiga Tsukimoto",
+    "href": "articles/Taiga%20Tsukimoto.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/9/98/Sample-tsukimoto-1.ogg/revision/latest?cb=20241102015643",
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f8/Sample-tsukimoto-2.ogg/revision/latest?cb=20241102015656",
+     "https://static.wikia.nocookie.net/breakmycase/images/7/78/Sample-tsukimoto-3.ogg/revision/latest?cb=20241102015713"
+    ]
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/4/44/Card_illust_248.png/revision/latest?cb=20251029091719",
+   "https://static.wikia.nocookie.net/breakmycase/images/0/0b/Card_illust_249.png/revision/latest?cb=20251029092708",
+   "https://static.wikia.nocookie.net/breakmycase/images/8/8c/Card_illust_250.png/revision/latest?cb=20251029093359",
+   "https://static.wikia.nocookie.net/breakmycase/images/1/10/Card_illust_251.png/revision/latest?cb=20251029093657",
+   "https://static.wikia.nocookie.net/breakmycase/images/3/3b/Card_illust_253.png/revision/latest?cb=20250826133527"
+  ],
+  "article": "articles/%28Admin%29%20Travelogue-%20Dream%20Reflected%20in%20Flower%20Scenery.html",
+  "subs": {
+   "Event Story": "articles/%28Admin%29%20Travelogue-%20Dream%20Reflected%20in%20Flower%20Scenery__Event%20Story.html",
+   "Gacha": "articles/%28Admin%29%20Travelogue-%20Dream%20Reflected%20in%20Flower%20Scenery__Gacha.html"
+  }
+ },
+ {
+  "id": 26,
+  "kind": "Cafe",
+  "title": "Resonance, At an Aquarium Where the Ends Touch",
+  "name": "Resonance, At an Aquarium Where the Ends Touch",
+  "kanji": null,
+  "start": "2025-07-11",
+  "start_disp": "2025.07.11",
+  "end": "2025-07-27",
+  "end_disp": "2025.07.27",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/f/f2/BMC_E26_Banner.png/revision/latest?cb=20250731191548",
+  "song": "watery glow",
+  "song_artist": "YiU",
+  "chars": [
+   {
+    "code": "soyogu",
+    "name": "Soyogu Shinkai",
+    "href": "articles/Soyogu%20Shinkai.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/1/1e/Sample-shinkai-1.ogg/revision/latest?cb=20241102021424",
+     "https://static.wikia.nocookie.net/breakmycase/images/9/92/Sample-shinkai-2.ogg/revision/latest?cb=20241102021434",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/34/Sample-shinkai-3.ogg/revision/latest?cb=20241102021444"
+    ]
+   },
+   {
+    "code": "shinobu",
+    "name": "Shinobu Aizawa",
+    "href": "articles/Shinobu%20Aizawa.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0a/Sample-aizawa-1.ogg/revision/latest?cb=20241102021459",
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Sample-aizawa-2.ogg/revision/latest?cb=20241102021511",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8d/Sample-aizawa-3.ogg/revision/latest?cb=20241102021520"
+    ]
+   },
+   {
+    "code": "yu",
+    "name": "Yu Nina",
+    "href": "articles/Yu%20Nina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f7/Sample-nina-1.ogg/revision/latest?cb=20241102024201",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-nina-2.ogg/revision/latest?cb=20241102024306",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8c/Sample-nina-3.ogg/revision/latest?cb=20241102024317"
+    ]
+   },
+   {
+    "code": "tomose",
+    "name": "Tomose Onda",
+    "href": "articles/Tomose%20Onda.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/5/57/Sample-onda-1.ogg/revision/latest?cb=20241102024130",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/3c/Sample-onda-2.ogg/revision/latest?cb=20241102024139",
+     "https://static.wikia.nocookie.net/breakmycase/images/d/d6/Sample-onda-3.ogg/revision/latest?cb=20241102024148"
+    ]
+   },
+   {
+    "code": "haruhi",
+    "name": "Haruhi Ichikawa",
+    "href": "articles/Haruhi%20Ichikawa.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/6/62/Sample-ichikawa-1.ogg/revision/latest?cb=20241102015610",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/19/Sample-ichikawa-2.ogg/revision/latest?cb=20241102015618",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/89/Sample-ichikawa-3.ogg/revision/latest?cb=20241102015629"
+    ]
+   },
+   {
+    "code": "kamiya",
+    "name": "Kamiya",
+    "href": "articles/Kamiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/e/e3/Sample-kamiya-1.ogg/revision/latest?cb=20241102024327",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/12/Sample-kamiya-2.ogg/revision/latest?cb=20241102024336",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a4/Sample-kamiya-3.ogg/revision/latest?cb=20241102024345"
+    ]
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/3/32/Card_illust_255.png/revision/latest?cb=20251028124141",
+   "https://static.wikia.nocookie.net/breakmycase/images/c/cf/Card_illust_256.png/revision/latest?cb=20251028121834",
+   "https://static.wikia.nocookie.net/breakmycase/images/f/f3/Card_illust_257.png/revision/latest?cb=20251028123850",
+   "https://static.wikia.nocookie.net/breakmycase/images/0/01/Card_illust_258.png/revision/latest?cb=20251028124010",
+   "https://static.wikia.nocookie.net/breakmycase/images/c/c2/Card_illust_260.png/revision/latest?cb=20251028124143"
+  ],
+  "article": "articles/Resonance%2C%20At%20an%20Aquarium%20Where%20the%20Ends%20Touch.html",
+  "subs": {
+   "Event Story": "articles/Resonance%2C%20At%20an%20Aquarium%20Where%20the%20Ends%20Touch__Event%20Story.html",
+   "Gacha": "articles/Resonance%2C%20At%20an%20Aquarium%20Where%20the%20Ends%20Touch__Gacha.html"
+  }
+ },
+ {
+  "id": 28,
+  "kind": null,
+  "title": "Night Out! Neon Sign Illuminated Side Profile",
+  "name": "Night Out! Neon Sign Illuminated Side Profile",
+  "kanji": "Night out! ネオンサインが照らす横顔",
+  "start": "2025-07-30",
+  "start_disp": "2025.07.30",
+  "end": "2025-08-12",
+  "end_disp": "2025.08.12",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/4/45/BMC_E28_Banner.png/revision/latest?cb=20250827130400",
+  "song": "Chill Still Thrill",
+  "song_artist": "MYUKKE.",
+  "chars": [
+   {
+    "code": "yuzuru",
+    "name": "Yuzuru Kise",
+    "href": "articles/Yuzuru%20Kise.html",
+    "voices": []
+   },
+   {
+    "code": "kamiya",
+    "name": "Kamiya",
+    "href": "articles/Kamiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/e/e3/Sample-kamiya-1.ogg/revision/latest?cb=20241102024327",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/12/Sample-kamiya-2.ogg/revision/latest?cb=20241102024336",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a4/Sample-kamiya-3.ogg/revision/latest?cb=20241102024345"
+    ]
+   },
+   {
+    "code": "urara",
+    "name": "Urara Manami",
+    "href": "articles/Urara%20Manami.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8f/Sample-manami-1.ogg/revision/latest?cb=20241102024423",
+     "https://static.wikia.nocookie.net/breakmycase/images/9/9a/Sample-manami-2.ogg/revision/latest?cb=20241102024432",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/35/Sample-manami-3.ogg/revision/latest?cb=20241102024441"
+    ]
+   },
+   {
+    "code": "kyoya",
+    "name": "Kyoya Shido",
+    "href": "articles/Kyoya%20Shido.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8d/Sample-shido-1.ogg/revision/latest?cb=20241102015444",
+     "https://static.wikia.nocookie.net/breakmycase/images/b/b3/Sample-shido-2.ogg/revision/latest?cb=20241102015454",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ef/Sample-shido-3.ogg/revision/latest?cb=20241102015505"
+    ]
+   },
+   {
+    "code": "kou",
+    "name": "Kou Ayato",
+    "href": "articles/Kou%20Ayato.html",
+    "voices": []
+   },
+   {
+    "code": "takeru",
+    "name": "Takeru Mikado",
+    "href": "articles/Takeru%20Mikado.html",
+    "voices": []
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/b/b5/Card_illust_262.png/revision/latest?cb=20251028124149",
+   "https://static.wikia.nocookie.net/breakmycase/images/3/35/Card_illust_263.png/revision/latest?cb=20251028124158",
+   "https://static.wikia.nocookie.net/breakmycase/images/e/eb/Card_illust_264.png/revision/latest?cb=20251028124202",
+   "https://static.wikia.nocookie.net/breakmycase/images/0/0d/Card_illust_266.png/revision/latest?cb=20251028124206",
+   "https://static.wikia.nocookie.net/breakmycase/images/1/18/Card_illust_267.png/revision/latest?cb=20250923043459"
+  ],
+  "article": "articles/Night%20Out%21%20Neon%20Sign%20Illuminated%20Side%20Profile.html",
+  "subs": {
+   "Event Story": "articles/Night%20Out%21%20Neon%20Sign%20Illuminated%20Side%20Profile__Event%20Story.html",
+   "Gacha": "articles/Night%20Out%21%20Neon%20Sign%20Illuminated%20Side%20Profile__Gacha.html"
+  }
+ },
+ {
+  "id": 29,
+  "kind": "Travelogue",
+  "title": "(Simulation) Travelogue: A Gift Unraveled in the Evening Glow",
+  "name": "A Gift Unraveled in the Evening Glow",
+  "kanji": "Travelogue 夕映に解く贈り物",
+  "start": "2025-08-15",
+  "start_disp": "2025.08.15",
+  "end": "2025-08-27",
+  "end_disp": "2025.08.27",
+  "dept": "sim",
+  "attribute": "Star",
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/d/d6/BMC_E29_Banner.png/revision/latest?cb=20250827130936",
+  "song": "nagisa",
+  "song_artist": "Cagga",
+  "chars": [
+   {
+    "code": "kou",
+    "name": "Kou Ayato",
+    "href": "articles/Kou%20Ayato.html",
+    "voices": []
+   },
+   {
+    "code": "akehoshi",
+    "name": "Akehoshi Hinomiya",
+    "href": "articles/Akehoshi%20Hinomiya.html",
+    "voices": []
+   },
+   {
+    "code": "yuragi",
+    "name": "Yuragi Kanno",
+    "href": "articles/Yuragi%20Kanno.html",
+    "voices": []
+   },
+   {
+    "code": "shinobu",
+    "name": "Shinobu Aizawa",
+    "href": "articles/Shinobu%20Aizawa.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0a/Sample-aizawa-1.ogg/revision/latest?cb=20241102021459",
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Sample-aizawa-2.ogg/revision/latest?cb=20241102021511",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8d/Sample-aizawa-3.ogg/revision/latest?cb=20241102021520"
+    ]
+   },
+   {
+    "code": "soyogu",
+    "name": "Soyogu Shinkai",
+    "href": "articles/Soyogu%20Shinkai.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/1/1e/Sample-shinkai-1.ogg/revision/latest?cb=20241102021424",
+     "https://static.wikia.nocookie.net/breakmycase/images/9/92/Sample-shinkai-2.ogg/revision/latest?cb=20241102021434",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/34/Sample-shinkai-3.ogg/revision/latest?cb=20241102021444"
+    ]
+   },
+   {
+    "code": "mao",
+    "name": "Mao Ukyo",
+    "href": "articles/Mao%20Ukyo.html",
+    "voices": []
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Card_illust_269.png/revision/latest?cb=20251028124209",
+   "https://static.wikia.nocookie.net/breakmycase/images/3/3a/Card_illust_270.png/revision/latest?cb=20251028124213",
+   "https://static.wikia.nocookie.net/breakmycase/images/b/b7/Card_illust_271.png/revision/latest?cb=20251028124218",
+   "https://static.wikia.nocookie.net/breakmycase/images/c/c1/Card_illust_273.png/revision/latest?cb=20251028124222",
+   "https://static.wikia.nocookie.net/breakmycase/images/a/a2/Card_illust_274.png/revision/latest?cb=20250918034330"
+  ],
+  "article": "articles/%28Simulation%29%20Travelogue-%20A%20Gift%20Unraveled%20in%20the%20Evening%20Glow.html",
+  "subs": {
+   "Event Story": "articles/%28Simulation%29%20Travelogue-%20A%20Gift%20Unraveled%20in%20the%20Evening%20Glow__Event%20Story.html",
+   "Gacha": "articles/%28Simulation%29%20Travelogue-%20A%20Gift%20Unraveled%20in%20the%20Evening%20Glow__Gacha.html"
+  }
+ },
+ {
+  "id": 30,
+  "kind": null,
+  "title": "Framed in the Gallery",
+  "name": "Framed in the Gallery",
+  "kanji": "Framed in the Gallery",
+  "start": "2025-08-29",
+  "start_disp": "2025.08.29",
+  "end": "2025-09-10",
+  "end_disp": "2025.09.10",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/a/a4/BMC_E30_Banner.png/revision/latest?cb=20250915081555",
+  "song": "Pictures at an Exhibition",
+  "song_artist": "Sondai Nishijima",
+  "chars": [
+   {
+    "code": "shizuka",
+    "name": "Shizuka Fushimi",
+    "href": "articles/Shizuka%20Fushimi.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a8/Sample-fushimi-1.ogg/revision/latest?cb=20241102021350",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/11/Sample-fushimi-2.ogg/revision/latest?cb=20241102021403",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-fushimi-3.ogg/revision/latest?cb=20241102021413"
+    ]
+   },
+   {
+    "code": "takeru",
+    "name": "Takeru Mikado",
+    "href": "articles/Takeru%20Mikado.html",
+    "voices": []
+   },
+   {
+    "code": "kyoya",
+    "name": "Kyoya Shido",
+    "href": "articles/Kyoya%20Shido.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8d/Sample-shido-1.ogg/revision/latest?cb=20241102015444",
+     "https://static.wikia.nocookie.net/breakmycase/images/b/b3/Sample-shido-2.ogg/revision/latest?cb=20241102015454",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ef/Sample-shido-3.ogg/revision/latest?cb=20241102015505"
+    ]
+   },
+   {
+    "code": "haruhi",
+    "name": "Haruhi Ichikawa",
+    "href": "articles/Haruhi%20Ichikawa.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/6/62/Sample-ichikawa-1.ogg/revision/latest?cb=20241102015610",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/19/Sample-ichikawa-2.ogg/revision/latest?cb=20241102015618",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/89/Sample-ichikawa-3.ogg/revision/latest?cb=20241102015629"
+    ]
+   },
+   {
+    "code": "yuzuru",
+    "name": "Yuzuru Kise",
+    "href": "articles/Yuzuru%20Kise.html",
+    "voices": []
+   },
+   {
+    "code": "sei",
+    "name": "Sei Okiya",
+    "href": "articles/Sei%20Okiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/1/13/Sample-okiya-1.ogg/revision/latest?cb=20241102013354",
+     "https://static.wikia.nocookie.net/breakmycase/images/5/56/Sample-okiya-2.ogg/revision/latest?cb=20241102013408",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a0/Sample-okiya-3.ogg/revision/latest?cb=20241102013420"
+    ]
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/a/a9/Card_illust_276.png/revision/latest?cb=20251028124227",
+   "https://static.wikia.nocookie.net/breakmycase/images/0/00/Card_illust_277.png/revision/latest?cb=20251028124235",
+   "https://static.wikia.nocookie.net/breakmycase/images/f/f0/Card_illust_278.png/revision/latest?cb=20251028124241",
+   "https://static.wikia.nocookie.net/breakmycase/images/5/54/Card_illust_279.png/revision/latest?cb=20251028124245",
+   "https://static.wikia.nocookie.net/breakmycase/images/1/12/Card_illust_281.png/revision/latest?cb=20251028124247"
+  ],
+  "article": "articles/Framed%20in%20the%20Gallery.html",
+  "subs": {
+   "Event Story": "articles/Framed%20in%20the%20Gallery__Event%20Story.html",
+   "Gacha": "articles/Framed%20in%20the%20Gallery__Gacha.html"
+  }
+ },
+ {
+  "id": 31,
+  "kind": "Cafe",
+  "title": "For Whom This Unbreakable Riff For",
+  "name": "For Whom This Unbreakable Riff For",
+  "kanji": null,
+  "start": "2025-09-16",
+  "start_disp": "2025.09.16",
+  "end": "2025-10-02",
+  "end_disp": "2025.10.02",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/7/7a/BMC_E31_Banner.png/revision/latest?cb=20251007044615",
+  "song": "unchained",
+  "song_artist": "Dirty Androids",
+  "chars": [
+   {
+    "code": "kiho",
+    "name": "Kiho Arima",
+    "href": "articles/Kiho%20Arima.html",
+    "voices": []
+   },
+   {
+    "code": "tomose",
+    "name": "Tomose Onda",
+    "href": "articles/Tomose%20Onda.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/5/57/Sample-onda-1.ogg/revision/latest?cb=20241102024130",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/3c/Sample-onda-2.ogg/revision/latest?cb=20241102024139",
+     "https://static.wikia.nocookie.net/breakmycase/images/d/d6/Sample-onda-3.ogg/revision/latest?cb=20241102024148"
+    ]
+   },
+   {
+    "code": "urara",
+    "name": "Urara Manami",
+    "href": "articles/Urara%20Manami.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8f/Sample-manami-1.ogg/revision/latest?cb=20241102024423",
+     "https://static.wikia.nocookie.net/breakmycase/images/9/9a/Sample-manami-2.ogg/revision/latest?cb=20241102024432",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/35/Sample-manami-3.ogg/revision/latest?cb=20241102024441"
+    ]
+   },
+   {
+    "code": "mao",
+    "name": "Mao Ukyo",
+    "href": "articles/Mao%20Ukyo.html",
+    "voices": []
+   },
+   {
+    "code": "akehoshi",
+    "name": "Akehoshi Hinomiya",
+    "href": "articles/Akehoshi%20Hinomiya.html",
+    "voices": []
+   },
+   {
+    "code": "soyogu",
+    "name": "Soyogu Shinkai",
+    "href": "articles/Soyogu%20Shinkai.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/1/1e/Sample-shinkai-1.ogg/revision/latest?cb=20241102021424",
+     "https://static.wikia.nocookie.net/breakmycase/images/9/92/Sample-shinkai-2.ogg/revision/latest?cb=20241102021434",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/34/Sample-shinkai-3.ogg/revision/latest?cb=20241102021444"
+    ]
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/b/b6/Card_illust_285.png/revision/latest?cb=20251002132001",
+   "https://static.wikia.nocookie.net/breakmycase/images/9/9a/Card_illust_286.png/revision/latest?cb=20251002125027",
+   "https://static.wikia.nocookie.net/breakmycase/images/3/37/Card_illust_287.png/revision/latest?cb=20251002133318",
+   "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Card_illust_288.png/revision/latest?cb=20251002130640",
+   "https://static.wikia.nocookie.net/breakmycase/images/6/6d/Card_illust_290.png/revision/latest?cb=20250923045019"
+  ],
+  "article": "articles/For%20Whom%20This%20Unbreakable%20Riff%20For.html",
+  "subs": {
+   "Event Story": "articles/For%20Whom%20This%20Unbreakable%20Riff%20For__Event%20Story.html",
+   "Gacha": "articles/For%20Whom%20This%20Unbreakable%20Riff%20For__Gacha.html"
+  }
+ },
+ {
+  "id": 32,
+  "kind": "Travelogue",
+  "title": "(Main Office) Travelogue: Lines Composed on White",
+  "name": "Lines Composed on White",
+  "kanji": "Travelogue 白に綴る線",
+  "start": "2025-10-05",
+  "start_disp": "2025.10.05",
+  "end": "2025-10-17",
+  "end_disp": "2025.10.17",
+  "dept": "mo",
+  "attribute": "Moon",
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/c/cd/BMC_E32_Banner.png/revision/latest?cb=20251007044651",
+  "song": "Spa Vermillion",
+  "song_artist": "tanigon",
+  "chars": [
+   {
+    "code": "ai",
+    "name": "Ai Kosaka",
+    "href": "articles/Ai%20Kosaka.html",
+    "voices": []
+   },
+   {
+    "code": "kise",
+    "name": "Yuzuru Kise",
+    "href": "articles/Yuzuru%20Kise.html",
+    "voices": []
+   },
+   {
+    "code": "riku",
+    "name": "Riku Tateshina",
+    "href": "articles/Riku%20Tateshina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/5/5c/Sample-tateshina-1.ogg/revision/latest?cb=20241102015517",
+     "https://static.wikia.nocookie.net/breakmycase/images/7/72/Sample-tateshina-2.ogg/revision/latest?cb=20241102015538",
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Sample-tateshina-3.ogg/revision/latest?cb=20241102015552"
+    ]
+   },
+   {
+    "code": "yu",
+    "name": "Yu Nina",
+    "href": "articles/Yu%20Nina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f7/Sample-nina-1.ogg/revision/latest?cb=20241102024201",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-nina-2.ogg/revision/latest?cb=20241102024306",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8c/Sample-nina-3.ogg/revision/latest?cb=20241102024317"
+    ]
+   },
+   {
+    "code": "kyoya",
+    "name": "Kyoya Shido",
+    "href": "articles/Kyoya%20Shido.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8d/Sample-shido-1.ogg/revision/latest?cb=20241102015444",
+     "https://static.wikia.nocookie.net/breakmycase/images/b/b3/Sample-shido-2.ogg/revision/latest?cb=20241102015454",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ef/Sample-shido-3.ogg/revision/latest?cb=20241102015505"
+    ]
+   },
+   {
+    "code": "roka",
+    "name": "Roka Suoh",
+    "href": "articles/Roka%20Suoh.html",
+    "voices": []
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/1/1e/Card_illust_293.png/revision/latest?cb=20251028100215",
+   "https://static.wikia.nocookie.net/breakmycase/images/2/22/Card_illust_294.png/revision/latest?cb=20251028100220",
+   "https://static.wikia.nocookie.net/breakmycase/images/b/b8/Card_illust_295.png/revision/latest?cb=20251028100225",
+   "https://static.wikia.nocookie.net/breakmycase/images/4/4b/Card_illust_297.png/revision/latest?cb=20251028100231",
+   "https://static.wikia.nocookie.net/breakmycase/images/e/ef/Card_illust_298.png/revision/latest?cb=20251007144644"
+  ],
+  "article": "articles/%28Main%20Office%29%20Travelogue-%20Lines%20Composed%20on%20White.html",
+  "subs": {
+   "Event Story": "articles/%28Main%20Office%29%20Travelogue-%20Lines%20Composed%20on%20White__Event%20Story.html",
+   "Gacha": "articles/%28Main%20Office%29%20Travelogue-%20Lines%20Composed%20on%20White__Gacha.html"
+  }
+ },
+ {
+  "id": 35,
+  "kind": "Travelogue",
+  "title": "(Special Task) Travelogue: The Path Emerging in the Iridescence",
+  "name": "The Path Emerging in the Iridescence",
+  "kanji": "Travelogue 虹彩に浮かぶ軌跡",
+  "start": "2025-11-16",
+  "start_disp": "2025.11.16",
+  "end": "2025-11-28",
+  "end_disp": "2025.11.28",
+  "dept": "std",
+  "attribute": "star",
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/6/6d/BMC_E35_Banner.png/revision/latest?cb=20251116144950",
+  "song": "Carousel",
+  "song_artist": "YiU",
+  "chars": [
+   {
+    "code": "onda",
+    "name": "Tomose Onda",
+    "href": "articles/Tomose%20Onda.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/5/57/Sample-onda-1.ogg/revision/latest?cb=20241102024130",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/3c/Sample-onda-2.ogg/revision/latest?cb=20241102024139",
+     "https://static.wikia.nocookie.net/breakmycase/images/d/d6/Sample-onda-3.ogg/revision/latest?cb=20241102024148"
+    ]
+   },
+   {
+    "code": "kamiya",
+    "name": "Kamiya",
+    "href": "articles/Kamiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/e/e3/Sample-kamiya-1.ogg/revision/latest?cb=20241102024327",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/12/Sample-kamiya-2.ogg/revision/latest?cb=20241102024336",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a4/Sample-kamiya-3.ogg/revision/latest?cb=20241102024345"
+    ]
+   },
+   {
+    "code": "urara",
+    "name": "Urara Manami",
+    "href": "articles/Urara%20Manami.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8f/Sample-manami-1.ogg/revision/latest?cb=20241102024423",
+     "https://static.wikia.nocookie.net/breakmycase/images/9/9a/Sample-manami-2.ogg/revision/latest?cb=20241102024432",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/35/Sample-manami-3.ogg/revision/latest?cb=20241102024441"
+    ]
+   },
+   {
+    "code": "fushimi",
+    "name": "Shizuka Fushimi",
+    "href": "articles/Shizuka%20Fushimi.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a8/Sample-fushimi-1.ogg/revision/latest?cb=20241102021350",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/11/Sample-fushimi-2.ogg/revision/latest?cb=20241102021403",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-fushimi-3.ogg/revision/latest?cb=20241102021413"
+    ]
+   },
+   {
+    "code": "riku",
+    "name": "Riku Tateshina",
+    "href": "articles/Riku%20Tateshina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/5/5c/Sample-tateshina-1.ogg/revision/latest?cb=20241102015517",
+     "https://static.wikia.nocookie.net/breakmycase/images/7/72/Sample-tateshina-2.ogg/revision/latest?cb=20241102015538",
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Sample-tateshina-3.ogg/revision/latest?cb=20241102015552"
+    ]
+   },
+   {
+    "code": "yu",
+    "name": "Yu Nina",
+    "href": "articles/Yu%20Nina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f7/Sample-nina-1.ogg/revision/latest?cb=20241102024201",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-nina-2.ogg/revision/latest?cb=20241102024306",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8c/Sample-nina-3.ogg/revision/latest?cb=20241102024317"
+    ]
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/3/3b/Card_illust_313.png/revision/latest?cb=20251116154557",
+   "https://static.wikia.nocookie.net/breakmycase/images/d/d9/Card_illust_314.png/revision/latest?cb=20251116154602",
+   "https://static.wikia.nocookie.net/breakmycase/images/5/57/Card_illust_315.png/revision/latest?cb=20251116154606",
+   "https://static.wikia.nocookie.net/breakmycase/images/b/b8/Card_illust_316.png/revision/latest?cb=20251116154610",
+   "https://static.wikia.nocookie.net/breakmycase/images/7/77/Card_illust_318.png/revision/latest?cb=20251116154616"
+  ],
+  "article": "articles/%28Special%20Task%29%20Travelogue-%20The%20Path%20Emerging%20in%20the%20Iridescence.html",
+  "subs": {
+   "Event Story": "articles/%28Special%20Task%29%20Travelogue-%20The%20Path%20Emerging%20in%20the%20Iridescence__Event%20Story.html",
+   "Gacha": "articles/%28Special%20Task%29%20Travelogue-%20The%20Path%20Emerging%20in%20the%20Iridescence__Gacha.html"
+  }
+ },
+ {
+  "id": 37,
+  "kind": null,
+  "title": "Wish Come True Under the Twinkling Sacred Tree",
+  "name": "Wish Come True Under the Twinkling Sacred Tree",
+  "kanji": "Wish come true またたく聖樹の下で",
+  "start": "2025-12-19",
+  "start_disp": "2025.12.19",
+  "end": "2025-12-30",
+  "end_disp": "2025.12.30",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/b/b4/BMC_E37_Banner.png/revision/latest?cb=20251219141712",
+  "song": "Fiésta Santa",
+  "song_artist": "Maki Mannami",
+  "chars": [
+   {
+    "code": "kise",
+    "name": "Yuzuru Kise",
+    "href": "articles/Yuzuru%20Kise.html",
+    "voices": []
+   },
+   {
+    "code": "taiga",
+    "name": "Taiga Tsukimoto",
+    "href": "articles/Taiga%20Tsukimoto.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/9/98/Sample-tsukimoto-1.ogg/revision/latest?cb=20241102015643",
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f8/Sample-tsukimoto-2.ogg/revision/latest?cb=20241102015656",
+     "https://static.wikia.nocookie.net/breakmycase/images/7/78/Sample-tsukimoto-3.ogg/revision/latest?cb=20241102015713"
+    ]
+   },
+   {
+    "code": "kiho",
+    "name": "Kiho Arima",
+    "href": "articles/Kiho%20Arima.html",
+    "voices": []
+   },
+   {
+    "code": "yuragi",
+    "name": "Yuragi Kanno",
+    "href": "articles/Yuragi%20Kanno.html",
+    "voices": []
+   },
+   {
+    "code": "urara",
+    "name": "Urara Manami",
+    "href": "articles/Urara%20Manami.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8f/Sample-manami-1.ogg/revision/latest?cb=20241102024423",
+     "https://static.wikia.nocookie.net/breakmycase/images/9/9a/Sample-manami-2.ogg/revision/latest?cb=20241102024432",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/35/Sample-manami-3.ogg/revision/latest?cb=20241102024441"
+    ]
+   },
+   {
+    "code": "kou",
+    "name": "Kou Ayato",
+    "href": "articles/Kou%20Ayato.html",
+    "voices": []
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/9/9e/Card_illust_328.png/revision/latest?cb=20251219140427",
+   "https://static.wikia.nocookie.net/breakmycase/images/d/d6/Card_illust_329.png/revision/latest?cb=20251219140423",
+   "https://static.wikia.nocookie.net/breakmycase/images/5/57/Card_illust_330.png/revision/latest?cb=20251219140408",
+   "https://static.wikia.nocookie.net/breakmycase/images/f/f2/Card_illust_332.png/revision/latest?cb=20251219140432",
+   "https://static.wikia.nocookie.net/breakmycase/images/a/a9/Card_illust_333.png/revision/latest?cb=20251219140434"
+  ],
+  "article": "articles/Wish%20Come%20True%20Under%20the%20Twinkling%20Sacred%20Tree.html",
+  "subs": {
+   "Event Story": "articles/Wish%20Come%20True%20Under%20the%20Twinkling%20Sacred%20Tree__Event%20Story.html",
+   "Gacha": "articles/Wish%20Come%20True%20Under%20the%20Twinkling%20Sacred%20Tree__Gacha.html"
+  }
+ },
+ {
+  "id": 39,
+  "kind": "Cafe",
+  "title": "Fav'ulous Curated Collection with ZOZOTOWN",
+  "name": "Fav'ulous Curated Collection with ZOZOTOWN",
+  "kanji": "Favで溢れる キュレーテッド・コレクション with ZOZOTOWN",
+  "start": "2026-01-09",
+  "start_disp": "2026.01.09",
+  "end": "2026-01-25",
+  "end_disp": "2026.01.25",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/8/8c/BMC_E39_Banner.png/revision/latest?cb=20260611123638",
+  "song": "Window Shopping",
+  "song_artist": "Keita Imai",
+  "chars": [
+   {
+    "code": "suoh",
+    "name": "Roka Suoh",
+    "href": "articles/Roka%20Suoh.html",
+    "voices": []
+   },
+   {
+    "code": "akehoshi",
+    "name": "Akehoshi Hinomiya",
+    "href": "articles/Akehoshi%20Hinomiya.html",
+    "voices": []
+   },
+   {
+    "code": "haruhi",
+    "name": "Haruhi Ichikawa",
+    "href": "articles/Haruhi%20Ichikawa.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/6/62/Sample-ichikawa-1.ogg/revision/latest?cb=20241102015610",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/19/Sample-ichikawa-2.ogg/revision/latest?cb=20241102015618",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/89/Sample-ichikawa-3.ogg/revision/latest?cb=20241102015629"
+    ]
+   },
+   {
+    "code": "kamiya",
+    "name": "Kamiya",
+    "href": "articles/Kamiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/e/e3/Sample-kamiya-1.ogg/revision/latest?cb=20241102024327",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/12/Sample-kamiya-2.ogg/revision/latest?cb=20241102024336",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a4/Sample-kamiya-3.ogg/revision/latest?cb=20241102024345"
+    ]
+   },
+   {
+    "code": "shinobu",
+    "name": "Shinobu Aizawa",
+    "href": "articles/Shinobu%20Aizawa.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0a/Sample-aizawa-1.ogg/revision/latest?cb=20241102021459",
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Sample-aizawa-2.ogg/revision/latest?cb=20241102021511",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8d/Sample-aizawa-3.ogg/revision/latest?cb=20241102021520"
+    ]
+   },
+   {
+    "code": "riku",
+    "name": "Riku Tateshina",
+    "href": "articles/Riku%20Tateshina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/5/5c/Sample-tateshina-1.ogg/revision/latest?cb=20241102015517",
+     "https://static.wikia.nocookie.net/breakmycase/images/7/72/Sample-tateshina-2.ogg/revision/latest?cb=20241102015538",
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Sample-tateshina-3.ogg/revision/latest?cb=20241102015552"
+    ]
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/2/23/Card_illust_339.png/revision/latest?cb=20260109143454",
+   "https://static.wikia.nocookie.net/breakmycase/images/8/80/Card_illust_340.png/revision/latest?cb=20260109143255",
+   "https://static.wikia.nocookie.net/breakmycase/images/a/af/Card_illust_341.png/revision/latest?cb=20260109150908",
+   "https://static.wikia.nocookie.net/breakmycase/images/0/0b/Card_illust_343.png/revision/latest?cb=20260109142857",
+   "https://static.wikia.nocookie.net/breakmycase/images/d/de/Card_illust_344.png/revision/latest?cb=20260110001822"
+  ],
+  "article": "articles/Fav%27ulous%20Curated%20Collection%20with%20ZOZOTOWN.html",
+  "subs": {
+   "Event Story": "articles/Fav%27ulous%20Curated%20Collection%20with%20ZOZOTOWN__Event%20Story.html",
+   "Gacha": "articles/Fav%27ulous%20Curated%20Collection%20with%20ZOZOTOWN__Gacha.html"
+  }
+ },
+ {
+  "id": 40,
+  "kind": "Travelogue",
+  "title": "(Watchdogs) Travelogue: Beyond the Overlapping Shadows",
+  "name": "Beyond the Overlapping Shadows",
+  "kanji": "Travelogue 重なる影の先に",
+  "start": "2026-01-28",
+  "start_disp": "2026.01.28",
+  "end": "2026-02-09",
+  "end_disp": "2026.02.09",
+  "dept": "wat",
+  "attribute": "moon",
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/b/bc/BMC_E40_Banner.png/revision/latest?cb=20260131020618",
+  "song": "Untethered",
+  "song_artist": "lapix",
+  "chars": [
+   {
+    "code": "mikado",
+    "name": "Takeru Mikado",
+    "href": "articles/Takeru%20Mikado.html",
+    "voices": []
+   },
+   {
+    "code": "shinkai",
+    "name": "Soyogu Shinkai",
+    "href": "articles/Soyogu%20Shinkai.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/1/1e/Sample-shinkai-1.ogg/revision/latest?cb=20241102021424",
+     "https://static.wikia.nocookie.net/breakmycase/images/9/92/Sample-shinkai-2.ogg/revision/latest?cb=20241102021434",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/34/Sample-shinkai-3.ogg/revision/latest?cb=20241102021444"
+    ]
+   },
+   {
+    "code": "aizawa",
+    "name": "Shinobu Aizawa",
+    "href": "articles/Shinobu%20Aizawa.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0a/Sample-aizawa-1.ogg/revision/latest?cb=20241102021459",
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Sample-aizawa-2.ogg/revision/latest?cb=20241102021511",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8d/Sample-aizawa-3.ogg/revision/latest?cb=20241102021520"
+    ]
+   },
+   {
+    "code": "arima",
+    "name": "Kiho Arima",
+    "href": "articles/Kiho%20Arima.html",
+    "voices": []
+   },
+   {
+    "code": "tsukimoto",
+    "name": "Taiga Tsukimoto",
+    "href": "articles/Taiga%20Tsukimoto.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/9/98/Sample-tsukimoto-1.ogg/revision/latest?cb=20241102015643",
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f8/Sample-tsukimoto-2.ogg/revision/latest?cb=20241102015656",
+     "https://static.wikia.nocookie.net/breakmycase/images/7/78/Sample-tsukimoto-3.ogg/revision/latest?cb=20241102015713"
+    ]
+   },
+   {
+    "code": "fushimi",
+    "name": "Shizuka Fushimi",
+    "href": "articles/Shizuka%20Fushimi.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a8/Sample-fushimi-1.ogg/revision/latest?cb=20241102021350",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/11/Sample-fushimi-2.ogg/revision/latest?cb=20241102021403",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-fushimi-3.ogg/revision/latest?cb=20241102021413"
+    ]
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/7/70/Card_illust_346.png/revision/latest?cb=20260128100943",
+   "https://static.wikia.nocookie.net/breakmycase/images/e/e9/Card_illust_347.png/revision/latest?cb=20260128100949",
+   "https://static.wikia.nocookie.net/breakmycase/images/d/d8/Card_illust_348.png/revision/latest?cb=20260128101010",
+   "https://static.wikia.nocookie.net/breakmycase/images/2/2a/Card_illust_350.png/revision/latest?cb=20260128101019",
+   "https://static.wikia.nocookie.net/breakmycase/images/b/b5/Card_illust_351.png/revision/latest?cb=20260128100918"
+  ],
+  "article": "articles/%28Watchdogs%29%20Travelogue-%20Beyond%20the%20Overlapping%20Shadows.html",
+  "subs": {
+   "Event Story": "articles/%28Watchdogs%29%20Travelogue-%20Beyond%20the%20Overlapping%20Shadows__Event%20Story.html",
+   "Gacha": "articles/%28Watchdogs%29%20Travelogue-%20Beyond%20the%20Overlapping%20Shadows__Gacha.html"
+  }
+ },
+ {
+  "id": 41,
+  "kind": null,
+  "title": "A Fate Imitating Chocolaterie",
+  "name": "A Fate Imitating Chocolaterie",
+  "kanji": "運命に似せた Chocolaterie",
+  "start": "2026-02-12",
+  "start_disp": "2026.02.12",
+  "end": "2026-02-23",
+  "end_disp": "2026.02.23",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/e/ec/BMC_E41_Banner.png/revision/latest?cb=20260213002212",
+  "song": "Love Letter",
+  "song_artist": null,
+  "chars": [
+   {
+    "code": "mao",
+    "name": "Mao Ukyo",
+    "href": "articles/Mao%20Ukyo.html",
+    "voices": []
+   },
+   {
+    "code": "sei",
+    "name": "Sei Okiya",
+    "href": "articles/Sei%20Okiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/1/13/Sample-okiya-1.ogg/revision/latest?cb=20241102013354",
+     "https://static.wikia.nocookie.net/breakmycase/images/5/56/Sample-okiya-2.ogg/revision/latest?cb=20241102013408",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a0/Sample-okiya-3.ogg/revision/latest?cb=20241102013420"
+    ]
+   },
+   {
+    "code": "kamiya",
+    "name": "Kamiya",
+    "href": "articles/Kamiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/e/e3/Sample-kamiya-1.ogg/revision/latest?cb=20241102024327",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/12/Sample-kamiya-2.ogg/revision/latest?cb=20241102024336",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a4/Sample-kamiya-3.ogg/revision/latest?cb=20241102024345"
+    ]
+   },
+   {
+    "code": "yuragi",
+    "name": "Yuragi Kanno",
+    "href": "articles/Yuragi%20Kanno.html",
+    "voices": []
+   },
+   {
+    "code": "kou",
+    "name": "Kou Ayato",
+    "href": "articles/Kou%20Ayato.html",
+    "voices": []
+   },
+   {
+    "code": "kise",
+    "name": "Yuzuru Kise",
+    "href": "articles/Yuzuru%20Kise.html",
+    "voices": []
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/7/76/Card_illust_353.png/revision/latest?cb=20260212121732",
+   "https://static.wikia.nocookie.net/breakmycase/images/a/a4/Card_illust_354.png/revision/latest?cb=20260212121735",
+   "https://static.wikia.nocookie.net/breakmycase/images/b/b0/Card_illust_355.png/revision/latest?cb=20260212121737",
+   "https://static.wikia.nocookie.net/breakmycase/images/3/37/Card_illust_357.png/revision/latest?cb=20260212121741",
+   "https://static.wikia.nocookie.net/breakmycase/images/a/a0/Card_illust_358.png/revision/latest?cb=20260212121742"
+  ],
+  "article": "articles/A%20Fate%20Imitating%20Chocolaterie.html",
+  "subs": {
+   "Event Story": "articles/A%20Fate%20Imitating%20Chocolaterie__Event%20Story.html",
+   "Gacha": "articles/A%20Fate%20Imitating%20Chocolaterie__Gacha.html"
+  }
+ },
+ {
+  "id": 42,
+  "kind": "Cafe",
+  "title": "Converge, Scorched by Radiance",
+  "name": "Converge, Scorched by Radiance",
+  "kanji": "Converge 燦光に焦がされて",
+  "start": "2026-03-02",
+  "start_disp": "2026.03.02",
+  "end": "2026-03-18",
+  "end_disp": "2026.03.18",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/b/ba/BMC_E42_Banner.png/revision/latest?cb=20260302123754",
+  "song": "Radiance",
+  "song_artist": "good-cool",
+  "chars": [
+   {
+    "code": "roka",
+    "name": "Roka Suoh",
+    "href": "articles/Roka%20Suoh.html",
+    "voices": []
+   },
+   {
+    "code": "kou",
+    "name": "Kou Ayato",
+    "href": "articles/Kou%20Ayato.html",
+    "voices": []
+   },
+   {
+    "code": "arima",
+    "name": "Kiho Arima",
+    "href": "articles/Kiho%20Arima.html",
+    "voices": []
+   },
+   {
+    "code": "nina",
+    "name": "Yu Nina",
+    "href": "articles/Yu%20Nina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f7/Sample-nina-1.ogg/revision/latest?cb=20241102024201",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-nina-2.ogg/revision/latest?cb=20241102024306",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8c/Sample-nina-3.ogg/revision/latest?cb=20241102024317"
+    ]
+   },
+   {
+    "code": "mikado",
+    "name": "Takeru Mikado",
+    "href": "articles/Takeru%20Mikado.html",
+    "voices": []
+   },
+   {
+    "code": "akehoshi",
+    "name": "Akehoshi Hinomiya",
+    "href": "articles/Akehoshi%20Hinomiya.html",
+    "voices": []
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/9/9f/Card_illust_360.png/revision/latest?cb=20260302092530",
+   "https://static.wikia.nocookie.net/breakmycase/images/0/0c/Card_illust_361.png/revision/latest?cb=20260302095155",
+   "https://static.wikia.nocookie.net/breakmycase/images/3/3e/Card_illust_362.png/revision/latest?cb=20260302095159",
+   "https://static.wikia.nocookie.net/breakmycase/images/3/3a/Card_illust_364.png/revision/latest?cb=20260302095207",
+   "https://static.wikia.nocookie.net/breakmycase/images/3/34/Card_illust_365.png/revision/latest?cb=20260302095152"
+  ],
+  "article": "articles/Converge%2C%20Scorched%20by%20Radiance.html",
+  "subs": {
+   "Event Story": "articles/Converge%2C%20Scorched%20by%20Radiance__Event%20Story.html",
+   "Gacha": "articles/Converge%2C%20Scorched%20by%20Radiance__Gacha.html"
+  }
+ },
+ {
+  "id": 44,
+  "kind": "Travelogue",
+  "title": "(Negotiation) Travelogue: Memories Tied to the Blue Sea",
+  "name": "Memories Tied to the Blue Sea",
+  "kanji": "Travelogue 蒼海に結ぶ思い出",
+  "start": "2026-04-08",
+  "start_disp": "2026.04.08",
+  "end": "2026-04-20",
+  "end_disp": "2026.04.20",
+  "dept": "nego",
+  "attribute": "sun",
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/a/a8/BMC_E44_Banner.png/revision/latest?cb=20260408151409",
+  "song": "Wanderlogue",
+  "song_artist": "Feryquitous",
+  "chars": [
+   {
+    "code": "mikado",
+    "name": "Takeru Mikado",
+    "href": "articles/Takeru%20Mikado.html",
+    "voices": []
+   },
+   {
+    "code": "shido",
+    "name": "Kyoya Shido",
+    "href": "articles/Kyoya%20Shido.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8d/Sample-shido-1.ogg/revision/latest?cb=20241102015444",
+     "https://static.wikia.nocookie.net/breakmycase/images/b/b3/Sample-shido-2.ogg/revision/latest?cb=20241102015454",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ef/Sample-shido-3.ogg/revision/latest?cb=20241102015505"
+    ]
+   },
+   {
+    "code": "tateshina",
+    "name": "Riku Tateshina",
+    "href": "articles/Riku%20Tateshina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/5/5c/Sample-tateshina-1.ogg/revision/latest?cb=20241102015517",
+     "https://static.wikia.nocookie.net/breakmycase/images/7/72/Sample-tateshina-2.ogg/revision/latest?cb=20241102015538",
+     "https://static.wikia.nocookie.net/breakmycase/images/0/0e/Sample-tateshina-3.ogg/revision/latest?cb=20241102015552"
+    ]
+   },
+   {
+    "code": "suoh",
+    "name": "Roka Suoh",
+    "href": "articles/Roka%20Suoh.html",
+    "voices": []
+   },
+   {
+    "code": "sei",
+    "name": "Sei Okiya",
+    "href": "articles/Sei%20Okiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/1/13/Sample-okiya-1.ogg/revision/latest?cb=20241102013354",
+     "https://static.wikia.nocookie.net/breakmycase/images/5/56/Sample-okiya-2.ogg/revision/latest?cb=20241102013408",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a0/Sample-okiya-3.ogg/revision/latest?cb=20241102013420"
+    ]
+   },
+   {
+    "code": "arima",
+    "name": "Kiho Arima",
+    "href": "articles/Kiho%20Arima.html",
+    "voices": []
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/c/cd/Card_illust_373.png/revision/latest?cb=20260408135447",
+   "https://static.wikia.nocookie.net/breakmycase/images/9/95/Card_illust_374.png/revision/latest?cb=20260408135450",
+   "https://static.wikia.nocookie.net/breakmycase/images/1/1f/Card_illust_375.png/revision/latest?cb=20260408135454",
+   "https://static.wikia.nocookie.net/breakmycase/images/5/51/Card_illust_376.png/revision/latest?cb=20260408135457",
+   "https://static.wikia.nocookie.net/breakmycase/images/1/13/Card_illust_378.png/revision/latest?cb=20260408135443"
+  ],
+  "article": "articles/%28Negotiation%29%20Travelogue-%20Memories%20Tied%20to%20the%20Blue%20Sea.html",
+  "subs": {
+   "Event Story": "articles/%28Negotiation%29%20Travelogue-%20Memories%20Tied%20to%20the%20Blue%20Sea__Event%20Story.html",
+   "Gacha": "articles/%28Negotiation%29%20Travelogue-%20Memories%20Tied%20to%20the%20Blue%20Sea__Gacha.html"
+  }
+ },
+ {
+  "id": 45,
+  "kind": null,
+  "title": "Drowsy Searching All Day",
+  "name": "Drowsy Searching All Day",
+  "kanji": null,
+  "start": "2026-04-20",
+  "start_disp": "2026.04.20",
+  "end": "2026-05-01",
+  "end_disp": "2026.05.01",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/e/ee/BMC_E45_Banner.png/revision/latest?cb=20260421034507",
+  "song": "pajama wonderland",
+  "song_artist": "Alice room",
+  "chars": [
+   {
+    "code": "kanno",
+    "name": "Yuragi Kanno",
+    "href": "articles/Yuragi%20Kanno.html",
+    "voices": []
+   },
+   {
+    "code": "ichikawa",
+    "name": "Haruhi Ichikawa",
+    "href": "articles/Haruhi%20Ichikawa.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/6/62/Sample-ichikawa-1.ogg/revision/latest?cb=20241102015610",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/19/Sample-ichikawa-2.ogg/revision/latest?cb=20241102015618",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/89/Sample-ichikawa-3.ogg/revision/latest?cb=20241102015629"
+    ]
+   },
+   {
+    "code": "manami",
+    "name": "Urara Manami",
+    "href": "articles/Urara%20Manami.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8f/Sample-manami-1.ogg/revision/latest?cb=20241102024423",
+     "https://static.wikia.nocookie.net/breakmycase/images/9/9a/Sample-manami-2.ogg/revision/latest?cb=20241102024432",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/35/Sample-manami-3.ogg/revision/latest?cb=20241102024441"
+    ]
+   },
+   {
+    "code": "kamiya",
+    "name": "Kamiya",
+    "href": "articles/Kamiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/e/e3/Sample-kamiya-1.ogg/revision/latest?cb=20241102024327",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/12/Sample-kamiya-2.ogg/revision/latest?cb=20241102024336",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a4/Sample-kamiya-3.ogg/revision/latest?cb=20241102024345"
+    ]
+   },
+   {
+    "code": "kise",
+    "name": "Yuzuru Kise",
+    "href": "articles/Yuzuru%20Kise.html",
+    "voices": []
+   },
+   {
+    "code": "nina",
+    "name": "Yu Nina",
+    "href": "articles/Yu%20Nina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f7/Sample-nina-1.ogg/revision/latest?cb=20241102024201",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-nina-2.ogg/revision/latest?cb=20241102024306",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8c/Sample-nina-3.ogg/revision/latest?cb=20241102024317"
+    ]
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/9/9b/Card_illust_380.png/revision/latest?cb=20260421015948",
+   "https://static.wikia.nocookie.net/breakmycase/images/e/e4/Card_illust_381.png/revision/latest?cb=20260421015952",
+   "https://static.wikia.nocookie.net/breakmycase/images/9/9e/Card_illust_382.png/revision/latest?cb=20260421015954",
+   "https://static.wikia.nocookie.net/breakmycase/images/4/41/Card_illust_384.png/revision/latest?cb=20260421020000",
+   "https://static.wikia.nocookie.net/breakmycase/images/d/d7/Card_illust_385.png/revision/latest?cb=20260421020003"
+  ],
+  "article": "articles/Drowsy%20Searching%20All%20Day.html",
+  "subs": {
+   "Event Story": "articles/Drowsy%20Searching%20All%20Day__Event%20Story.html",
+   "Gacha": "articles/Drowsy%20Searching%20All%20Day__Gacha.html"
+  }
+ },
+ {
+  "id": 47,
+  "kind": "Cafe",
+  "title": "Place your bets, Turnover Tactics",
+  "name": "Place your bets, Turnover Tactics",
+  "kanji": null,
+  "start": "2026-05-25",
+  "start_disp": "2026.05.25",
+  "end": "2026-06-10",
+  "end_disp": "2026.06.10",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/0/05/BMC_E47_Banner.png/revision/latest?cb=20260525140014",
+  "song": "payback",
+  "song_artist": "Cagga",
+  "chars": [
+   {
+    "code": "kise",
+    "name": "Yuzuru Kise",
+    "href": "articles/Yuzuru%20Kise.html",
+    "voices": []
+   },
+   {
+    "code": "fushimi",
+    "name": "Shizuka Fushimi",
+    "href": "articles/Shizuka%20Fushimi.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a8/Sample-fushimi-1.ogg/revision/latest?cb=20241102021350",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/11/Sample-fushimi-2.ogg/revision/latest?cb=20241102021403",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-fushimi-3.ogg/revision/latest?cb=20241102021413"
+    ]
+   },
+   {
+    "code": "nina",
+    "name": "Yu Nina",
+    "href": "articles/Yu%20Nina.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f7/Sample-nina-1.ogg/revision/latest?cb=20241102024201",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ed/Sample-nina-2.ogg/revision/latest?cb=20241102024306",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8c/Sample-nina-3.ogg/revision/latest?cb=20241102024317"
+    ]
+   },
+   {
+    "code": "shido",
+    "name": "Kyoya Shido",
+    "href": "articles/Kyoya%20Shido.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8d/Sample-shido-1.ogg/revision/latest?cb=20241102015444",
+     "https://static.wikia.nocookie.net/breakmycase/images/b/b3/Sample-shido-2.ogg/revision/latest?cb=20241102015454",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ef/Sample-shido-3.ogg/revision/latest?cb=20241102015505"
+    ]
+   },
+   {
+    "code": "shinkai",
+    "name": "Soyogu Shinkai",
+    "href": "articles/Soyogu%20Shinkai.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/1/1e/Sample-shinkai-1.ogg/revision/latest?cb=20241102021424",
+     "https://static.wikia.nocookie.net/breakmycase/images/9/92/Sample-shinkai-2.ogg/revision/latest?cb=20241102021434",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/34/Sample-shinkai-3.ogg/revision/latest?cb=20241102021444"
+    ]
+   },
+   {
+    "code": "kosaka",
+    "name": "Ai Kosaka",
+    "href": "articles/Ai%20Kosaka.html",
+    "voices": []
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/0/02/Card_illust_408.png/revision/latest?cb=20260525132720",
+   "https://static.wikia.nocookie.net/breakmycase/images/e/e6/Card_illust_409.png/revision/latest?cb=20260525132723",
+   "https://static.wikia.nocookie.net/breakmycase/images/1/13/Card_illust_410.png/revision/latest?cb=20260525132726",
+   "https://static.wikia.nocookie.net/breakmycase/images/5/5e/Card_illust_412.png/revision/latest?cb=20260525132730",
+   "https://static.wikia.nocookie.net/breakmycase/images/4/47/Card_illust_413.png/revision/latest?cb=20260525132731"
+  ],
+  "article": "articles/Place%20your%20bets%2C%20Turnover%20Tactics.html",
+  "subs": {
+   "Event Story": "articles/Place%20your%20bets%2C%20Turnover%20Tactics__Event%20Story.html",
+   "Gacha": "articles/Place%20your%20bets%2C%20Turnover%20Tactics__Gacha.html"
+  }
+ },
+ {
+  "id": 48,
+  "kind": null,
+  "title": "Cherish the Breath of Daily Life",
+  "name": "Cherish the Breath of Daily Life",
+  "kanji": null,
+  "start": "2026-06-11",
+  "start_disp": "2026.06.11",
+  "end": "2026-06-22",
+  "end_disp": "2026.06.22",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/c/c0/BMC_E48_Banner.png/revision/latest?cb=20260611105512",
+  "song": "Goodbye",
+  "song_artist": "tanigon",
+  "chars": [
+   {
+    "code": "ichikawa",
+    "name": "Haruhi Ichikawa",
+    "href": "articles/Haruhi%20Ichikawa.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/6/62/Sample-ichikawa-1.ogg/revision/latest?cb=20241102015610",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/19/Sample-ichikawa-2.ogg/revision/latest?cb=20241102015618",
+     "https://static.wikia.nocookie.net/breakmycase/images/8/89/Sample-ichikawa-3.ogg/revision/latest?cb=20241102015629"
+    ]
+   },
+   {
+    "code": "arima",
+    "name": "Kiho Arima",
+    "href": "articles/Kiho%20Arima.html",
+    "voices": []
+   },
+   {
+    "code": "kamiya",
+    "name": "Kamiya",
+    "href": "articles/Kamiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/e/e3/Sample-kamiya-1.ogg/revision/latest?cb=20241102024327",
+     "https://static.wikia.nocookie.net/breakmycase/images/1/12/Sample-kamiya-2.ogg/revision/latest?cb=20241102024336",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a4/Sample-kamiya-3.ogg/revision/latest?cb=20241102024345"
+    ]
+   },
+   {
+    "code": "tsukimoto",
+    "name": "Taiga Tsukimoto",
+    "href": "articles/Taiga%20Tsukimoto.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/9/98/Sample-tsukimoto-1.ogg/revision/latest?cb=20241102015643",
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f8/Sample-tsukimoto-2.ogg/revision/latest?cb=20241102015656",
+     "https://static.wikia.nocookie.net/breakmycase/images/7/78/Sample-tsukimoto-3.ogg/revision/latest?cb=20241102015713"
+    ]
+   },
+   {
+    "code": "shido",
+    "name": "Kyoya Shido",
+    "href": "articles/Kyoya%20Shido.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8d/Sample-shido-1.ogg/revision/latest?cb=20241102015444",
+     "https://static.wikia.nocookie.net/breakmycase/images/b/b3/Sample-shido-2.ogg/revision/latest?cb=20241102015454",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ef/Sample-shido-3.ogg/revision/latest?cb=20241102015505"
+    ]
+   },
+   {
+    "code": "manami",
+    "name": "Urara Manami",
+    "href": "articles/Urara%20Manami.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8f/Sample-manami-1.ogg/revision/latest?cb=20241102024423",
+     "https://static.wikia.nocookie.net/breakmycase/images/9/9a/Sample-manami-2.ogg/revision/latest?cb=20241102024432",
+     "https://static.wikia.nocookie.net/breakmycase/images/3/35/Sample-manami-3.ogg/revision/latest?cb=20241102024441"
+    ]
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/2/23/Card_illust_415.png/revision/latest?cb=20260611090238",
+   "https://static.wikia.nocookie.net/breakmycase/images/7/75/Card_illust_416.png/revision/latest?cb=20260611090736",
+   "https://static.wikia.nocookie.net/breakmycase/images/0/0c/Card_illust_417.png/revision/latest?cb=20260611090743",
+   "https://static.wikia.nocookie.net/breakmycase/images/4/45/Card_illust_418.png/revision/latest?cb=20260611090747",
+   "https://static.wikia.nocookie.net/breakmycase/images/0/00/Card_illust_420.png/revision/latest?cb=20260611090751"
+  ],
+  "article": "articles/Cherish%20the%20Breath%20of%20Daily%20Life.html",
+  "subs": {
+   "Event Story": "articles/Cherish%20the%20Breath%20of%20Daily%20Life__Event%20Story.html",
+   "Gacha": "articles/Cherish%20the%20Breath%20of%20Daily%20Life__Gacha.html"
+  }
+ },
+ {
+  "id": 50,
+  "kind": "Cafe",
+  "title": "Milky Way, A Promise to Countless Feelings",
+  "name": "Milky Way, A Promise to Countless Feelings",
+  "kanji": null,
+  "start": "2026-07-06",
+  "start_disp": "2026.07.06",
+  "end": "2026-07-22",
+  "end_disp": "2026.07.22",
+  "dept": null,
+  "attribute": null,
+  "banner": "https://static.wikia.nocookie.net/breakmycase/images/5/5b/BMC_E50_Banner.png/revision/latest?cb=20260706131134",
+  "song": "Sidereal",
+  "song_artist": "ensy",
+  "chars": [
+   {
+    "code": "taiga",
+    "name": "Taiga Tsukimoto",
+    "href": "articles/Taiga%20Tsukimoto.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/9/98/Sample-tsukimoto-1.ogg/revision/latest?cb=20241102015643",
+     "https://static.wikia.nocookie.net/breakmycase/images/f/f8/Sample-tsukimoto-2.ogg/revision/latest?cb=20241102015656",
+     "https://static.wikia.nocookie.net/breakmycase/images/7/78/Sample-tsukimoto-3.ogg/revision/latest?cb=20241102015713"
+    ]
+   },
+   {
+    "code": "sei",
+    "name": "Sei Okiya",
+    "href": "articles/Sei%20Okiya.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/1/13/Sample-okiya-1.ogg/revision/latest?cb=20241102013354",
+     "https://static.wikia.nocookie.net/breakmycase/images/5/56/Sample-okiya-2.ogg/revision/latest?cb=20241102013408",
+     "https://static.wikia.nocookie.net/breakmycase/images/a/a0/Sample-okiya-3.ogg/revision/latest?cb=20241102013420"
+    ]
+   },
+   {
+    "code": "kyoya",
+    "name": "Kyoya Shido",
+    "href": "articles/Kyoya%20Shido.html",
+    "voices": [
+     "https://static.wikia.nocookie.net/breakmycase/images/8/8d/Sample-shido-1.ogg/revision/latest?cb=20241102015444",
+     "https://static.wikia.nocookie.net/breakmycase/images/b/b3/Sample-shido-2.ogg/revision/latest?cb=20241102015454",
+     "https://static.wikia.nocookie.net/breakmycase/images/e/ef/Sample-shido-3.ogg/revision/latest?cb=20241102015505"
+    ]
+   },
+   {
+    "code": "kou",
+    "name": "Kou Ayato",
+    "href": "articles/Kou%20Ayato.html",
+    "voices": []
+   },
+   {
+    "code": "yuragi",
+    "name": "Yuragi Kanno",
+    "href": "articles/Yuragi%20Kanno.html",
+    "voices": []
+   },
+   {
+    "code": "kiho",
+    "name": "Kiho Arima",
+    "href": "articles/Kiho%20Arima.html",
+    "voices": []
+   }
+  ],
+  "cards": [
+   "https://static.wikia.nocookie.net/breakmycase/images/6/6b/Card_illust_428.png/revision/latest?cb=20260706121151",
+   "https://static.wikia.nocookie.net/breakmycase/images/7/76/Card_illust_429.png/revision/latest?cb=20260706121153",
+   "https://static.wikia.nocookie.net/breakmycase/images/0/0b/Card_illust_430.png/revision/latest?cb=20260706121157",
+   "https://static.wikia.nocookie.net/breakmycase/images/d/d1/Card_illust_431.png/revision/latest?cb=20260706121200",
+   "https://static.wikia.nocookie.net/breakmycase/images/3/37/Card_illust_433.png/revision/latest?cb=20260706121203"
+  ],
+  "article": "articles/Milky%20Way%2C%20A%20Promise%20to%20Countless%20Feelings.html",
+  "subs": {
+   "Event Story": "articles/Milky%20Way%2C%20A%20Promise%20to%20Countless%20Feelings__Event%20Story.html",
+   "Gacha": "articles/Milky%20Way%2C%20A%20Promise%20to%20Countless%20Feelings__Gacha.html"
+  }
+ }
+]
