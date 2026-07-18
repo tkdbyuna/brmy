@@ -16,10 +16,16 @@
 const DEPT={adm:'Administration',neg:'Negotiation',sim:'Simulation',mof:'Main Office',
   wat:'Watchdogs',spe:'Special Task',stf:'Special Task'};
 const id=parseInt(new URLSearchParams(location.search).get('id'),10);
-fetch('data/events.json').then(r=>r.json()).then(all=>{
+fetch('data/events.json?v='+Date.now()).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status+' loading events.json');return r.json();}).then(all=>{
   const byId={}; all.forEach(e=>byId[e.id]=e);
   const e=byId[id];
-  if(!e){document.getElementById('app').innerHTML='<p class="wrap">Event not found. <a href="index.html">Back to timeline</a></p>';return;}
+  if(!e){document.getElementById('app').innerHTML='<p class="wrap">Event not found (id='+id+'). <a href="index.html">Back to timeline</a></p>';return;}
+  try{ render(e, all); }
+  catch(err){ document.getElementById('app').innerHTML='<p class="wrap">Render error: '+err.message+'</p>'; }
+}).catch(err=>{
+  document.getElementById('app').innerHTML='<p class="wrap">Could not load event data: '+err.message+'</p>';
+});
+function render(e, all){
   const sorted=[...all].sort((a,b)=>(a.start||'').localeCompare(b.start||''));
   const i=sorted.findIndex(x=>x.id===e.id);
   const prev=sorted[i-1], next=sorted[i+1];
@@ -73,8 +79,8 @@ fetch('data/events.json').then(r=>r.json()).then(all=>{
       ${prev?`<a href="event.html?id=${prev.id}">← ${esc(prev.name||prev.title)}</a>`:'<span></span>'}
       ${next?`<a href="event.html?id=${next.id}" style="text-align:right">${esc(next.name||next.title)} →</a>`:'<span></span>'}
     </div>`;
-});
-function thumb(u){return u? u.replace(/\/revision\/latest(\/[^?]*)?\?/, '/revision/latest/scale-to-width-down/300?') : '';}
+}
+function thumb(u){ if(u&&typeof u==='object') u=u.img; return (typeof u==='string')? u.replace(/\/revision\/latest(\/[^?]*)?\?/, '/revision/latest/scale-to-width-down/300?') : ''; }
 function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
 </script>
 </body></html>
