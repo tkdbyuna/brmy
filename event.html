@@ -29,7 +29,13 @@ fetch('data/events.json').then(r=>r.json()).then(all=>{
 
   const dept=DEPT[e.dept]||''; const kind=e.kind||'Event';
   const tags=`<span class="tag2 kind">${esc(kind)}</span>`+(dept?`<span class="tag2 dept">${esc(dept)}</span>`:'')
-    +(e.attribute?`<span class="tag2">${esc(e.attribute)}</span>`:'');
+    +(e.attribute?`<span class="tag2">${esc(e.attribute)}</span>`:'')
+    +(e.limited?`<span class="tag2 limited">LIMITED</span>`:'');
+
+  const pvsearch='https://www.youtube.com/results?search_query='+encodeURIComponent('ブレイクマイケース '+(e.song||e.name||''));
+  const pv = e.pv ? `<div class="ev-sec"><h2>Event PV</h2>
+     <div class="pv-wrap"><iframe src="https://www.youtube.com/embed/${e.pv.yt}" title="Event PV" loading="lazy" allowfullscreen allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"></iframe></div></div>`
+   : `<div class="ev-sec"><h2>Event PV</h2><div class="pv-none">No PV is archived on the wiki for this event. <a href="${pvsearch}" target="_blank" rel="noopener">Search on YouTube →</a></div></div>`;
 
   const song = e.song ? `<div class="ev-sec"><h2>Theme song</h2>
      <div class="song"><b>${esc(e.song)}</b>${e.song_artist?` &nbsp;<span>— ${esc(e.song_artist)}</span>`:''}
@@ -41,8 +47,14 @@ fetch('data/events.json').then(r=>r.json()).then(all=>{
       ${c.voices&&c.voices.length?`<div class="vs">${c.voices.map(v=>`<audio controls preload="none" src="${v}"></audio>`).join('')}</div>`:'<div class="vs"><span class="mono" style="font-size:11px;color:#a99">no voice sample</span></div>'}
       </div>`).join('')}</div></div>`:'';
 
-  const cards = (e.cards&&e.cards.length)? `<div class="ev-sec"><h2>Card illustrations · ${e.cards.length}</h2>
-    <div class="cardgrid">${e.cards.map(u=>`<a href="${u}" target="_blank" rel="noopener"><img loading="lazy" src="${thumb(u)}"></a>`).join('')}</div></div>`:'';
+  const cards = (e.cards&&e.cards.length)? `<div class="ev-sec"><h2>Card illustrations &amp; voices · ${e.cards.length}</h2>
+    <div class="cardgrid2">${e.cards.map(c=>{
+      const img = (typeof c==='string')? c : c.img;
+      const au = (typeof c==='string')? [] : (c.audio||[]);
+      return `<div class="cardblock">
+        <a href="${img}" target="_blank" rel="noopener"><img loading="lazy" src="${thumb(img)}"></a>
+        ${au.length?`<div class="cardaudio">${au.map(a=>`<div class="cav"><span class="cavlab">${esc(a.label)}</span><audio controls preload="none" src="${a.src}"></audio></div>`).join('')}</div>`:''}
+      </div>`;}).join('')}</div></div>`:'';
 
   const links=[['Full page',e.article]];
   if(e.subs){for(const k in e.subs) links.push([k,e.subs[k]]);}
@@ -56,7 +68,7 @@ fetch('data/events.json').then(r=>r.json()).then(all=>{
       ${e.kanji?`<div class="kanji">${esc(e.kanji)}</div>`:''}
       <div class="tags">${tags}</div>
     </div>
-    ${song}${chars}${cards}${story}
+    ${pv}${song}${chars}${cards}${story}
     <div class="prevnext">
       ${prev?`<a href="event.html?id=${prev.id}">← ${esc(prev.name||prev.title)}</a>`:'<span></span>'}
       ${next?`<a href="event.html?id=${next.id}" style="text-align:right">${esc(next.name||next.title)} →</a>`:'<span></span>'}

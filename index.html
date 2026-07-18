@@ -63,7 +63,7 @@ function render(){
         <span class="meta">
           <span class="date">${e.start_disp||''}${e.end_disp?' – '+e.end_disp:''}</span>
           <span class="ttl">${esc(e.name||e.title)}</span>
-          <span class="tags"><span class="tag2 kind">${esc(kind)}</span>${dept?`<span class="tag2 dept">${esc(dept)}</span>`:''}</span>
+          <span class="tags"><span class="tag2 kind">${esc(kind)}</span>${dept?`<span class="tag2 dept">${esc(dept)}</span>`:''}${e.limited?`<span class="tag2 limited">LIMITED</span>`:''}</span>
         </span></a>`;
     }).join('');
     return `<h2 class="yearhead">${y}<small>${groups[y].length} EVENTS</small></h2><div class="banners">${cards}</div>`;
