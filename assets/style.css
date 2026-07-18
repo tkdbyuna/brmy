@@ -151,6 +151,8 @@ footer a{color:var(--violet)}
 .cardtags{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
 .rar{font:800 10px/1 ui-monospace,Menlo,monospace;letter-spacing:.05em;padding:4px 7px;border-radius:6px;color:#fff}
 .r-SSR{background:linear-gradient(135deg,#e8a23d,#f6c964);color:#4a2f00}
+.r-XR{background:linear-gradient(135deg,#c0567f,#e58bb0)}
+.r-CR{background:linear-gradient(135deg,#2fb3a6,#6fe0d4);color:#053b36}
 .r-SR{background:linear-gradient(135deg,#8a6cf0,#b49bff)}
 .r-R{background:#9aa0b4}
 .attr{font:700 10px/1 ui-monospace,Menlo,monospace;letter-spacing:.04em;padding:4px 7px;border-radius:6px;

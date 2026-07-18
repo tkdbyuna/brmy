@@ -62,12 +62,52 @@
   ],
   "cards": [
    {
+    "img": "assets/media/cards/Card_illust_65.png",
+    "id": 65,
+    "name": "Bellflower's Hospitality",
+    "character": "Yuzuru Kise",
+    "rarity": "SSR",
+    "attribute": "Star"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_66.png",
+    "id": 66,
+    "name": "Marigold's Smile",
+    "character": "Kiho Arima",
+    "rarity": "SSR",
+    "attribute": "Moon"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_67.png",
+    "id": 67,
+    "name": "Ammobium's Pace",
+    "character": "Tomose Onda",
+    "rarity": "SSR",
+    "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_68.png",
+    "id": 68,
+    "name": "Rhododendron's Gaze",
+    "character": "Ai Kosaka",
+    "rarity": "SR",
+    "attribute": "Star"
+   },
+   {
     "img": "assets/media/cards/Card_illust_69.png",
     "id": 69,
     "name": "Dianthus Relaxation",
     "character": "Riku Tateshina",
     "rarity": "SR",
     "attribute": "Moon"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_70.png",
+    "id": 70,
+    "name": "Aster Waiter",
+    "character": "Mao Ukyo",
+    "rarity": "R",
+    "attribute": "Sun"
    }
   ],
   "article": "articles/Florist-%20Garden%20of%20Words%20Soaked%20in%20Flowers.html",
@@ -157,6 +197,14 @@
     "attribute": "Moon"
    },
    {
+    "img": "assets/media/cards/Card_illust_73.png",
+    "id": 73,
+    "name": "Light Tinged Stained Glass",
+    "character": "Shizuka Fushimi",
+    "rarity": "SSR",
+    "attribute": "Star"
+   },
+   {
     "img": "assets/media/cards/Card_illust_74.png",
     "id": 74,
     "name": "Full Bloom Flower Shower",
@@ -171,6 +219,22 @@
     "character": "Sei Okiya",
     "rarity": "SR",
     "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_76.png",
+    "id": 76,
+    "name": "Finishing Powder",
+    "character": "Yu Nina",
+    "rarity": "SR",
+    "attribute": "Star"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_77.png",
+    "id": 77,
+    "name": "In Charge of Makeup",
+    "character": "Takeru Mikado",
+    "rarity": "R",
+    "attribute": "Moon"
    }
   ],
   "article": "articles/Decoration%20Piling%20in%20Silk.html",
@@ -265,6 +329,22 @@
     "name": "Skillfully Done?",
     "character": "Roka Suoh",
     "rarity": "SR",
+    "attribute": "Moon"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_82.png",
+    "id": 82,
+    "name": "Today, Big Brother",
+    "character": "Yuragi Kanno",
+    "rarity": "SR",
+    "attribute": "Moon"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_83.png",
+    "id": 83,
+    "name": "Shining Aesthetic Sense",
+    "character": "Ai Kosaka",
+    "rarity": "R",
     "attribute": "Moon"
    }
   ],
@@ -365,6 +445,38 @@
     "character": "Taiga Tsukimoto",
     "rarity": "SSR",
     "attribute": "Star"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_87.png",
+    "id": 87,
+    "name": "Tempted by the white rabbit",
+    "character": "Kyoya Shido",
+    "rarity": "SSR",
+    "attribute": "Moon"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_88.png",
+    "id": 88,
+    "name": "Alice in Slumber",
+    "character": "Haruhi Ichikawa",
+    "rarity": "SR",
+    "attribute": "Moon"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_89.png",
+    "id": 89,
+    "name": "Journey of Purple Smoke along with Thought",
+    "character": "Soyogu Shinkai",
+    "rarity": "SR",
+    "attribute": "Star"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_90.png",
+    "id": 90,
+    "name": "That Elusive Tail",
+    "character": "Urara Manami",
+    "rarity": "R",
+    "attribute": "Sun"
    }
   ],
   "article": "articles/-Sigh%20of%20Relief-%20Marvelous%20Tea%20Party.html",
@@ -442,12 +554,52 @@
   ],
   "cards": [
    {
+    "img": "assets/media/cards/Card_illust_93.png",
+    "id": 93,
+    "name": "One More Skewer",
+    "character": "Yuzuru Kise",
+    "rarity": "SSR",
+    "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_94.png",
+    "id": 94,
+    "name": "Hiding Under a Fox Mask",
+    "character": "Kou Ayato",
+    "rarity": "SSR",
+    "attribute": "Star"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_95.png",
+    "id": 95,
+    "name": "Night of Fresh Breeze",
+    "character": "Yu Nina",
+    "rarity": "SSR",
+    "attribute": "Moon"
+   },
+   {
     "img": "assets/media/cards/Card_illust_96.png",
     "id": 96,
     "name": "Childhood Tickling Taste of Blue",
     "character": "Mao Ukyo",
     "rarity": "SR",
     "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_97.png",
+    "id": 97,
+    "name": "Seeing Off Under Light Dew",
+    "character": "Shinobu Aizawa",
+    "rarity": "SR",
+    "attribute": "Moon"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_98.png",
+    "id": 98,
+    "name": "In Summer Night Attire",
+    "character": "Kamiya",
+    "rarity": "R",
+    "attribute": "Star"
    }
   ],
   "article": "articles/Reflection-%20Flowers%20of%20Light%20Filling%20the%20Night%20Sky.html",
@@ -557,11 +709,27 @@
     "attribute": "Sun"
    },
    {
+    "img": "assets/media/cards/Card_illust_103.png",
+    "id": 103,
+    "name": "The Magnificent Warrior",
+    "character": "Soyogu Shinkai",
+    "rarity": "SR",
+    "attribute": "Sun"
+   },
+   {
     "img": "assets/media/cards/Card_illust_104.png",
     "id": 104,
     "name": "Involuntary Encountering",
     "character": "Urara Manami",
     "rarity": "SR",
+    "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_105.png",
+    "id": 105,
+    "name": "The Fixer is Somebody",
+    "character": "Riku Tateshina",
+    "rarity": "R",
     "attribute": "Sun"
    }
   ],
@@ -668,12 +836,28 @@
     "attribute": "Star"
    },
    {
+    "img": "assets/media/cards/Card_illust_110.png",
+    "id": 110,
+    "name": "Highscore Life",
+    "character": "Mao Ukyo",
+    "rarity": "SR",
+    "attribute": "Moon"
+   },
+   {
     "img": "assets/media/cards/Card_illust_111.png",
     "id": 111,
     "name": "Archer of Stillness",
     "character": "Shizuka Fushimi",
     "rarity": "SR",
     "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_112.png",
+    "id": 112,
+    "name": "From My Student Times",
+    "character": "Taiga Tsukimoto",
+    "rarity": "R",
+    "attribute": "Star"
    }
   ],
   "article": "articles/Afterschool%20-day%20by%20day-.html",
@@ -779,12 +963,28 @@
     "attribute": "Sun"
    },
    {
+    "img": "assets/media/cards/Card_illust_118.png",
+    "id": 118,
+    "name": "Swallowed by Flower Haze",
+    "character": "Kiho Arima",
+    "rarity": "SR",
+    "attribute": "Star"
+   },
+   {
     "img": "assets/media/cards/Card_illust_119.png",
     "id": 119,
     "name": "Spring Evening Cross Bike",
     "character": "Kamiya",
     "rarity": "SR",
     "attribute": "Moon"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_120.png",
+    "id": 120,
+    "name": "A Lively Night with Cherry Blossoms",
+    "character": "Shinobu Aizawa",
+    "rarity": "R",
+    "attribute": "Sun"
    }
   ],
   "article": "articles/Whirling%20Petals%20During%20the%20Ninth%20Lunar%20Month.html",
@@ -896,6 +1096,22 @@
     "character": "Yuzuru Kise",
     "rarity": "SR",
     "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_126.png",
+    "id": 126,
+    "name": "Street Corner Precision",
+    "character": "Tomose Onda",
+    "rarity": "SR",
+    "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_127.png",
+    "id": 127,
+    "name": "Owner's Special Mission",
+    "character": "Roka Suoh",
+    "rarity": "R",
+    "attribute": "Sun"
    }
   ],
   "article": "articles/%28Special%20Task%29%20Prequel-%20Homeward%20in%20the%20Twilight.html",
@@ -954,6 +1170,22 @@
     "character": "Akehoshi Hinomiya",
     "rarity": "SR",
     "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_132.png",
+    "id": 132,
+    "name": "Vampire Under the Moon",
+    "character": "Kyoya Shido",
+    "rarity": "SR",
+    "attribute": "Star"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_133.png",
+    "id": 133,
+    "name": "Napping Undead",
+    "character": "Yuragi Kanno",
+    "rarity": "R",
+    "attribute": "Moon"
    }
   ],
   "article": null,
@@ -977,7 +1209,56 @@
   "song": null,
   "song_artist": null,
   "chars": [],
-  "cards": [],
+  "cards": [
+   {
+    "img": "assets/media/cards/Card_illust_139.png",
+    "id": 139,
+    "name": "Shibuya Nightscape",
+    "character": "Ai Kosaka",
+    "rarity": "XR",
+    "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_140.png",
+    "id": 140,
+    "name": "Shibuya Nightscape",
+    "character": "Kou Ayato",
+    "rarity": "XR",
+    "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_141.png",
+    "id": 141,
+    "name": "Shibuya Nightscape",
+    "character": "Taiga Tsukimoto",
+    "rarity": "XR",
+    "attribute": "Moon"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_142.png",
+    "id": 142,
+    "name": "Shibuya Nightscape",
+    "character": "Shizuka Fushimi",
+    "rarity": "XR",
+    "attribute": "Moon"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_143.png",
+    "id": 143,
+    "name": "Shibuya Nightscape",
+    "character": "Kiho Arima",
+    "rarity": "XR",
+    "attribute": "Star"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_144.png",
+    "id": 144,
+    "name": "Shibuya Nightscape",
+    "character": "Tomose Onda",
+    "rarity": "XR",
+    "attribute": "Star"
+   }
+  ],
   "article": null,
   "subs": {},
   "limited": false,
@@ -1082,11 +1363,27 @@
     "attribute": "Star"
    },
    {
+    "img": "assets/media/cards/Card_illust_148.png",
+    "id": 148,
+    "name": "Weak Point",
+    "character": "Sei Okiya",
+    "rarity": "SR",
+    "attribute": "Star"
+   },
+   {
     "img": "assets/media/cards/Card_illust_149.png",
     "id": 149,
     "name": "Cleaning Companion is on the Shoulder",
     "character": "Urara Manami",
     "rarity": "SR",
+    "attribute": "Star"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_150.png",
+    "id": 150,
+    "name": "Green Manager",
+    "character": "Shizuka Fushimi",
+    "rarity": "R",
     "attribute": "Star"
    }
   ],
@@ -1199,6 +1496,22 @@
     "character": "Tomose Onda",
     "rarity": "SR",
     "attribute": "Star"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_158.png",
+    "id": 158,
+    "name": "Unraveling Noel",
+    "character": "Kamiya",
+    "rarity": "SR",
+    "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_159.png",
+    "id": 159,
+    "name": "From the Gift of the Winter Sky",
+    "character": "Akehoshi Hinomiya",
+    "rarity": "R",
+    "attribute": "Moon"
    }
   ],
   "article": "articles/Blessings%20-On%20the%20Wish%20Descending%20Holy%20Night-.html",
@@ -1225,7 +1538,24 @@
   "song": null,
   "song_artist": null,
   "chars": [],
-  "cards": [],
+  "cards": [
+   {
+    "img": "assets/media/cards/Card_illust_160.png",
+    "id": 160,
+    "name": "Commander of Self-Awareness",
+    "character": "Ai Kosaka",
+    "rarity": "XR",
+    "attribute": "Moon"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_161.png",
+    "id": 161,
+    "name": "Tender Support Role",
+    "character": "Yuzuru Kise",
+    "rarity": "XR",
+    "attribute": "Moon"
+   }
+  ],
   "article": null,
   "subs": {},
   "limited": false,
@@ -1324,6 +1654,14 @@
     "character": "Soyogu Shinkai",
     "rarity": "SSR",
     "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_166.png",
+    "id": 166,
+    "name": "A Magnificent and Serious Evil Spirit Exorcism",
+    "character": "Takeru Mikado",
+    "rarity": "SR",
+    "attribute": "Star"
    },
    {
     "img": "assets/media/cards/Card_illust_167.png",
@@ -1441,6 +1779,14 @@
     "attribute": "Moon"
    },
    {
+    "img": "assets/media/cards/Card_illust_173.png",
+    "id": 173,
+    "name": "Tybalt's Blade",
+    "character": "Kou Ayato",
+    "rarity": "SR",
+    "attribute": "Sun"
+   },
+   {
     "img": "assets/media/cards/Card_illust_174.png",
     "id": 174,
     "name": "Lawrence's Mercy",
@@ -1545,6 +1891,14 @@
     "name": "Beyond the Path",
     "character": "Kiho Arima",
     "rarity": "SSR",
+    "attribute": "Star"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_180.png",
+    "id": 180,
+    "name": "An Entirely One-of-a-Kind Support Role",
+    "character": "Yuzuru Kise",
+    "rarity": "SR",
     "attribute": "Star"
    },
    {
@@ -1671,6 +2025,14 @@
     "attribute": "Sun"
    },
    {
+    "img": "assets/media/cards/Card_illust_188.png",
+    "id": 188,
+    "name": "Stacking up Lone Clouds",
+    "character": "Urara Manami",
+    "rarity": "SR",
+    "attribute": "Moon"
+   },
+   {
     "img": "assets/media/cards/Card_illust_189.png",
     "id": 189,
     "name": "Dressed Up Glamourously",
@@ -1782,6 +2144,14 @@
     "attribute": "Sun"
    },
    {
+    "img": "assets/media/cards/Card_illust_195.png",
+    "id": 195,
+    "name": "Heated Seaside",
+    "character": "Taiga Tsukimoto",
+    "rarity": "SR",
+    "attribute": "Star"
+   },
+   {
     "img": "assets/media/cards/Card_illust_196.png",
     "id": 196,
     "name": "Summer reflected through the glass",
@@ -1891,6 +2261,14 @@
     "character": "Yu Nina",
     "rarity": "SSR",
     "attribute": "Star"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_202.png",
+    "id": 202,
+    "name": "Let's Enjoy Cooking!",
+    "character": "Roka Suoh",
+    "rarity": "SR",
+    "attribute": "Sun"
    },
    {
     "img": "assets/media/cards/Card_illust_203.png",
@@ -2006,6 +2384,14 @@
     "id": 209,
     "name": "Getting ready for a rare outing",
     "character": "Haruhi Ichikawa",
+    "rarity": "SR",
+    "attribute": "Moon"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_210.png",
+    "id": 210,
+    "name": "A Soft and Sweet Response",
+    "character": "Riku Tateshina",
     "rarity": "SR",
     "attribute": "Moon"
    },
@@ -2135,6 +2521,14 @@
     "attribute": "Star"
    },
    {
+    "img": "assets/media/cards/Card_illust_237.png",
+    "id": 237,
+    "name": "A Night Touched by Fragrance",
+    "character": "Shizuka Fushimi",
+    "rarity": "SR",
+    "attribute": "Moon"
+   },
+   {
     "img": "assets/media/cards/Card_illust_238.png",
     "id": 238,
     "name": "Spring Night Hospitality",
@@ -2255,6 +2649,22 @@
     "character": "Yuzuru Kise",
     "rarity": "SR",
     "attribute": "Moon"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_245.png",
+    "id": 245,
+    "name": "Celebration Through the Lens",
+    "character": "Akehoshi Hinomiya",
+    "rarity": "SR",
+    "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_246.png",
+    "id": 246,
+    "name": "Ideal Relation",
+    "character": "Mao Ukyo",
+    "rarity": "R",
+    "attribute": "Star"
    }
   ],
   "article": "articles/Bouquet%20Prayer-%20Happily%20Ever%20After.html",
@@ -2367,6 +2777,14 @@
     "id": 251,
     "name": "A moment after the rain",
     "character": "Ai Kosaka",
+    "rarity": "SR",
+    "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_252.png",
+    "id": 252,
+    "name": "A Road Filled with Blooming Indigo",
+    "character": "Taiga Tsukimoto",
     "rarity": "SR",
     "attribute": "Sun"
    },
@@ -2501,6 +2919,14 @@
     "attribute": "Moon"
    },
    {
+    "img": "assets/media/cards/Card_illust_259.png",
+    "id": 259,
+    "name": "Look Up to a Sea World",
+    "character": "Kamiya",
+    "rarity": "SR",
+    "attribute": "Sun"
+   },
+   {
     "img": "assets/media/cards/Card_illust_260.png",
     "id": 260,
     "name": "Wandering into the Aquarium",
@@ -2633,6 +3059,14 @@
     "attribute": "Moon"
    },
    {
+    "img": "assets/media/cards/Card_illust_265.png",
+    "id": 265,
+    "name": "Wings Spreading Floatie",
+    "character": "Takeru Mikado",
+    "rarity": "SR",
+    "attribute": "Star"
+   },
+   {
     "img": "assets/media/cards/Card_illust_266.png",
     "id": 266,
     "name": "A Dreamlike Summer Night",
@@ -2744,6 +3178,14 @@
     "name": "Shared happiness in the sunlight",
     "character": "Yuragi Kanno",
     "rarity": "SSR",
+    "attribute": "Star"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_272.png",
+    "id": 272,
+    "name": "Time to Engage with Art",
+    "character": "Mao Ukyo",
+    "rarity": "SR",
     "attribute": "Star"
    },
    {
@@ -2875,6 +3317,14 @@
     "character": "Haruhi Ichikawa",
     "rarity": "SR",
     "attribute": "Star"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_280.png",
+    "id": 280,
+    "name": "Sun, the Beginning Scenery",
+    "character": "Sei Okiya",
+    "rarity": "SR",
+    "attribute": "Sun"
    },
    {
     "img": "assets/media/cards/Card_illust_281.png",
@@ -3017,6 +3467,14 @@
     "attribute": "Moon"
    },
    {
+    "img": "assets/media/cards/Card_illust_289.png",
+    "id": 289,
+    "name": "Sharp Gaze",
+    "character": "Soyogu Shinkai",
+    "rarity": "SR",
+    "attribute": "Star"
+   },
+   {
     "img": "assets/media/cards/Card_illust_290.png",
     "id": 290,
     "name": "Let’s Improvise",
@@ -3127,6 +3585,14 @@
     "attribute": "Moon"
    },
    {
+    "img": "assets/media/cards/Card_illust_296.png",
+    "id": 296,
+    "name": "Embraced by the Wind of Rhythm",
+    "character": "Roka Suoh",
+    "rarity": "SR",
+    "attribute": "Moon"
+   },
+   {
     "img": "assets/media/cards/Card_illust_297.png",
     "id": 297,
     "name": "An outfit in autumn tones",
@@ -3196,6 +3662,14 @@
     "attribute": "Star"
    },
    {
+    "img": "assets/media/cards/Card_illust_303.png",
+    "id": 303,
+    "name": "Carefree Swishing Tail",
+    "character": "Yuragi Kanno",
+    "rarity": "SR",
+    "attribute": "Star"
+   },
+   {
     "img": "assets/media/cards/Card_illust_304.png",
     "id": 304,
     "name": "Spiraling Shadow Flame",
@@ -3233,7 +3707,40 @@
   "song": null,
   "song_artist": null,
   "chars": [],
-  "cards": [],
+  "cards": [
+   {
+    "img": "assets/media/cards/Card_illust_309.png",
+    "id": 309,
+    "name": "Irresponsible Lover",
+    "character": "Kou Ayato",
+    "rarity": "XR",
+    "attribute": "Star"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_310.png",
+    "id": 310,
+    "name": "Sharp Plain",
+    "character": "Mao Ukyo",
+    "rarity": "XR",
+    "attribute": "Star"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_311.png",
+    "id": 311,
+    "name": "Perfect Execution",
+    "character": "Tomose Onda",
+    "rarity": "XR",
+    "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_312.png",
+    "id": 312,
+    "name": "Devotion Like Breathing",
+    "character": "Yu Nina",
+    "rarity": "XR",
+    "attribute": "Sun"
+   }
+  ],
   "article": null,
   "subs": {},
   "limited": false,
@@ -3350,6 +3857,14 @@
     "attribute": "Star"
    },
    {
+    "img": "assets/media/cards/Card_illust_317.png",
+    "id": 317,
+    "name": "Good Weather's Souvenir",
+    "character": "Yu Nina",
+    "rarity": "SR",
+    "attribute": "Star"
+   },
+   {
     "img": "assets/media/cards/Card_illust_318.png",
     "id": 318,
     "name": "One-Sided Love Ticket",
@@ -3417,6 +3932,14 @@
     "character": "Sei Okiya",
     "rarity": "SR",
     "attribute": "Star"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_324.png",
+    "id": 324,
+    "name": "Duo's Magic",
+    "character": "Kyoya Shido",
+    "rarity": "SR",
+    "attribute": "Moon"
    },
    {
     "img": "assets/media/cards/Card_illust_325.png",
@@ -3519,6 +4042,14 @@
     "attribute": "Moon"
    },
    {
+    "img": "assets/media/cards/Card_illust_331.png",
+    "id": 331,
+    "name": "A Bite of Bright Red Strawberry",
+    "character": "Kou Ayato",
+    "rarity": "SR",
+    "attribute": "Star"
+   },
+   {
     "img": "assets/media/cards/Card_illust_332.png",
     "id": 332,
     "name": "Selection Present",
@@ -3562,7 +4093,40 @@
   "song": null,
   "song_artist": null,
   "chars": [],
-  "cards": [],
+  "cards": [
+   {
+    "img": "assets/media/cards/Card_illust_334.png",
+    "id": 334,
+    "name": "TEMPTATION",
+    "character": "Kou Ayato",
+    "rarity": "SSR",
+    "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_335.png",
+    "id": 335,
+    "name": "Enticing Starlight",
+    "character": "Akehoshi Hinomiya",
+    "rarity": "XR",
+    "attribute": "Star"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_336.png",
+    "id": 336,
+    "name": "Going-in-Circle Mood",
+    "character": "Yuragi Kanno",
+    "rarity": "XR",
+    "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_337.png",
+    "id": 337,
+    "name": "Suggestion for Lethargy",
+    "character": "Haruhi Ichikawa",
+    "rarity": "XR",
+    "attribute": "Sun"
+   }
+  ],
   "article": null,
   "subs": {},
   "limited": false,
@@ -3660,6 +4224,14 @@
     "name": "Life Player",
     "character": "Haruhi Ichikawa",
     "rarity": "SSR",
+    "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_342.png",
+    "id": 342,
+    "name": "Telephone Call",
+    "character": "Riku Tateshina",
+    "rarity": "SR",
     "attribute": "Sun"
    },
    {
@@ -3785,6 +4357,14 @@
     "attribute": "Moon"
    },
    {
+    "img": "assets/media/cards/Card_illust_349.png",
+    "id": 349,
+    "name": "Best Location",
+    "character": "Shizuka Fushimi",
+    "rarity": "SR",
+    "attribute": "Moon"
+   },
+   {
     "img": "assets/media/cards/Card_illust_350.png",
     "id": 350,
     "name": "In the Snowy Town",
@@ -3897,6 +4477,14 @@
     "character": "Kamiya",
     "rarity": "SSR",
     "attribute": "Moon"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_356.png",
+    "id": 356,
+    "name": "Feelings Contained in the Heart",
+    "character": "Yuzuru Kise",
+    "rarity": "SR",
+    "attribute": "Sun"
    },
    {
     "img": "assets/media/cards/Card_illust_357.png",
@@ -4031,6 +4619,14 @@
     "attribute": "Sun"
    },
    {
+    "img": "assets/media/cards/Card_illust_363.png",
+    "id": 363,
+    "name": "Dazzling Sweet Little World",
+    "character": "Akehoshi Hinomiya",
+    "rarity": "SR",
+    "attribute": "Moon"
+   },
+   {
     "img": "assets/media/cards/Card_illust_364.png",
     "id": 364,
     "name": "Diving into a Tumult",
@@ -4106,6 +4702,14 @@
     "character": "Taiga Tsukimoto",
     "rarity": "SR",
     "attribute": "Moon"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_371.png",
+    "id": 371,
+    "name": "A Deep Breath in the Office",
+    "character": "Shinobu Aizawa",
+    "rarity": "SR",
+    "attribute": "Sun"
    },
    {
     "img": "assets/media/cards/Card_illust_372.png",
@@ -4220,6 +4824,14 @@
     "attribute": "Sun"
    },
    {
+    "img": "assets/media/cards/Card_illust_377.png",
+    "id": 377,
+    "name": "On the Same Boat",
+    "character": "Kiho Arima",
+    "rarity": "SR",
+    "attribute": "Sun"
+   },
+   {
     "img": "assets/media/cards/Card_illust_378.png",
     "id": 378,
     "name": "A Modest Record",
@@ -4328,6 +4940,14 @@
     "name": "Sunshine in Early Spring",
     "character": "Urara Manami",
     "rarity": "SSR",
+    "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_383.png",
+    "id": 383,
+    "name": "A Calm Afternoon",
+    "character": "Yu Nina",
+    "rarity": "SR",
     "attribute": "Sun"
    },
    {
@@ -4472,6 +5092,14 @@
     "attribute": "Sun"
    },
    {
+    "img": "assets/media/cards/Card_illust_411.png",
+    "id": 411,
+    "name": "Following the Bones",
+    "character": "Ai Kosaka",
+    "rarity": "SR",
+    "attribute": "Star"
+   },
+   {
     "img": "assets/media/cards/Card_illust_412.png",
     "id": 412,
     "name": "Elegant Dealer",
@@ -4603,6 +5231,14 @@
     "attribute": "Moon"
    },
    {
+    "img": "assets/media/cards/Card_illust_419.png",
+    "id": 419,
+    "name": "Straightening the Crooked Tie",
+    "character": "Urara Manami",
+    "rarity": "SR",
+    "attribute": "Star"
+   },
+   {
     "img": "assets/media/cards/Card_illust_420.png",
     "id": 420,
     "name": "Clad in the Virtuous White",
@@ -4666,6 +5302,22 @@
     "name": "Hop Late Night",
     "character": "Kamiya",
     "rarity": "R",
+    "attribute": "Moon"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_426.png",
+    "id": 426,
+    "name": "Vignette -Emperor-",
+    "character": "Ai Kosaka, Riku Tateshina",
+    "rarity": "CR",
+    "attribute": "Moon"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_427.png",
+    "id": 427,
+    "name": "Vignette -Skip-",
+    "character": "Akehoshi Hinomiya, Kamiya",
+    "rarity": "CR",
     "attribute": "Moon"
    }
   ],
