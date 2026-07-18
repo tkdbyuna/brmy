@@ -14,9 +14,16 @@
 </header>
 
 <div class="wrap">
-  <div class="viewtoggle">
-    <button data-v="banner" class="on">Banner</button>
-    <button data-v="card">Card</button>
+  <!-- BIG VIEW SELECTOR -->
+  <div class="viewpick">
+    <button class="vptile on" data-v="banner">
+      <span class="vpk">Banner</span>
+      <span class="vpd">Event timeline &amp; gacha banners</span>
+    </button>
+    <button class="vptile" data-v="card">
+      <span class="vpk">Card</span>
+      <span class="vpd">Browse &amp; track your collection</span>
+    </button>
   </div>
 
   <!-- BANNER VIEW -->
@@ -33,29 +40,27 @@
 
   <!-- CARD VIEW -->
   <section id="view-card" hidden>
-    <div class="acctbar">
-      <span class="acctlabel">Accounts:</span>
-      <span id="acctdots"></span>
-      <span class="acctspacer"></span>
-      <button class="minibtn" id="exportBtn">⬇ Export</button>
-      <label class="minibtn" for="importFile">⬆ Import</label>
-      <input type="file" id="importFile" accept="application/json" hidden>
-    </div>
-
-    <div class="filters">
-      <div class="fgroup"><span class="flab">Rarity</span><div class="chips" id="f-rarity"></div></div>
-      <div class="fgroup"><span class="flab">Type</span><div class="chips" id="f-type"></div></div>
-      <div class="fgroup"><span class="flab">Character</span>
-        <select id="f-char"><option value="">All</option></select></div>
-      <div class="fgroup"><span class="flab">Ownership</span>
-        <select id="f-own">
-          <option value="">All cards</option>
-          <option value="any-owned">Owned (any account)</option>
-          <option value="none">Owned by nobody</option>
-        </select>
-        <select id="f-own-acct" hidden></select>
+    <div class="cardbar">
+      <div class="frow">
+        <div class="chips" id="f-rarity"></div>
+        <div class="chips" id="f-type"></div>
+        <select id="f-char" class="ctl"><option value="">All characters</option></select>
       </div>
-      <button class="minibtn ghost" id="clearFilters">Clear</button>
+      <div class="frow">
+        <div class="ownfilter">
+          <span class="owlab">Owned by</span>
+          <span id="ownCircles"></span>
+        </div>
+        <div class="seg small" id="ownmode">
+          <button data-m="owned" class="on">Owned</button>
+          <button data-m="missing">Missing</button>
+        </div>
+        <span class="barspace"></span>
+        <button class="ctl" id="clearFilters">Clear</button>
+        <button class="ctl" id="exportBtn">Export</button>
+        <button class="ctl" id="importBtn">Import</button>
+        <input type="file" id="importFile" accept="application/json" hidden>
+      </div>
     </div>
     <div class="cardcount mono" id="cardcount"></div>
     <div id="cardgrid" class="collectgrid"></div>
@@ -76,30 +81,28 @@
 
 <script>
 const ACCOUNTS=[
-  {key:'akehoshi',name:'Akehoshi',color:'#FE8A23'},
-  {key:'ai',name:'Ai',color:'#B22222'},
-  {key:'kou',name:'Kou',color:'#FD1493'},
-  {key:'tomose',name:'Tomose',color:'#61C892'},
-  {key:'kyoya',name:'Kyoya',color:'#F09C65'},
-  {key:'yuzuru',name:'Yuzuru',color:'#7DA852'}
+  {key:'akehoshi',name:'Akehoshi',short:'Ak',color:'#FE8A23'},
+  {key:'ai',name:'Ai',short:'Ai',color:'#B22222'},
+  {key:'kou',name:'Kou',short:'Ko',color:'#FD1493'},
+  {key:'tomose',name:'Tomose',short:'To',color:'#61C892'},
+  {key:'kyoya',name:'Kyoya',short:'Ky',color:'#F09C65'},
+  {key:'yuzuru',name:'Yuzuru',short:'Yu',color:'#7DA852'}
 ];
 const DEPT={adm:'Administration',neg:'Negotiation',sim:'Simulation',mof:'Main Office',
   wat:'Watchdogs',spe:'Special Task',stf:'Special Task'};
 const STORE='bmc_collection_v1';
 let EV=[], ORDER='desc', ALLCARDS=[];
 let OWNED=loadOwned();
-let FILT={rarity:new Set(),type:new Set(),char:'',own:'',ownAcct:''};
+let FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set(),ownMode:'owned'};
 
 function loadOwned(){ try{return JSON.parse(localStorage.getItem(STORE))||{}}catch(e){return {}} }
 function saveOwned(){ try{localStorage.setItem(STORE,JSON.stringify(OWNED))}catch(e){} }
 function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
-function thumb(u){return (typeof u==='string')? u.replace(/\/revision\/latest(\/[^?]*)?\?/,'/revision/latest/scale-to-width-down/300?'):''}
-function bannerThumb(u){return u? u.replace(/\/revision\/latest(\/[^?]*)?\?/,'/revision/latest/scale-to-width-down/560?'):''}
+function thumb(u){return (typeof u==='string')? u.replace(/\/revision\/latest(\/[^?]*)?\?/,'/revision/latest/scale-to-width-down/400?'):''}
 
 fetch('data/events.json?v='+Date.now()).then(r=>r.json()).then(d=>{
   EV=d;
   document.getElementById('s-ev').textContent=d.length;
-  // flatten cards
   const seen=new Set();
   d.forEach(e=>(e.cards||[]).forEach(c=>{
     if(seen.has(c.id))return; seen.add(c.id);
@@ -109,12 +112,10 @@ fetch('data/events.json?v='+Date.now()).then(r=>r.json()).then(d=>{
   document.getElementById('s-cards').textContent=ALLCARDS.length;
   const ds=d.map(e=>e.start_disp).filter(Boolean).sort();
   document.getElementById('s-span').textContent=(ds[0]||'').slice(0,4)+'–'+(ds[ds.length-1]||'').slice(0,4);
-  renderBanners();
-  buildFilters();
-  buildAcctBar();
+  renderBanners(); buildFilters();
 }).catch(err=>{document.getElementById('timeline').innerHTML='<p>Could not load data: '+err.message+'</p>'});
 
-/* ---------- BANNER VIEW ---------- */
+/* BANNER VIEW */
 function renderBanners(){
   let rows=[...EV].sort((a,b)=>(a.start||'').localeCompare(b.start||''));
   if(ORDER==='desc') rows.reverse();
@@ -126,7 +127,7 @@ function renderBanners(){
     const cards=groups[y].map(e=>{
       const dept=DEPT[e.dept]||''; const kind=e.kind||'Event';
       return `<a class="ev" href="event.html?id=${e.id}">
-        <img class="bimg" src="${e.banner||''}" alt="" loading="lazy">
+        ${e.banner?`<img class="bimg" src="${e.banner}" alt="" loading="lazy">`:`<span class="bimg noimg">${esc(e.name||e.title)}</span>`}
         <span class="meta">
           <span class="date">${e.start_disp||''}${e.end_disp?' – '+e.end_disp:''}</span>
           <span class="ttl">${esc(e.name||e.title)}</span>
@@ -141,9 +142,9 @@ document.querySelectorAll('#order button').forEach(b=>b.onclick=()=>{
   b.classList.add('on'); ORDER=b.dataset.o; renderBanners();
 });
 
-/* ---------- VIEW TOGGLE ---------- */
-document.querySelectorAll('.viewtoggle button').forEach(b=>b.onclick=()=>{
-  document.querySelectorAll('.viewtoggle button').forEach(x=>x.classList.remove('on'));
+/* VIEW SELECTOR */
+document.querySelectorAll('.viewpick .vptile').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('.viewpick .vptile').forEach(x=>x.classList.remove('on'));
   b.classList.add('on');
   const v=b.dataset.v;
   document.getElementById('view-banner').hidden = v!=='banner';
@@ -151,57 +152,47 @@ document.querySelectorAll('.viewtoggle button').forEach(b=>b.onclick=()=>{
   if(v==='card') renderCards();
 });
 
-/* ---------- ACCOUNT BAR ---------- */
-function buildAcctBar(){
-  document.getElementById('acctdots').innerHTML=ACCOUNTS.map(a=>
-    `<span class="adot" title="${a.name}" style="background:${a.color}"></span><span class="aname">${a.name}</span>`).join('');
-}
-
-/* ---------- FILTERS ---------- */
+/* FILTERS */
 function buildFilters(){
   const rars=['SSR','XR','SR','R','CR'].filter(r=>ALLCARDS.some(c=>c.rarity===r));
-  document.getElementById('f-rarity').innerHTML=rars.map(r=>`<button class="chip" data-r="${r}">${r}</button>`).join('');
+  document.getElementById('f-rarity').innerHTML=rars.map(r=>`<button class="chip rchip r-${r}" data-r="${r}">${r}</button>`).join('');
   const types=['Star','Moon','Sun'].filter(t=>ALLCARDS.some(c=>c.attribute===t));
-  document.getElementById('f-type').innerHTML=types.map(t=>`<button class="chip" data-t="${t}">${t}</button>`).join('');
+  document.getElementById('f-type').innerHTML=types.map(t=>`<button class="chip tchip a-${t.toLowerCase()}" data-t="${t}">${t}</button>`).join('');
   const chars=[...new Set(ALLCARDS.map(c=>c.character).filter(x=>x&&!x.includes(',')))].sort();
-  document.getElementById('f-char').innerHTML='<option value="">All</option>'+chars.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('');
-  const oa=document.getElementById('f-own-acct');
-  oa.innerHTML=ACCOUNTS.map(a=>`<option value="${a.key}">${a.name}</option>`).join('');
+  document.getElementById('f-char').innerHTML='<option value="">All characters</option>'+chars.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('');
+  document.getElementById('ownCircles').innerHTML=ACCOUNTS.map(a=>
+    `<button class="ownc" data-acct="${a.key}" title="${a.name}" style="--ac:${a.color}"><span>${a.short}</span></button>`).join('');
 
-  document.querySelectorAll('#f-rarity .chip').forEach(b=>b.onclick=()=>{toggleSet(FILT.rarity,b.dataset.r,b);renderCards();});
-  document.querySelectorAll('#f-type .chip').forEach(b=>b.onclick=()=>{toggleSet(FILT.type,b.dataset.t,b);renderCards();});
+  document.querySelectorAll('#f-rarity .chip').forEach(b=>b.onclick=()=>{tog(FILT.rarity,b.dataset.r,b);renderCards();});
+  document.querySelectorAll('#f-type .chip').forEach(b=>b.onclick=()=>{tog(FILT.type,b.dataset.t,b);renderCards();});
   document.getElementById('f-char').onchange=e=>{FILT.char=e.target.value;renderCards();};
-  const ownSel=document.getElementById('f-own');
-  ownSel.onchange=e=>{
-    FILT.own=e.target.value;
-    const needAcct=(FILT.own==='by'||FILT.own==='not-by');
-    renderCards();
-  };
-  // extend ownership options with per-account
-  ownSel.innerHTML+=ACCOUNTS.map(a=>`<option value="by:${a.key}">Owned by ${a.name}</option>`).join('')
-    +ACCOUNTS.map(a=>`<option value="notby:${a.key}">Missing for ${a.name}</option>`).join('');
+  document.querySelectorAll('#ownCircles .ownc').forEach(b=>b.onclick=()=>{tog(FILT.ownAccts,b.dataset.acct,b);renderCards();});
+  document.querySelectorAll('#ownmode button').forEach(b=>b.onclick=()=>{
+    document.querySelectorAll('#ownmode button').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on'); FILT.ownMode=b.dataset.m; renderCards();
+  });
   document.getElementById('clearFilters').onclick=()=>{
-    FILT={rarity:new Set(),type:new Set(),char:'',own:'',ownAcct:''};
-    document.querySelectorAll('.chip.on').forEach(x=>x.classList.remove('on'));
-    document.getElementById('f-char').value='';document.getElementById('f-own').value='';
-    renderCards();
+    FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set(),ownMode:FILT.ownMode};
+    document.querySelectorAll('.chip.on,.ownc.on').forEach(x=>x.classList.remove('on'));
+    document.getElementById('f-char').value=''; renderCards();
   };
   document.getElementById('exportBtn').onclick=exportData;
+  document.getElementById('importBtn').onclick=()=>document.getElementById('importFile').click();
   document.getElementById('importFile').onchange=importData;
 }
-function toggleSet(set,val,btn){ if(set.has(val)){set.delete(val);btn.classList.remove('on');}else{set.add(val);btn.classList.add('on');} }
+function tog(set,val,btn){ if(set.has(val)){set.delete(val);btn.classList.remove('on');}else{set.add(val);btn.classList.add('on');} }
 
-/* ---------- CARD VIEW ---------- */
+/* CARD VIEW */
 function passFilter(c){
   if(FILT.rarity.size && !FILT.rarity.has(c.rarity)) return false;
   if(FILT.type.size && !FILT.type.has(c.attribute)) return false;
   if(FILT.char && (c.character||'')!==FILT.char) return false;
-  const own=OWNED[c.id]||{};
-  const anyOwned=ACCOUNTS.some(a=>own[a.key]);
-  if(FILT.own==='any-owned' && !anyOwned) return false;
-  if(FILT.own==='none' && anyOwned) return false;
-  if(FILT.own.startsWith('by:')){const k=FILT.own.slice(3); if(!own[k])return false;}
-  if(FILT.own.startsWith('notby:')){const k=FILT.own.slice(6); if(own[k])return false;}
+  if(FILT.ownAccts.size){
+    const own=OWNED[c.id]||{};
+    const accts=[...FILT.ownAccts];
+    if(FILT.ownMode==='owned'){ if(!accts.some(k=>own[k])) return false; }
+    else { if(!accts.some(k=>!own[k])) return false; }
+  }
   return true;
 }
 function renderCards(){
@@ -210,20 +201,24 @@ function renderCards(){
   document.getElementById('cardgrid').innerHTML=list.map(c=>{
     const own=OWNED[c.id]||{};
     const owners=ACCOUNTS.filter(a=>own[a.key]);
-    const ind=owners.length
-      ? `<div class="ownind">${owners.map(a=>`<span class="oi" style="background:${a.color}" title="${a.name}"></span>`).join('')}</div>`
-      : `<div class="ownind empty"></div>`;
-    return `<div class="collectcard" data-card="${c.id}">
-      <div class="cc-imgwrap"><img loading="lazy" src="${thumb(c.img)}">${owners.length?'<span class="ownedbadge">✓</span>':''}</div>
-      <div class="cc-meta">
-        <div class="cc-tags">${c.rarity?`<span class="rar r-${c.rarity}">${c.rarity}</span>`:''}${c.attribute?`<span class="attr a-${c.attribute.toLowerCase()}">${c.attribute}</span>`:''}</div>
-        <div class="cc-char">${esc(c.character||'')}</div>
-        <div class="cc-name">${esc(c.name||'')}</div>
-        ${ind}
+    const dots=owners.map(a=>`<span class="oi" style="background:${a.color}" title="${a.name}"></span>`).join('');
+    return `<div class="ccard ${owners.length?'owned':''}" data-card="${c.id}">
+      <img loading="lazy" src="${thumb(c.img)}">
+      <div class="ccover">
+        <div class="cctop">
+          ${c.rarity?`<span class="rar r-${c.rarity}">${c.rarity}</span>`:''}
+          ${c.attribute?`<span class="attr a-${c.attribute.toLowerCase()}">${c.attribute}</span>`:''}
+          ${owners.length?`<span class="ownmark">✓</span>`:''}
+        </div>
+        <div class="ccbot">
+          <div class="ccchar">${esc(c.character||'')}</div>
+          <div class="ccname">${esc(c.name||'')}</div>
+          <div class="ccdots">${dots}</div>
+        </div>
       </div>
     </div>`;
   }).join('');
-  document.querySelectorAll('.collectcard').forEach(el=>el.onclick=()=>openModal(el.dataset.card));
+  document.querySelectorAll('.ccard').forEach(el=>el.onclick=()=>openModal(el.dataset.card));
 }
 
 function openModal(id){
@@ -252,7 +247,7 @@ function openModal(id){
 }
 function closeModal(){document.getElementById('modal').classList.remove('show'); renderCards();}
 
-/* ---------- EXPORT / IMPORT ---------- */
+/* EXPORT / IMPORT */
 function exportData(){
   const blob=new Blob([JSON.stringify(OWNED,null,1)],{type:'application/json'});
   const a=document.createElement('a');
