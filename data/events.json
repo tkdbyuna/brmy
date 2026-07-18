@@ -61,13 +61,32 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_69.png"
+   {
+    "img": "assets/media/cards/Card_illust_69.png",
+    "id": 69,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_69(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_69(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_69(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/Florist-%20Garden%20of%20Words%20Soaked%20in%20Flowers.html",
   "subs": {
    "Event Story": "articles/Florist-%20Garden%20of%20Words%20Soaked%20in%20Flowers__Event%20Story.html",
    "Gacha": "articles/Florist-%20Garden%20of%20Words%20Soaked%20in%20Flowers__Gacha.html"
-  }
+  },
+  "limited": false,
+  "pv": null
  },
  {
   "id": 2,
@@ -139,15 +158,84 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_72.png",
-   "assets/media/cards/Card_illust_74.png",
-   "assets/media/cards/Card_illust_75.png"
+   {
+    "img": "assets/media/cards/Card_illust_72.png",
+    "id": 72,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_72(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_72(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_72(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_72(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_72(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_74.png",
+    "id": 74,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_74(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_74(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_74(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_74(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_74(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_75.png",
+    "id": 75,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_75(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_75(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_75(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/Decoration%20Piling%20in%20Silk.html",
   "subs": {
    "Event Story": "articles/Decoration%20Piling%20in%20Silk__Event%20Story.html",
    "Gacha": "articles/Decoration%20Piling%20in%20Silk__Gacha.html"
-  }
+  },
+  "limited": true,
+  "pv": null
  },
  {
   "id": 3,
@@ -203,16 +291,110 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_78.png",
-   "assets/media/cards/Card_illust_79.png",
-   "assets/media/cards/Card_illust_80.png",
-   "assets/media/cards/Card_illust_81.png"
+   {
+    "img": "assets/media/cards/Card_illust_78.png",
+    "id": 78,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_78(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_78(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_78(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_78(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_78(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_79.png",
+    "id": 79,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_79(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_79(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_79(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_79(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_79(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_80.png",
+    "id": 80,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_80(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_80(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_80(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_80(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_80(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_81.png",
+    "id": 81,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_81(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_81(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_81(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/%28Simulation%29%20Prequel-%20The%20Spring%20of%20Drifting%20Ephemera.html",
   "subs": {
    "Event Story": "articles/%28Simulation%29%20Prequel-%20The%20Spring%20of%20Drifting%20Ephemera__Event%20Story.html",
    "Gacha": "articles/%28Simulation%29%20Prequel-%20The%20Spring%20of%20Drifting%20Ephemera__Gacha.html"
-  }
+  },
+  "limited": false,
+  "pv": null
  },
  {
   "id": 4,
@@ -288,14 +470,66 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_85.png",
-   "assets/media/cards/Card_illust_86.png"
+   {
+    "img": "assets/media/cards/Card_illust_85.png",
+    "id": 85,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_85(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_85(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_85(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_85(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_85(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_86.png",
+    "id": 86,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_86(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_86(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_86(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_86(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_86(card_vo_skill_combi).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/-Sigh%20of%20Relief-%20Marvelous%20Tea%20Party.html",
   "subs": {
    "Event Story": "articles/-Sigh%20of%20Relief-%20Marvelous%20Tea%20Party__Event%20Story.html",
    "Gacha": "articles/-Sigh%20of%20Relief-%20Marvelous%20Tea%20Party__Gacha.html"
-  }
+  },
+  "limited": false,
+  "pv": null
  },
  {
   "id": 5,
@@ -363,13 +597,32 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_96.png"
+   {
+    "img": "assets/media/cards/Card_illust_96.png",
+    "id": 96,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_96(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_96(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_96(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/Reflection-%20Flowers%20of%20Light%20Filling%20the%20Night%20Sky.html",
   "subs": {
    "Event Story": "articles/Reflection-%20Flowers%20of%20Light%20Filling%20the%20Night%20Sky__Event%20Story.html",
    "Gacha": "articles/Reflection-%20Flowers%20of%20Light%20Filling%20the%20Night%20Sky__Gacha.html"
-  }
+  },
+  "limited": false,
+  "pv": null
  },
  {
   "id": 6,
@@ -445,16 +698,110 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_100.png",
-   "assets/media/cards/Card_illust_101.png",
-   "assets/media/cards/Card_illust_102.png",
-   "assets/media/cards/Card_illust_104.png"
+   {
+    "img": "assets/media/cards/Card_illust_100.png",
+    "id": 100,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_100(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_100(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_100(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_100(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_100(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_101.png",
+    "id": 101,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_101(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_101(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_101(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_101(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_101(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_102.png",
+    "id": 102,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_102(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_102(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_102(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_102(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_102(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_104.png",
+    "id": 104,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_104(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_104(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_104(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/%28Watchdogs%29%20Prequel-%20Holding%20an%20Unyielding%20Heat.html",
   "subs": {
    "Event Story": "articles/%28Watchdogs%29%20Prequel-%20Holding%20an%20Unyielding%20Heat__Event%20Story.html",
    "Gacha": "articles/%28Watchdogs%29%20Prequel-%20Holding%20an%20Unyielding%20Heat__Gacha.html"
-  }
+  },
+  "limited": false,
+  "pv": null
  },
  {
   "id": 7,
@@ -526,16 +873,110 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_107.png",
-   "assets/media/cards/Card_illust_108.png",
-   "assets/media/cards/Card_illust_109.png",
-   "assets/media/cards/Card_illust_111.png"
+   {
+    "img": "assets/media/cards/Card_illust_107.png",
+    "id": 107,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_107(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_107(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_107(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_107(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_107(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_108.png",
+    "id": 108,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_108(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_108(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_108(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_108(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_108(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_109.png",
+    "id": 109,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_109(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_109(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_109(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_109(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_109(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_111.png",
+    "id": 111,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_111(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_111(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_111(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/Afterschool%20-day%20by%20day-.html",
   "subs": {
    "Event Story": "articles/Afterschool%20-day%20by%20day-__Event%20Story.html",
    "Gacha": "articles/Afterschool%20-day%20by%20day-__Gacha.html"
-  }
+  },
+  "limited": false,
+  "pv": null
  },
  {
   "id": 8,
@@ -607,16 +1048,110 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_115.png",
-   "assets/media/cards/Card_illust_116.png",
-   "assets/media/cards/Card_illust_117.png",
-   "assets/media/cards/Card_illust_119.png"
+   {
+    "img": "assets/media/cards/Card_illust_115.png",
+    "id": 115,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_115(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_115(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_115(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_115(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_115(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_116.png",
+    "id": 116,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_116(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_116(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_116(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_116(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_116(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_117.png",
+    "id": 117,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_117(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_117(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_117(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_117(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_117(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_119.png",
+    "id": 119,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_119(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_119(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_119(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/Whirling%20Petals%20During%20the%20Ninth%20Lunar%20Month.html",
   "subs": {
    "Event Story": "articles/Whirling%20Petals%20During%20the%20Ninth%20Lunar%20Month__Event%20Story.html",
    "Gacha": "articles/Whirling%20Petals%20During%20the%20Ninth%20Lunar%20Month__Gacha.html"
-  }
+  },
+  "limited": false,
+  "pv": null
  },
  {
   "id": 9,
@@ -688,16 +1223,251 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_122.png",
-   "assets/media/cards/Card_illust_123.png",
-   "assets/media/cards/Card_illust_124.png",
-   "assets/media/cards/Card_illust_125.png"
+   {
+    "img": "assets/media/cards/Card_illust_122.png",
+    "id": 122,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_122(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_122(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_122(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_122(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_122(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_123.png",
+    "id": 123,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_123(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_123(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_123(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_123(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_123(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_124.png",
+    "id": 124,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_124(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_124(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_124(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_124(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_124(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_125.png",
+    "id": 125,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_125(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_125(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_125(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/%28Special%20Task%29%20Prequel-%20Homeward%20in%20the%20Twilight.html",
   "subs": {
    "Event Story": "articles/%28Special%20Task%29%20Prequel-%20Homeward%20in%20the%20Twilight__Event%20Story.html",
    "Gacha": "articles/%28Special%20Task%29%20Prequel-%20Homeward%20in%20the%20Twilight__Gacha.html"
-  }
+  },
+  "limited": false,
+  "pv": null
+ },
+ {
+  "id": 10,
+  "kind": "Event",
+  "title": "Invitation from the Underworld",
+  "name": "Invitation from the Underworld",
+  "kanji": "冥府からの招待",
+  "start": "2024-10-22",
+  "end": "2024-11-05",
+  "start_disp": "2024.10.22",
+  "end_disp": "2024.11.05",
+  "dept": null,
+  "attribute": null,
+  "banner": "assets/media/banners/BMC_E10_Banner.png",
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [
+   {
+    "img": "assets/media/cards/Card_illust_128.png",
+    "id": 128,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_128(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_128(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_128(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_128(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_128(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_129.png",
+    "id": 129,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_129(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_129(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_129(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_129(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_129(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_130.png",
+    "id": 130,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_130(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_130(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_130(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_130(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_130(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_131.png",
+    "id": 131,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_131(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_131(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_131(card_vo_skill).ogg"
+     }
+    ]
+   }
+  ],
+  "article": null,
+  "subs": {},
+  "limited": true,
+  "pv": null
+ },
+ {
+  "id": 11,
+  "kind": "Anniversary",
+  "title": "0.5th Anniversary",
+  "name": "0.5th Anniversary",
+  "kanji": "0.5周年記念",
+  "start": "2024-11-08",
+  "end": "2024-11-21",
+  "start_disp": "2024.11.08",
+  "end_disp": "2024.11.21",
+  "dept": null,
+  "attribute": null,
+  "banner": "assets/media/banners/BMC_E11_Banner.png",
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [],
+  "article": null,
+  "subs": {},
+  "limited": false,
+  "pv": null
  },
  {
   "id": 12,
@@ -773,16 +1543,110 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_145.png",
-   "assets/media/cards/Card_illust_146.png",
-   "assets/media/cards/Card_illust_147.png",
-   "assets/media/cards/Card_illust_149.png"
+   {
+    "img": "assets/media/cards/Card_illust_145.png",
+    "id": 145,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_145(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_145(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_145(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_145(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_145(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_146.png",
+    "id": 146,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_146(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_146(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_146(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_146(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_146(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_147.png",
+    "id": 147,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_147(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_147(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_147(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_147(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_147(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_149.png",
+    "id": 149,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_149(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_149(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_149(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/%28Admin%29%20Prequel-%20Pale%20Sunlight%20on%20Deep%20Snow.html",
   "subs": {
    "Event Story": "articles/%28Admin%29%20Prequel-%20Pale%20Sunlight%20on%20Deep%20Snow__Event%20Story.html",
    "Gacha": "articles/%28Admin%29%20Prequel-%20Pale%20Sunlight%20on%20Deep%20Snow__Gacha.html"
-  }
+  },
+  "limited": false,
+  "pv": null
  },
  {
   "id": 13,
@@ -854,16 +1718,132 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_154.png",
-   "assets/media/cards/Card_illust_155.png",
-   "assets/media/cards/Card_illust_156.png",
-   "assets/media/cards/Card_illust_157.png"
+   {
+    "img": "assets/media/cards/Card_illust_154.png",
+    "id": 154,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_154(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_154(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_154(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_154(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_154(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_155.png",
+    "id": 155,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_155(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_155(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_155(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_155(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_155(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_156.png",
+    "id": 156,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_156(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_156(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_156(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_156(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_156(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_157.png",
+    "id": 157,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_157(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_157(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_157(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/Blessings%20-On%20the%20Wish%20Descending%20Holy%20Night-.html",
   "subs": {
    "Event Story": "articles/Blessings%20-On%20the%20Wish%20Descending%20Holy%20Night-__Event%20Story.html",
    "Gacha": "articles/Blessings%20-On%20the%20Wish%20Descending%20Holy%20Night-__Gacha.html"
-  }
+  },
+  "limited": true,
+  "pv": null
+ },
+ {
+  "id": 14,
+  "kind": "New Year",
+  "title": "2025 Happy New Year!",
+  "name": "2025 Happy New Year!",
+  "kanji": "2025年 迎春",
+  "start": "2025-01-01",
+  "end": "2025-01-07",
+  "start_disp": "2025.01.01",
+  "end_disp": "2025.01.07",
+  "dept": null,
+  "attribute": null,
+  "banner": "assets/media/banners/BMC_E14_Banner.png",
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [],
+  "article": null,
+  "subs": {},
+  "limited": false,
+  "pv": null
  },
  {
   "id": 15,
@@ -935,17 +1915,124 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_163.png",
-   "assets/media/cards/Card_illust_164.png",
-   "assets/media/cards/Card_illust_165.png",
-   "assets/media/cards/Card_illust_167.png",
-   "assets/media/cards/Card_illust_168.png"
+   {
+    "img": "assets/media/cards/Card_illust_163.png",
+    "id": 163,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_163(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_163(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_163(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_163(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_163(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_164.png",
+    "id": 164,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_164(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_164(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_164(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_164(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_164(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_165.png",
+    "id": 165,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_165(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_165(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_165(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_165(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_165(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_167.png",
+    "id": 167,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_167(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_167(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_167(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_168.png",
+    "id": 168,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_168(card_vo_home_1).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_168(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/Happy%20New%20Year-%20Commissions%20Begin%20in%20a%20Brand%20New%20Year.html",
   "subs": {
    "Event Story": "articles/Happy%20New%20Year-%20Commissions%20Begin%20in%20a%20Brand%20New%20Year__Event%20Story.html",
    "Gacha": "articles/Happy%20New%20Year-%20Commissions%20Begin%20in%20a%20Brand%20New%20Year__Gacha.html"
-  }
+  },
+  "limited": false,
+  "pv": null
  },
  {
   "id": 16,
@@ -1013,17 +2100,124 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_170.png",
-   "assets/media/cards/Card_illust_171.png",
-   "assets/media/cards/Card_illust_172.png",
-   "assets/media/cards/Card_illust_174.png",
-   "assets/media/cards/Card_illust_175.png"
+   {
+    "img": "assets/media/cards/Card_illust_170.png",
+    "id": 170,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_170(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_170(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_170(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_170(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_170(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_171.png",
+    "id": 171,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_171(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_171(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_171(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_171(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_171(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_172.png",
+    "id": 172,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_172(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_172(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_172(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_172(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_172(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_174.png",
+    "id": 174,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_174(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_174(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_174(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_175.png",
+    "id": 175,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_175(card_vo_home_1).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_175(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/Lament-%20Poison%20to%20End%20the%20Act.html",
   "subs": {
    "Event Story": "articles/Lament-%20Poison%20to%20End%20the%20Act__Event%20Story.html",
    "Gacha": "articles/Lament-%20Poison%20to%20End%20the%20Act__Gacha.html"
-  }
+  },
+  "limited": false,
+  "pv": null
  },
  {
   "id": 17,
@@ -1083,17 +2277,124 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_177.png",
-   "assets/media/cards/Card_illust_178.png",
-   "assets/media/cards/Card_illust_179.png",
-   "assets/media/cards/Card_illust_181.png",
-   "assets/media/cards/Card_illust_182.png"
+   {
+    "img": "assets/media/cards/Card_illust_177.png",
+    "id": 177,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_177(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_177(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_177(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_177(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_177(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_178.png",
+    "id": 178,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_178(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_178(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_178(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_178(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_178(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_179.png",
+    "id": 179,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_179(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_179(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_179(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_179(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_179(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_181.png",
+    "id": 181,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_181(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_181(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_181(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_182.png",
+    "id": 182,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_182(card_vo_home_1).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_182(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/%28Main%20Office%29%20Prequel-%20Dinner%20Beneath%20the%20Waxing%20Moon.html",
   "subs": {
    "Event Story": "articles/%28Main%20Office%29%20Prequel-%20Dinner%20Beneath%20the%20Waxing%20Moon__Event%20Story.html",
    "Gacha": "articles/%28Main%20Office%29%20Prequel-%20Dinner%20Beneath%20the%20Waxing%20Moon__Gacha.html"
-  }
+  },
+  "limited": false,
+  "pv": null
  },
  {
   "id": 18,
@@ -1161,17 +2462,124 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_184.png",
-   "assets/media/cards/Card_illust_185.png",
-   "assets/media/cards/Card_illust_186.png",
-   "assets/media/cards/Card_illust_187.png",
-   "assets/media/cards/Card_illust_189.png"
+   {
+    "img": "assets/media/cards/Card_illust_184.png",
+    "id": 184,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_184(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_184(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_184(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_184(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_184(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_185.png",
+    "id": 185,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_185(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_185(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_185(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_185(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_185(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_186.png",
+    "id": 186,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_186(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_186(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_186(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_186(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_186(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_187.png",
+    "id": 187,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_187(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_187(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_187(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_189.png",
+    "id": 189,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_189(card_vo_home_1).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_189(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/Flowers%20in%20the%20Mirror%2C%20Town%20in%20the%20Photograph.html",
   "subs": {
    "Event Story": "articles/Flowers%20in%20the%20Mirror%2C%20Town%20in%20the%20Photograph__Event%20Story.html",
    "Gacha": "articles/Flowers%20in%20the%20Mirror%2C%20Town%20in%20the%20Photograph__Gacha.html"
-  }
+  },
+  "limited": true,
+  "pv": null
  },
  {
   "id": 19,
@@ -1243,17 +2651,124 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_192.png",
-   "assets/media/cards/Card_illust_193.png",
-   "assets/media/cards/Card_illust_194.png",
-   "assets/media/cards/Card_illust_196.png",
-   "assets/media/cards/Card_illust_197.png"
+   {
+    "img": "assets/media/cards/Card_illust_192.png",
+    "id": 192,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_192(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_192(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_192(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_192(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_192(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_193.png",
+    "id": 193,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_193(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_193(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_193(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_193(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_193(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_194.png",
+    "id": 194,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_194(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_194(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_194(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_194(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_194(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_196.png",
+    "id": 196,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_196(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_196(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_196(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_197.png",
+    "id": 197,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_197(card_vo_home_1).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_197(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/Threshold%2C%20Fun%20at%20the%20Seaside.html",
   "subs": {
    "Event Story": "articles/Threshold%2C%20Fun%20at%20the%20Seaside__Event%20Story.html",
    "Gacha": "articles/Threshold%2C%20Fun%20at%20the%20Seaside__Gacha.html"
-  }
+  },
+  "limited": true,
+  "pv": null
  },
  {
   "id": 20,
@@ -1317,17 +2832,124 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_199.png",
-   "assets/media/cards/Card_illust_200.png",
-   "assets/media/cards/Card_illust_201.png",
-   "assets/media/cards/Card_illust_203.png",
-   "assets/media/cards/Card_illust_204.png"
+   {
+    "img": "assets/media/cards/Card_illust_199.png",
+    "id": 199,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_199(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_199(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_199(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_199(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_199(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_200.png",
+    "id": 200,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_200(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_200(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_200(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_200(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_200(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_201.png",
+    "id": 201,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_201(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_201(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_201(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_201(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_201(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_203.png",
+    "id": 203,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_203(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_203(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_203(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_204.png",
+    "id": 204,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_204(card_vo_home_1).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_204(card_vo_skill).mp3"
+     }
+    ]
+   }
   ],
   "article": "articles/Coming%20Up%21%20Assorted%20Special%20Menu.html",
   "subs": {
    "Event Story": "articles/Coming%20Up%21%20Assorted%20Special%20Menu__Event%20Story.html",
    "Gacha": "articles/Coming%20Up%21%20Assorted%20Special%20Menu__Gacha.html"
-  }
+  },
+  "limited": true,
+  "pv": null
  },
  {
   "id": 21,
@@ -1389,17 +3011,146 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_206.png",
-   "assets/media/cards/Card_illust_207.png",
-   "assets/media/cards/Card_illust_208.png",
-   "assets/media/cards/Card_illust_209.png",
-   "assets/media/cards/Card_illust_211.png"
+   {
+    "img": "assets/media/cards/Card_illust_206.png",
+    "id": 206,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_206(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_206(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_206(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_206(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_206(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_207.png",
+    "id": 207,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_207(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_207(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_207(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_207(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_207(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_208.png",
+    "id": 208,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_208(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_208(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_208(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_208(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_208(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_209.png",
+    "id": 209,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_209(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_209(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_209(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_211.png",
+    "id": 211,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_211(card_vo_home_1).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_211(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/%28Negotiation%29%20Prequel-%20Eyes%20Lifted%20to%20the%20Foundation.html",
   "subs": {
    "Event Story": "articles/%28Negotiation%29%20Prequel-%20Eyes%20Lifted%20to%20the%20Foundation__Event%20Story.html",
    "Gacha": "articles/%28Negotiation%29%20Prequel-%20Eyes%20Lifted%20to%20the%20Foundation__Gacha.html"
-  }
+  },
+  "limited": false,
+  "pv": null
+ },
+ {
+  "id": 22,
+  "kind": "Anniversary",
+  "title": "1st Anniversary -Knotting Point-",
+  "name": "1st Anniversary -Knotting Point-",
+  "kanji": "1周年記念",
+  "start": "2025-05-03",
+  "end": "2025-05-22",
+  "start_disp": "2025.05.03",
+  "end_disp": "2025.05.22",
+  "dept": null,
+  "attribute": null,
+  "banner": "assets/media/banners/BMC_E22_Banner.png",
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [],
+  "article": null,
+  "subs": {},
+  "limited": false,
+  "pv": null
  },
  {
   "id": 23,
@@ -1463,16 +3214,126 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_234.png",
-   "assets/media/cards/Card_illust_235.png",
-   "assets/media/cards/Card_illust_236.png",
-   "assets/media/cards/Card_illust_238.png",
-   "assets/media/cards/Card_illust_239.png"
+   {
+    "img": "assets/media/cards/Card_illust_234.png",
+    "id": 234,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_234(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_234(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_234(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_234(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_234(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_235.png",
+    "id": 235,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_235(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_235(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_235(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_235(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_235(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_236.png",
+    "id": 236,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_236(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_236(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_236(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_236(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_236(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_238.png",
+    "id": 238,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_238(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_238(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_238(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_239.png",
+    "id": 239,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_239(card_vo_home_1).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_239(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/Blooming%2C%20When%20the%20Garden%20Lights%20Up%20at%20Nights.html",
   "subs": {
    "Event Story": "articles/Blooming%2C%20When%20the%20Garden%20Lights%20Up%20at%20Nights__Event%20Story.html",
    "Gacha": "articles/Blooming%2C%20When%20the%20Garden%20Lights%20Up%20at%20Nights__Gacha.html"
+  },
+  "limited": false,
+  "pv": {
+   "yt": "edK2YdaSnZs",
+   "title": "Brísa de Noche"
   }
  },
  {
@@ -1537,15 +3398,112 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_241.png",
-   "assets/media/cards/Card_illust_242.png",
-   "assets/media/cards/Card_illust_243.png",
-   "assets/media/cards/Card_illust_244.png"
+   {
+    "img": "assets/media/cards/Card_illust_241.png",
+    "id": 241,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_241(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_241(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_241(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_241(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_241(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_242.png",
+    "id": 242,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_242(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_242(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_242(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_242(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_242(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_243.png",
+    "id": 243,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_243(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_243(card_vo_home_2).mp3"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_243(card_vo_home_3).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_243(card_vo_skill).mp3"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_243(card_vo_skill_combi).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_244.png",
+    "id": 244,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_244(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_244(card_vo_home_2).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_244(card_vo_skill).mp3"
+     }
+    ]
+   }
   ],
   "article": "articles/Bouquet%20Prayer-%20Happily%20Ever%20After.html",
   "subs": {
    "Event Story": "articles/Bouquet%20Prayer-%20Happily%20Ever%20After__Event%20Story.html",
    "Gacha": "articles/Bouquet%20Prayer-%20Happily%20Ever%20After__Gacha.html"
+  },
+  "limited": true,
+  "pv": {
+   "yt": "jBrm-6flG7o",
+   "title": "cupido"
   }
  },
  {
@@ -1618,16 +3576,126 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_248.png",
-   "assets/media/cards/Card_illust_249.png",
-   "assets/media/cards/Card_illust_250.png",
-   "assets/media/cards/Card_illust_251.png",
-   "assets/media/cards/Card_illust_253.png"
+   {
+    "img": "assets/media/cards/Card_illust_248.png",
+    "id": 248,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_248(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_248(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_248(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_248(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_248(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_249.png",
+    "id": 249,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_249(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_249(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_249(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_249(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_249(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_250.png",
+    "id": 250,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_250(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_250(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_250(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_250(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_250(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_251.png",
+    "id": 251,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_251(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_251(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_251(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_253.png",
+    "id": 253,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_253(card_vo_home_1).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_253(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/%28Admin%29%20Travelogue-%20Dream%20Reflected%20in%20Flower%20Scenery.html",
   "subs": {
    "Event Story": "articles/%28Admin%29%20Travelogue-%20Dream%20Reflected%20in%20Flower%20Scenery__Event%20Story.html",
    "Gacha": "articles/%28Admin%29%20Travelogue-%20Dream%20Reflected%20in%20Flower%20Scenery__Gacha.html"
+  },
+  "limited": false,
+  "pv": {
+   "yt": "zgJ8LO1opuc",
+   "title": "Hydrangea"
   }
  },
  {
@@ -1708,17 +3776,149 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_255.png",
-   "assets/media/cards/Card_illust_256.png",
-   "assets/media/cards/Card_illust_257.png",
-   "assets/media/cards/Card_illust_258.png",
-   "assets/media/cards/Card_illust_260.png"
+   {
+    "img": "assets/media/cards/Card_illust_255.png",
+    "id": 255,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_255(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_255(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_255(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_255(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_255(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_256.png",
+    "id": 256,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_256(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_256(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_256(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_256(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_256(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_257.png",
+    "id": 257,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_257(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_257(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_257(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_257(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_257(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_258.png",
+    "id": 258,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_258(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_258(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_258(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_260.png",
+    "id": 260,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_260(card_vo_home_1).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_260(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/Resonance%2C%20At%20an%20Aquarium%20Where%20the%20Ends%20Touch.html",
   "subs": {
    "Event Story": "articles/Resonance%2C%20At%20an%20Aquarium%20Where%20the%20Ends%20Touch__Event%20Story.html",
    "Gacha": "articles/Resonance%2C%20At%20an%20Aquarium%20Where%20the%20Ends%20Touch__Gacha.html"
+  },
+  "limited": false,
+  "pv": {
+   "yt": "kJleHT8pXZo",
+   "title": "watery glow"
   }
+ },
+ {
+  "id": 27,
+  "kind": "Mini",
+  "title": "BMC RMX FES Vol.1",
+  "name": "BMC RMX FES Vol.1",
+  "kanji": "BMC RMX FES Vol.1",
+  "start": "2025-07-27",
+  "end": "2025-07-30",
+  "start_disp": "2025.07.27",
+  "end_disp": "2025.07.30",
+  "dept": null,
+  "attribute": null,
+  "banner": "assets/media/banners/BMC_E27_Banner.png",
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [],
+  "article": null,
+  "subs": {},
+  "limited": false,
+  "pv": null
  },
  {
   "id": 28,
@@ -1786,16 +3986,126 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_262.png",
-   "assets/media/cards/Card_illust_263.png",
-   "assets/media/cards/Card_illust_264.png",
-   "assets/media/cards/Card_illust_266.png",
-   "assets/media/cards/Card_illust_267.png"
+   {
+    "img": "assets/media/cards/Card_illust_262.png",
+    "id": 262,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_262(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_262(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_262(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_262(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_262(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_263.png",
+    "id": 263,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_263(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_263(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_263(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_263(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_263(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_264.png",
+    "id": 264,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_264(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_264(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_264(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_264(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_264(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_266.png",
+    "id": 266,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_266(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_266(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_266(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_267.png",
+    "id": 267,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_267(card_vo_home_1).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_267(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/Night%20Out%21%20Neon%20Sign%20Illuminated%20Side%20Profile.html",
   "subs": {
    "Event Story": "articles/Night%20Out%21%20Neon%20Sign%20Illuminated%20Side%20Profile__Event%20Story.html",
    "Gacha": "articles/Night%20Out%21%20Neon%20Sign%20Illuminated%20Side%20Profile__Gacha.html"
+  },
+  "limited": true,
+  "pv": {
+   "yt": "WE3wUjfCcLU",
+   "title": "Chill Still Thrill"
   }
  },
  {
@@ -1860,16 +4170,126 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_269.png",
-   "assets/media/cards/Card_illust_270.png",
-   "assets/media/cards/Card_illust_271.png",
-   "assets/media/cards/Card_illust_273.png",
-   "assets/media/cards/Card_illust_274.png"
+   {
+    "img": "assets/media/cards/Card_illust_269.png",
+    "id": 269,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_269(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_269(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_269(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_269(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_269(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_270.png",
+    "id": 270,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_270(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_270(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_270(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_270(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_270(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_271.png",
+    "id": 271,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_271(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_271(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_271(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_271(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_271(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_273.png",
+    "id": 273,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_273(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_273(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_273(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_274.png",
+    "id": 274,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_274(card_vo_home_1).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_274(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/%28Simulation%29%20Travelogue-%20A%20Gift%20Unraveled%20in%20the%20Evening%20Glow.html",
   "subs": {
    "Event Story": "articles/%28Simulation%29%20Travelogue-%20A%20Gift%20Unraveled%20in%20the%20Evening%20Glow__Event%20Story.html",
    "Gacha": "articles/%28Simulation%29%20Travelogue-%20A%20Gift%20Unraveled%20in%20the%20Evening%20Glow__Gacha.html"
+  },
+  "limited": false,
+  "pv": {
+   "yt": "2BzeXaLUQ9s",
+   "title": "nagisa"
   }
  },
  {
@@ -1942,17 +4362,149 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_276.png",
-   "assets/media/cards/Card_illust_277.png",
-   "assets/media/cards/Card_illust_278.png",
-   "assets/media/cards/Card_illust_279.png",
-   "assets/media/cards/Card_illust_281.png"
+   {
+    "img": "assets/media/cards/Card_illust_276.png",
+    "id": 276,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_276(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_276(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_276(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_276(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_276(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_277.png",
+    "id": 277,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_277(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_277(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_277(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_277(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_277(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_278.png",
+    "id": 278,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_278(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_278(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_278(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_278(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_278(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_279.png",
+    "id": 279,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_279(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_279(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_279(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_281.png",
+    "id": 281,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_281(card_vo_home_1).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_281(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/Framed%20in%20the%20Gallery.html",
   "subs": {
    "Event Story": "articles/Framed%20in%20the%20Gallery__Event%20Story.html",
    "Gacha": "articles/Framed%20in%20the%20Gallery__Gacha.html"
+  },
+  "limited": true,
+  "pv": {
+   "yt": "GT3roA9Lrzk",
+   "title": "Pictures at an Exhibition"
   }
+ },
+ {
+  "id": 1012,
+  "kind": "Mini",
+  "title": "BMC RMX FES Vol.2",
+  "name": "BMC RMX FES Vol.2",
+  "kanji": "BMC RMX FES Vol.2",
+  "start": "2025-09-10",
+  "end": "2025-09-16",
+  "start_disp": "2025.09.10",
+  "end_disp": "2025.09.16",
+  "dept": null,
+  "attribute": null,
+  "banner": null,
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [],
+  "article": null,
+  "subs": {},
+  "limited": false,
+  "pv": null
  },
  {
   "id": 31,
@@ -2020,16 +4572,126 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_285.png",
-   "assets/media/cards/Card_illust_286.png",
-   "assets/media/cards/Card_illust_287.png",
-   "assets/media/cards/Card_illust_288.png",
-   "assets/media/cards/Card_illust_290.png"
+   {
+    "img": "assets/media/cards/Card_illust_285.png",
+    "id": 285,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_285(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_285(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_285(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_285(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_285(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_286.png",
+    "id": 286,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_286(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_286(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_286(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_286(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_286(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_287.png",
+    "id": 287,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_287(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_287(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_287(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_287(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_287(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_288.png",
+    "id": 288,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_288(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_288(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_288(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_290.png",
+    "id": 290,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_290(card_vo_home_1).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_290(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/For%20Whom%20This%20Unbreakable%20Riff%20For.html",
   "subs": {
    "Event Story": "articles/For%20Whom%20This%20Unbreakable%20Riff%20For__Event%20Story.html",
    "Gacha": "articles/For%20Whom%20This%20Unbreakable%20Riff%20For__Gacha.html"
+  },
+  "limited": false,
+  "pv": {
+   "yt": "75ZG25JC5dE",
+   "title": "unchained"
   }
  },
  {
@@ -2098,17 +4760,282 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_293.png",
-   "assets/media/cards/Card_illust_294.png",
-   "assets/media/cards/Card_illust_295.png",
-   "assets/media/cards/Card_illust_297.png",
-   "assets/media/cards/Card_illust_298.png"
+   {
+    "img": "assets/media/cards/Card_illust_293.png",
+    "id": 293,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_293(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_293(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_293(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_293(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_293(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_294.png",
+    "id": 294,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_294(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_294(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_294(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_294(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_294(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_295.png",
+    "id": 295,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_295(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_295(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_295(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_295(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_295(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_297.png",
+    "id": 297,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_297(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_297(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_297(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_298.png",
+    "id": 298,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_298(card_vo_home_1).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_298(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/%28Main%20Office%29%20Travelogue-%20Lines%20Composed%20on%20White.html",
   "subs": {
    "Event Story": "articles/%28Main%20Office%29%20Travelogue-%20Lines%20Composed%20on%20White__Event%20Story.html",
    "Gacha": "articles/%28Main%20Office%29%20Travelogue-%20Lines%20Composed%20on%20White__Gacha.html"
+  },
+  "limited": false,
+  "pv": {
+   "yt": "f4IP0-9QAg8",
+   "title": "Spa Vermillion"
   }
+ },
+ {
+  "id": 33,
+  "kind": "OJT",
+  "title": "A Certain Monster on the Night of Full Moon",
+  "name": "A Certain Monster on the Night of Full Moon",
+  "kanji": "或る、満月の夜に妖物",
+  "start": "2025-10-24",
+  "end": "2025-11-05",
+  "start_disp": "2025.10.24",
+  "end_disp": "2025.11.05",
+  "dept": null,
+  "attribute": null,
+  "banner": "assets/media/banners/BMC_E33_Banner.png",
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [
+   {
+    "img": "assets/media/cards/Card_illust_300.png",
+    "id": 300,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_300(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_300(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_300(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_300(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_300(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_301.png",
+    "id": 301,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_301(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_301(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_301(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_301(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_301(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_302.png",
+    "id": 302,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_302(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_302(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_302(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_302(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_302(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_304.png",
+    "id": 304,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_304(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_304(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_304(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_305.png",
+    "id": 305,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_305(card_vo_home_1).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_305(card_vo_skill).ogg"
+     }
+    ]
+   }
+  ],
+  "article": null,
+  "subs": {},
+  "limited": true,
+  "pv": null
+ },
+ {
+  "id": 34,
+  "kind": "Anniversary",
+  "title": "1.5th Anniversary",
+  "name": "1.5th Anniversary",
+  "kanji": "1.5周年記念",
+  "start": "2025-11-06",
+  "end": "2025-11-20",
+  "start_disp": "2025.11.06",
+  "end_disp": "2025.11.20",
+  "dept": null,
+  "attribute": null,
+  "banner": "assets/media/banners/BMC_E34_Banner.png",
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [],
+  "article": null,
+  "subs": {},
+  "limited": false,
+  "pv": null
  },
  {
   "id": 35,
@@ -2188,17 +5115,260 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_313.png",
-   "assets/media/cards/Card_illust_314.png",
-   "assets/media/cards/Card_illust_315.png",
-   "assets/media/cards/Card_illust_316.png",
-   "assets/media/cards/Card_illust_318.png"
+   {
+    "img": "assets/media/cards/Card_illust_313.png",
+    "id": 313,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_313(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_313(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_313(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_313(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_313(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_314.png",
+    "id": 314,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_314(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_314(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_314(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_314(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_314(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_315.png",
+    "id": 315,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_315(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_315(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_315(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_315(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_315(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_316.png",
+    "id": 316,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_316(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_316(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_316(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_318.png",
+    "id": 318,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_318(card_vo_home_1).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_318(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/%28Special%20Task%29%20Travelogue-%20The%20Path%20Emerging%20in%20the%20Iridescence.html",
   "subs": {
    "Event Story": "articles/%28Special%20Task%29%20Travelogue-%20The%20Path%20Emerging%20in%20the%20Iridescence__Event%20Story.html",
    "Gacha": "articles/%28Special%20Task%29%20Travelogue-%20The%20Path%20Emerging%20in%20the%20Iridescence__Gacha.html"
+  },
+  "limited": false,
+  "pv": {
+   "yt": "HmdZwLWNbdQ",
+   "title": "Carousel"
   }
+ },
+ {
+  "id": 36,
+  "kind": "Cafe",
+  "title": "Welcome! KAWAII Cafe♡ Aporia × Sanrio",
+  "name": "Welcome! KAWAII Cafe♡ Aporia × Sanrio",
+  "kanji": "Aporia × サンリオ",
+  "start": "2025-11-29",
+  "end": "2025-12-12",
+  "start_disp": "2025.11.29",
+  "end_disp": "2025.12.12",
+  "dept": null,
+  "attribute": null,
+  "banner": "assets/media/banners/BMC_E36_Banner.png",
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [
+   {
+    "img": "assets/media/cards/Card_illust_320.png",
+    "id": 320,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_320(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_320(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_320(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_320(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_320(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_321.png",
+    "id": 321,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_321(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_321(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_321(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_321(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_321(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_322.png",
+    "id": 322,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_322(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_322(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_322(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_322(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_322(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_323.png",
+    "id": 323,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_323(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_323(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_323(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_325.png",
+    "id": 325,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_325(card_vo_home_1).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_325(card_vo_skill).ogg"
+     }
+    ]
+   }
+  ],
+  "article": null,
+  "subs": {},
+  "limited": true,
+  "pv": null
  },
  {
   "id": 37,
@@ -2262,17 +5432,149 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_328.png",
-   "assets/media/cards/Card_illust_329.png",
-   "assets/media/cards/Card_illust_330.png",
-   "assets/media/cards/Card_illust_332.png",
-   "assets/media/cards/Card_illust_333.png"
+   {
+    "img": "assets/media/cards/Card_illust_328.png",
+    "id": 328,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_328(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_328(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_328(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_328(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_328(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_329.png",
+    "id": 329,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_329(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_329(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_329(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_329(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_329(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_330.png",
+    "id": 330,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_330(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_330(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_330(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_330(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_330(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_332.png",
+    "id": 332,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_332(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_332(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_332(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_333.png",
+    "id": 333,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_333(card_vo_home_1).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_333(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/Wish%20Come%20True%20Under%20the%20Twinkling%20Sacred%20Tree.html",
   "subs": {
    "Event Story": "articles/Wish%20Come%20True%20Under%20the%20Twinkling%20Sacred%20Tree__Event%20Story.html",
    "Gacha": "articles/Wish%20Come%20True%20Under%20the%20Twinkling%20Sacred%20Tree__Gacha.html"
+  },
+  "limited": true,
+  "pv": {
+   "yt": "6EY2fYhFoyU",
+   "title": "Fiésta Santa"
   }
+ },
+ {
+  "id": 38,
+  "kind": "New Year",
+  "title": "2026 Happy New Year!",
+  "name": "2026 Happy New Year!",
+  "kanji": "2026年 迎春",
+  "start": "2026-01-01",
+  "end": "2026-01-07",
+  "start_disp": "2026.01.01",
+  "end_disp": "2026.01.07",
+  "dept": null,
+  "attribute": null,
+  "banner": "assets/media/banners/Event38_info_banner.png",
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [],
+  "article": null,
+  "subs": {},
+  "limited": false,
+  "pv": null
  },
  {
   "id": 39,
@@ -2344,16 +5646,126 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_339.png",
-   "assets/media/cards/Card_illust_340.png",
-   "assets/media/cards/Card_illust_341.png",
-   "assets/media/cards/Card_illust_343.png",
-   "assets/media/cards/Card_illust_344.png"
+   {
+    "img": "assets/media/cards/Card_illust_339.png",
+    "id": 339,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_339(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_339(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_339(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_339(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_339(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_340.png",
+    "id": 340,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_340(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_340(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_340(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_340(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_340(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_341.png",
+    "id": 341,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_341(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_341(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_341(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_341(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_341(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_343.png",
+    "id": 343,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_343(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_343(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_343(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_344.png",
+    "id": 344,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_344(card_vo_home_1).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_344(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/Fav%27ulous%20Curated%20Collection%20with%20ZOZOTOWN.html",
   "subs": {
    "Event Story": "articles/Fav%27ulous%20Curated%20Collection%20with%20ZOZOTOWN__Event%20Story.html",
    "Gacha": "articles/Fav%27ulous%20Curated%20Collection%20with%20ZOZOTOWN__Gacha.html"
+  },
+  "limited": false,
+  "pv": {
+   "yt": "wqDRcPyl_tg",
+   "title": "Window Shopping"
   }
  },
  {
@@ -2426,16 +5838,126 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_346.png",
-   "assets/media/cards/Card_illust_347.png",
-   "assets/media/cards/Card_illust_348.png",
-   "assets/media/cards/Card_illust_350.png",
-   "assets/media/cards/Card_illust_351.png"
+   {
+    "img": "assets/media/cards/Card_illust_346.png",
+    "id": 346,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_346(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_346(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_346(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_346(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_346(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_347.png",
+    "id": 347,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_347(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_347(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_347(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_347(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_347(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_348.png",
+    "id": 348,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_348(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_348(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_348(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_348(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_348(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_350.png",
+    "id": 350,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_350(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_350(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_350(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_351.png",
+    "id": 351,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_351(card_vo_home_1).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_351(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/%28Watchdogs%29%20Travelogue-%20Beyond%20the%20Overlapping%20Shadows.html",
   "subs": {
    "Event Story": "articles/%28Watchdogs%29%20Travelogue-%20Beyond%20the%20Overlapping%20Shadows__Event%20Story.html",
    "Gacha": "articles/%28Watchdogs%29%20Travelogue-%20Beyond%20the%20Overlapping%20Shadows__Gacha.html"
+  },
+  "limited": false,
+  "pv": {
+   "yt": "KM0oY1lJ55g",
+   "title": "Untethered"
   }
  },
  {
@@ -2500,17 +6022,149 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_353.png",
-   "assets/media/cards/Card_illust_354.png",
-   "assets/media/cards/Card_illust_355.png",
-   "assets/media/cards/Card_illust_357.png",
-   "assets/media/cards/Card_illust_358.png"
+   {
+    "img": "assets/media/cards/Card_illust_353.png",
+    "id": 353,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_353(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_353(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_353(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_353(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_353(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_354.png",
+    "id": 354,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_354(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_354(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_354(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_354(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_354(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_355.png",
+    "id": 355,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_355(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_355(card_vo_home_2).ogg"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_355(card_vo_home_3).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_355(card_vo_skill).ogg"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_355(card_vo_skill_combi).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_357.png",
+    "id": 357,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_357(card_vo_home_1).ogg"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_357(card_vo_home_2).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_357(card_vo_skill).ogg"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_358.png",
+    "id": 358,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_358(card_vo_home_1).ogg"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_358(card_vo_skill).ogg"
+     }
+    ]
+   }
   ],
   "article": "articles/A%20Fate%20Imitating%20Chocolaterie.html",
   "subs": {
    "Event Story": "articles/A%20Fate%20Imitating%20Chocolaterie__Event%20Story.html",
    "Gacha": "articles/A%20Fate%20Imitating%20Chocolaterie__Gacha.html"
+  },
+  "limited": true,
+  "pv": {
+   "yt": "-wfufODLavk",
+   "title": "Love Letter"
   }
+ },
+ {
+  "id": 1013,
+  "kind": "Mini",
+  "title": "BMC RMX FES Vol.3",
+  "name": "BMC RMX FES Vol.3",
+  "kanji": "BMC RMX FES Vol.3",
+  "start": "2026-02-24",
+  "end": "2026-03-02",
+  "start_disp": "2026.02.24",
+  "end_disp": "2026.03.02",
+  "dept": null,
+  "attribute": null,
+  "banner": null,
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [],
+  "article": null,
+  "subs": {},
+  "limited": false,
+  "pv": null
  },
  {
   "id": 42,
@@ -2570,17 +6224,260 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_360.png",
-   "assets/media/cards/Card_illust_361.png",
-   "assets/media/cards/Card_illust_362.png",
-   "assets/media/cards/Card_illust_364.png",
-   "assets/media/cards/Card_illust_365.png"
+   {
+    "img": "assets/media/cards/Card_illust_360.png",
+    "id": 360,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_360(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_360(card_vo_home_2).mp3"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_360(card_vo_home_3).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_360(card_vo_skill).mp3"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_360(card_vo_skill_combi).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_361.png",
+    "id": 361,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_361(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_361(card_vo_home_2).mp3"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_361(card_vo_home_3).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_361(card_vo_skill).mp3"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_361(card_vo_skill_combi).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_362.png",
+    "id": 362,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_362(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_362(card_vo_home_2).mp3"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_362(card_vo_home_3).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_362(card_vo_skill).mp3"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_362(card_vo_skill_combi).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_364.png",
+    "id": 364,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_364(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_364(card_vo_home_2).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_364(card_vo_skill).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_365.png",
+    "id": 365,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_365(card_vo_home_1).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_365(card_vo_skill).mp3"
+     }
+    ]
+   }
   ],
   "article": "articles/Converge%2C%20Scorched%20by%20Radiance.html",
   "subs": {
    "Event Story": "articles/Converge%2C%20Scorched%20by%20Radiance__Event%20Story.html",
    "Gacha": "articles/Converge%2C%20Scorched%20by%20Radiance__Gacha.html"
+  },
+  "limited": true,
+  "pv": {
+   "yt": "pN6xbYdLR0M",
+   "title": "Radiance"
   }
+ },
+ {
+  "id": 43,
+  "kind": "Event",
+  "title": "Revise: Dawn Breaking at the Windowsill",
+  "name": "Revise: Dawn Breaking at the Windowsill",
+  "kanji": "Revise 窓辺に明ける夜",
+  "start": "2026-03-20",
+  "end": "2026-04-04",
+  "start_disp": "2026.03.20",
+  "end_disp": "2026.04.04",
+  "dept": null,
+  "attribute": null,
+  "banner": "assets/media/banners/BMC_E43_Banner.png",
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [
+   {
+    "img": "assets/media/cards/Card_illust_367.png",
+    "id": 367,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_367(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_367(card_vo_home_2).mp3"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_367(card_vo_home_3).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_367(card_vo_skill).mp3"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_367(card_vo_skill_combi).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_368.png",
+    "id": 368,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_368(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_368(card_vo_home_2).mp3"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_368(card_vo_home_3).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_368(card_vo_skill).mp3"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_368(card_vo_skill_combi).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_369.png",
+    "id": 369,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_369(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_369(card_vo_home_2).mp3"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_369(card_vo_home_3).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_369(card_vo_skill).mp3"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_369(card_vo_skill_combi).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_370.png",
+    "id": 370,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_370(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_370(card_vo_home_2).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_370(card_vo_skill).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_372.png",
+    "id": 372,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_372(card_vo_home_1).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_372(card_vo_skill).mp3"
+     }
+    ]
+   }
+  ],
+  "article": null,
+  "subs": {},
+  "limited": false,
+  "pv": null
  },
  {
   "id": 44,
@@ -2648,17 +6545,124 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_373.png",
-   "assets/media/cards/Card_illust_374.png",
-   "assets/media/cards/Card_illust_375.png",
-   "assets/media/cards/Card_illust_376.png",
-   "assets/media/cards/Card_illust_378.png"
+   {
+    "img": "assets/media/cards/Card_illust_373.png",
+    "id": 373,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_373(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_373(card_vo_home_2).mp3"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_373(card_vo_home_3).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_373(card_vo_skill).mp3"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_373(card_vo_skill_combi).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_374.png",
+    "id": 374,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_374(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_374(card_vo_home_2).mp3"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_374(card_vo_home_3).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_374(card_vo_skill).mp3"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_374(card_vo_skill_combi).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_375.png",
+    "id": 375,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_375(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_375(card_vo_home_2).mp3"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_375(card_vo_home_3).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_375(card_vo_skill).mp3"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_375(card_vo_skill_combi).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_376.png",
+    "id": 376,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_376(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_376(card_vo_home_2).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_376(card_vo_skill).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_378.png",
+    "id": 378,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_378(card_vo_home_1).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_378(card_vo_skill).mp3"
+     }
+    ]
+   }
   ],
   "article": "articles/%28Negotiation%29%20Travelogue-%20Memories%20Tied%20to%20the%20Blue%20Sea.html",
   "subs": {
    "Event Story": "articles/%28Negotiation%29%20Travelogue-%20Memories%20Tied%20to%20the%20Blue%20Sea__Event%20Story.html",
    "Gacha": "articles/%28Negotiation%29%20Travelogue-%20Memories%20Tied%20to%20the%20Blue%20Sea__Gacha.html"
-  }
+  },
+  "limited": false,
+  "pv": null
  },
  {
   "id": 45,
@@ -2730,17 +6734,146 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_380.png",
-   "assets/media/cards/Card_illust_381.png",
-   "assets/media/cards/Card_illust_382.png",
-   "assets/media/cards/Card_illust_384.png",
-   "assets/media/cards/Card_illust_385.png"
+   {
+    "img": "assets/media/cards/Card_illust_380.png",
+    "id": 380,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_380(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_380(card_vo_home_2).mp3"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_380(card_vo_home_3).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_380(card_vo_skill).mp3"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_380(card_vo_skill_combi).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_381.png",
+    "id": 381,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_381(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_381(card_vo_home_2).mp3"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_381(card_vo_home_3).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_381(card_vo_skill).mp3"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_381(card_vo_skill_combi).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_382.png",
+    "id": 382,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_382(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_382(card_vo_home_2).mp3"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_382(card_vo_home_3).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_382(card_vo_skill).mp3"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_382(card_vo_skill_combi).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_384.png",
+    "id": 384,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_384(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_384(card_vo_home_2).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_384(card_vo_skill).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_385.png",
+    "id": 385,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_385(card_vo_home_1).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_385(card_vo_skill).mp3"
+     }
+    ]
+   }
   ],
   "article": "articles/Drowsy%20Searching%20All%20Day.html",
   "subs": {
    "Event Story": "articles/Drowsy%20Searching%20All%20Day__Event%20Story.html",
    "Gacha": "articles/Drowsy%20Searching%20All%20Day__Gacha.html"
-  }
+  },
+  "limited": true,
+  "pv": null
+ },
+ {
+  "id": 46,
+  "kind": "Anniversary",
+  "title": "2nd Anniversary -Dualism-",
+  "name": "2nd Anniversary -Dualism-",
+  "kanji": "2周年記念",
+  "start": "2026-05-07",
+  "end": "2026-05-21",
+  "start_disp": "2026.05.07",
+  "end_disp": "2026.05.21",
+  "dept": null,
+  "attribute": null,
+  "banner": "assets/media/banners/BMC_E46_Banner.png",
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [],
+  "article": null,
+  "subs": {},
+  "limited": false,
+  "pv": null
  },
  {
   "id": 47,
@@ -2812,17 +6945,124 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_408.png",
-   "assets/media/cards/Card_illust_409.png",
-   "assets/media/cards/Card_illust_410.png",
-   "assets/media/cards/Card_illust_412.png",
-   "assets/media/cards/Card_illust_413.png"
+   {
+    "img": "assets/media/cards/Card_illust_408.png",
+    "id": 408,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_408(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_408(card_vo_home_2).mp3"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_408(card_vo_home_3).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_408(card_vo_skill).mp3"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_408(card_vo_skill_combi).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_409.png",
+    "id": 409,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_409(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_409(card_vo_home_2).mp3"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_409(card_vo_home_3).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_409(card_vo_skill).mp3"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_409(card_vo_skill_combi).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_410.png",
+    "id": 410,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_410(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_410(card_vo_home_2).mp3"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_410(card_vo_home_3).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_410(card_vo_skill).mp3"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_410(card_vo_skill_combi).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_412.png",
+    "id": 412,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_412(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_412(card_vo_home_2).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_412(card_vo_skill).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_413.png",
+    "id": 413,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_413(card_vo_home_1).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_413(card_vo_skill).mp3"
+     }
+    ]
+   }
   ],
   "article": "articles/Place%20your%20bets%2C%20Turnover%20Tactics.html",
   "subs": {
    "Event Story": "articles/Place%20your%20bets%2C%20Turnover%20Tactics__Event%20Story.html",
    "Gacha": "articles/Place%20your%20bets%2C%20Turnover%20Tactics__Gacha.html"
-  }
+  },
+  "limited": true,
+  "pv": null
  },
  {
   "id": 48,
@@ -2898,17 +7138,227 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_415.png",
-   "assets/media/cards/Card_illust_416.png",
-   "assets/media/cards/Card_illust_417.png",
-   "assets/media/cards/Card_illust_418.png",
-   "assets/media/cards/Card_illust_420.png"
+   {
+    "img": "assets/media/cards/Card_illust_415.png",
+    "id": 415,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_415(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_415(card_vo_home_2).mp3"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_415(card_vo_home_3).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_415(card_vo_skill).mp3"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_415(card_vo_skill_combi).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_416.png",
+    "id": 416,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_416(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_416(card_vo_home_2).mp3"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_416(card_vo_home_3).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_416(card_vo_skill).mp3"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_416(card_vo_skill_combi).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_417.png",
+    "id": 417,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_417(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_417(card_vo_home_2).mp3"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_417(card_vo_home_3).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_417(card_vo_skill).mp3"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_417(card_vo_skill_combi).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_418.png",
+    "id": 418,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_418(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_418(card_vo_home_2).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_418(card_vo_skill).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_420.png",
+    "id": 420,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_420(card_vo_home_1).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_420(card_vo_skill).mp3"
+     }
+    ]
+   }
   ],
   "article": "articles/Cherish%20the%20Breath%20of%20Daily%20Life.html",
   "subs": {
    "Event Story": "articles/Cherish%20the%20Breath%20of%20Daily%20Life__Event%20Story.html",
    "Gacha": "articles/Cherish%20the%20Breath%20of%20Daily%20Life__Gacha.html"
-  }
+  },
+  "limited": true,
+  "pv": null
+ },
+ {
+  "id": 49,
+  "kind": "Vignette",
+  "title": "Vignette -Emperor-Skip-",
+  "name": "Vignette -Emperor-Skip-",
+  "kanji": "Vignette",
+  "start": "2026-06-23",
+  "end": "2026-07-03",
+  "start_disp": "2026.06.23",
+  "end_disp": "2026.07.03",
+  "dept": null,
+  "attribute": null,
+  "banner": "assets/media/banners/BMC_E49_Banner.png",
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [
+   {
+    "img": "assets/media/cards/Card_illust_422.png",
+    "id": 422,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_422(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_422(card_vo_home_2).mp3"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_422(card_vo_home_3).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_422(card_vo_skill).mp3"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_422(card_vo_skill_combi).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_423.png",
+    "id": 423,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_423(card_vo_home_1).mp3"
+     },
+     {
+      "label": "home 2",
+      "src": "assets/media/cardvoices/Voice_423(card_vo_home_2).mp3"
+     },
+     {
+      "label": "home 3",
+      "src": "assets/media/cardvoices/Voice_423(card_vo_home_3).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_423(card_vo_skill).mp3"
+     },
+     {
+      "label": "skill combi",
+      "src": "assets/media/cardvoices/Voice_423(card_vo_skill_combi).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_424.png",
+    "id": 424,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_424(card_vo_home_1).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_424(card_vo_skill).mp3"
+     }
+    ]
+   },
+   {
+    "img": "assets/media/cards/Card_illust_425.png",
+    "id": 425,
+    "audio": [
+     {
+      "label": "home 1",
+      "src": "assets/media/cardvoices/Voice_425(card_vo_home_1).mp3"
+     },
+     {
+      "label": "skill",
+      "src": "assets/media/cardvoices/Voice_425(card_vo_skill).mp3"
+     }
+    ]
+   }
+  ],
+  "article": null,
+  "subs": {},
+  "limited": false,
+  "pv": null
  },
  {
   "id": 50,
@@ -2976,16 +7426,38 @@
    }
   ],
   "cards": [
-   "assets/media/cards/Card_illust_428.png",
-   "assets/media/cards/Card_illust_429.png",
-   "assets/media/cards/Card_illust_430.png",
-   "assets/media/cards/Card_illust_431.png",
-   "assets/media/cards/Card_illust_433.png"
+   {
+    "img": "assets/media/cards/Card_illust_428.png",
+    "id": 428,
+    "audio": []
+   },
+   {
+    "img": "assets/media/cards/Card_illust_429.png",
+    "id": 429,
+    "audio": []
+   },
+   {
+    "img": "assets/media/cards/Card_illust_430.png",
+    "id": 430,
+    "audio": []
+   },
+   {
+    "img": "assets/media/cards/Card_illust_431.png",
+    "id": 431,
+    "audio": []
+   },
+   {
+    "img": "assets/media/cards/Card_illust_433.png",
+    "id": 433,
+    "audio": []
+   }
   ],
   "article": "articles/Milky%20Way%2C%20A%20Promise%20to%20Countless%20Feelings.html",
   "subs": {
    "Event Story": "articles/Milky%20Way%2C%20A%20Promise%20to%20Countless%20Feelings__Event%20Story.html",
    "Gacha": "articles/Milky%20Way%2C%20A%20Promise%20to%20Countless%20Feelings__Gacha.html"
-  }
+  },
+  "limited": false,
+  "pv": null
  }
 ]
