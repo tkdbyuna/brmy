@@ -1,0 +1,79 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Browse all articles · Break My Case Archive</title>
+<link rel="stylesheet" href="assets/style.css">
+</head><body>
+<header class="masthead">
+  <div class="eyebrow">Case File · Personal Archive</div>
+  <h1>Break My Case</h1>
+  <p class="sub">A read-only mirror of the Break My Case Wiki — every article, its images, and its videos, catalogued for offline reference.</p>
+  <div class="statrow">
+    <div class="stat"><b id="s-pages">—</b><span>Articles</span></div>
+    <div class="stat"><b id="s-media">—</b><span>Media files</span></div>
+    <div class="stat"><b id="s-vid">—</b><span>Videos</span></div>
+    <div class="stat"><b id="s-cats">—</b><span>Categories</span></div>
+  </div>
+  <p class="attrib">Source: <a href="https://breakmycase.fandom.com/wiki/Break_My_Case_Wiki" target="_blank" rel="noopener">breakmycase.fandom.com</a> ·
+  Archived <span id="s-date"></span>. Article text is under CC BY-SA 3.0 (Fandom); images and videos remain © their respective owners and load from Fandom's CDN — they are not re-hosted here. Kept for personal, non-commercial reference.</p>
+</header>
+
+<div class="wrap">
+  <div class="toolbar">
+    <input id="q" type="search" placeholder="Search articles…  (e.g. Ai Kosaka, Simulation Dept., gacha)" autocomplete="off">
+    <span class="count" id="count"></span>
+    <span class="gonav"><a href="index.html">← Timeline</a><a href="media.html">Media →</a></span>
+  </div>
+  <div class="chips" id="chips"></div>
+  <ul class="plist" id="list"></ul>
+</div>
+
+<footer>
+  Break My Case Wiki Archive · generated as a static snapshot. Not affiliated with or endorsed by the game's creators or Fandom.
+</footer>
+
+<script>
+document.getElementById('s-date').textContent = new Date().toISOString().slice(0,10);
+let PAGES=[], IMAGES=null, FILTER_CAT=null;
+const catCount={};
+
+fetch('data/pages.json').then(r=>r.json()).then(d=>{
+  PAGES=d.sort((a,b)=>a.t.localeCompare(b.t));
+  d.forEach(p=>(p.c||[]).forEach(c=>{catCount[c]=(catCount[c]||0)+1}));
+  document.getElementById('s-pages').textContent=PAGES.length.toLocaleString();
+  document.getElementById('s-cats').textContent=Object.keys(catCount).length.toLocaleString();
+  buildChips(); render();
+});
+// media stats (lightweight: just counts)
+fetch('data/all_images.json').then(r=>r.json()).then(m=>{
+  IMAGES=m; const keys=Object.keys(m);
+  const vids=keys.filter(k=>{const mm=m[k].mime||'';return mm.startsWith('video')||mm.includes('ogg')});
+  document.getElementById('s-media').textContent=keys.length.toLocaleString();
+  document.getElementById('s-vid').textContent=vids.length.toLocaleString();
+});
+
+function buildChips(){
+  const HIDE=/(DynamicPageList|_Order$|_Type$|^Missing |broken|^Pages )/i;
+  const top=Object.entries(catCount).filter(([c])=>!HIDE.test(c))
+    .sort((a,b)=>b[1]-a[1]).slice(0,18);
+  const el=document.getElementById('chips');
+  el.innerHTML='<span class="chip on" data-c="">All</span>'+
+    top.map(([c,n])=>`<span class="chip" data-c="${c.replace(/"/g,'&quot;')}">${c} · ${n}</span>`).join('');
+  el.querySelectorAll('.chip').forEach(ch=>ch.onclick=()=>{
+    el.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));
+    ch.classList.add('on'); FILTER_CAT=ch.dataset.c||null; render();
+  });
+}
+function render(){
+  const q=document.getElementById('q').value.trim().toLowerCase();
+  let rows=PAGES;
+  if(FILTER_CAT) rows=rows.filter(p=>(p.c||[]).includes(FILTER_CAT));
+  if(q) rows=rows.filter(p=>p.t.toLowerCase().includes(q));
+  document.getElementById('count').textContent=rows.length.toLocaleString()+' / '+PAGES.length.toLocaleString();
+  const html=rows.slice(0,1200).map(p=>
+    `<li><a href="articles/${p.f.split('/').map(encodeURIComponent).join('/')}">${escapeHtml(p.t)}</a></li>`).join('');
+  document.getElementById('list').innerHTML=html+(rows.length>1200?`<li class="fn">…and ${rows.length-1200} more — narrow your search</li>`:'');
+}
+function escapeHtml(s){return s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
+document.getElementById('q').addEventListener('input',render);
+</script>
+</body></html>

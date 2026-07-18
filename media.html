@@ -1,0 +1,75 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Media · Break My Case Archive</title>
+<link rel="stylesheet" href="assets/style.css">
+</head><body>
+<div class="topbar">
+  <a href="index.html">← Timeline</a> &nbsp; <a href="browse.html">Browse articles</a>
+  <span class="src">Media catalogue — thumbnails and files stream from Fandom's CDN</span>
+</div>
+<div class="wrap">
+  <div class="toolbar">
+    <input id="q" type="search" placeholder="Search filenames…  (e.g. Ai Kosaka, SR, gacha, Logo)" autocomplete="off">
+    <span class="count" id="count"></span>
+  </div>
+  <div class="chips" id="chips">
+    <span class="chip on" data-t="all">All</span>
+    <span class="chip" data-t="image">Images</span>
+    <span class="chip" data-t="video">Videos</span>
+  </div>
+  <div class="grid" id="grid"></div>
+  <button class="loadmore" id="more" hidden>Load more</button>
+</div>
+<footer>Images/videos © respective owners, loaded live from Fandom's CDN and not re-hosted. Personal archive.</footer>
+<script>
+let ALL=[], view=[], shown=0, TYPE='all', STEP=240;
+const grid=document.getElementById('grid'), moreBtn=document.getElementById('more');
+
+fetch('data/all_images.json').then(r=>r.json()).then(m=>{
+  ALL=Object.entries(m).map(([title,v])=>{
+    const mime=v.mime||''; const isVid=mime.startsWith('video')||mime.includes('ogg');
+    return {name:title.replace(/^File:/,''), url:v.url, mime, isVid,
+            w:v.w,h:v.h, size:v.size};
+  }).sort((a,b)=>a.name.localeCompare(b.name));
+  apply();
+});
+function thumb(u){ return u ? u.replace(/\/revision\/latest(\/[^?]*)?\?/, '/revision/latest/scale-to-width-down/300?') : ''; }
+function apply(){
+  const q=document.getElementById('q').value.trim().toLowerCase();
+  view=ALL.filter(x=>{
+    if(TYPE==='image'&&x.isVid) return false;
+    if(TYPE==='video'&&!x.isVid) return false;
+    return !q || x.name.toLowerCase().includes(q);
+  });
+  document.getElementById('count').textContent=view.length.toLocaleString()+' / '+ALL.length.toLocaleString();
+  grid.innerHTML=''; shown=0; more();
+}
+function more(){
+  const slice=view.slice(shown, shown+STEP);
+  const frag=document.createDocumentFragment();
+  slice.forEach(x=>{
+    const t=document.createElement('div'); t.className='tile'+(x.isVid?' vid':'');
+    if(x.isVid){
+      t.innerHTML=`<div class="thumb">▶ VIDEO</div>
+        <div class="cap">${esc(x.name)}</div>
+        <a class="dl" href="${x.url}" target="_blank" rel="noopener">open file →</a>`;
+    }else{
+      t.innerHTML=`<a href="${x.url}" target="_blank" rel="noopener"><span class="thumb" style="background-image:url('${thumb(x.url)}')"></span></a>
+        <div class="cap">${esc(x.name)}</div>
+        <a class="dl" href="${x.url}" target="_blank" rel="noopener">full size →</a>`;
+    }
+    frag.appendChild(t);
+  });
+  grid.appendChild(frag); shown+=slice.length;
+  moreBtn.hidden = shown>=view.length;
+  moreBtn.textContent=`Load more (${(view.length-shown).toLocaleString()} left)`;
+}
+function esc(s){return s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
+document.getElementById('q').addEventListener('input',apply);
+document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{
+  document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));
+  c.classList.add('on'); TYPE=c.dataset.t; apply();
+});
+moreBtn.onclick=more;
+</script>
+</body></html>

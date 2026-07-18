@@ -1,0 +1,68 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Event · Break My Case Archive</title>
+<link rel="stylesheet" href="assets/style.css">
+</head><body>
+<div class="topbar">
+  <a href="index.html">← Timeline</a>
+  <span class="src" id="srclink"></span>
+</div>
+
+<div id="app"><p class="wrap mono">Loading event…</p></div>
+
+<footer>Banners, card art &amp; voice clips © respective owners, streamed from Fandom's CDN. Personal archive.</footer>
+
+<script>
+const DEPT={adm:'Administration',neg:'Negotiation',sim:'Simulation',mof:'Main Office',
+  wat:'Watchdogs',spe:'Special Task',stf:'Special Task'};
+const id=parseInt(new URLSearchParams(location.search).get('id'),10);
+fetch('data/events.json').then(r=>r.json()).then(all=>{
+  const byId={}; all.forEach(e=>byId[e.id]=e);
+  const e=byId[id];
+  if(!e){document.getElementById('app').innerHTML='<p class="wrap">Event not found. <a href="index.html">Back to timeline</a></p>';return;}
+  const sorted=[...all].sort((a,b)=>(a.start||'').localeCompare(b.start||''));
+  const i=sorted.findIndex(x=>x.id===e.id);
+  const prev=sorted[i-1], next=sorted[i+1];
+  document.title=e.name+' · Break My Case Archive';
+  const live='https://breakmycase.fandom.com/wiki/'+encodeURIComponent((e.title||'').replace(/ /g,'_'));
+  document.getElementById('srclink').innerHTML='source: <a href="'+live+'" target="_blank" rel="noopener">breakmycase.fandom.com</a>';
+
+  const dept=DEPT[e.dept]||''; const kind=e.kind||'Event';
+  const tags=`<span class="tag2 kind">${esc(kind)}</span>`+(dept?`<span class="tag2 dept">${esc(dept)}</span>`:'')
+    +(e.attribute?`<span class="tag2">${esc(e.attribute)}</span>`:'');
+
+  const song = e.song ? `<div class="ev-sec"><h2>Theme song</h2>
+     <div class="song"><b>${esc(e.song)}</b>${e.song_artist?` &nbsp;<span>— ${esc(e.song_artist)}</span>`:''}
+     <div style="margin-top:6px"><span>Songs aren't hosted on the wiki; search the title on your music service or the game's official channel.</span></div></div></div>`:'';
+
+  const chars = (e.chars&&e.chars.length)? `<div class="ev-sec"><h2>Featured characters</h2>
+    <div class="charlist">${e.chars.map(c=>`
+      <div class="chard"><a class="nm" href="${c.href}">${esc(c.name)}</a>
+      ${c.voices&&c.voices.length?`<div class="vs">${c.voices.map(v=>`<audio controls preload="none" src="${v}"></audio>`).join('')}</div>`:'<div class="vs"><span class="mono" style="font-size:11px;color:#a99">no voice sample</span></div>'}
+      </div>`).join('')}</div></div>`:'';
+
+  const cards = (e.cards&&e.cards.length)? `<div class="ev-sec"><h2>Card illustrations · ${e.cards.length}</h2>
+    <div class="cardgrid">${e.cards.map(u=>`<a href="${u}" target="_blank" rel="noopener"><img loading="lazy" src="${thumb(u)}"></a>`).join('')}</div></div>`:'';
+
+  const links=[['Full page',e.article]];
+  if(e.subs){for(const k in e.subs) links.push([k,e.subs[k]]);}
+  const story=`<div class="ev-sec"><h2>Read on</h2><div class="storylinks">${links.map(([n,h])=>`<a href="${h}">${esc(n)} →</a>`).join('')}</div></div>`;
+
+  document.getElementById('app').innerHTML=`
+    <div class="ev-hero"><img class="banner" src="${e.banner||''}" alt=""></div>
+    <div class="ev-head">
+      <div class="date">${e.start_disp||''}${e.end_disp?' – '+e.end_disp:''}</div>
+      <h1>${esc(e.name||e.title)}</h1>
+      ${e.kanji?`<div class="kanji">${esc(e.kanji)}</div>`:''}
+      <div class="tags">${tags}</div>
+    </div>
+    ${song}${chars}${cards}${story}
+    <div class="prevnext">
+      ${prev?`<a href="event.html?id=${prev.id}">← ${esc(prev.name||prev.title)}</a>`:'<span></span>'}
+      ${next?`<a href="event.html?id=${next.id}" style="text-align:right">${esc(next.name||next.title)} →</a>`:'<span></span>'}
+    </div>`;
+});
+function thumb(u){return u? u.replace(/\/revision\/latest(\/[^?]*)?\?/, '/revision/latest/scale-to-width-down/300?') : '';}
+function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
+</script>
+</body></html>
