@@ -15,18 +15,27 @@
 <div class="wrap">
   <div class="cardbar">
     <div class="crow">
-      <div class="fg"><span class="fglab">Rarity</span><div class="seg" id="f-rarity"></div></div>
-      <div class="fg"><span class="fglab">Type</span><div class="seg" id="f-type"></div></div>
-      <div class="fg"><span class="fglab">Character</span><select id="f-char" class="sel"><option value="">All characters</option></select></div>
+      <div class="seg" id="f-rarity"></div>
+      <div class="seg" id="f-type"></div>
+      <div class="seg"><button class="segbtn" id="f-limited" data-lim="1">Limited</button></div>
+      <select id="f-char" class="sel"><option value="">All characters</option></select>
+      <span class="barspace"></span>
+      <div class="iconseg">
+        <button class="iconbtn" id="clearFilters" title="Clear filters" aria-label="Clear filters">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>
+        </button>
+        <button class="iconbtn" id="exportBtn" title="Export collection" aria-label="Export collection">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>
+        </button>
+        <button class="iconbtn" id="importBtn" title="Import collection" aria-label="Import collection">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 8l5-5 5 5"/><path d="M12 3v12"/></svg>
+        </button>
+        <input type="file" id="importFile" accept="application/json" hidden>
+      </div>
     </div>
     <div class="crow">
-      <div class="fg"><span class="fglab">Sort</span><div class="seg" id="f-sort"></div></div>
-      <div class="fg"><span class="fglab">Owned</span><span id="ownCircles"></span></div>
-      <span class="barspace"></span>
-      <button class="ghost" id="clearFilters">Clear</button>
-      <button class="ghost" id="exportBtn">Export</button>
-      <button class="ghost" id="importBtn">Import</button>
-      <input type="file" id="importFile" accept="application/json" hidden>
+      <div class="seg" id="f-sort"></div>
+      <span id="ownCircles"></span>
     </div>
   </div>
   <div class="cardcount mono" id="cardcount"></div>
@@ -55,7 +64,7 @@ const ACCOUNTS=[
 ];
 const STORE='bmc_collection_v1';
 let ALLCARDS=[], OWNED=loadOwned();
-let FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set(),sort:'release'};
+let FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set(),sort:'release',limited:false};
 function loadOwned(){ try{return JSON.parse(localStorage.getItem(STORE))||{}}catch(e){return {}} }
 function saveOwned(){ try{localStorage.setItem(STORE,JSON.stringify(OWNED))}catch(e){} }
 function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
@@ -66,7 +75,7 @@ fetch('data/events.json?v='+Date.now()).then(r=>r.json()).then(d=>{
   d.forEach(e=>(e.cards||[]).forEach(c=>{
     if(seen.has(c.id))return; seen.add(c.id);
     ALLCARDS.push({id:c.id,img:c.img,name:c.name,character:c.character,
-      rarity:(c.rarity||'').toUpperCase(),attribute:c.attribute||'',event:e.name});
+      rarity:(c.rarity||'').toUpperCase(),attribute:c.attribute||'',event:e.name,limited:!!e.limited});
   }));
   buildFilters(); renderCards();
 }).catch(err=>{document.getElementById('cardgrid').innerHTML='<p>Could not load data: '+err.message+'</p>'});
@@ -78,21 +87,23 @@ function buildFilters(){
   document.getElementById('f-type').innerHTML=types.map(t=>`<button class="segbtn" data-t="${t}">${t}</button>`).join('');
   const chars=[...new Set(ALLCARDS.map(c=>c.character).filter(x=>x&&!x.includes(',')))].sort();
   document.getElementById('f-char').innerHTML='<option value="">All characters</option>'+chars.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('');
-  const SORTS=[['release','Release'],['rarity','Rarity'],['character','Character'],['type','Type'],['name','Name']];
+  const SORTS=[['release','Newest'],['rarity','Rarity'],['character','Character'],['type','Type'],['name','Name']];
   document.getElementById('f-sort').innerHTML=SORTS.map(([v,l],i)=>`<button class="segbtn${i===0?' on':''}" data-s="${v}">${l}</button>`).join('');
   document.getElementById('ownCircles').innerHTML=ACCOUNTS.map(a=>
     `<button class="ownc" data-acct="${a.key}" title="${a.name}" style="--ac:${a.color}"></button>`).join('');
   document.querySelectorAll('#f-rarity .segbtn').forEach(b=>b.onclick=()=>{tog(FILT.rarity,b.dataset.r,b);renderCards();});
   document.querySelectorAll('#f-type .segbtn').forEach(b=>b.onclick=()=>{tog(FILT.type,b.dataset.t,b);renderCards();});
   document.getElementById('f-char').onchange=e=>{FILT.char=e.target.value;renderCards();};
+  document.getElementById('f-limited').onclick=function(){this.classList.toggle('on');FILT.limited=this.classList.contains('on');renderCards();};
   document.querySelectorAll('#f-sort .segbtn').forEach(b=>b.onclick=()=>{
     document.querySelectorAll('#f-sort .segbtn').forEach(x=>x.classList.remove('on'));
     b.classList.add('on'); FILT.sort=b.dataset.s; renderCards();
   });
   document.querySelectorAll('#ownCircles .ownc').forEach(b=>b.onclick=()=>{tog(FILT.ownAccts,b.dataset.acct,b);renderCards();});
   document.getElementById('clearFilters').onclick=()=>{
-    FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set(),sort:FILT.sort};
+    FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set(),sort:FILT.sort,limited:false};
     document.querySelectorAll('.segbtn.on,.ownc.on').forEach(x=>x.classList.remove('on'));
+    const lim=document.getElementById('f-limited'); if(lim)lim.classList.remove('on');
     const sf=document.querySelector('#f-sort .segbtn'); if(sf)sf.classList.add('on');
     FILT.sort='release';
     document.getElementById('f-char').value=''; renderCards();
@@ -107,6 +118,7 @@ function passFilter(c){
   if(FILT.rarity.size && !FILT.rarity.has(c.rarity)) return false;
   if(FILT.type.size && !FILT.type.has(c.attribute)) return false;
   if(FILT.char && (c.character||'')!==FILT.char) return false;
+  if(FILT.limited && !c.limited) return false;
   if(FILT.ownAccts.size){
     const own=OWNED[c.id]||{}; const accts=[...FILT.ownAccts];
     if(!accts.some(k=>own[k])) return false;
@@ -121,7 +133,7 @@ function renderCards(){
   else if(s==='character') list.sort((a,b)=>(a.character||'').localeCompare(b.character||'')||a.id-b.id);
   else if(s==='type') list.sort((a,b)=>(a.attribute||'').localeCompare(b.attribute||'')||a.id-b.id);
   else if(s==='name') list.sort((a,b)=>(a.name||'').localeCompare(b.name||''));
-  else list.sort((a,b)=>a.id-b.id);
+  else list.sort((a,b)=>b.id-a.id);
   document.getElementById('cardcount').textContent=list.length+' / '+ALLCARDS.length+' cards';
   document.getElementById('cardgrid').innerHTML=list.map(c=>{
     const own=OWNED[c.id]||{};
@@ -133,6 +145,7 @@ function renderCards(){
         <div class="cctop">
           ${c.rarity?`<span class="rar r-${c.rarity}">${c.rarity}</span>`:''}
           ${c.attribute?`<span class="attr a-${c.attribute.toLowerCase()}">${c.attribute}</span>`:''}
+          ${c.limited?`<span class="lim">LIMITED</span>`:''}
           ${owners.length?`<span class="ownmark">✓</span>`:''}
         </div>
         <div class="ccbot">
@@ -150,7 +163,7 @@ function openModal(id){
   document.getElementById('modalBody').innerHTML=`
     <a class="modalimg" href="${c.img}" target="_blank" rel="noopener"><img src="${thumb(c.img)}"></a>
     <div class="modalinfo">
-      <div class="cc-tags">${c.rarity?`<span class="rar r-${c.rarity}">${c.rarity}</span>`:''}${c.attribute?`<span class="attr a-${c.attribute.toLowerCase()}">${c.attribute}</span>`:''}</div>
+      <div class="cc-tags">${c.rarity?`<span class="rar r-${c.rarity}">${c.rarity}</span>`:''}${c.attribute?`<span class="attr a-${c.attribute.toLowerCase()}">${c.attribute}</span>`:''}${c.limited?`<span class="lim">LIMITED</span>`:''}</div>
       <div class="modalname">${esc(c.name||'')}</div>
       <div class="modalchar">${esc(c.character||'')}</div>
       <div class="modalevent">${esc(c.event||'')}</div>

@@ -169,24 +169,36 @@ footer a{color:var(--violet)}
   transition:transform .12s ease,box-shadow .12s ease,border-color .12s ease}
 
 /* filter bar */
-.cardbar{display:flex;flex-direction:column;gap:16px;margin:20px 0;padding:18px 20px;
+.cardbar{display:flex;flex-direction:column;gap:14px;margin:20px 0;padding:18px 20px;
   background:var(--card);border:1px solid var(--line);border-radius:14px}
-.crow{display:flex;gap:20px;align-items:flex-end;flex-wrap:wrap}
+.crow{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
 .barspace{flex:1}
-.fg{display:flex;flex-direction:column;gap:8px}
-.fglab{font:600 11px/1 inherit;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft)}
+#ownCircles{display:inline-flex;gap:8px;align-items:center}
+
+/* joined icon action buttons (bar height) */
+.iconseg{display:inline-flex;border:1px solid var(--line-strong);border-radius:10px;overflow:hidden}
+.iconbtn{width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;
+  background:transparent;border:0;border-right:1px solid var(--line);color:var(--ink-soft);cursor:pointer;transition:.14s}
+.iconbtn:last-child{border-right:0}
+.iconbtn:hover{background:var(--bg-2);color:var(--violet)}
+.iconbtn svg{width:17px;height:17px}
+
+/* LIMITED badge (same box as rarity/type) */
+.lim{font:800 10px/1 ui-monospace,Menlo,monospace;letter-spacing:.05em;padding:4px 7px;border-radius:6px;
+  color:#fff;background:linear-gradient(92deg,var(--rose),#e0748f)}
+.ccard .lim{box-shadow:0 1px 4px rgba(0,0,0,.3)}
 
 /* segmented control (ref) */
 .seg{display:inline-flex;background:var(--bg);border:1px solid var(--line-strong);border-radius:10px;overflow:hidden}
-.seg .segbtn,.seg button{background:transparent;border:0;color:var(--ink-soft);
-  font:600 12.5px/1 inherit;letter-spacing:.02em;padding:10px 15px;cursor:pointer;transition:.14s;
-  border-right:1px solid var(--line)}
+.seg .segbtn,.seg button{background:transparent;border:0;color:var(--ink-soft);height:40px;
+  font:600 12.5px/1 inherit;letter-spacing:.02em;padding:0 15px;cursor:pointer;transition:.14s;
+  border-right:1px solid var(--line);display:inline-flex;align-items:center}
 .seg .segbtn:last-child,.seg button:last-child{border-right:0}
 .seg .segbtn:hover,.seg button:hover{color:var(--violet)}
 .seg .segbtn.on,.seg button.on{background:var(--violet);color:#fff}
 
 /* select dropdown (ref .sel) */
-.sel{height:39px;background:var(--bg);border:1px solid var(--line-strong);border-radius:10px;
+.sel{height:40px;background:var(--bg);border:1px solid var(--line-strong);border-radius:10px;
   color:var(--ink);font:500 13px/1 inherit;padding:0 32px 0 13px;cursor:pointer;min-width:180px;
   appearance:none;-webkit-appearance:none;
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%238676a4' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
@@ -206,8 +218,10 @@ footer a{color:var(--violet)}
 .cardcount{color:var(--ink-soft);font-size:12px;margin:2px 0 14px}
 
 /* card grid — text overlaid on art */
-.collectgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:16px}
-.ccard{position:relative;border-radius:13px;overflow:hidden;cursor:pointer;aspect-ratio:2/3;
+.collectgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+@media(min-width:640px){.collectgrid{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:980px){.collectgrid{grid-template-columns:repeat(4,1fr)}}
+.ccard{position:relative;border-radius:13px;overflow:hidden;cursor:pointer;aspect-ratio:900/514;
   background:var(--bg-2);border:1px solid var(--line);transition:transform .12s ease,box-shadow .12s ease}
 .ccard:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(26,24,48,.28)}
 .ccard > img{width:100%;height:100%;object-fit:cover;display:block}
