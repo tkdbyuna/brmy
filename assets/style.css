@@ -156,10 +156,9 @@ footer a{color:var(--violet)}
 .r-CR{background:linear-gradient(135deg,#2fb3a6,#6fe0d4);color:#053b36}
 .r-SR{background:linear-gradient(135deg,#8a6cf0,#b49bff)}
 .r-R{background:#9aa0b4}
-.attr{font:700 10px/1 ui-monospace,Menlo,monospace;letter-spacing:.04em;padding:4px 7px;border-radius:6px;
-  border:1px solid transparent;color:#fff}
+.attr{font:800 10px/1 ui-monospace,Menlo,monospace;letter-spacing:.05em;padding:4px 7px;border-radius:6px;color:#fff}
 .a-star{background:#6fbf4e;color:#0f3d08}
-.a-moon{background:#4a90e0;color:#062a52}
+.a-moon{background:#4a90e0;color:#eaf3ff}
 .a-sun{background:#e87faa;color:#4d0f28}
 .cardchar{font:600 12px/1.3 inherit;color:var(--violet);margin-top:1px}
 .cardname{font:500 13px/1.4 inherit;color:var(--ink)}

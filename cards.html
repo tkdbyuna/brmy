@@ -25,10 +25,6 @@
         <span class="owlab">Owned by</span>
         <span id="ownCircles"></span>
       </div>
-      <div class="seg small" id="ownmode">
-        <button data-m="owned" class="on">Owned</button>
-        <button data-m="missing">Missing</button>
-      </div>
       <span class="barspace"></span>
       <button class="ctl" id="clearFilters">Clear</button>
       <button class="ctl" id="exportBtn">Export</button>
@@ -62,7 +58,7 @@ const ACCOUNTS=[
 ];
 const STORE='bmc_collection_v1';
 let ALLCARDS=[], OWNED=loadOwned();
-let FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set(),ownMode:'owned'};
+let FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set()};
 function loadOwned(){ try{return JSON.parse(localStorage.getItem(STORE))||{}}catch(e){return {}} }
 function saveOwned(){ try{localStorage.setItem(STORE,JSON.stringify(OWNED))}catch(e){} }
 function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
@@ -91,12 +87,8 @@ function buildFilters(){
   document.querySelectorAll('#f-type .chip').forEach(b=>b.onclick=()=>{tog(FILT.type,b.dataset.t,b);renderCards();});
   document.getElementById('f-char').onchange=e=>{FILT.char=e.target.value;renderCards();};
   document.querySelectorAll('#ownCircles .ownc').forEach(b=>b.onclick=()=>{tog(FILT.ownAccts,b.dataset.acct,b);renderCards();});
-  document.querySelectorAll('#ownmode button').forEach(b=>b.onclick=()=>{
-    document.querySelectorAll('#ownmode button').forEach(x=>x.classList.remove('on'));
-    b.classList.add('on'); FILT.ownMode=b.dataset.m; renderCards();
-  });
   document.getElementById('clearFilters').onclick=()=>{
-    FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set(),ownMode:FILT.ownMode};
+    FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set()};
     document.querySelectorAll('.chip.on,.ownc.on').forEach(x=>x.classList.remove('on'));
     document.getElementById('f-char').value=''; renderCards();
   };
@@ -112,8 +104,7 @@ function passFilter(c){
   if(FILT.char && (c.character||'')!==FILT.char) return false;
   if(FILT.ownAccts.size){
     const own=OWNED[c.id]||{}; const accts=[...FILT.ownAccts];
-    if(FILT.ownMode==='owned'){ if(!accts.some(k=>own[k])) return false; }
-    else { if(!accts.some(k=>!own[k])) return false; }
+    if(!accts.some(k=>own[k])) return false;
   }
   return true;
 }
