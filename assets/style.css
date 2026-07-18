@@ -171,7 +171,8 @@ footer a{color:var(--violet)}
 /* filter bar */
 .cardbar{display:flex;flex-direction:column;gap:12px;margin:16px 0;padding:16px 18px;
   background:var(--card);border:1px solid var(--line);border-radius:12px}
-.frow{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.frow{display:flex;gap:22px;align-items:flex-end;flex-wrap:wrap}
+.frow .ctl{align-self:center}
 .barspace{flex:1}
 .ctl{height:36px;padding:0 14px;border-radius:9px;cursor:pointer;font:600 13px/1 inherit;
   display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line-strong);
@@ -193,16 +194,13 @@ select.ctl{min-width:170px}
 .tchip.on.a-moon{background:#4a90e0;color:#062a52}
 .tchip.on.a-sun{background:#e87faa;color:#4d0f28}
 
-.ownfilter{display:flex;align-items:center;gap:8px}
-.owlab{font:700 10px/1 inherit;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-soft)}
-#ownCircles{display:inline-flex;gap:6px}
-.ownc{width:34px;height:34px;border-radius:50%;cursor:pointer;padding:0;position:relative;
-  border:2px solid var(--ac);background:transparent;transition:transform .1s}
-.ownc span{font:700 10px/34px inherit;color:var(--ac)}
-.ownc:hover{transform:scale(1.1)}
+.fg{display:flex;flex-direction:column;gap:7px}
+.fglab{font:700 10px/1 ui-monospace,Menlo,monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft)}
+#ownCircles{display:inline-flex;gap:7px;align-items:center}
+.ownc{width:26px;height:26px;border-radius:50%;cursor:pointer;padding:0;
+  border:2.5px solid var(--ac);background:transparent;transition:transform .1s}
+.ownc:hover{transform:scale(1.12)}
 .ownc.on{background:var(--ac)}
-.ownc.on span{color:#fff}
-.seg.small button{font-size:12px;padding:8px 12px}
 
 .cardcount{color:var(--ink-soft);font-size:12px;margin:2px 0 14px}
 

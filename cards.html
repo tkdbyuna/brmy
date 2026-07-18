@@ -16,15 +16,12 @@
 <div class="wrap">
   <div class="cardbar">
     <div class="frow">
-      <div class="chips" id="f-rarity"></div>
-      <div class="chips" id="f-type"></div>
-      <select id="f-char" class="ctl"><option value="">All characters</option></select>
+      <div class="fg"><span class="fglab">Rarity</span><div class="chips" id="f-rarity"></div></div>
+      <div class="fg"><span class="fglab">Type</span><div class="chips" id="f-type"></div></div>
+      <div class="fg"><span class="fglab">Character</span><select id="f-char" class="ctl"><option value="">All</option></select></div>
+      <div class="fg"><span class="fglab">Owned</span><span id="ownCircles"></span></div>
     </div>
     <div class="frow">
-      <div class="ownfilter">
-        <span class="owlab">Owned by</span>
-        <span id="ownCircles"></span>
-      </div>
       <span class="barspace"></span>
       <button class="ctl" id="clearFilters">Clear</button>
       <button class="ctl" id="exportBtn">Export</button>
@@ -82,7 +79,7 @@ function buildFilters(){
   const chars=[...new Set(ALLCARDS.map(c=>c.character).filter(x=>x&&!x.includes(',')))].sort();
   document.getElementById('f-char').innerHTML='<option value="">All characters</option>'+chars.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('');
   document.getElementById('ownCircles').innerHTML=ACCOUNTS.map(a=>
-    `<button class="ownc" data-acct="${a.key}" title="${a.name}" style="--ac:${a.color}"><span>${a.short}</span></button>`).join('');
+    `<button class="ownc" data-acct="${a.key}" title="${a.name}" style="--ac:${a.color}"></button>`).join('');
   document.querySelectorAll('#f-rarity .chip').forEach(b=>b.onclick=()=>{tog(FILT.rarity,b.dataset.r,b);renderCards();});
   document.querySelectorAll('#f-type .chip').forEach(b=>b.onclick=()=>{tog(FILT.type,b.dataset.t,b);renderCards();});
   document.getElementById('f-char').onchange=e=>{FILT.char=e.target.value;renderCards();};
@@ -124,7 +121,6 @@ function renderCards(){
           ${owners.length?`<span class="ownmark">✓</span>`:''}
         </div>
         <div class="ccbot">
-          <div class="ccchar">${esc(c.character||'')}</div>
           <div class="ccname">${esc(c.name||'')}</div>
           <div class="ccdots">${dots}</div>
         </div>
