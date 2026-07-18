@@ -4,10 +4,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
 </head><body>
-<header class="masthead">
+<header class="topbar">
   <a class="backlink" href="index.html">← Archive</a>
-  <div class="eyebrow">Card Collection</div>
-  <h1>Card</h1>
   <nav class="vtabs">
     <a class="vtab" href="banner.html">Banner</a>
     <a class="vtab on" href="cards.html">Card</a>
@@ -16,24 +14,18 @@
 
 <div class="wrap">
   <div class="cardbar">
-    <div class="frow">
-      <div class="fg"><span class="fglab">Rarity</span><div class="chips" id="f-rarity"></div></div>
-      <div class="fg"><span class="fglab">Type</span><div class="chips" id="f-type"></div></div>
-      <div class="fg"><span class="fglab">Character</span><select id="f-char" class="ctl"><option value="">All</option></select></div>
-      <div class="fg"><span class="fglab">Sort</span><select id="f-sort" class="ctl">
-        <option value="release">Release order</option>
-        <option value="rarity">Rarity (SSR→R)</option>
-        <option value="character">Character</option>
-        <option value="type">Type</option>
-        <option value="name">Card name</option>
-      </select></div>
-      <div class="fg"><span class="fglab">Owned</span><span id="ownCircles"></span></div>
+    <div class="crow">
+      <div class="fg"><span class="fglab">Rarity</span><div class="seg" id="f-rarity"></div></div>
+      <div class="fg"><span class="fglab">Type</span><div class="seg" id="f-type"></div></div>
+      <div class="fg"><span class="fglab">Character</span><select id="f-char" class="sel"><option value="">All characters</option></select></div>
     </div>
-    <div class="frow">
+    <div class="crow">
+      <div class="fg"><span class="fglab">Sort</span><div class="seg" id="f-sort"></div></div>
+      <div class="fg"><span class="fglab">Owned</span><span id="ownCircles"></span></div>
       <span class="barspace"></span>
-      <button class="ctl" id="clearFilters">Clear</button>
-      <button class="ctl" id="exportBtn">Export</button>
-      <button class="ctl" id="importBtn">Import</button>
+      <button class="ghost" id="clearFilters">Clear</button>
+      <button class="ghost" id="exportBtn">Export</button>
+      <button class="ghost" id="importBtn">Import</button>
       <input type="file" id="importFile" accept="application/json" hidden>
     </div>
   </div>
@@ -81,21 +73,28 @@ fetch('data/events.json?v='+Date.now()).then(r=>r.json()).then(d=>{
 
 function buildFilters(){
   const rars=['SSR','XR','SR','R','CR'].filter(r=>ALLCARDS.some(c=>c.rarity===r));
-  document.getElementById('f-rarity').innerHTML=rars.map(r=>`<button class="chip rchip r-${r}" data-r="${r}">${r}</button>`).join('');
+  document.getElementById('f-rarity').innerHTML=rars.map(r=>`<button class="segbtn" data-r="${r}">${r}</button>`).join('');
   const types=['Star','Moon','Sun'].filter(t=>ALLCARDS.some(c=>c.attribute===t));
-  document.getElementById('f-type').innerHTML=types.map(t=>`<button class="chip tchip a-${t.toLowerCase()}" data-t="${t}">${t}</button>`).join('');
+  document.getElementById('f-type').innerHTML=types.map(t=>`<button class="segbtn" data-t="${t}">${t}</button>`).join('');
   const chars=[...new Set(ALLCARDS.map(c=>c.character).filter(x=>x&&!x.includes(',')))].sort();
   document.getElementById('f-char').innerHTML='<option value="">All characters</option>'+chars.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('');
+  const SORTS=[['release','Release'],['rarity','Rarity'],['character','Character'],['type','Type'],['name','Name']];
+  document.getElementById('f-sort').innerHTML=SORTS.map(([v,l],i)=>`<button class="segbtn${i===0?' on':''}" data-s="${v}">${l}</button>`).join('');
   document.getElementById('ownCircles').innerHTML=ACCOUNTS.map(a=>
     `<button class="ownc" data-acct="${a.key}" title="${a.name}" style="--ac:${a.color}"></button>`).join('');
-  document.querySelectorAll('#f-rarity .chip').forEach(b=>b.onclick=()=>{tog(FILT.rarity,b.dataset.r,b);renderCards();});
-  document.querySelectorAll('#f-type .chip').forEach(b=>b.onclick=()=>{tog(FILT.type,b.dataset.t,b);renderCards();});
+  document.querySelectorAll('#f-rarity .segbtn').forEach(b=>b.onclick=()=>{tog(FILT.rarity,b.dataset.r,b);renderCards();});
+  document.querySelectorAll('#f-type .segbtn').forEach(b=>b.onclick=()=>{tog(FILT.type,b.dataset.t,b);renderCards();});
   document.getElementById('f-char').onchange=e=>{FILT.char=e.target.value;renderCards();};
-  document.getElementById('f-sort').onchange=e=>{FILT.sort=e.target.value;renderCards();};
+  document.querySelectorAll('#f-sort .segbtn').forEach(b=>b.onclick=()=>{
+    document.querySelectorAll('#f-sort .segbtn').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on'); FILT.sort=b.dataset.s; renderCards();
+  });
   document.querySelectorAll('#ownCircles .ownc').forEach(b=>b.onclick=()=>{tog(FILT.ownAccts,b.dataset.acct,b);renderCards();});
   document.getElementById('clearFilters').onclick=()=>{
     FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set(),sort:FILT.sort};
-    document.querySelectorAll('.chip.on,.ownc.on').forEach(x=>x.classList.remove('on'));
+    document.querySelectorAll('.segbtn.on,.ownc.on').forEach(x=>x.classList.remove('on'));
+    const sf=document.querySelector('#f-sort .segbtn'); if(sf)sf.classList.add('on');
+    FILT.sort='release';
     document.getElementById('f-char').value=''; renderCards();
   };
   document.getElementById('exportBtn').onclick=exportData;
