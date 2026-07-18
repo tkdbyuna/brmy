@@ -6,7 +6,6 @@
 <header class="masthead">
   <div class="eyebrow">Case File · Event & Card Archive</div>
   <h1>Break My Case</h1>
-  <p class="sub">Every in-game event and gacha banner, in order. Tap a banner for its PV and cards, or switch to Card view to browse and track your collection.</p>
   <div class="statrow">
     <div class="stat"><b id="s-ev">—</b><span>Events</span></div>
     <div class="stat"><b id="s-cards">—</b><span>Cards</span></div>
@@ -16,8 +15,8 @@
 
 <div class="wrap">
   <div class="viewtoggle">
-    <button data-v="banner" class="on">🖼️ Banner view</button>
-    <button data-v="card">🃏 Card view</button>
+    <button data-v="banner" class="on">Banner</button>
+    <button data-v="card">Card</button>
   </div>
 
   <!-- BANNER VIEW -->
@@ -67,6 +66,13 @@
   Archived from the <a href="https://breakmycase.fandom.com/wiki/Break_My_Case_Wiki" target="_blank" rel="noopener">Break My Case Wiki</a> (Fandom).
   Collection data is saved in this browser only. Use Export to back it up or move it between devices.
 </footer>
+
+<div id="modal" class="modal" onclick="if(event.target===this)closeModal()">
+  <div class="modalbox">
+    <button class="modalclose" onclick="closeModal()">✕</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
 
 <script>
 const ACCOUNTS=[
@@ -203,27 +209,48 @@ function renderCards(){
   document.getElementById('cardcount').textContent=list.length+' / '+ALLCARDS.length+' cards';
   document.getElementById('cardgrid').innerHTML=list.map(c=>{
     const own=OWNED[c.id]||{};
-    const dots=ACCOUNTS.map(a=>`<button class="odot ${own[a.key]?'on':''}" data-card="${c.id}" data-acct="${a.key}"
-      title="${a.name}" style="--ac:${a.color}"></button>`).join('');
-    return `<div class="collectcard">
-      <a href="${c.img}" target="_blank" rel="noopener"><img loading="lazy" src="${thumb(c.img)}"></a>
+    const owners=ACCOUNTS.filter(a=>own[a.key]);
+    const ind=owners.length
+      ? `<div class="ownind">${owners.map(a=>`<span class="oi" style="background:${a.color}" title="${a.name}"></span>`).join('')}</div>`
+      : `<div class="ownind empty"></div>`;
+    return `<div class="collectcard" data-card="${c.id}">
+      <div class="cc-imgwrap"><img loading="lazy" src="${thumb(c.img)}">${owners.length?'<span class="ownedbadge">✓</span>':''}</div>
       <div class="cc-meta">
         <div class="cc-tags">${c.rarity?`<span class="rar r-${c.rarity}">${c.rarity}</span>`:''}${c.attribute?`<span class="attr a-${c.attribute.toLowerCase()}">${c.attribute}</span>`:''}</div>
         <div class="cc-char">${esc(c.character||'')}</div>
         <div class="cc-name">${esc(c.name||'')}</div>
-        <div class="odots">${dots}</div>
+        ${ind}
       </div>
     </div>`;
   }).join('');
-  document.querySelectorAll('.odot').forEach(d=>d.onclick=()=>{
-    const id=d.dataset.card, k=d.dataset.acct;
-    OWNED[id]=OWNED[id]||{}; OWNED[id][k]=!OWNED[id][k];
-    if(!OWNED[id][k]) delete OWNED[id][k];
-    saveOwned(); d.classList.toggle('on');
-    // if a filter depends on ownership, re-render
-    if(FILT.own) renderCards();
+  document.querySelectorAll('.collectcard').forEach(el=>el.onclick=()=>openModal(el.dataset.card));
+}
+
+function openModal(id){
+  const c=ALLCARDS.find(x=>String(x.id)===String(id)); if(!c)return;
+  const own=OWNED[c.id]||{};
+  document.getElementById('modalBody').innerHTML=`
+    <div class="modalgrid">
+      <a class="modalimg" href="${c.img}" target="_blank" rel="noopener"><img src="${thumb(c.img)}"></a>
+      <div class="modalinfo">
+        <div class="cc-tags">${c.rarity?`<span class="rar r-${c.rarity}">${c.rarity}</span>`:''}${c.attribute?`<span class="attr a-${c.attribute.toLowerCase()}">${c.attribute}</span>`:''}</div>
+        <div class="modalchar">${esc(c.character||'')}</div>
+        <div class="modalname">${esc(c.name||'')}</div>
+        <div class="modalevent">${esc(c.event||'')}</div>
+        <div class="ownlabel">Owned by</div>
+        <div class="ownrow">${ACCOUNTS.map(a=>`
+          <button class="ocircle ${own[a.key]?'on':''}" data-card="${c.id}" data-acct="${a.key}"
+            style="--ac:${a.color}"><span>${a.name}</span></button>`).join('')}</div>
+      </div>
+    </div>`;
+  document.getElementById('modal').classList.add('show');
+  document.querySelectorAll('.ocircle').forEach(b=>b.onclick=()=>{
+    const cid=b.dataset.card,k=b.dataset.acct;
+    OWNED[cid]=OWNED[cid]||{}; if(OWNED[cid][k]){delete OWNED[cid][k];}else{OWNED[cid][k]=true;}
+    saveOwned(); b.classList.toggle('on');
   });
 }
+function closeModal(){document.getElementById('modal').classList.remove('show'); renderCards();}
 
 /* ---------- EXPORT / IMPORT ---------- */
 function exportData(){
