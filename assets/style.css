@@ -216,7 +216,7 @@ select.ctl{min-width:170px}
 .cctop{display:flex;gap:5px;padding:9px;align-items:flex-start}
 .ccbot{padding:11px 12px 12px}
 .ccchar{font:700 12px/1.25 inherit;color:#fff;opacity:.92;text-shadow:0 1px 3px rgba(0,0,0,.5)}
-.ccname{font:800 14.5px/1.28 inherit;color:#fff;margin-top:2px;text-shadow:0 1px 4px rgba(0,0,0,.6)}
+.ccname{font-family:var(--disp);font-weight:700;font-size:17px;line-height:1.2;color:#fff;text-shadow:0 1px 5px rgba(0,0,0,.65)}
 .ccdots{display:flex;gap:4px;margin-top:7px;min-height:9px}
 .ccdots .oi{width:9px;height:9px;border-radius:50%;box-shadow:0 0 0 1.5px rgba(255,255,255,.5)}
 .ownmark{margin-left:auto;width:22px;height:22px;border-radius:50%;background:var(--violet);color:#fff;
@@ -234,7 +234,7 @@ select.ctl{min-width:170px}
 .modalimg{display:block}
 .modalimg img{width:100%;display:block;background:var(--bg-2);border-radius:16px 16px 0 0}
 .modalinfo{display:flex;flex-direction:column;gap:7px;padding:18px 22px 22px}
-.modalname{font-family:var(--disp);font-weight:600;font-size:24px;line-height:1.2;color:var(--ink)}
+.modalname{font-family:var(--disp);font-weight:700;font-size:28px;line-height:1.15;color:var(--ink)}
 .modalchar{font:600 14px/1.3 'Inter',sans-serif;color:var(--violet)}
 .modalevent{font:400 12.5px/1.4 'Inter',sans-serif;color:var(--ink-soft)}
 .ownrow{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px;padding-top:14px;border-top:1px solid var(--line)}
@@ -266,7 +266,7 @@ body.hub{max-width:900px;margin:0 auto;padding:56px 22px 70px;background:var(--b
 .hubtile:hover .tgo{transform:translateX(5px);opacity:1}
 .ticon{width:48px;height:48px;color:var(--deep);margin-bottom:auto}
 .ticon svg{width:100%;height:100%}
-.tname{font-family:inherit;font-weight:600;font-size:24px;letter-spacing:0;margin-top:22px;color:var(--ink)}
+.tname{font-family:var(--disp);font-weight:700;font-size:28px;letter-spacing:.005em;margin-top:22px;color:var(--ink)}
 .tkr{font:600 13px/1 inherit;color:var(--deep);opacity:.95;margin-top:5px}
 .tdesc{font:400 13px/1.5 inherit;color:var(--ink-soft);margin-top:11px;max-width:34ch}
 .tgo{position:absolute;right:22px;bottom:20px;color:var(--deep);font-size:22px;line-height:1;
@@ -293,7 +293,8 @@ body.hub{max-width:900px;margin:0 auto;padding:56px 22px 70px;background:var(--b
 .vtab:hover{color:#fff;text-decoration:none}
 .vtab.on{background:#fff;color:var(--violet)}
 
-/* display serif for big headings (ref: Cormorant Garamond) */
-.masthead h1,.hubh1,.tname,.yearhead,.ev-head h1,.modalname{font-family:var(--disp);font-weight:600;letter-spacing:.005em}
-.masthead h1{font-size:46px}
-.hubh1{font-weight:600}
+/* display serif for big headings (ref: Cormorant Garamond 700) */
+.masthead h1,.hubh1,.tname,.yearhead,.ev-head h1,.modalname{font-family:var(--disp);font-weight:700;letter-spacing:.005em}
+.masthead h1{font-size:clamp(40px,6vw,60px);line-height:1}
+.hubh1{font-weight:700}
+.modalname{font-weight:700}
