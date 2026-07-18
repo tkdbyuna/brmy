@@ -1,6 +1,7 @@
 <!DOCTYPE html><html lang="ko"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Card · Break My Case</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
 </head><body>
 <header class="masthead">
@@ -19,6 +20,13 @@
       <div class="fg"><span class="fglab">Rarity</span><div class="chips" id="f-rarity"></div></div>
       <div class="fg"><span class="fglab">Type</span><div class="chips" id="f-type"></div></div>
       <div class="fg"><span class="fglab">Character</span><select id="f-char" class="ctl"><option value="">All</option></select></div>
+      <div class="fg"><span class="fglab">Sort</span><select id="f-sort" class="ctl">
+        <option value="release">Release order</option>
+        <option value="rarity">Rarity (SSR→R)</option>
+        <option value="character">Character</option>
+        <option value="type">Type</option>
+        <option value="name">Card name</option>
+      </select></div>
       <div class="fg"><span class="fglab">Owned</span><span id="ownCircles"></span></div>
     </div>
     <div class="frow">
@@ -55,7 +63,7 @@ const ACCOUNTS=[
 ];
 const STORE='bmc_collection_v1';
 let ALLCARDS=[], OWNED=loadOwned();
-let FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set()};
+let FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set(),sort:'release'};
 function loadOwned(){ try{return JSON.parse(localStorage.getItem(STORE))||{}}catch(e){return {}} }
 function saveOwned(){ try{localStorage.setItem(STORE,JSON.stringify(OWNED))}catch(e){} }
 function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
@@ -83,9 +91,10 @@ function buildFilters(){
   document.querySelectorAll('#f-rarity .chip').forEach(b=>b.onclick=()=>{tog(FILT.rarity,b.dataset.r,b);renderCards();});
   document.querySelectorAll('#f-type .chip').forEach(b=>b.onclick=()=>{tog(FILT.type,b.dataset.t,b);renderCards();});
   document.getElementById('f-char').onchange=e=>{FILT.char=e.target.value;renderCards();};
+  document.getElementById('f-sort').onchange=e=>{FILT.sort=e.target.value;renderCards();};
   document.querySelectorAll('#ownCircles .ownc').forEach(b=>b.onclick=()=>{tog(FILT.ownAccts,b.dataset.acct,b);renderCards();});
   document.getElementById('clearFilters').onclick=()=>{
-    FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set()};
+    FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set(),sort:FILT.sort};
     document.querySelectorAll('.chip.on,.ownc.on').forEach(x=>x.classList.remove('on'));
     document.getElementById('f-char').value=''; renderCards();
   };
@@ -106,7 +115,14 @@ function passFilter(c){
   return true;
 }
 function renderCards(){
-  const list=ALLCARDS.filter(passFilter);
+  const RORD={SSR:0,XR:1,CR:2,SR:3,R:4};
+  let list=ALLCARDS.filter(passFilter);
+  const s=FILT.sort;
+  if(s==='rarity') list.sort((a,b)=>(RORD[a.rarity]??9)-(RORD[b.rarity]??9)||a.id-b.id);
+  else if(s==='character') list.sort((a,b)=>(a.character||'').localeCompare(b.character||'')||a.id-b.id);
+  else if(s==='type') list.sort((a,b)=>(a.attribute||'').localeCompare(b.attribute||'')||a.id-b.id);
+  else if(s==='name') list.sort((a,b)=>(a.name||'').localeCompare(b.name||''));
+  else list.sort((a,b)=>a.id-b.id);
   document.getElementById('cardcount').textContent=list.length+' / '+ALLCARDS.length+' cards';
   document.getElementById('cardgrid').innerHTML=list.map(c=>{
     const own=OWNED[c.id]||{};
@@ -133,18 +149,15 @@ function openModal(id){
   const c=ALLCARDS.find(x=>String(x.id)===String(id)); if(!c)return;
   const own=OWNED[c.id]||{};
   document.getElementById('modalBody').innerHTML=`
-    <div class="modalgrid">
-      <a class="modalimg" href="${c.img}" target="_blank" rel="noopener"><img src="${thumb(c.img)}"></a>
-      <div class="modalinfo">
-        <div class="cc-tags">${c.rarity?`<span class="rar r-${c.rarity}">${c.rarity}</span>`:''}${c.attribute?`<span class="attr a-${c.attribute.toLowerCase()}">${c.attribute}</span>`:''}</div>
-        <div class="modalchar">${esc(c.character||'')}</div>
-        <div class="modalname">${esc(c.name||'')}</div>
-        <div class="modalevent">${esc(c.event||'')}</div>
-        <div class="ownlabel">Owned by</div>
-        <div class="ownrow">${ACCOUNTS.map(a=>`
-          <button class="ocircle ${own[a.key]?'on':''}" data-card="${c.id}" data-acct="${a.key}"
-            style="--ac:${a.color}"><span>${a.name}</span></button>`).join('')}</div>
-      </div>
+    <a class="modalimg" href="${c.img}" target="_blank" rel="noopener"><img src="${thumb(c.img)}"></a>
+    <div class="modalinfo">
+      <div class="cc-tags">${c.rarity?`<span class="rar r-${c.rarity}">${c.rarity}</span>`:''}${c.attribute?`<span class="attr a-${c.attribute.toLowerCase()}">${c.attribute}</span>`:''}</div>
+      <div class="modalname">${esc(c.name||'')}</div>
+      <div class="modalchar">${esc(c.character||'')}</div>
+      <div class="modalevent">${esc(c.event||'')}</div>
+      <div class="ownrow">${ACCOUNTS.map(a=>`
+        <button class="ocircle ${own[a.key]?'on':''}" data-card="${c.id}" data-acct="${a.key}"
+          title="${a.name}" style="--ac:${a.color}"></button>`).join('')}</div>
     </div>`;
   document.getElementById('modal').classList.add('show');
   document.querySelectorAll('.ocircle').forEach(b=>b.onclick=()=>{
