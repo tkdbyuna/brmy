@@ -365,3 +365,12 @@ body.hub{max-width:900px;margin:0 auto;padding:56px 22px 70px;background:var(--b
   font:600 12.5px/1 'Inter',sans-serif;transition:.14s}
 .livebtn:hover{border-color:var(--violet);color:var(--violet)}
 .liveimg{width:100%;border-radius:10px;border:1px solid var(--line-strong);display:block}
+
+/* Revision rank tabs */
+.revtabs{display:flex;gap:6px;margin-bottom:9px}
+.revtab{padding:6px 12px;border-radius:8px;border:1px solid var(--line-strong);background:var(--bg-2);
+  color:var(--ink);cursor:pointer;font:600 12px/1 'Inter',sans-serif;transition:.14s}
+.revtab:hover{border-color:var(--violet);color:var(--violet)}
+.revtab.on{background:var(--violet);color:#fff;border-color:var(--violet)}
+.revview{min-height:20px}
+.revimg{width:100%;border-radius:10px;border:1px solid var(--line-strong);display:block}

@@ -64,10 +64,10 @@ const ACCOUNTS=[
   {key:'yuzuru',name:'Yuzuru',short:'Yu',color:'#7DA852'}
 ];
 const STORE='bmc_collection_v1';
-let ALLCARDS=[], OWNED=loadOwned(), VOICES={}, BLESS={}, LIVECLIPS={};
+let ALLCARDS=[], OWNED=loadOwned(), VOICES={}, BLESS={}, REVISION={};
 fetch('data/card_voices.json?v='+Date.now()).then(r=>r.json()).then(d=>{VOICES=d;}).catch(()=>{});
 fetch('data/birthday_blessings.json?v='+Date.now()).then(r=>r.json()).then(d=>{BLESS=d;}).catch(()=>{});
-fetch('data/liveclips.json?v='+Date.now()).then(r=>r.json()).then(d=>{LIVECLIPS=d;}).catch(()=>{});
+fetch('data/revision.json?v='+Date.now()).then(r=>r.json()).then(d=>{REVISION=d;}).catch(()=>{});
 let FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set(),sort:'release',limited:false,birthday:false,anniversary:false,reward:false};
 function loadOwned(){ try{return JSON.parse(localStorage.getItem(STORE))||{}}catch(e){return {}} }
 function saveOwned(){ try{localStorage.setItem(STORE,JSON.stringify(OWNED))}catch(e){} }
@@ -173,9 +173,17 @@ function blessHTML(cid){
     <img src="${x.sd.replace(/\/revision\/latest$/,'/revision/latest/scale-to-width-down/80')}" loading="lazy" referrerpolicy="no-referrer"></button>`).join('');
   return `<div class="voices"><div class="vtitle">Staff's Blessing</div><div class="sdgrid">${icons}</div></div>`;
 }
-function liveHTML(cid){
-  const u=LIVECLIPS[String(cid)]; if(!u) return '';
-  return `<div class="voices"><div class="vtitle">Live2D</div><button class="livebtn" data-src="${u}">▶ View Live2D animation</button></div>`;
+function revHTML(cid){
+  const r=REVISION[String(cid)]; if(!r) return '';
+  const ranks=[]; 
+  if(r.outfit) ranks.push({n:'Rank 1',src:r.outfit,gif:false});
+  if(r.chibi) ranks.push({n:'Rank 2',src:r.chibi,gif:false});
+  if(r.live) ranks.push({n:'Rank 3',src:r.live,gif:true});
+  if(!ranks.length) return '';
+  const tabs=ranks.map((x,i)=>`<button class="revtab ${i===0?'on':''}" data-src="${x.src}" data-gif="${x.gif}">${x.n}</button>`).join('');
+  const first=ranks[0];
+  const firstImg=first.gif?`<button class="livebtn" data-src="${first.src}">▶ Load Live2D</button>`:`<img class="revimg" src="${first.src}" referrerpolicy="no-referrer">`;
+  return `<div class="voices"><div class="vtitle">Revision</div><div class="revtabs">${tabs}</div><div class="revview">${firstImg}</div></div>`;
 }
 function voicesHTML(cid){
   const v=VOICES[String(cid)]; if(!v) return '';
@@ -189,11 +197,19 @@ function voicesHTML(cid){
   return `<div class="voices"><div class="vtitle">Voice Lines</div><div class="vlist">${rows}</div></div>`;
 }
 let VAUDIO=null, VCUR=null;
-function bindVoices(){
-  document.querySelectorAll('.livebtn').forEach(b=>b.onclick=()=>{
-    const wrap=b.parentElement;
-    wrap.innerHTML='<img class="liveimg" src="'+b.dataset.src+'" referrerpolicy="no-referrer" alt="Live2D">';
+function bindLive(root){
+  root.querySelectorAll('.livebtn').forEach(b=>b.onclick=()=>{
+    b.parentElement.innerHTML='<img class="revimg" src="'+b.dataset.src+'" referrerpolicy="no-referrer" alt="Live2D">';
   });
+}
+function bindVoices(){
+  document.querySelectorAll('.revtab').forEach(t=>t.onclick=()=>{
+    document.querySelectorAll('.revtab').forEach(x=>x.classList.remove('on')); t.classList.add('on');
+    const view=t.closest('.voices').querySelector('.revview');
+    if(t.dataset.gif==='true'){ view.innerHTML='<button class="livebtn" data-src="'+t.dataset.src+'">▶ Load Live2D</button>'; bindLive(view); }
+    else{ view.innerHTML='<img class="revimg" src="'+t.dataset.src+'" referrerpolicy="no-referrer">'; }
+  });
+  bindLive(document);
   document.querySelectorAll('.vbtn,.sdbtn').forEach(b=>b.onclick=()=>{
     const src=b.dataset.src;
     if(VAUDIO && VCUR===b){ VAUDIO.pause(); VAUDIO=null; VCUR=null; b.classList.remove('playing'); return; }
@@ -214,7 +230,7 @@ function openModal(id){
       <div class="modalchar">${esc(c.character||'')}</div>
       <div class="modalevent">${esc(c.event||'')}</div>
       ${voicesHTML(c.id)}
-      ${liveHTML(c.id)}
+      ${revHTML(c.id)}
       ${blessHTML(c.id)}
       <div class="ownrow">${ACCOUNTS.map(a=>`
         <button class="ocircle ${own[a.key]?'on':''}" data-card="${c.id}" data-acct="${a.key}"
