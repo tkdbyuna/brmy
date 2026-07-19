@@ -198,7 +198,8 @@
     "name": "Blessing Veil",
     "character": "Ai Kosaka",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_73.png",
@@ -206,7 +207,8 @@
     "name": "Light Tinged Stained Glass",
     "character": "Shizuka Fushimi",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_74.png",
@@ -214,7 +216,8 @@
     "name": "Full Bloom Flower Shower",
     "character": "Shinobu Aizawa",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_75.png",
@@ -222,7 +225,8 @@
     "name": "Bouquet Toss' Destination",
     "character": "Sei Okiya",
     "rarity": "SR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_76.png",
@@ -239,7 +243,8 @@
     "name": "In Charge of Makeup",
     "character": "Takeru Mikado",
     "rarity": "R",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": "articles/Decoration%20Piling%20in%20Silk.html",
@@ -1181,7 +1186,8 @@
     "name": "The Mysterious Melody of Silk",
     "character": "Mao Ukyo",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_129.png",
@@ -1189,7 +1195,8 @@
     "name": "Navigator of the End",
     "character": "Haruhi Ichikawa",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_130.png",
@@ -1197,7 +1204,8 @@
     "name": "Laughing Specter",
     "character": "Tomose Onda",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_131.png",
@@ -1205,7 +1213,8 @@
     "name": "Gravekeeper Mummy",
     "character": "Akehoshi Hinomiya",
     "rarity": "SR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_132.png",
@@ -1222,7 +1231,8 @@
     "name": "Napping Undead",
     "character": "Yuragi Kanno",
     "rarity": "R",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": null,
@@ -1256,7 +1266,8 @@
     "name": "FAVOR",
     "character": "Ai Kosaka",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_137.png",
@@ -1264,7 +1275,8 @@
     "name": "AFFECTION",
     "character": "Kyoya Shido",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_138.png",
@@ -1272,7 +1284,8 @@
     "name": "DELIGHT",
     "character": "Urara Manami",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_139.png",
@@ -1548,7 +1561,8 @@
     "name": "Night Cold, Lit Light Snow",
     "character": "Ai Kosaka",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_155.png",
@@ -1556,7 +1570,8 @@
     "name": "Following the Path of Light",
     "character": "Kyoya Shido",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_156.png",
@@ -1564,7 +1579,8 @@
     "name": "Walking through the City Dyed in the Holy Night",
     "character": "Riku Tateshina",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_157.png",
@@ -1572,7 +1588,8 @@
     "name": "A Moment of Peace",
     "character": "Tomose Onda",
     "rarity": "SR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_158.png",
@@ -1589,7 +1606,8 @@
     "name": "From the Gift of the Winter Sky",
     "character": "Akehoshi Hinomiya",
     "rarity": "R",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": "articles/Blessings%20-On%20the%20Wish%20Descending%20Holy%20Night-.html",
@@ -2093,7 +2111,8 @@
     "name": "The temptation of the night fragrance",
     "character": "Kou Ayato",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_185.png",
@@ -2101,7 +2120,8 @@
     "name": "Smoky Moonlit Night",
     "character": "Sei Okiya",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_186.png",
@@ -2109,7 +2129,8 @@
     "name": "Light flickering in the dim light",
     "character": "Takeru Mikado",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_187.png",
@@ -2117,7 +2138,8 @@
     "name": "Beautiful Tea Artist",
     "character": "Mao Ukyo",
     "rarity": "SR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_188.png",
@@ -2134,7 +2156,8 @@
     "name": "Dressed Up Glamourously",
     "character": "Shinobu Aizawa",
     "rarity": "R",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    }
   ],
   "article": "articles/Flowers%20in%20the%20Mirror%2C%20Town%20in%20the%20Photograph.html",
@@ -2224,7 +2247,8 @@
     "name": "Guaranteed Water Gun",
     "character": "Akehoshi Hinomiya",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_193.png",
@@ -2232,7 +2256,8 @@
     "name": "Roar on the Sand",
     "character": "Soyogu Shinkai",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_194.png",
@@ -2240,7 +2265,8 @@
     "name": "Sparkling Sea Drops",
     "character": "Tomose Onda",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_195.png",
@@ -2257,7 +2283,8 @@
     "name": "Summer reflected through the glass",
     "character": "Sei Okiya",
     "rarity": "SR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_197.png",
@@ -2265,7 +2292,8 @@
     "name": "Irritating Sunlight",
     "character": "Ai Kosaka",
     "rarity": "R",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    }
   ],
   "article": "articles/Threshold%2C%20Fun%20at%20the%20Seaside.html",
@@ -2347,7 +2375,8 @@
     "name": "Rock Heartbeat",
     "character": "Yuzuru Kise",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_200.png",
@@ -2355,7 +2384,8 @@
     "name": "Special Burger Delivery",
     "character": "Yuragi Kanno",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_201.png",
@@ -2363,7 +2393,8 @@
     "name": "Wink Sandwich",
     "character": "Yu Nina",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_202.png",
@@ -2380,7 +2411,8 @@
     "name": "Pop Accent",
     "character": "Kou Ayato",
     "rarity": "SR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_204.png",
@@ -2388,7 +2420,8 @@
     "name": "Roadside Neon",
     "character": "Tomose Onda",
     "rarity": "R",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    }
   ],
   "article": "articles/Coming%20Up%21%20Assorted%20Special%20Menu.html",
@@ -2546,7 +2579,8 @@
     "name": "Here's to Aporia!",
     "character": "Ai Kosaka",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_217.png",
@@ -2554,7 +2588,8 @@
     "name": "Here's to Aporia!",
     "character": "Akehoshi Hinomiya",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_220.png",
@@ -2562,7 +2597,8 @@
     "name": "Here's to Aporia!",
     "character": "Haruhi Ichikawa",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_231.png",
@@ -2570,7 +2606,8 @@
     "name": "Here's to Aporia!",
     "character": "Kamiya",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_226.png",
@@ -2578,7 +2615,8 @@
     "name": "Here's to Aporia!",
     "character": "Kiho Arima",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_215.png",
@@ -2586,7 +2624,8 @@
     "name": "Here's to Aporia!",
     "character": "Kou Ayato",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_227.png",
@@ -2594,7 +2633,8 @@
     "name": "Here's to Aporia!",
     "character": "Kyoya Shido",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_216.png",
@@ -2602,7 +2642,8 @@
     "name": "Here's to Aporia!",
     "character": "Mao Ukyo",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_228.png",
@@ -2610,7 +2651,8 @@
     "name": "Here's to Aporia!",
     "character": "Riku Tateshina",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_214.png",
@@ -2618,7 +2660,8 @@
     "name": "Here's to Aporia!",
     "character": "Roka Suoh",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_221.png",
@@ -2626,7 +2669,8 @@
     "name": "Here's to Aporia!",
     "character": "Sei Okiya",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_225.png",
@@ -2634,7 +2678,8 @@
     "name": "Here's to Aporia!",
     "character": "Shinobu Aizawa",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_222.png",
@@ -2642,7 +2687,8 @@
     "name": "Here's to Aporia!",
     "character": "Shizuka Fushimi",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_224.png",
@@ -2650,7 +2696,8 @@
     "name": "Here's to Aporia!",
     "character": "Soyogu Shinkai",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_219.png",
@@ -2658,7 +2705,8 @@
     "name": "Here's to Aporia!",
     "character": "Taiga Tsukimoto",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_223.png",
@@ -2666,7 +2714,8 @@
     "name": "Here's to Aporia!",
     "character": "Takeru Mikado",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_229.png",
@@ -2674,7 +2723,8 @@
     "name": "Here's to Aporia!",
     "character": "Tomose Onda",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_232.png",
@@ -2682,7 +2732,8 @@
     "name": "Here's to Aporia!",
     "character": "Urara Manami",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_230.png",
@@ -2690,7 +2741,8 @@
     "name": "Here's to Aporia!",
     "character": "Yu Nina",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_218.png",
@@ -2698,7 +2750,8 @@
     "name": "Here's to Aporia!",
     "character": "Yuragi Kanno",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_213.png",
@@ -2706,7 +2759,8 @@
     "name": "Here's to Aporia!",
     "character": "Yuzuru Kise",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": null,
@@ -2908,7 +2962,8 @@
     "name": "Happy Bringer Bateau",
     "character": "Yuragi Kanno",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_242.png",
@@ -2916,7 +2971,8 @@
     "name": "Dramatic Bell",
     "character": "Riku Tateshina",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_243.png",
@@ -2924,7 +2980,8 @@
     "name": "Blooming Bridal Car",
     "character": "Tomose Onda",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_244.png",
@@ -2932,7 +2989,8 @@
     "name": "Tuxedo of Oath",
     "character": "Yuzuru Kise",
     "rarity": "SR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_245.png",
@@ -2949,7 +3007,8 @@
     "name": "Ideal Relation",
     "character": "Mao Ukyo",
     "rarity": "R",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    }
   ],
   "article": "articles/Bouquet%20Prayer-%20Happily%20Ever%20After.html",
@@ -3305,7 +3364,8 @@
     "name": "After the Blue Hour",
     "character": "Yuzuru Kise",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_263.png",
@@ -3313,7 +3373,8 @@
     "name": "If You Carve It Into the Summer Beat",
     "character": "Kamiya",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_264.png",
@@ -3321,7 +3382,8 @@
     "name": "Neon lit waterside",
     "character": "Urara Manami",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_265.png",
@@ -3338,7 +3400,8 @@
     "name": "A Dreamlike Summer Night",
     "character": "Kyoya Shido",
     "rarity": "SR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_267.png",
@@ -3346,7 +3409,8 @@
     "name": "Playing at the Poolside",
     "character": "Kou Ayato",
     "rarity": "R",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": "articles/Night%20Out%21%20Neon%20Sign%20Illuminated%20Side%20Profile.html",
@@ -3559,7 +3623,8 @@
     "name": "Starry Moonlit Path",
     "character": "Shizuka Fushimi",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_277.png",
@@ -3567,7 +3632,8 @@
     "name": "A Swaying Moment on the Swing",
     "character": "Takeru Mikado",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_278.png",
@@ -3575,7 +3641,8 @@
     "name": "A Kiss of True Love",
     "character": "Kyoya Shido",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_279.png",
@@ -3583,7 +3650,8 @@
     "name": "Breezy Walkway",
     "character": "Haruhi Ichikawa",
     "rarity": "SR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_280.png",
@@ -3600,7 +3668,8 @@
     "name": "Blooming Towards the Sun",
     "character": "Yuzuru Kise",
     "rarity": "R",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": "articles/Framed%20in%20the%20Gallery.html",
@@ -3891,7 +3960,8 @@
     "name": "At the End of the Foxfire Path",
     "character": "Roka Suoh",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_301.png",
@@ -3899,7 +3969,8 @@
     "name": "Forgotten Umbrella on a Clear Night",
     "character": "Kou Ayato",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_302.png",
@@ -3907,7 +3978,8 @@
     "name": "Feathers Wet with Night Fog",
     "character": "Taiga Tsukimoto",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_303.png",
@@ -3924,7 +3996,8 @@
     "name": "Spiraling Shadow Flame",
     "character": "Takeru Mikado",
     "rarity": "SR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_305.png",
@@ -3932,7 +4005,8 @@
     "name": "Hidden Radiance",
     "character": "Kiho Arima",
     "rarity": "R",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    }
   ],
   "article": null,
@@ -3966,7 +4040,8 @@
     "name": "RADIANCE",
     "character": "Haruhi Ichikawa",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_308.png",
@@ -3974,7 +4049,8 @@
     "name": "BANQUET",
     "character": "Soyogu Shinkai",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_309.png",
@@ -4180,7 +4256,8 @@
     "name": "Snack Time",
     "character": "Ai Kosaka",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_321.png",
@@ -4188,7 +4265,8 @@
     "name": "Exciting Assortment",
     "character": "Mao Ukyo",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_322.png",
@@ -4196,7 +4274,8 @@
     "name": "Travel Map",
     "character": "Shinobu Aizawa",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_323.png",
@@ -4204,7 +4283,8 @@
     "name": "Moment of Serenity",
     "character": "Sei Okiya",
     "rarity": "SR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_324.png",
@@ -4221,7 +4301,8 @@
     "name": "Kitchen Friend",
     "character": "Tomose Onda",
     "rarity": "R",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    }
   ],
   "article": null,
@@ -4300,7 +4381,8 @@
     "name": "Santa Claus by the Window",
     "character": "Yuzuru Kise",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_329.png",
@@ -4308,7 +4390,8 @@
     "name": "Secret Night Flight",
     "character": "Taiga Tsukimoto",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_330.png",
@@ -4316,7 +4399,8 @@
     "name": "Dreaming Teddy Bear",
     "character": "Kiho Arima",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_331.png",
@@ -4333,7 +4417,8 @@
     "name": "Selection Present",
     "character": "Yuragi Kanno",
     "rarity": "SR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_333.png",
@@ -4341,7 +4426,8 @@
     "name": "Melting into the White Snow",
     "character": "Urara Manami",
     "rarity": "R",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": "articles/Wish%20Come%20True%20Under%20the%20Twinkling%20Sacred%20Tree.html",
@@ -4378,7 +4464,8 @@
     "name": "TEMPTATION",
     "character": "Kou Ayato",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_335.png",
@@ -4410,7 +4497,7 @@
   ],
   "article": null,
   "subs": {},
-  "limited": false,
+  "limited": true,
   "pv": null
  },
  {
@@ -4743,7 +4830,8 @@
     "name": "Heart-Stealing Chocolate",
     "character": "Mao Ukyo",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_354.png",
@@ -4751,7 +4839,8 @@
     "name": "Untying the Ribbon",
     "character": "Sei Okiya",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_355.png",
@@ -4759,7 +4848,8 @@
     "name": "Bitter Lip Affection",
     "character": "Kamiya",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_356.png",
@@ -4776,7 +4866,8 @@
     "name": "Meticulous Recipe",
     "character": "Yuragi Kanno",
     "rarity": "SR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_358.png",
@@ -4784,7 +4875,8 @@
     "name": "The Sweet Guy's Melancholy",
     "character": "Kou Ayato",
     "rarity": "R",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": "articles/A%20Fate%20Imitating%20Chocolaterie.html",
@@ -4862,7 +4954,8 @@
     "name": "Innocent Enticement",
     "character": "Roka Suoh",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_361.png",
@@ -4870,7 +4963,8 @@
     "name": "Drunk in the Shimmering Night",
     "character": "Kou Ayato",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_362.png",
@@ -4878,7 +4972,8 @@
     "name": "Resident of the Nightless City",
     "character": "Kiho Arima",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_363.png",
@@ -4895,7 +4990,8 @@
     "name": "Diving into a Tumult",
     "character": "Yu Nina",
     "rarity": "SR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_365.png",
@@ -4903,7 +4999,8 @@
     "name": "Impressive Customer Service",
     "character": "Takeru Mikado",
     "rarity": "R",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    }
   ],
   "article": "articles/Converge%2C%20Scorched%20by%20Radiance.html",
@@ -5195,7 +5292,8 @@
     "name": "Sunny Warmth, Perfect for Cats",
     "character": "Yuragi Kanno",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_381.png",
@@ -5203,7 +5301,8 @@
     "name": "Benefits of Body Pillow",
     "character": "Haruhi Ichikawa",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_382.png",
@@ -5211,7 +5310,8 @@
     "name": "Sunshine in Early Spring",
     "character": "Urara Manami",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_383.png",
@@ -5228,7 +5328,8 @@
     "name": "Guided by Gentle Light",
     "character": "Kamiya",
     "rarity": "SR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_385.png",
@@ -5236,7 +5337,8 @@
     "name": "Mimosa at Noon Nap",
     "character": "Yuzuru Kise",
     "rarity": "R",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    }
   ],
   "article": "articles/Drowsy%20Searching%20All%20Day.html",
@@ -5273,7 +5375,8 @@
     "name": "what-if",
     "character": "Ai Kosaka",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_391.png",
@@ -5281,7 +5384,8 @@
     "name": "what-if",
     "character": "Akehoshi Hinomiya",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_394.png",
@@ -5289,7 +5393,8 @@
     "name": "what-if",
     "character": "Haruhi Ichikawa",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_405.png",
@@ -5297,7 +5402,8 @@
     "name": "what-if",
     "character": "Kamiya",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_400.png",
@@ -5305,7 +5411,8 @@
     "name": "what-if",
     "character": "Kiho Arima",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_389.png",
@@ -5313,7 +5420,8 @@
     "name": "what-if",
     "character": "Kou Ayato",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_401.png",
@@ -5321,7 +5429,8 @@
     "name": "what-if",
     "character": "Kyoya Shido",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_390.png",
@@ -5329,7 +5438,8 @@
     "name": "what-if",
     "character": "Mao Ukyo",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_402.png",
@@ -5337,7 +5447,8 @@
     "name": "what-if",
     "character": "Riku Tateshina",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_388.png",
@@ -5345,7 +5456,8 @@
     "name": "what-if",
     "character": "Roka Suoh",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_395.png",
@@ -5353,7 +5465,8 @@
     "name": "what-if",
     "character": "Sei Okiya",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_399.png",
@@ -5361,7 +5474,8 @@
     "name": "what-if",
     "character": "Shinobu Aizawa",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_396.png",
@@ -5369,7 +5483,8 @@
     "name": "what-if",
     "character": "Shizuka Fushimi",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_398.png",
@@ -5377,7 +5492,8 @@
     "name": "what-if",
     "character": "Soyogu Shinkai",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_393.png",
@@ -5385,7 +5501,8 @@
     "name": "what-if",
     "character": "Taiga Tsukimoto",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_397.png",
@@ -5393,7 +5510,8 @@
     "name": "what-if",
     "character": "Takeru Mikado",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_403.png",
@@ -5401,7 +5519,8 @@
     "name": "what-if",
     "character": "Tomose Onda",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_406.png",
@@ -5409,7 +5528,8 @@
     "name": "what-if",
     "character": "Urara Manami",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_404.png",
@@ -5417,7 +5537,8 @@
     "name": "what-if",
     "character": "Yu Nina",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_392.png",
@@ -5425,7 +5546,8 @@
     "name": "what-if",
     "character": "Yuragi Kanno",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_387.png",
@@ -5433,7 +5555,8 @@
     "name": "what-if",
     "character": "Yuzuru Kise",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    }
   ],
   "article": null,
@@ -5517,7 +5640,8 @@
     "name": "Dancing with Lady Luck",
     "character": "Yuzuru Kise",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_409.png",
@@ -5525,7 +5649,8 @@
     "name": "Strategic All‑In",
     "character": "Shizuka Fushimi",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_410.png",
@@ -5533,7 +5658,8 @@
     "name": "The High‑Roller’s Game",
     "character": "Yu Nina",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_411.png",
@@ -5550,7 +5676,8 @@
     "name": "Elegant Dealer",
     "character": "Kyoya Shido",
     "rarity": "SR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_413.png",
@@ -5558,7 +5685,8 @@
     "name": "Before No More Bet",
     "character": "Soyogu Shinkai",
     "rarity": "R",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": "articles/Place%20your%20bets%2C%20Turnover%20Tactics.html",
@@ -5652,7 +5780,8 @@
     "name": "Handing Over Bliss",
     "character": "Haruhi Ichikawa",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_416.png",
@@ -5660,7 +5789,8 @@
     "name": "Dozen Roses and Pinky Promise",
     "character": "Kiho Arima",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_417.png",
@@ -5668,7 +5798,8 @@
     "name": "Rendezvous at the Gazebo Amidst Falling Petals",
     "character": "Kamiya",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_418.png",
@@ -5676,7 +5807,8 @@
     "name": "In the Party's Corner",
     "character": "Taiga Tsukimoto",
     "rarity": "SR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_419.png",
@@ -5693,7 +5825,8 @@
     "name": "Clad in the Virtuous White",
     "character": "Kyoya Shido",
     "rarity": "R",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    }
   ],
   "article": "articles/Cherish%20the%20Breath%20of%20Daily%20Life.html",
@@ -5730,7 +5863,8 @@
     "name": "The Commander's Side Profile",
     "character": "Ai Kosaka",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_423.png",
@@ -5738,7 +5872,8 @@
     "name": "The Back of the Leader",
     "character": "Riku Tateshina",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_424.png",
@@ -5746,7 +5881,8 @@
     "name": "Sunlight Jump Up",
     "character": "Akehoshi Hinomiya",
     "rarity": "R",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_425.png",
@@ -5754,7 +5890,8 @@
     "name": "Hop Late Night",
     "character": "Kamiya",
     "rarity": "R",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_426.png",
@@ -5777,7 +5914,7 @@
   ],
   "article": null,
   "subs": {},
-  "limited": false,
+  "limited": true,
   "pv": {
    "yt": "cJl2cbL98J4",
    "title": "イベント『Vignette -Emperor/Skip-』予告PV"
@@ -6460,7 +6597,8 @@
     "name": "Kyoya's Birthday",
     "character": "Kyoya Shido",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    }
   ],
   "article": null,
@@ -6491,7 +6629,8 @@
     "name": "Kou's Birthday",
     "character": "Kou Ayato",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    }
   ],
   "article": null,
@@ -6522,7 +6661,8 @@
     "name": "Soyogu's Birthday",
     "character": "Soyogu Shinkai",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": null,
@@ -6553,7 +6693,8 @@
     "name": "Mao's Birthday",
     "character": "Mao Ukyo",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    }
   ],
   "article": null,
@@ -6584,7 +6725,8 @@
     "name": "Riku's Birthday",
     "character": "Riku Tateshina",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    }
   ],
   "article": null,
@@ -6615,7 +6757,8 @@
     "name": "Roka's Birthday",
     "character": "Roka Suoh",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": null,
@@ -6646,7 +6789,8 @@
     "name": "Haruhi's Birthday",
     "character": "Haruhi Ichikawa",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    }
   ],
   "article": null,
@@ -6677,7 +6821,8 @@
     "name": "Kiho's Birthday",
     "character": "Kiho Arima",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    }
   ],
   "article": null,
@@ -6708,7 +6853,8 @@
     "name": "Sei's Birthday",
     "character": "Sei Okiya",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": null,
@@ -6739,7 +6885,8 @@
     "name": "Takeru's Birthday",
     "character": "Takeru Mikado",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    }
   ],
   "article": null,
@@ -6770,7 +6917,8 @@
     "name": "Shinobu's Birthday",
     "character": "Shinobu Aizawa",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    }
   ],
   "article": null,
@@ -6801,7 +6949,8 @@
     "name": "Kamiya's Birthday",
     "character": "Kamiya",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    }
   ],
   "article": null,
@@ -6832,7 +6981,8 @@
     "name": "Yu's Birthday",
     "character": "Yu Nina",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    }
   ],
   "article": null,
@@ -6863,7 +7013,8 @@
     "name": "Yuragi's Birthday",
     "character": "Yuragi Kanno",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    }
   ],
   "article": null,
@@ -6894,7 +7045,8 @@
     "name": "Shizuka's Birthday",
     "character": "Shizuka Fushimi",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": null,
@@ -6925,7 +7077,8 @@
     "name": "Urara's Birthday",
     "character": "Urara Manami",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    }
   ],
   "article": null,
@@ -6956,7 +7109,8 @@
     "name": "Tomose's Birthday",
     "character": "Tomose Onda",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": null,
@@ -6987,7 +7141,8 @@
     "name": "Akehoshi's Birthday",
     "character": "Akehoshi Hinomiya",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": null,
@@ -7018,7 +7173,8 @@
     "name": "Taiga's Birthday",
     "character": "Taiga Tsukimoto",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    }
   ],
   "article": null,
@@ -7049,7 +7205,8 @@
     "name": "Yuzuru's Birthday",
     "character": "Yuzuru Kise",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": null,
@@ -7080,7 +7237,8 @@
     "name": "Ai's Birthday",
     "character": "Ai Kosaka",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    }
   ],
   "article": null,
@@ -7111,7 +7269,8 @@
     "name": "Kyoya's special day",
     "character": "Kyoya Shido",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": null,
@@ -7142,7 +7301,8 @@
     "name": "Kou's special day",
     "character": "Kou Ayato",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": null,
@@ -7173,7 +7333,8 @@
     "name": "Soyogu's special day",
     "character": "Soyogu Shinkai",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    }
   ],
   "article": null,
@@ -7204,7 +7365,8 @@
     "name": "Mao's special day",
     "character": "Mao Ukyo",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    }
   ],
   "article": null,
@@ -7235,7 +7397,8 @@
     "name": "Riku's special day",
     "character": "Riku Tateshina",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    }
   ],
   "article": null,
@@ -7266,7 +7429,8 @@
     "name": "Roka's special day",
     "character": "Roka Suoh",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    }
   ],
   "article": null,
@@ -7297,7 +7461,8 @@
     "name": "Haruhi's Special Day",
     "character": "Haruhi Ichikawa",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": null,
@@ -7328,7 +7493,8 @@
     "name": "Kiho's special day",
     "character": "Kiho Arima",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    }
   ],
   "article": null,
@@ -7359,7 +7525,8 @@
     "name": "Sei's special day",
     "character": "Sei Okiya",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    }
   ],
   "article": null,
@@ -7390,7 +7557,8 @@
     "name": "Takeru's special day",
     "character": "Takeru Mikado",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    }
   ],
   "article": null,
@@ -7421,7 +7589,8 @@
     "name": "Shinobu's special day",
     "character": "Shinobu Aizawa",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": null,
@@ -7452,7 +7621,8 @@
     "name": "Kamiya's special day",
     "character": "Kamiya",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    }
   ],
   "article": null,
@@ -7483,7 +7653,8 @@
     "name": "Yu's special day",
     "character": "Yu Nina",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": null,
@@ -7514,7 +7685,8 @@
     "name": "Yuragi's special day",
     "character": "Yuragi Kanno",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    }
   ],
   "article": null,
@@ -7545,7 +7717,8 @@
     "name": "Shizuka's special day",
     "character": "Shizuka Fushimi",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    }
   ],
   "article": null,
@@ -7576,7 +7749,8 @@
     "name": "Urara's special day",
     "character": "Urara Manami",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": null,
@@ -7607,7 +7781,8 @@
     "name": "Tomose's special day",
     "character": "Tomose Onda",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    }
   ],
   "article": null,
@@ -7638,7 +7813,8 @@
     "name": "Akehoshi's special day",
     "character": "Akehoshi Hinomiya",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    }
   ],
   "article": null,
@@ -7669,7 +7845,8 @@
     "name": "Taiga's special day",
     "character": "Taiga Tsukimoto",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": null,
@@ -7700,7 +7877,8 @@
     "name": "Yuzuru's special day",
     "character": "Yuzuru Kise",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    }
   ],
   "article": null,
@@ -7731,7 +7909,8 @@
     "name": "Ai's special day",
     "character": "Ai Kosaka",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": null,
@@ -7762,7 +7941,8 @@
     "name": "Present for Kyoya",
     "character": "Kyoya Shido",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    }
   ],
   "article": null,
@@ -7793,7 +7973,8 @@
     "name": "Present for Kou",
     "character": "Kou Ayato",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    }
   ],
   "article": null,
@@ -7824,7 +8005,8 @@
     "name": "Present for Soyogu",
     "character": "Soyogu Shinkai",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    }
   ],
   "article": null,
@@ -7855,7 +8037,8 @@
     "name": "Present for Mao",
     "character": "Mao Ukyo",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": null,
@@ -7886,7 +8069,8 @@
     "name": "NIGHTFALL",
     "character": "Mao Ukyo",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_191.png",
@@ -7894,7 +8078,8 @@
     "name": "OVERNIGHT",
     "character": "Shinobu Aizawa",
     "rarity": "SSR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "limited": true
    }
   ],
   "article": null,
@@ -7925,7 +8110,8 @@
     "name": "INDIVISIBLE",
     "character": "Taiga Tsukimoto",
     "rarity": "SSR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "limited": true
    },
    {
     "img": "assets/media/cards/Card_illust_284.png",
@@ -7933,7 +8119,8 @@
     "name": "ADJACENT",
     "character": "Yu Nina",
     "rarity": "SSR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "limited": true
    }
   ],
   "article": null,
