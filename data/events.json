@@ -91,7 +91,8 @@
     "name": "Rhododendron's Gaze",
     "character": "Ai Kosaka",
     "rarity": "SR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_69.png",
@@ -229,7 +230,8 @@
     "name": "Finishing Powder",
     "character": "Yu Nina",
     "rarity": "SR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_77.png",
@@ -343,7 +345,8 @@
     "name": "Today, Big Brother",
     "character": "Yuragi Kanno",
     "rarity": "SR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_83.png",
@@ -469,7 +472,8 @@
     "name": "Alice in Slumber",
     "character": "Haruhi Ichikawa",
     "rarity": "SR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_89.png",
@@ -603,7 +607,8 @@
     "name": "Seeing Off Under Light Dew",
     "character": "Shinobu Aizawa",
     "rarity": "SR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_98.png",
@@ -729,7 +734,8 @@
     "name": "The Magnificent Warrior",
     "character": "Soyogu Shinkai",
     "rarity": "SR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_104.png",
@@ -859,7 +865,8 @@
     "name": "Highscore Life",
     "character": "Mao Ukyo",
     "rarity": "SR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_111.png",
@@ -989,7 +996,8 @@
     "name": "Swallowed by Flower Haze",
     "character": "Kiho Arima",
     "rarity": "SR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_119.png",
@@ -1127,7 +1135,8 @@
     "name": "Street Corner Precision",
     "character": "Tomose Onda",
     "rarity": "SR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_127.png",
@@ -1204,7 +1213,8 @@
     "name": "Vampire Under the Moon",
     "character": "Kyoya Shido",
     "rarity": "SR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_133.png",
@@ -1270,7 +1280,8 @@
     "name": "Shibuya Nightscape",
     "character": "Ai Kosaka",
     "rarity": "XR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_140.png",
@@ -1278,7 +1289,8 @@
     "name": "Shibuya Nightscape",
     "character": "Kou Ayato",
     "rarity": "XR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_141.png",
@@ -1286,7 +1298,8 @@
     "name": "Shibuya Nightscape",
     "character": "Taiga Tsukimoto",
     "rarity": "XR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_142.png",
@@ -1294,7 +1307,8 @@
     "name": "Shibuya Nightscape",
     "character": "Shizuka Fushimi",
     "rarity": "XR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_143.png",
@@ -1302,7 +1316,8 @@
     "name": "Shibuya Nightscape",
     "character": "Kiho Arima",
     "rarity": "XR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_144.png",
@@ -1310,7 +1325,8 @@
     "name": "Shibuya Nightscape",
     "character": "Tomose Onda",
     "rarity": "XR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "reward": true
    }
   ],
   "article": null,
@@ -1425,7 +1441,8 @@
     "name": "Weak Point",
     "character": "Sei Okiya",
     "rarity": "SR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_149.png",
@@ -1563,7 +1580,8 @@
     "name": "Unraveling Noel",
     "character": "Kamiya",
     "rarity": "SR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_159.png",
@@ -1608,7 +1626,8 @@
     "name": "Commander of Self-Awareness",
     "character": "Ai Kosaka",
     "rarity": "XR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_161.png",
@@ -1616,7 +1635,8 @@
     "name": "Tender Support Role",
     "character": "Yuzuru Kise",
     "rarity": "XR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "reward": true
    }
   ],
   "article": null,
@@ -1724,7 +1744,8 @@
     "name": "A Magnificent and Serious Evil Spirit Exorcism",
     "character": "Takeru Mikado",
     "rarity": "SR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_167.png",
@@ -1850,7 +1871,8 @@
     "name": "Tybalt's Blade",
     "character": "Kou Ayato",
     "rarity": "SR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_174.png",
@@ -1968,7 +1990,8 @@
     "name": "An Entirely One-of-a-Kind Support Role",
     "character": "Yuzuru Kise",
     "rarity": "SR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_181.png",
@@ -2102,7 +2125,8 @@
     "name": "Stacking up Lone Clouds",
     "character": "Urara Manami",
     "rarity": "SR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_189.png",
@@ -2224,7 +2248,8 @@
     "name": "Heated Seaside",
     "character": "Taiga Tsukimoto",
     "rarity": "SR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_196.png",
@@ -2346,7 +2371,8 @@
     "name": "Let's Enjoy Cooking!",
     "character": "Roka Suoh",
     "rarity": "SR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_203.png",
@@ -2474,7 +2500,8 @@
     "name": "A Soft and Sweet Response",
     "character": "Riku Tateshina",
     "rarity": "SR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_211.png",
@@ -2782,7 +2809,8 @@
     "name": "A Night Touched by Fragrance",
     "character": "Shizuka Fushimi",
     "rarity": "SR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_238.png",
@@ -2912,7 +2940,8 @@
     "name": "Celebration Through the Lens",
     "character": "Akehoshi Hinomiya",
     "rarity": "SR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_246.png",
@@ -3042,7 +3071,8 @@
     "name": "A Road Filled with Blooming Indigo",
     "character": "Taiga Tsukimoto",
     "rarity": "SR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_253.png",
@@ -3180,7 +3210,8 @@
     "name": "Look Up to a Sea World",
     "character": "Kamiya",
     "rarity": "SR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_260.png",
@@ -3298,7 +3329,8 @@
     "name": "Wings Spreading Floatie",
     "character": "Takeru Mikado",
     "rarity": "SR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_266.png",
@@ -3420,7 +3452,8 @@
     "name": "Time to Engage with Art",
     "character": "Mao Ukyo",
     "rarity": "SR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_273.png",
@@ -3558,7 +3591,8 @@
     "name": "Sun, the Beginning Scenery",
     "character": "Sei Okiya",
     "rarity": "SR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_281.png",
@@ -3684,7 +3718,8 @@
     "name": "Sharp Gaze",
     "character": "Soyogu Shinkai",
     "rarity": "SR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_290.png",
@@ -3802,7 +3837,8 @@
     "name": "Embraced by the Wind of Rhythm",
     "character": "Roka Suoh",
     "rarity": "SR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_297.png",
@@ -3879,7 +3915,8 @@
     "name": "Carefree Swishing Tail",
     "character": "Yuragi Kanno",
     "rarity": "SR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_304.png",
@@ -3945,7 +3982,8 @@
     "name": "Irresponsible Lover",
     "character": "Kou Ayato",
     "rarity": "XR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_310.png",
@@ -3953,7 +3991,8 @@
     "name": "Sharp Plain",
     "character": "Mao Ukyo",
     "rarity": "XR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_311.png",
@@ -3961,7 +4000,8 @@
     "name": "Perfect Execution",
     "character": "Tomose Onda",
     "rarity": "XR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_312.png",
@@ -3969,7 +4009,8 @@
     "name": "Devotion Like Breathing",
     "character": "Yu Nina",
     "rarity": "XR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "reward": true
    }
   ],
   "article": null,
@@ -4093,7 +4134,8 @@
     "name": "Good Weather's Souvenir",
     "character": "Yu Nina",
     "rarity": "SR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_318.png",
@@ -4170,7 +4212,8 @@
     "name": "Duo's Magic",
     "character": "Kyoya Shido",
     "rarity": "SR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_325.png",
@@ -4281,7 +4324,8 @@
     "name": "A Bite of Bright Red Strawberry",
     "character": "Kou Ayato",
     "rarity": "SR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_332.png",
@@ -4342,7 +4386,8 @@
     "name": "Enticing Starlight",
     "character": "Akehoshi Hinomiya",
     "rarity": "XR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_336.png",
@@ -4350,7 +4395,8 @@
     "name": "Going-in-Circle Mood",
     "character": "Yuragi Kanno",
     "rarity": "XR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_337.png",
@@ -4358,7 +4404,8 @@
     "name": "Suggestion for Lethargy",
     "character": "Haruhi Ichikawa",
     "rarity": "XR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "reward": true
    }
   ],
   "article": null,
@@ -4466,7 +4513,8 @@
     "name": "Telephone Call",
     "character": "Riku Tateshina",
     "rarity": "SR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_343.png",
@@ -4596,7 +4644,8 @@
     "name": "Best Location",
     "character": "Shizuka Fushimi",
     "rarity": "SR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_350.png",
@@ -4718,7 +4767,8 @@
     "name": "Feelings Contained in the Heart",
     "character": "Yuzuru Kise",
     "rarity": "SR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_357.png",
@@ -4836,7 +4886,8 @@
     "name": "Dazzling Sweet Little World",
     "character": "Akehoshi Hinomiya",
     "rarity": "SR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_364.png",
@@ -4921,7 +4972,8 @@
     "name": "A Deep Breath in the Office",
     "character": "Shinobu Aizawa",
     "rarity": "SR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_372.png",
@@ -5044,7 +5096,8 @@
     "name": "On the Same Boat",
     "character": "Kiho Arima",
     "rarity": "SR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_378.png",
@@ -5166,7 +5219,8 @@
     "name": "A Calm Afternoon",
     "character": "Yu Nina",
     "rarity": "SR",
-    "attribute": "Sun"
+    "attribute": "Sun",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_384.png",
@@ -5487,7 +5541,8 @@
     "name": "Following the Bones",
     "character": "Ai Kosaka",
     "rarity": "SR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_412.png",
@@ -5629,7 +5684,8 @@
     "name": "Straightening the Crooked Tie",
     "character": "Urara Manami",
     "rarity": "SR",
-    "attribute": "Star"
+    "attribute": "Star",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_420.png",
@@ -5706,7 +5762,8 @@
     "name": "Vignette -Emperor-",
     "character": "Ai Kosaka, Riku Tateshina",
     "rarity": "CR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "reward": true
    },
    {
     "img": "assets/media/cards/Card_illust_427.png",
@@ -5714,7 +5771,8 @@
     "name": "Vignette -Skip-",
     "character": "Akehoshi Hinomiya, Kamiya",
     "rarity": "CR",
-    "attribute": "Moon"
+    "attribute": "Moon",
+    "reward": true
    }
   ],
   "article": null,
