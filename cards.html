@@ -77,7 +77,7 @@ function thumb(u){return (typeof u==='string')? u.replace(/\/revision\/latest(\/
 fetch('data/events.json?v='+Date.now()).then(r=>r.json()).then(d=>{
   const seen=new Set();
   d.forEach(e=>(e.cards||[]).forEach(c=>{
-    if(seen.has(c.id))return; seen.add(c.id);
+    if(seen.has(String(c.id)))return; seen.add(String(c.id));
     ALLCARDS.push({id:c.id,img:c.img,name:c.name,character:c.character,
       rarity:(c.rarity||'').toUpperCase(),attribute:c.attribute||'',event:e.name,limited:!!c.limited,
       birthday:(e.kind==='Birthday'),anniversary:(e.kind==='Anniversary'),reward:!!c.reward});
