@@ -151,7 +151,7 @@ footer a{color:var(--violet)}
 .ecimg{position:relative;display:block;aspect-ratio:4/3;overflow:hidden;background:var(--bg-2)}
 .ecimg img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
 .ectop{position:absolute;top:0;left:0;right:0;display:flex;gap:5px;padding:9px}
-.ectop .rar,.ectop .attr{box-shadow:0 1px 4px rgba(0,0,0,.3)}
+.ectop .rar,.ectop .attr,.ectop .rwd{box-shadow:0 1px 4px rgba(0,0,0,.3)}
 .ecbot{position:absolute;left:0;right:0;bottom:0;padding:12px 12px 10px;
   background:linear-gradient(to top,rgba(20,18,40,.85) 0%,rgba(20,18,40,.5) 55%,rgba(20,18,40,0) 100%)}
 .ecchar{font:600 11.5px/1.25 'Inter',sans-serif;color:#fff;opacity:.9;text-shadow:0 1px 4px rgba(0,0,0,.6)}
@@ -164,7 +164,7 @@ footer a{color:var(--violet)}
 .cardmeta{padding:10px 12px 13px;display:flex;flex-direction:column;gap:5px}
 .cardtags{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
 .rar{font:800 10px/1 ui-monospace,Menlo,monospace;letter-spacing:.05em;padding:4px 7px;border-radius:6px;color:#2a2145}
-.r-SSR{background:linear-gradient(135deg,#f5a3c7,#8fb5f0)}
+.r-SSR{background:linear-gradient(135deg,#ff7ab0,#4f8ff5)}
 .r-SR{background:linear-gradient(135deg,#e6bf47,#f7dd85)}
 .r-R{background:linear-gradient(135deg,#c2c7d2,#e6eaf2)}
 .r-XR{background:linear-gradient(135deg,#a878e0,#c9a6f2)}

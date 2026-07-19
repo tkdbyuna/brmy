@@ -45,8 +45,13 @@ function render(e, all){
 
   const song = '';
 
-  const cards = (e.cards&&e.cards.length)? `<div class="ev-sec"><h2>Cards &middot; ${e.cards.length}</h2>
-    <div class="cardgrid2">${e.cards.map(c=>{
+  const RRANK={XR:0,SSR:1,SR:2,CR:3,R:4};
+  const sortedCards = e.cards? [...e.cards].sort((a,b)=>{
+      const ra=RRANK[(a.rarity||'').toUpperCase()]??9, rb=RRANK[(b.rarity||'').toUpperCase()]??9;
+      return ra-rb || ((a.id||0)-(b.id||0));
+    }) : [];
+  const cards = (sortedCards.length)? `<div class="ev-sec"><h2>Cards &middot; ${sortedCards.length}</h2>
+    <div class="cardgrid2">${sortedCards.map(c=>{
       const img = (typeof c==='string')? c : c.img;
       const rar = (c.rarity||'').toUpperCase();
       const attr = c.attribute||'';
@@ -55,7 +60,7 @@ function render(e, all){
       return `<div class="ecard">
         <a class="ecimg" href="${img}" target="_blank" rel="noopener">
           <img loading="lazy" src="${thumb(img)}">
-          <div class="ectop">${rar?`<span class="rar r-${rar}">${esc(rar)}</span>`:''}${attr?`<span class="attr a-${esc(attr.toLowerCase())}">${esc(attr)}</span>`:''}</div>
+          <div class="ectop">${rar?`<span class="rar r-${rar}">${esc(rar)}</span>`:''}${attr?`<span class="attr a-${esc(attr.toLowerCase())}">${esc(attr)}</span>`:''}${c.reward?`<span class="rwd">REWARD</span>`:''}</div>
           <div class="ecbot">
             ${char?`<div class="ecchar">${esc(char)}</div>`:''}
             ${nm?`<div class="ecname">${esc(nm)}</div>`:''}
