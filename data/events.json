@@ -1241,6 +1241,30 @@
   "chars": [],
   "cards": [
    {
+    "img": "assets/media/cards/Card_illust_136.png",
+    "id": "136",
+    "name": "FAVOR",
+    "character": "Ai Kosaka",
+    "rarity": "SSR",
+    "attribute": "Moon"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_137.png",
+    "id": "137",
+    "name": "AFFECTION",
+    "character": "Kyoya Shido",
+    "rarity": "SSR",
+    "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_138.png",
+    "id": "138",
+    "name": "DELIGHT",
+    "character": "Urara Manami",
+    "rarity": "SSR",
+    "attribute": "Star"
+   },
+   {
     "img": "assets/media/cards/Card_illust_139.png",
     "id": 139,
     "name": "Shibuya Nightscape",
@@ -1291,7 +1315,7 @@
   ],
   "article": null,
   "subs": {},
-  "limited": false,
+  "limited": true,
   "pv": {
    "yt": "f089AN_NDEU",
    "title": "【PV】1st Anniversary ブレマイパーティ"
@@ -2660,7 +2684,7 @@
   ],
   "article": null,
   "subs": {},
-  "limited": false,
+  "limited": true,
   "pv": {
    "yt": "f089AN_NDEU",
    "title": "【PV】1st Anniversary ブレマイパーティ"
@@ -3900,6 +3924,22 @@
   "chars": [],
   "cards": [
    {
+    "img": "assets/media/cards/Card_illust_307.png",
+    "id": "307",
+    "name": "RADIANCE",
+    "character": "Haruhi Ichikawa",
+    "rarity": "SSR",
+    "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_308.png",
+    "id": "308",
+    "name": "BANQUET",
+    "character": "Soyogu Shinkai",
+    "rarity": "SSR",
+    "attribute": "Moon"
+   },
+   {
     "img": "assets/media/cards/Card_illust_309.png",
     "id": 309,
     "name": "Irresponsible Lover",
@@ -3934,7 +3974,7 @@
   ],
   "article": null,
   "subs": {},
-  "limited": false,
+  "limited": true,
   "pv": null
  },
  {
@@ -5344,7 +5384,7 @@
   ],
   "article": null,
   "subs": {},
-  "limited": false,
+  "limited": true,
   "pv": null
  },
  {
