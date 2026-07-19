@@ -5888,6 +5888,15 @@
     "character": "Yuragi Kanno",
     "rarity": "R",
     "attribute": "Star"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_432.png",
+    "id": 432,
+    "name": "Where the Star’s Orbit Leads",
+    "character": "Kiho Arima",
+    "rarity": "SR",
+    "attribute": "Moon",
+    "reward": true
    }
   ],
   "article": "articles/Milky%20Way%2C%20A%20Promise%20to%20Countless%20Feelings.html",
