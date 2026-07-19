@@ -1,5 +1,6 @@
 <!DOCTYPE html><html lang="ko"><head>
-<meta charset="utf-8"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
+<meta charset="utf-8"><meta name="referrer" content="no-referrer">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Card · Break My Case</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -19,7 +20,6 @@
       <div class="seg" id="f-rarity"></div>
       <div class="seg" id="f-type"></div>
       <div class="seg"><button class="segbtn" id="f-limited" data-lim="1">Limited</button><button class="segbtn" id="f-birthday">Birthday</button><button class="segbtn" id="f-anniversary">Anniversary</button><button class="segbtn" id="f-reward">Reward</button></div>
-      <select id="f-char" class="sel"><option value="">All characters</option></select>
       <span class="barspace"></span>
       <div class="iconseg">
         <button class="iconbtn" id="clearFilters" title="Clear filters" aria-label="Clear filters">
@@ -35,6 +35,7 @@
       </div>
     </div>
     <div class="crow">
+      <select id="f-char" class="sel"><option value="">All characters</option></select>
       <div class="seg" id="f-sort"></div>
       <span id="ownCircles"></span>
     </div>
@@ -64,7 +65,9 @@ const ACCOUNTS=[
   {key:'yuzuru',name:'Yuzuru',short:'Yu',color:'#7DA852'}
 ];
 const STORE='bmc_collection_v1';
-let ALLCARDS=[], OWNED=loadOwned();
+let ALLCARDS=[], OWNED=loadOwned(), VOICES={}, BLESS={};
+fetch('data/card_voices.json?v='+Date.now()).then(r=>r.json()).then(d=>{VOICES=d;}).catch(()=>{});
+fetch('data/birthday_blessings.json?v='+Date.now()).then(r=>r.json()).then(d=>{BLESS=d;}).catch(()=>{});
 let FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set(),sort:'release',limited:false,birthday:false,anniversary:false,reward:false};
 function loadOwned(){ try{return JSON.parse(localStorage.getItem(STORE))||{}}catch(e){return {}} }
 function saveOwned(){ try{localStorage.setItem(STORE,JSON.stringify(OWNED))}catch(e){} }
@@ -158,12 +161,39 @@ function renderCards(){
         </div>
         <div class="ccbot">
           <div class="ccname">${esc(c.name||'')}</div>
-          <div class="ccdots">${dots}</div>
         </div>
       </div>
     </div>`;
   }).join('');
   document.querySelectorAll('.ccard').forEach(el=>el.onclick=()=>openModal(el.dataset.card));
+}
+function blessHTML(cid){
+  const b=BLESS[String(cid)]; if(!b||!b.length) return '';
+  const icons=b.map(x=>`<button class="sdbtn" data-src="${x.voice}" title="${x.char}">
+    <img src="${x.sd.replace(/\/revision\/latest$/,'/revision/latest/scale-to-width-down/80')}" loading="lazy" referrerpolicy="no-referrer"></button>`).join('');
+  return `<div class="voices"><div class="vtitle">Staff's Blessing</div><div class="sdgrid">${icons}</div></div>`;
+}
+function voicesHTML(cid){
+  const v=VOICES[String(cid)]; if(!v) return '';
+  const LB={home_1:'Rank 1',home_2:'Rank 2',home_3:'Rank 3',home_4:'Rank 4',skill:'Skill',skill_combi:'Skill · Combo'};
+  const ORD=['home_1','home_2','home_3','home_4','skill','skill_combi'];
+  let keys=ORD.filter(k=>v[k]);
+  Object.keys(v).forEach(k=>{if(!keys.includes(k))keys.push(k);});
+  if(!keys.length) return '';
+  const play=`<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>`;
+  const rows=keys.map(k=>`<button class="vbtn" data-src="${v[k]}"><span class="vico">${play}</span><span class="vlab">${LB[k]||k}</span></button>`).join('');
+  return `<div class="voices"><div class="vtitle">Voice Lines</div><div class="vlist">${rows}</div></div>`;
+}
+let VAUDIO=null, VCUR=null;
+function bindVoices(){
+  document.querySelectorAll('.vbtn,.sdbtn').forEach(b=>b.onclick=()=>{
+    const src=b.dataset.src;
+    if(VAUDIO && VCUR===b){ VAUDIO.pause(); VAUDIO=null; VCUR=null; b.classList.remove('playing'); return; }
+    if(VAUDIO){ VAUDIO.pause(); if(VCUR)VCUR.classList.remove('playing'); }
+    VAUDIO=new Audio(src); VAUDIO.referrerPolicy='no-referrer'; VCUR=b; b.classList.add('playing');
+    VAUDIO.play().catch(()=>{});
+    VAUDIO.onended=()=>{b.classList.remove('playing'); VAUDIO=null; VCUR=null;};
+  });
 }
 function openModal(id){
   const c=ALLCARDS.find(x=>String(x.id)===String(id)); if(!c)return;
@@ -175,18 +205,21 @@ function openModal(id){
       <div class="modalname">${esc(c.name||'')}</div>
       <div class="modalchar">${esc(c.character||'')}</div>
       <div class="modalevent">${esc(c.event||'')}</div>
+      ${voicesHTML(c.id)}
+      ${blessHTML(c.id)}
       <div class="ownrow">${ACCOUNTS.map(a=>`
         <button class="ocircle ${own[a.key]?'on':''}" data-card="${c.id}" data-acct="${a.key}"
           title="${a.name}" style="--ac:${a.color}"></button>`).join('')}</div>
     </div>`;
   document.getElementById('modal').classList.add('show');
+  bindVoices();
   document.querySelectorAll('.ocircle').forEach(b=>b.onclick=()=>{
     const cid=b.dataset.card,k=b.dataset.acct;
     OWNED[cid]=OWNED[cid]||{}; if(OWNED[cid][k]){delete OWNED[cid][k];}else{OWNED[cid][k]=true;}
     saveOwned(); b.classList.toggle('on');
   });
 }
-function closeModal(){document.getElementById('modal').classList.remove('show'); renderCards();}
+function closeModal(){if(VAUDIO){VAUDIO.pause();VAUDIO=null;VCUR=null;} document.getElementById('modal').classList.remove('show'); renderCards();}
 function exportData(){
   const blob=new Blob([JSON.stringify(OWNED,null,1)],{type:'application/json'});
   const a=document.createElement('a'); a.href=URL.createObjectURL(blob);
