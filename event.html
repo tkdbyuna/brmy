@@ -67,7 +67,6 @@ function render(e, all){
 
 
   document.getElementById('app').innerHTML=`
-    <div class="ev-hero"><img class="banner" src="${e.banner||''}" alt=""></div>
     <div class="ev-head">
       <div class="date">${e.start_disp||''}${e.end_disp?' – '+e.end_disp:''}</div>
       <h1>${esc(e.name||e.title)}</h1>
