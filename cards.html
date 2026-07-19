@@ -90,7 +90,9 @@ function buildFilters(){
   document.getElementById('f-rarity').innerHTML=rars.map(r=>`<button class="segbtn" data-r="${r}">${r}</button>`).join('');
   const types=['Star','Moon','Sun'].filter(t=>ALLCARDS.some(c=>c.attribute===t));
   document.getElementById('f-type').innerHTML=types.map(t=>`<button class="segbtn" data-t="${t}">${t}</button>`).join('');
-  const chars=[...new Set(ALLCARDS.map(c=>c.character).filter(x=>x&&!x.includes(',')))].sort();
+  const charSet=new Set();
+  ALLCARDS.forEach(c=>{(c.character||'').split(',').forEach(x=>{x=x.trim(); if(x)charSet.add(x);});});
+  const chars=[...charSet].sort();
   document.getElementById('f-char').innerHTML='<option value="">All characters</option>'+chars.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('');
   const SORTS=[['release','Newest'],['rarity','Rarity'],['character','Character'],['type','Type'],['name','Name']];
   document.getElementById('f-sort').innerHTML=SORTS.map(([v,l],i)=>`<button class="segbtn${i===0?' on':''}" data-s="${v}">${l}</button>`).join('');
@@ -125,7 +127,7 @@ function tog(set,val,btn){ if(set.has(val)){set.delete(val);btn.classList.remove
 function passFilter(c){
   if(FILT.rarity.size && !FILT.rarity.has(c.rarity)) return false;
   if(FILT.type.size && !FILT.type.has(c.attribute)) return false;
-  if(FILT.char && (c.character||'')!==FILT.char) return false;
+  if(FILT.char && !(c.character||'').split(',').map(x=>x.trim()).includes(FILT.char)) return false;
   if(FILT.limited && !c.limited) return false;
   if(FILT.birthday && !c.birthday) return false;
   if(FILT.anniversary && !c.anniversary) return false;
