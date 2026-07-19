@@ -1,6 +1,5 @@
 <!DOCTYPE html><html lang="en"><head>
-<meta charset="utf-8"><meta name="referrer" content="no-referrer">
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
+<meta charset="utf-8"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Event · Break My Case Archive</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -29,11 +28,12 @@ const ACCOUNTS=[{key:'akehoshi',name:'akehoshi',color:'#FE8A23'},{key:'ai',name:
   {key:'kou',name:'kou',color:'#FD1493'},{key:'tomose',name:'tomose',color:'#61C892'},
   {key:'kyoya',name:'kyoya',color:'#F09C65'},{key:'yuzuru',name:'yuzuru',color:'#7DA852'}];
 const STORE='bmc_collection_v1';
-let OWNED=loadOwned(), VOICES={}, BLESS={}, ECARDS={};
+let OWNED=loadOwned(), VOICES={}, BLESS={}, LIVECLIPS={}, ECARDS={};
 function loadOwned(){try{return JSON.parse(localStorage.getItem(STORE))||{}}catch(e){return{}}}
 function saveOwned(){try{localStorage.setItem(STORE,JSON.stringify(OWNED))}catch(e){}}
 fetch('data/card_voices.json?v='+Date.now()).then(r=>r.json()).then(d=>{VOICES=d}).catch(()=>{});
 fetch('data/birthday_blessings.json?v='+Date.now()).then(r=>r.json()).then(d=>{BLESS=d}).catch(()=>{});
+fetch('data/liveclips.json?v='+Date.now()).then(r=>r.json()).then(d=>{LIVECLIPS=d}).catch(()=>{});
 const id=parseInt(new URLSearchParams(location.search).get('id'),10);
 fetch('data/events.json?v='+Date.now()).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status+' loading events.json');return r.json();}).then(all=>{
   const byId={}; all.forEach(e=>byId[e.id]=e);
@@ -113,9 +113,13 @@ function blessHTML(cid){
   const icons=b.map(x=>`<button class="sdbtn" data-src="${x.voice}" title="${x.char}"><img src="${x.sd.replace(/\/revision\/latest$/,'/revision/latest/scale-to-width-down/80')}" loading="lazy" referrerpolicy="no-referrer"></button>`).join('');
   return `<div class="voices"><div class="vtitle">Staff's Blessing</div><div class="sdgrid">${icons}</div></div>`;
 }
+function liveHTML(cid){
+  const u=LIVECLIPS[String(cid)]; if(!u) return '';
+  return `<div class="voices"><div class="vtitle">Live2D</div><button class="livebtn" data-src="${u}">▶ View Live2D animation</button></div>`;
+}
 function voicesHTML(cid){
   const v=VOICES[String(cid)]; if(!v) return '';
-  const LB={home_1:'Rank 1',home_2:'Rank 2',home_3:'Rank 3',home_4:'Rank 4',skill:'Skill',skill_combi:'Skill · Combo'};
+  const LB={home_1:'Voice 1',home_2:'Voice 2',home_3:'Voice 3',home_4:'Voice 4',skill:'Skill',skill_combi:'Skill · Combo'};
   const ORD=['home_1','home_2','home_3','home_4','skill','skill_combi'];
   let keys=ORD.filter(k=>v[k]); Object.keys(v).forEach(k=>{if(!keys.includes(k))keys.push(k)});
   if(!keys.length) return '';
@@ -125,6 +129,10 @@ function voicesHTML(cid){
 }
 let VAUDIO=null,VCUR=null;
 function bindVoices(){
+  document.querySelectorAll('.livebtn').forEach(b=>b.onclick=()=>{
+    const wrap=b.parentElement;
+    wrap.innerHTML='<img class="liveimg" src="'+b.dataset.src+'" referrerpolicy="no-referrer" alt="Live2D">';
+  });
   document.querySelectorAll('.vbtn,.sdbtn').forEach(b=>b.onclick=()=>{
     const src=b.dataset.src;
     if(VAUDIO&&VCUR===b){VAUDIO.pause();VAUDIO=null;VCUR=null;b.classList.remove('playing');return;}
@@ -146,6 +154,7 @@ function openModal(cid){
       <div class="modalchar">${esc(c.character||'')}</div>
       <div class="modalevent">${esc(c.event||'')}</div>
       ${voicesHTML(c.id)}
+      ${liveHTML(c.id)}
       ${blessHTML(c.id)}
       <div class="ownrow">${ACCOUNTS.map(a=>`
         <button class="ocircle ${own[a.key]?'on':''}" data-card="${c.id}" data-acct="${a.key}" title="${a.name}" style="--ac:${a.color}"></button>`).join('')}</div>

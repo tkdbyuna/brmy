@@ -358,3 +358,10 @@ body.hub{max-width:900px;margin:0 auto;padding:56px 22px 70px;background:var(--b
 .sdbtn img{width:100%;height:100%;object-fit:cover;display:block}
 .sdbtn:hover{border-color:var(--violet);transform:translateY(-2px)}
 .sdbtn.playing{border-color:var(--violet);box-shadow:0 0 0 3px color-mix(in srgb,var(--violet) 30%,transparent)}
+
+/* Live2D clip */
+.livebtn{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:9px;
+  border:1px solid var(--line-strong);background:var(--bg-2);color:var(--ink);cursor:pointer;
+  font:600 12.5px/1 'Inter',sans-serif;transition:.14s}
+.livebtn:hover{border-color:var(--violet);color:var(--violet)}
+.liveimg{width:100%;border-radius:10px;border:1px solid var(--line-strong);display:block}
