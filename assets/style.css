@@ -145,6 +145,17 @@ footer a{color:var(--violet)}
 /* card illustrations + card voices */
 .cardgrid2{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
 @media(min-width:720px){.cardgrid2{grid-template-columns:repeat(3,1fr)}}
+.ecard{border-radius:13px;overflow:hidden;background:var(--card);border:1px solid var(--line);
+  transition:transform .12s ease,box-shadow .12s ease}
+.ecard:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(46,32,90,.16)}
+.ecimg{position:relative;display:block;aspect-ratio:4/3;overflow:hidden;background:var(--bg-2)}
+.ecimg img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+.ectop{position:absolute;top:0;left:0;right:0;display:flex;gap:5px;padding:9px}
+.ectop .rar,.ectop .attr{box-shadow:0 1px 4px rgba(0,0,0,.3)}
+.ecbot{position:absolute;left:0;right:0;bottom:0;padding:12px 12px 10px;
+  background:linear-gradient(to top,rgba(20,18,40,.85) 0%,rgba(20,18,40,.5) 55%,rgba(20,18,40,0) 100%)}
+.ecchar{font:600 11.5px/1.25 'Inter',sans-serif;color:#fff;opacity:.9;text-shadow:0 1px 4px rgba(0,0,0,.6)}
+.ecname{font-family:var(--disp);font-weight:700;font-size:16.5px;line-height:1.2;color:#fff;margin-top:1px;text-shadow:0 1px 5px rgba(0,0,0,.65)}
 .cardblock{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;
   display:flex;flex-direction:column;transition:transform .12s ease,box-shadow .12s ease}
 .cardblock:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(91,79,214,.16)}
@@ -174,7 +185,7 @@ footer a{color:var(--violet)}
 .cardbar{display:flex;flex-direction:column;gap:22px;margin:20px 0;padding:18px 20px;
   background:var(--card);border:1px solid var(--line);border-radius:14px}
 .crow{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
-.crow+.crow{padding-top:20px;border-top:1px solid var(--line)}
+.crow+.crow{padding-top:6px}
 .barspace{flex:1}
 #ownCircles{display:inline-flex;gap:8px;align-items:center}
 

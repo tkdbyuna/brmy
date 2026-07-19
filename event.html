@@ -51,13 +51,15 @@ function render(e, all){
       const attr = c.attribute||'';
       const char = c.character||'';
       const nm = c.name||'';
-      return `<div class="cardblock">
-        <a href="${img}" target="_blank" rel="noopener"><img loading="lazy" src="${thumb(img)}"></a>
-        <div class="cardmeta">
-          <div class="cardtags">${rar?`<span class="rar r-${rar}">${esc(rar)}</span>`:''}${attr?`<span class="attr a-${esc(attr.toLowerCase())}">${esc(attr)}</span>`:''}</div>
-          ${char?`<div class="cardchar">${esc(char)}</div>`:''}
-          ${nm?`<div class="cardname">${esc(nm)}</div>`:''}
-        </div>
+      return `<div class="ecard">
+        <a class="ecimg" href="${img}" target="_blank" rel="noopener">
+          <img loading="lazy" src="${thumb(img)}">
+          <div class="ectop">${rar?`<span class="rar r-${rar}">${esc(rar)}</span>`:''}${attr?`<span class="attr a-${esc(attr.toLowerCase())}">${esc(attr)}</span>`:''}</div>
+          <div class="ecbot">
+            ${char?`<div class="ecchar">${esc(char)}</div>`:''}
+            ${nm?`<div class="ecname">${esc(nm)}</div>`:''}
+          </div>
+        </a>
       </div>`;}).join('')}</div></div>`:'';
 
 
