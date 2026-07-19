@@ -149,13 +149,18 @@ function bindVoices(){
     else{ view.innerHTML='<img class="revimg" src="'+t.dataset.src+'" referrerpolicy="no-referrer">'; }
   });
   bindLive(document);
-  document.querySelectorAll('.vbtn,.sdbtn').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('.vbtn,.sdbtn').forEach(b=>b.onclick=async()=>{
     const src=b.dataset.src;
     if(VAUDIO&&VCUR===b){VAUDIO.pause();VAUDIO=null;VCUR=null;b.classList.remove('playing');return;}
     if(VAUDIO){VAUDIO.pause(); if(VCUR)VCUR.classList.remove('playing');}
-    VAUDIO=new Audio(src); VAUDIO.referrerPolicy='no-referrer'; VCUR=b; b.classList.add('playing');
-    VAUDIO.play().catch(()=>{});
-    VAUDIO.onended=()=>{b.classList.remove('playing');VAUDIO=null;VCUR=null;};
+    VCUR=b; b.classList.add('playing');
+    try{
+      const resp=await fetch(src,{referrerPolicy:'no-referrer'});
+      const blob=await resp.blob();
+      const a=new Audio(URL.createObjectURL(blob)); VAUDIO=a;
+      a.play().catch(()=>{});
+      a.onended=()=>{ b.classList.remove('playing'); if(VAUDIO===a){VAUDIO=null;VCUR=null;} URL.revokeObjectURL(a.src); };
+    }catch(e){ b.classList.remove('playing'); if(VCUR===b){VCUR=null;} }
   });
 }
 function openModal(cid){
