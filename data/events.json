@@ -7862,5 +7862,83 @@
   "subs": {},
   "limited": true,
   "pv": null
+ },
+ {
+  "id": 9200,
+  "kind": "Event",
+  "title": "2025 SPRING BRMY Party",
+  "name": "2025 SPRING Party",
+  "kanji": "2025 SPRING  Party",
+  "start": "2025-03-10",
+  "end": "2025-03-14",
+  "start_disp": "2025.03.10",
+  "end_disp": "2025.03.14",
+  "dept": null,
+  "attribute": null,
+  "banner": null,
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [
+   {
+    "img": "assets/media/cards/Card_illust_190.png",
+    "id": 190,
+    "name": "NIGHTFALL",
+    "character": "Mao Ukyo",
+    "rarity": "SSR",
+    "attribute": "Star"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_191.png",
+    "id": 191,
+    "name": "OVERNIGHT",
+    "character": "Shinobu Aizawa",
+    "rarity": "SSR",
+    "attribute": "Moon"
+   }
+  ],
+  "article": null,
+  "subs": {},
+  "limited": true,
+  "pv": null
+ },
+ {
+  "id": 9201,
+  "kind": "Event",
+  "title": "2025 AUTUMN BRMY Party",
+  "name": "2025 AUTUMN Party",
+  "kanji": "2025 AUTUMN  Party",
+  "start": "2025-09-10",
+  "end": "2025-09-16",
+  "start_disp": "2025.09.10",
+  "end_disp": "2025.09.16",
+  "dept": null,
+  "attribute": null,
+  "banner": "assets/media/banners/BMC_2025_AUTUMN_Bremy_Party_gacha_banner.png",
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [
+   {
+    "img": "assets/media/cards/Card_illust_283.png",
+    "id": 283,
+    "name": "INDIVISIBLE",
+    "character": "Taiga Tsukimoto",
+    "rarity": "SSR",
+    "attribute": "Sun"
+   },
+   {
+    "img": "assets/media/cards/Card_illust_284.png",
+    "id": 284,
+    "name": "ADJACENT",
+    "character": "Yu Nina",
+    "rarity": "SSR",
+    "attribute": "Star"
+   }
+  ],
+  "article": null,
+  "subs": {},
+  "limited": true,
+  "pv": null
  }
 ]
