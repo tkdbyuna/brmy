@@ -18,7 +18,7 @@
     <div class="crow">
       <div class="seg" id="f-rarity"></div>
       <div class="seg" id="f-type"></div>
-      <div class="seg"><button class="segbtn" id="f-limited" data-lim="1">Limited</button></div>
+      <div class="seg"><button class="segbtn" id="f-limited" data-lim="1">Limited</button><button class="segbtn" id="f-birthday">Birthday</button><button class="segbtn" id="f-anniversary">Anniversary</button></div>
       <select id="f-char" class="sel"><option value="">All characters</option></select>
       <span class="barspace"></span>
       <div class="iconseg">
@@ -65,7 +65,7 @@ const ACCOUNTS=[
 ];
 const STORE='bmc_collection_v1';
 let ALLCARDS=[], OWNED=loadOwned();
-let FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set(),sort:'release',limited:false};
+let FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set(),sort:'release',limited:false,birthday:false,anniversary:false};
 function loadOwned(){ try{return JSON.parse(localStorage.getItem(STORE))||{}}catch(e){return {}} }
 function saveOwned(){ try{localStorage.setItem(STORE,JSON.stringify(OWNED))}catch(e){} }
 function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
@@ -76,7 +76,8 @@ fetch('data/events.json?v='+Date.now()).then(r=>r.json()).then(d=>{
   d.forEach(e=>(e.cards||[]).forEach(c=>{
     if(seen.has(c.id))return; seen.add(c.id);
     ALLCARDS.push({id:c.id,img:c.img,name:c.name,character:c.character,
-      rarity:(c.rarity||'').toUpperCase(),attribute:c.attribute||'',event:e.name,limited:!!e.limited});
+      rarity:(c.rarity||'').toUpperCase(),attribute:c.attribute||'',event:e.name,limited:!!e.limited,
+      birthday:(e.kind==='Birthday'),anniversary:(e.kind==='Anniversary')});
   }));
   buildFilters(); renderCards();
 }).catch(err=>{document.getElementById('cardgrid').innerHTML='<p>Could not load data: '+err.message+'</p>'});
@@ -96,15 +97,17 @@ function buildFilters(){
   document.querySelectorAll('#f-type .segbtn').forEach(b=>b.onclick=()=>{tog(FILT.type,b.dataset.t,b);renderCards();});
   document.getElementById('f-char').onchange=e=>{FILT.char=e.target.value;renderCards();};
   document.getElementById('f-limited').onclick=function(){this.classList.toggle('on');FILT.limited=this.classList.contains('on');renderCards();};
+  document.getElementById('f-birthday').onclick=function(){this.classList.toggle('on');FILT.birthday=this.classList.contains('on');renderCards();};
+  document.getElementById('f-anniversary').onclick=function(){this.classList.toggle('on');FILT.anniversary=this.classList.contains('on');renderCards();};
   document.querySelectorAll('#f-sort .segbtn').forEach(b=>b.onclick=()=>{
     document.querySelectorAll('#f-sort .segbtn').forEach(x=>x.classList.remove('on'));
     b.classList.add('on'); FILT.sort=b.dataset.s; renderCards();
   });
   document.querySelectorAll('#ownCircles .ownc').forEach(b=>b.onclick=()=>{tog(FILT.ownAccts,b.dataset.acct,b);renderCards();});
   document.getElementById('clearFilters').onclick=()=>{
-    FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set(),sort:FILT.sort,limited:false};
+    FILT={rarity:new Set(),type:new Set(),char:'',ownAccts:new Set(),sort:FILT.sort,limited:false,birthday:false,anniversary:false};
     document.querySelectorAll('.segbtn.on,.ownc.on').forEach(x=>x.classList.remove('on'));
-    const lim=document.getElementById('f-limited'); if(lim)lim.classList.remove('on');
+    ['f-limited','f-birthday','f-anniversary'].forEach(id=>{const b=document.getElementById(id);if(b)b.classList.remove('on');});
     const sf=document.querySelector('#f-sort .segbtn'); if(sf)sf.classList.add('on');
     FILT.sort='release';
     document.getElementById('f-char').value=''; renderCards();
@@ -120,6 +123,8 @@ function passFilter(c){
   if(FILT.type.size && !FILT.type.has(c.attribute)) return false;
   if(FILT.char && (c.character||'')!==FILT.char) return false;
   if(FILT.limited && !c.limited) return false;
+  if(FILT.birthday && !c.birthday) return false;
+  if(FILT.anniversary && !c.anniversary) return false;
   if(FILT.ownAccts.size){
     const own=OWNED[c.id]||{}; const accts=[...FILT.ownAccts];
     if(!accts.some(k=>own[k])) return false;
@@ -146,7 +151,7 @@ function renderCards(){
         <div class="cctop">
           ${c.rarity?`<span class="rar r-${c.rarity}">${c.rarity}</span>`:''}
           ${c.attribute?`<span class="attr a-${c.attribute.toLowerCase()}">${c.attribute}</span>`:''}
-          ${c.limited?`<span class="lim">LIMITED</span>`:''}
+          ${c.anniversary?`<span class="anniv">ANNIVERSARY</span>`:c.birthday?`<span class="bday">BIRTHDAY</span>`:c.limited?`<span class="lim">LIMITED</span>`:''}
           ${owners.length?`<span class="ownmark">✓</span>`:''}
         </div>
         <div class="ccbot">
@@ -164,7 +169,7 @@ function openModal(id){
   document.getElementById('modalBody').innerHTML=`
     <a class="modalimg" href="${c.img}" target="_blank" rel="noopener"><img src="${thumb(c.img)}"></a>
     <div class="modalinfo">
-      <div class="cc-tags">${c.rarity?`<span class="rar r-${c.rarity}">${c.rarity}</span>`:''}${c.attribute?`<span class="attr a-${c.attribute.toLowerCase()}">${c.attribute}</span>`:''}${c.limited?`<span class="lim">LIMITED</span>`:''}</div>
+      <div class="cc-tags">${c.rarity?`<span class="rar r-${c.rarity}">${c.rarity}</span>`:''}${c.attribute?`<span class="attr a-${c.attribute.toLowerCase()}">${c.attribute}</span>`:''}${c.anniversary?`<span class="anniv">ANNIVERSARY</span>`:c.birthday?`<span class="bday">BIRTHDAY</span>`:c.limited?`<span class="lim">LIMITED</span>`:''}</div>
       <div class="modalname">${esc(c.name||'')}</div>
       <div class="modalchar">${esc(c.character||'')}</div>
       <div class="modalevent">${esc(c.event||'')}</div>
