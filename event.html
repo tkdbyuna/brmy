@@ -76,7 +76,7 @@ function render(e, all){
       const nm = c.name||'';
       ECARDS[c.id]={id:c.id,img:img,name:nm,character:char,rarity:rar,attribute:attr,
         event:e.name,limited:!!c.limited,reward:!!c.reward,
-        birthday:(e.kind==='Birthday'),anniversary:(e.kind==='Anniversary')};
+        birthday:(e.kind==='Birthday'),anniversary:(e.kind==='Anniversary' && !c.notAnniv)};
       return `<div class="ecard" onclick="openModal(${c.id})">
         <div class="ecimg">
           <img loading="lazy" src="${thumb(img)}">

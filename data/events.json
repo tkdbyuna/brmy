@@ -1267,7 +1267,8 @@
     "character": "Ai Kosaka",
     "rarity": "SSR",
     "attribute": "Moon",
-    "limited": true
+    "limited": true,
+    "notAnniv": true
    },
    {
     "img": "assets/media/cards/Card_illust_137.png",
@@ -1276,7 +1277,8 @@
     "character": "Kyoya Shido",
     "rarity": "SSR",
     "attribute": "Sun",
-    "limited": true
+    "limited": true,
+    "notAnniv": true
    },
    {
     "img": "assets/media/cards/Card_illust_138.png",
@@ -1285,7 +1287,8 @@
     "character": "Urara Manami",
     "rarity": "SSR",
     "attribute": "Star",
-    "limited": true
+    "limited": true,
+    "notAnniv": true
    },
    {
     "img": "assets/media/cards/Card_illust_139.png",
@@ -4041,7 +4044,8 @@
     "character": "Haruhi Ichikawa",
     "rarity": "SSR",
     "attribute": "Sun",
-    "limited": true
+    "limited": true,
+    "notAnniv": true
    },
    {
     "img": "assets/media/cards/Card_illust_308.png",
@@ -4050,7 +4054,8 @@
     "character": "Soyogu Shinkai",
     "rarity": "SSR",
     "attribute": "Moon",
-    "limited": true
+    "limited": true,
+    "notAnniv": true
    },
    {
     "img": "assets/media/cards/Card_illust_309.png",

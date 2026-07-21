@@ -80,7 +80,7 @@ fetch('data/events.json?v='+Date.now()).then(r=>r.json()).then(d=>{
     if(seen.has(String(c.id)))return; seen.add(String(c.id));
     ALLCARDS.push({id:c.id,img:c.img,name:c.name,character:c.character,
       rarity:(c.rarity||'').toUpperCase(),attribute:c.attribute||'',event:e.name,limited:!!c.limited,
-      birthday:(e.kind==='Birthday'),anniversary:(e.kind==='Anniversary'),reward:!!c.reward});
+      birthday:(e.kind==='Birthday'),anniversary:(e.kind==='Anniversary' && !c.notAnniv),reward:!!c.reward});
   }));
   buildFilters(); renderCards();
 }).catch(err=>{document.getElementById('cardgrid').innerHTML='<p>Could not load data: '+err.message+'</p>'});
