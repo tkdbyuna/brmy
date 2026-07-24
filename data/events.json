@@ -8313,5 +8313,136 @@
   "subs": {},
   "limited": true,
   "pv": null
+ },
+ {
+  "id": 9204,
+  "kind": "Event",
+  "title": "2026 SUMMER BRMY Party",
+  "name": "2026 SUMMER Party",
+  "kanji": "2026 SUMMER ブレマイパーティ",
+  "start": "2026-07-22",
+  "end": null,
+  "start_disp": "2026.07",
+  "end_disp": null,
+  "dept": null,
+  "attribute": null,
+  "banner": null,
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [
+   {
+    "img": "assets/media/cards/Card_illust_435.png",
+    "id": 435,
+    "name": "MELLOW",
+    "character": "Akehoshi Hinomiya",
+    "rarity": "SSR",
+    "attribute": "Moon",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_436.png",
+    "id": 436,
+    "name": "LOVING",
+    "character": "Takeru Mikado",
+    "rarity": "SSR",
+    "attribute": "Moon",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_136.png",
+    "id": 136,
+    "name": "FAVOR",
+    "character": "Ai Kosaka",
+    "rarity": "SSR",
+    "attribute": "Moon",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_137.png",
+    "id": 137,
+    "name": "AFFECTION",
+    "character": "Kyoya Shido",
+    "rarity": "SSR",
+    "attribute": "Sun",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_138.png",
+    "id": 138,
+    "name": "DELIGHT",
+    "character": "Urara Manami",
+    "rarity": "SSR",
+    "attribute": "Star",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_190.png",
+    "id": 190,
+    "name": "NIGHTFALL",
+    "character": "Mao Ukyo",
+    "rarity": "SSR",
+    "attribute": "Star",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_191.png",
+    "id": 191,
+    "name": "OVERNIGHT",
+    "character": "Shinobu Aizawa",
+    "rarity": "SSR",
+    "attribute": "Moon",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_283.png",
+    "id": 283,
+    "name": "INDIVISIBLE",
+    "character": "Taiga Tsukimoto",
+    "rarity": "SSR",
+    "attribute": "Sun",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_284.png",
+    "id": 284,
+    "name": "ADJACENT",
+    "character": "Yu Nina",
+    "rarity": "SSR",
+    "attribute": "Star",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_334.png",
+    "id": 334,
+    "name": "TEMPTATION",
+    "character": "Kou Ayato",
+    "rarity": "SSR",
+    "attribute": "Sun",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_307.png",
+    "id": 307,
+    "name": "RADIANCE",
+    "character": "Haruhi Ichikawa",
+    "rarity": "SSR",
+    "attribute": "Sun",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_308.png",
+    "id": 308,
+    "name": "BANQUET",
+    "character": "Soyogu Shinkai",
+    "rarity": "SSR",
+    "attribute": "Moon",
+    "limited": true
+   }
+  ],
+  "article": null,
+  "subs": {},
+  "limited": true,
+  "pv": null
  }
 ]
