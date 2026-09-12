@@ -9084,5 +9084,37 @@
   "subs": {},
   "limited": true,
   "pv": null
+ },
+ {
+  "id": 9146,
+  "kind": "Birthday",
+  "title": "Kiho's Birthday",
+  "name": "Kiho's Birthday",
+  "kanji": "Kiho's Birthday",
+  "start": "2026-09-03",
+  "end": null,
+  "start_disp": "2026.09.03",
+  "end_disp": null,
+  "dept": null,
+  "attribute": null,
+  "banner": null,
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [
+   {
+    "img": "assets/media/cards/Card_illust_470.png",
+    "id": 470,
+    "name": "Present for Kiho",
+    "character": "Kiho Arima",
+    "rarity": "SSR",
+    "attribute": "Sun",
+    "limited": true
+   }
+  ],
+  "article": null,
+  "subs": {},
+  "limited": true,
+  "pv": null
  }
 ]
