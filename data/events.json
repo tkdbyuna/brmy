@@ -8444,5 +8444,645 @@
   "subs": {},
   "limited": true,
   "pv": null
+ },
+ {
+  "id": 9301,
+  "kind": "Event",
+  "title": "Grasp the Gaze Connecting to the Electric Field",
+  "name": "Grasp the Gaze Connecting to the Electric Field",
+  "kanji": "Grasp the Gaze Connecting to the Electric Field",
+  "start": "2026-07-27",
+  "end": "2026-08-09",
+  "start_disp": "2026.07.27",
+  "end_disp": "2026.08.09",
+  "dept": null,
+  "attribute": null,
+  "banner": "assets/media/banners/BMC_Gacha_arrival_event51.png",
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [
+   {
+    "img": "assets/media/cards/Card_illust_438.png",
+    "id": 438,
+    "name": "Disciplined Strategy",
+    "character": "Soyogu Shinkai",
+    "rarity": "SSR",
+    "attribute": "Moon",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_439.png",
+    "id": 439,
+    "name": "Unparalleled Precision Alert",
+    "character": "Tomose Onda",
+    "rarity": "SSR",
+    "attribute": "Sun",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_440.png",
+    "id": 440,
+    "name": "Territory of Flash",
+    "character": "Urara Manami",
+    "rarity": "SSR",
+    "attribute": "Star",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_441.png",
+    "id": 441,
+    "name": "Crossing Lock‑On",
+    "character": "Takeru Mikado",
+    "rarity": "SR",
+    "attribute": "Sun",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_442.png",
+    "id": 442,
+    "name": "Override of Common Sense",
+    "character": "Shinobu Aizawa",
+    "rarity": "SR",
+    "attribute": "Star",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_443.png",
+    "id": 443,
+    "name": "Targeted Time Lag",
+    "character": "Yu Nina",
+    "rarity": "R",
+    "attribute": "Moon",
+    "limited": true
+   }
+  ],
+  "article": null,
+  "subs": {},
+  "limited": true,
+  "pv": null
+ },
+ {
+  "id": 9302,
+  "kind": "Event",
+  "title": "Vignette -Line-Baby-",
+  "name": "Vignette -Line-Baby-",
+  "kanji": "Vignette -Line-Baby-",
+  "start": "2026-08-10",
+  "end": "2026-08-21",
+  "start_disp": "2026.08.10",
+  "end_disp": "2026.08.21",
+  "dept": null,
+  "attribute": null,
+  "banner": "assets/media/banners/BMC_Gacha_arrival_event52.png",
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [
+   {
+    "img": "assets/media/cards/Card_illust_11.png",
+    "id": 11,
+    "name": "Handling Requests",
+    "character": "Shizuka Fushimi",
+    "rarity": "SSR",
+    "attribute": "Moon",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_14.png",
+    "id": 14,
+    "name": "Alone Time",
+    "character": "Shinobu Aizawa",
+    "rarity": "SSR",
+    "attribute": "Star",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_16.png",
+    "id": 16,
+    "name": "Walking Through Paintings",
+    "character": "Kyoya Shido",
+    "rarity": "SSR",
+    "attribute": "Sun",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_21.png",
+    "id": 21,
+    "name": "Usual Spot in the Far Corner",
+    "character": "Urara Manami",
+    "rarity": "SSR",
+    "attribute": "Moon",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_87.png",
+    "id": 87,
+    "name": "Tempted by the white rabbit",
+    "character": "Kyoya Shido",
+    "rarity": "SSR",
+    "attribute": "Moon",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_100.png",
+    "id": 100,
+    "name": "Complete Operation",
+    "character": "Shizuka Fushimi",
+    "rarity": "SSR",
+    "attribute": "Sun",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_102.png",
+    "id": 102,
+    "name": "All Set, Now",
+    "character": "Shinobu Aizawa",
+    "rarity": "SSR",
+    "attribute": "Sun",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_124.png",
+    "id": 124,
+    "name": "BITE",
+    "character": "Urara Manami",
+    "rarity": "SSR",
+    "attribute": "Sun",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_164.png",
+    "id": 164,
+    "name": "New Year's Prayer",
+    "character": "Shizuka Fushimi",
+    "rarity": "SSR",
+    "attribute": "Star",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_208.png",
+    "id": 208,
+    "name": "Options Offered",
+    "character": "Kyoya Shido",
+    "rarity": "SSR",
+    "attribute": "Moon",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_236.png",
+    "id": 236,
+    "name": "A sad night with shining flowers",
+    "character": "Urara Manami",
+    "rarity": "SSR",
+    "attribute": "Star",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_250.png",
+    "id": 250,
+    "name": "Hit by the summer rain",
+    "character": "Shizuka Fushimi",
+    "rarity": "SSR",
+    "attribute": "Sun",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_256.png",
+    "id": 256,
+    "name": "Dancers in the Water",
+    "character": "Shinobu Aizawa",
+    "rarity": "SSR",
+    "attribute": "Sun",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_287.png",
+    "id": 287,
+    "name": "Bare One's Fangs",
+    "character": "Urara Manami",
+    "rarity": "SSR",
+    "attribute": "Star",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_315.png",
+    "id": 315,
+    "name": "Carousel Filled with Radiance",
+    "character": "Urara Manami",
+    "rarity": "SSR",
+    "attribute": "Star",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_348.png",
+    "id": 348,
+    "name": "Excited Strawberry",
+    "character": "Shinobu Aizawa",
+    "rarity": "SSR",
+    "attribute": "Moon",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_374.png",
+    "id": 374,
+    "name": "Sea Route of the Setting Sun, Wind Passing Through",
+    "character": "Kyoya Shido",
+    "rarity": "SSR",
+    "attribute": "Sun",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_430.png",
+    "id": 430,
+    "name": "Ruler of the Heavens",
+    "character": "Kyoya Shido",
+    "rarity": "SSR",
+    "attribute": "Moon",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_444.png",
+    "id": 444,
+    "name": "Guardian of Fresh Verdure",
+    "character": "Shizuka Fushimi",
+    "rarity": "SSR",
+    "attribute": "Star",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_445.png",
+    "id": 445,
+    "name": "Supporter of the Trunk",
+    "character": "Shinobu Aizawa",
+    "rarity": "SSR",
+    "attribute": "Star",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_448.png",
+    "id": 448,
+    "name": "Vignette -Line-",
+    "character": "Shizuka Fushimi, Shinobu Aizawa",
+    "rarity": "CR",
+    "attribute": "Star",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_449.png",
+    "id": 449,
+    "name": "Vignette -Baby-",
+    "character": "Kyoya Shido, Urara Manami",
+    "rarity": "CR",
+    "attribute": "Star",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_446.png",
+    "id": 446,
+    "name": "A Vigorous Young Tree",
+    "character": "Kyoya Shido",
+    "rarity": "R",
+    "attribute": "Star",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_447.png",
+    "id": 447,
+    "name": "A Snapping New Shoot",
+    "character": "Urara Manami",
+    "rarity": "R",
+    "attribute": "Star",
+    "limited": true
+   }
+  ],
+  "article": null,
+  "subs": {},
+  "limited": true,
+  "pv": null
+ },
+ {
+  "id": 9303,
+  "kind": "Event",
+  "title": "Den fjerne Havmand",
+  "name": "Den fjerne Havmand",
+  "kanji": "Den fjerne Havmand",
+  "start": "2026-08-21",
+  "end": "2026-09-02",
+  "start_disp": "2026.08.21",
+  "end_disp": "2026.09.02",
+  "dept": null,
+  "attribute": null,
+  "banner": "assets/media/banners/BMC_Gacha_arrival_event53.png",
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [
+   {
+    "img": "assets/media/cards/Card_illust_457.png",
+    "id": 457,
+    "name": "Drifting Radiance Across the Sea",
+    "character": "Kou Ayato",
+    "rarity": "SSR",
+    "attribute": "Moon",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_458.png",
+    "id": 458,
+    "name": "Beyond the Rippling Water’s Surface",
+    "character": "Yuragi Kanno",
+    "rarity": "SSR",
+    "attribute": "Star",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_459.png",
+    "id": 459,
+    "name": "An Eternal Mission",
+    "character": "Yu Nina",
+    "rarity": "SSR",
+    "attribute": "Sun",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_460.png",
+    "id": 460,
+    "name": "Season of Shimmering Water",
+    "character": "Yuzuru Kise",
+    "rarity": "SR",
+    "attribute": "Moon",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_461.png",
+    "id": 461,
+    "name": "Seeking the One in the Universe",
+    "character": "Riku Tateshina",
+    "rarity": "SR",
+    "attribute": "Star",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_462.png",
+    "id": 462,
+    "name": "Spinning the Jewel Thread",
+    "character": "Mao Ukyo",
+    "rarity": "R",
+    "attribute": "Sun",
+    "limited": true
+   }
+  ],
+  "article": null,
+  "subs": {},
+  "limited": true,
+  "pv": null
+ },
+ {
+  "id": 9304,
+  "kind": "Event",
+  "title": "Refinement: A Garland to Adorn Pride",
+  "name": "Refinement: A Garland to Adorn Pride",
+  "kanji": "Refinement: A Garland to Adorn Pride",
+  "start": "2026-09-02",
+  "end": "2026-09-19",
+  "start_disp": "2026.09.02",
+  "end_disp": "2026.09.19",
+  "dept": null,
+  "attribute": null,
+  "banner": "assets/media/banners/BMC_Gacha_arrival_event54.png",
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [
+   {
+    "img": "assets/media/cards/Card_illust_464.png",
+    "id": 464,
+    "name": "Welcoming the Morning Sun",
+    "character": "Taiga Tsukimoto",
+    "rarity": "SSR",
+    "attribute": "Moon",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_465.png",
+    "id": 465,
+    "name": "Refined Tea Time",
+    "character": "Kyoya Shido",
+    "rarity": "SSR",
+    "attribute": "Sun",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_466.png",
+    "id": 466,
+    "name": "Still Blade",
+    "character": "Tomose Onda",
+    "rarity": "SSR",
+    "attribute": "Star",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_467.png",
+    "id": 467,
+    "name": "Weaving Order",
+    "character": "Sei Okiya",
+    "rarity": "SR",
+    "attribute": "Star",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_468.png",
+    "id": 468,
+    "name": "Frills Reflected in a Sunny Window",
+    "character": "Urara Manami",
+    "rarity": "SR",
+    "attribute": "Moon",
+    "limited": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_469.png",
+    "id": 469,
+    "name": "Listless Servant",
+    "character": "Haruhi Ichikawa",
+    "rarity": "R",
+    "attribute": "Sun",
+    "limited": true
+   }
+  ],
+  "article": null,
+  "subs": {},
+  "limited": true,
+  "pv": null
+ },
+ {
+  "id": 9305,
+  "kind": "Event",
+  "title": "BREAK MY PHASE (CD)",
+  "name": "BREAK MY PHASE (CD)",
+  "kanji": "BREAK MY PHASE (CD)",
+  "start": "2026-08-26",
+  "end": null,
+  "start_disp": "2026.08.26",
+  "end_disp": null,
+  "dept": null,
+  "attribute": null,
+  "banner": null,
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [
+   {
+    "img": "assets/media/cards/Card_illust_451.png",
+    "id": 451,
+    "name": "BREAK MY PHASE",
+    "character": "Ai Kosaka",
+    "rarity": "XR",
+    "attribute": "Sun",
+    "reward": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_452.png",
+    "id": 452,
+    "name": "BREAK MY PHASE",
+    "character": "Kou Ayato",
+    "rarity": "XR",
+    "attribute": "Sun",
+    "reward": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_453.png",
+    "id": 453,
+    "name": "BREAK MY PHASE",
+    "character": "Taiga Tsukimoto",
+    "rarity": "XR",
+    "attribute": "Moon",
+    "reward": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_454.png",
+    "id": 454,
+    "name": "BREAK MY PHASE",
+    "character": "Shizuka Fushimi",
+    "rarity": "XR",
+    "attribute": "Moon",
+    "reward": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_455.png",
+    "id": 455,
+    "name": "BREAK MY PHASE",
+    "character": "Kiho Arima",
+    "rarity": "XR",
+    "attribute": "Star",
+    "reward": true
+   },
+   {
+    "img": "assets/media/cards/Card_illust_456.png",
+    "id": 456,
+    "name": "BREAK MY PHASE",
+    "character": "Tomose Onda",
+    "rarity": "XR",
+    "attribute": "Star",
+    "reward": true
+   }
+  ],
+  "article": null,
+  "subs": {},
+  "limited": false,
+  "pv": null
+ },
+ {
+  "id": 9143,
+  "kind": "Birthday",
+  "title": "Riku's Birthday",
+  "name": "Riku's Birthday",
+  "kanji": "Riku's Birthday",
+  "start": "2026-07-25",
+  "end": null,
+  "start_disp": "2026.07.25",
+  "end_disp": null,
+  "dept": null,
+  "attribute": null,
+  "banner": null,
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [
+   {
+    "img": "assets/media/cards/Card_illust_437.png",
+    "id": 437,
+    "name": "Present for Riku",
+    "character": "Riku Tateshina",
+    "rarity": "SSR",
+    "attribute": "Star"
+   }
+  ],
+  "article": null,
+  "subs": {},
+  "limited": true,
+  "pv": null
+ },
+ {
+  "id": 9144,
+  "kind": "Birthday",
+  "title": "Roka's Birthday",
+  "name": "Roka's Birthday",
+  "kanji": "Roka's Birthday",
+  "start": "2026-08-13",
+  "end": null,
+  "start_disp": "2026.08.13",
+  "end_disp": null,
+  "dept": null,
+  "attribute": null,
+  "banner": null,
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [
+   {
+    "img": "assets/media/cards/Card_illust_450.png",
+    "id": 450,
+    "name": "Present for Roka",
+    "character": "Roka Suoh",
+    "rarity": "SSR",
+    "attribute": "Sun"
+   }
+  ],
+  "article": null,
+  "subs": {},
+  "limited": true,
+  "pv": null
+ },
+ {
+  "id": 9145,
+  "kind": "Birthday",
+  "title": "Haruhi's Birthday",
+  "name": "Haruhi's Birthday",
+  "kanji": "Haruhi's Birthday",
+  "start": "2026-08-13",
+  "end": null,
+  "start_disp": "2026.08.13",
+  "end_disp": null,
+  "dept": null,
+  "attribute": null,
+  "banner": null,
+  "song": null,
+  "song_artist": null,
+  "chars": [],
+  "cards": [
+   {
+    "img": "assets/media/cards/Card_illust_463.png",
+    "id": 463,
+    "name": "Present for Haruhi",
+    "character": "Haruhi Ichikawa",
+    "rarity": "SSR",
+    "attribute": "Sun"
+   }
+  ],
+  "article": null,
+  "subs": {},
+  "limited": true,
+  "pv": null
  }
 ]
