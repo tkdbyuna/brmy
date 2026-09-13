@@ -1348,10 +1348,7 @@
   "article": null,
   "subs": {},
   "limited": true,
-  "pv": {
-   "yt": "f089AN_NDEU",
-   "title": "【PV】1st Anniversary ブレマイパーティ"
-  }
+  "pv": null
  },
  {
   "id": 12,
@@ -8520,7 +8517,10 @@
   "article": null,
   "subs": {},
   "limited": true,
-  "pv": null
+  "pv": {
+   "yt": "T7Vn31XPOdA",
+   "title": "Fn+Ctrl+U"
+  }
  },
  {
   "id": 9302,
@@ -8759,7 +8759,10 @@
   "article": null,
   "subs": {},
   "limited": true,
-  "pv": null
+  "pv": {
+   "yt": "aKfGcEx6tYk",
+   "title": "Vignette -Line-Baby-"
+  }
  },
  {
   "id": 9303,
@@ -8836,7 +8839,10 @@
   "article": null,
   "subs": {},
   "limited": true,
-  "pv": null
+  "pv": {
+   "yt": "7Ezc3uWFFMA",
+   "title": "Wrapped in Drops"
+  }
  },
  {
   "id": 9304,
@@ -8913,7 +8919,10 @@
   "article": null,
   "subs": {},
   "limited": true,
-  "pv": null
+  "pv": {
+   "yt": "YvKYc5kCQdg",
+   "title": "Lace and Steel"
+  }
  },
  {
   "id": 9305,
