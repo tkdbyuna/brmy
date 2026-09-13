@@ -26,7 +26,8 @@ const DEPT={adm:'Administration',neg:'Negotiation',sim:'Simulation',mof:'Main Of
   wat:'Watchdogs',spe:'Special Task',stf:'Special Task'};
 const ACCOUNTS=[{key:'akehoshi',name:'akehoshi',color:'#FE8A23'},{key:'ai',name:'ai',color:'#B22222'},
   {key:'kou',name:'kou',color:'#FD1493'},{key:'tomose',name:'tomose',color:'#61C892'},
-  {key:'kyoya',name:'kyoya',color:'#F09C65'},{key:'yuzuru',name:'yuzuru',color:'#7DA852'}];
+  {key:'kyoya',name:'kyoya',color:'#F09C65'},{key:'yuzuru',name:'yuzuru',color:'#7DA852'},
+  {key:'acct7',name:'Account 7',color:'#8B6FE0'}];
 const STORE='bmc_collection_v1';
 let OWNED=loadOwned(), VOICES={}, BLESS={}, REVISION={}, ECARDS={};
 function loadOwned(){try{return JSON.parse(localStorage.getItem(STORE))||{}}catch(e){return{}}}
